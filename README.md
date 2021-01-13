@@ -1,4 +1,4 @@
-# ProgressiveVisCogBias
+# Impact of Cognitive Biases on Progressive Visualization
 Data and analysis scripts for TVCG paper "Impact of Cognitive Biases on Progressive Visualization"
 
 This is a clone of the data found on IEEE DataPort: https://ieee-dataport.org/open-access/impact-cognitive-biases-progressive-visualization
