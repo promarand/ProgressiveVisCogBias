@@ -1,0 +1,1761 @@
+user,dataMode,time,error,qType,vRate,eRate,ans,correct,confidence,age,sex,degree,monitor,computer,expert,expertProgressive
+jt8ooclo,V15E15,17892,0.14,1,15,15,120000,105000,3,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8ooclo,V15E15,15318,0,2,15,15,C,C,4,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8ooclo,V15E15,17562,0.04,0,15,15,43000,45000,4,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8ooclo,V15E15,29676,0,1,15,15,130000,130000,3,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8ooclo,V15E15,35671,0,2,15,15,E,E,4,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8osoo3,V10E5,9177,0.05,1,10,5,100000,105000,2,25-39,Female,High School,dontknow,Unspecified,Unspecified,Unspecified
+jt8osoo3,V10E5,18867,0,2,10,5,C,C,3,25-39,Female,High School,dontknow,Unspecified,Unspecified,Unspecified
+jt8osoo3,V10E5,7792,0,0,10,5,45000,45000,2,25-39,Female,High School,dontknow,Unspecified,Unspecified,Unspecified
+jt8osoo3,V10E5,13172,0.08,1,10,5,120000,130000,2,25-39,Female,High School,dontknow,Unspecified,Unspecified,Unspecified
+jt8osoo3,V10E5,8384,0,2,10,5,E,E,3,25-39,Female,High School,dontknow,Unspecified,Unspecified,Unspecified
+jt8ot88m,V15E15,14000,0.33,1,15,15,140000,105000,3,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8ot88m,V15E15,4512,1,2,15,15,A,C,3,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8ot88m,V15E15,3520,0.36,0,15,15,61000,45000,3,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8ot88m,V15E15,3824,0.31,1,15,15,170000,130000,3,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8ot88m,V15E15,3184,1,2,15,15,C,E,2,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8ot9lu,V5E5,3203,0.43,1,5,5,150000,105000,2,25-39,Male,Bachelors,15,31-40,novice,low-intermediate
+jt8ot9lu,V5E5,2633,0,2,5,5,C,C,4,25-39,Male,Bachelors,15,31-40,novice,low-intermediate
+jt8ot9lu,V5E5,4233,0.33,0,5,5,60000,45000,2,25-39,Male,Bachelors,15,31-40,novice,low-intermediate
+jt8ot9lu,V5E5,4344,0.35,1,5,5,175000,130000,2,25-39,Male,Bachelors,15,31-40,novice,low-intermediate
+jt8ot9lu,V5E5,3265,0,2,5,5,E,E,4,25-39,Male,Bachelors,15,31-40,novice,low-intermediate
+jt8ota6r,V20E20,14253,0.14,1,20,20,120000,105000,3,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8ota6r,V20E20,13940,0,2,20,20,C,C,4,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8ota6r,V20E20,1004,0.11,0,20,20,50000,45000,2,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8ota6r,V20E20,17695,0.15,1,20,20,150000,130000,3,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8ota6r,V20E20,4608,0,2,20,20,E,E,3,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8ota8k,V15E10,18016,0.14,1,15,10,120000,105000,1,50-59,Female,Bachelors,dontknow,gt60,intermediate,intermediate
+jt8ota8k,V15E10,5700,1,2,15,10,a,C,2,50-59,Female,Bachelors,dontknow,gt60,intermediate,intermediate
+jt8ota8k,V15E10,6504,0.33,0,15,10,60000,45000,2,50-59,Female,Bachelors,dontknow,gt60,intermediate,intermediate
+jt8ota8k,V15E10,5231,0.38,1,15,10,180000,130000,1,50-59,Female,Bachelors,dontknow,gt60,intermediate,intermediate
+jt8ota8k,V15E10,6705,0,2,15,10,e,E,2,50-59,Female,Bachelors,dontknow,gt60,intermediate,intermediate
+jt8otdox,V10E5,16256,0.33,1,10,5,140000,105000,1,25-39,Female,Masters,15,51-60,novice,novice
+jt8otdox,V10E5,7008,0,2,10,5,C,C,4,25-39,Female,Masters,15,51-60,novice,novice
+jt8otdox,V10E5,15936,0.01,0,10,5,45600,45000,1,25-39,Female,Masters,15,51-60,novice,novice
+jt8otdox,V10E5,6968,0,1,10,5,130000,130000,1,25-39,Female,Masters,15,51-60,novice,novice
+jt8otdox,V10E5,3048,0,2,10,5,E,E,3,25-39,Female,Masters,15,51-60,novice,novice
+jt8oti3g,V5E20,12903,0.05,1,5,20,100000,105000,3,25-39,Male,Bachelors,19,31-40,low-intermediate,low-intermediate
+jt8oti3g,V5E20,8895,0,2,5,20,C,C,3,25-39,Male,Bachelors,19,31-40,low-intermediate,low-intermediate
+jt8oti3g,V5E20,19331,0,0,5,20,45000,45000,2,25-39,Male,Bachelors,19,31-40,low-intermediate,low-intermediate
+jt8oti3g,V5E20,10296,0,1,5,20,130000,130000,3,25-39,Male,Bachelors,19,31-40,low-intermediate,low-intermediate
+jt8oti3g,V5E20,15029,0,2,5,20,E,E,2,25-39,Male,Bachelors,19,31-40,low-intermediate,low-intermediate
+jt8otjym,V15E15,5350,0.14,1,15,15,90000,105000,2,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8otjym,V15E15,6775,0,2,15,15,C,C,4,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8otjym,V15E15,5784,0.11,0,15,15,50000,45000,3,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8otjym,V15E15,6919,0.08,1,15,15,141000,130000,3,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8otjym,V15E15,5794,0,2,15,15,E,E,4,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8otkr9,V10E10,4104,0.05,1,10,10,100000,105000,3,25-39,Female,Masters,19,31-40,expert,expert
+jt8otkr9,V10E10,7280,0,2,10,10,C,C,4,25-39,Female,Masters,19,31-40,expert,expert
+jt8otkr9,V10E10,6920,0,0,10,10,45000,45000,3,25-39,Female,Masters,19,31-40,expert,expert
+jt8otkr9,V10E10,3504,0.08,1,10,10,120000,130000,3,25-39,Female,Masters,19,31-40,expert,expert
+jt8otkr9,V10E10,2768,0,2,10,10,E,E,4,25-39,Female,Masters,19,31-40,expert,expert
+jt8otlyi,V5E20,976,0.36,1,5,20,67000,105000,1,50-59,Female,PhD,21,31-40,novice,novice
+jt8otlyi,V5E20,704,1,2,5,20,a,C,1,50-59,Female,PhD,21,31-40,novice,novice
+jt8otlyi,V5E20,8159,0.04,0,5,20,46800,45000,4,50-59,Female,PhD,21,31-40,novice,novice
+jt8otlyi,V5E20,21912,0,1,5,20,130000,130000,1,50-59,Female,PhD,21,31-40,novice,novice
+jt8otlyi,V5E20,992,0,2,5,20,e,E,1,50-59,Female,PhD,21,31-40,novice,novice
+jt8otmpd,V10E20,23057,0,1,10,20,105000,105000,1,25-39,Male,High School,15,21-30,novice,novice
+jt8otmpd,V10E20,5816,0,2,10,20,C,C,4,25-39,Male,High School,15,21-30,novice,novice
+jt8otmpd,V10E20,15952,0.02,0,10,20,44000,45000,1,25-39,Male,High School,15,21-30,novice,novice
+jt8otmpd,V10E20,14201,0.05,1,10,20,124000,130000,1,25-39,Male,High School,15,21-30,novice,novice
+jt8otmpd,V10E20,5199,0,2,10,20,E,E,3,25-39,Male,High School,15,21-30,novice,novice
+jt8otmy5,V5E5,17010,0.05,1,5,5,110000,105000,3,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8otmy5,V5E5,10064,0,2,5,5,C,C,2,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8otmy5,V5E5,12666,0.02,0,5,5,45800,45000,2,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8otmy5,V5E5,12777,0.02,1,5,5,127800,130000,2,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8otmy5,V5E5,3735,0,2,5,5,E,E,3,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8otnqb,V20E20,5159,0.05,1,20,20,100000,105000,2,25-39,Male,Masters,17,51-60,intermediate,intermediate
+jt8otnqb,V20E20,6424,0,2,20,20,C,C,2,25-39,Male,Masters,17,51-60,intermediate,intermediate
+jt8otnqb,V20E20,12365,0.11,0,20,20,40000,45000,3,25-39,Male,Masters,17,51-60,intermediate,intermediate
+jt8otnqb,V20E20,7370,0.04,1,20,20,135000,130000,3,25-39,Male,Masters,17,51-60,intermediate,intermediate
+jt8otnqb,V20E20,4342,0,2,20,20,e,E,2,25-39,Male,Masters,17,51-60,intermediate,intermediate
+jt8otodd,V10E10,12446,0.05,1,10,10,100000,105000,3,40-49,Male,Masters,23 or larger,gt60,novice,novice
+jt8otodd,V10E10,9930,0,2,10,10,C,C,4,40-49,Male,Masters,23 or larger,gt60,novice,novice
+jt8otodd,V10E10,16164,0,0,10,10,45000,45000,3,40-49,Male,Masters,23 or larger,gt60,novice,novice
+jt8otodd,V10E10,15132,0,1,10,10,130000,130000,2,40-49,Male,Masters,23 or larger,gt60,novice,novice
+jt8otodd,V10E10,11756,0,2,10,10,E,E,3,40-49,Male,Masters,23 or larger,gt60,novice,novice
+jt8otpf3,V20E10,23212,0.33,1,20,10,140000,105000,3,25-39,Female,Other,15,31-40,novice,novice
+jt8otpf3,V20E10,13026,0,2,20,10,C,C,4,25-39,Female,Other,15,31-40,novice,novice
+jt8otpf3,V20E10,11942,0.56,0,20,10,70000,45000,3,25-39,Female,Other,15,31-40,novice,novice
+jt8otpf3,V20E10,20277,0.38,1,20,10,180000,130000,4,25-39,Female,Other,15,31-40,novice,novice
+jt8otpf3,V20E10,8264,0,2,20,10,E,E,4,25-39,Female,Other,15,31-40,novice,novice
+jt8otqtw,V10E10,13428,0.05,1,10,10,100000,105000,3,25-39,Female,Bachelors,19,gt60,intermediate,novice
+jt8otqtw,V10E10,16753,0,2,10,10,C,C,3,25-39,Female,Bachelors,19,gt60,intermediate,novice
+jt8otqtw,V10E10,15031,0.11,0,10,10,40000,45000,3,25-39,Female,Bachelors,19,gt60,intermediate,novice
+jt8otqtw,V10E10,19848,0.08,1,10,10,120000,130000,2,25-39,Female,Bachelors,19,gt60,intermediate,novice
+jt8otqtw,V10E10,11520,0,2,10,10,E,E,4,25-39,Female,Bachelors,19,gt60,intermediate,novice
+jt8otrb5,V10E15,14127,0.38,1,10,15,145000,105000,2,40-49,Male,Bachelors,23 or larger,31-40,high-intermediate,high-intermediate
+jt8otrb5,V10E15,6033,0,2,10,15,c,C,4,40-49,Male,Bachelors,23 or larger,31-40,high-intermediate,high-intermediate
+jt8otrb5,V10E15,9041,0.33,0,10,15,60000,45000,2,40-49,Male,Bachelors,23 or larger,31-40,high-intermediate,high-intermediate
+jt8otrb5,V10E15,11897,0.19,1,10,15,155000,130000,2,40-49,Male,Bachelors,23 or larger,31-40,high-intermediate,high-intermediate
+jt8otrb5,V10E15,5768,0,2,10,15,e,E,4,40-49,Male,Bachelors,23 or larger,31-40,high-intermediate,high-intermediate
+jt8otrdp,V20E15,13021,0.24,1,20,15,130000,105000,2,25-39,Male,Other,17,51-60,low-intermediate,intermediate
+jt8otrdp,V20E15,8720,0,2,20,15,C,C,3,25-39,Male,Other,17,51-60,low-intermediate,intermediate
+jt8otrdp,V20E15,10375,0.11,0,20,15,50000,45000,3,25-39,Male,Other,17,51-60,low-intermediate,intermediate
+jt8otrdp,V20E15,1088,0.69,1,20,15,40000,130000,1,25-39,Male,Other,17,51-60,low-intermediate,intermediate
+jt8otrdp,V20E15,13341,0,2,20,15,E,E,3,25-39,Male,Other,17,51-60,low-intermediate,intermediate
+jt8otsi8,V5E10,21405,0.05,1,5,10,100000,105000,3,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8otsi8,V5E10,8151,0,2,5,10,c,C,4,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8otsi8,V5E10,25290,0.02,0,5,10,44000,45000,2,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8otsi8,V5E10,19232,0.04,1,5,10,135000,130000,2,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8otsi8,V5E10,18402,0,2,5,10,E,E,4,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8ott43,V20E20,19246,0.05,1,20,20,110000,105000,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8ott43,V20E20,20033,1,2,20,20,A,C,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8ott43,V20E20,22409,0.11,0,20,20,40000,45000,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8ott43,V20E20,20056,0.08,1,20,20,141000,130000,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8ott43,V20E20,10757,0,2,20,20,E,E,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8ott64,V10E10,11896,0.05,1,10,10,110000,105000,2,25-39,Male,Masters,13,43789,high-intermediate,low-intermediate
+jt8ott64,V10E10,3192,0,2,10,10,c,C,4,25-39,Male,Masters,13,43789,high-intermediate,low-intermediate
+jt8ott64,V10E10,9888,0.11,0,10,10,40000,45000,3,25-39,Male,Masters,13,43789,high-intermediate,low-intermediate
+jt8ott64,V10E10,15423,0.08,1,10,10,140000,130000,2,25-39,Male,Masters,13,43789,high-intermediate,low-intermediate
+jt8ott64,V10E10,5128,0,2,10,10,E,E,4,25-39,Male,Masters,13,43789,high-intermediate,low-intermediate
+jt8otun5,V10E10,15941,0.08,1,10,10,113000,105000,3,25-39,Male,Bachelors,23 or larger,41-50,expert,high-intermediate
+jt8otun5,V10E10,17291,0,2,10,10,C,C,4,25-39,Male,Bachelors,23 or larger,41-50,expert,high-intermediate
+jt8otun5,V10E10,9100,0,0,10,10,45000,45000,3,25-39,Male,Bachelors,23 or larger,41-50,expert,high-intermediate
+jt8otun5,V10E10,9866,0.04,1,10,10,125000,130000,3,25-39,Male,Bachelors,23 or larger,41-50,expert,high-intermediate
+jt8otun5,V10E10,5840,0,2,10,10,E,E,4,25-39,Male,Bachelors,23 or larger,41-50,expert,high-intermediate
+jt8otutr,V15E10,29168,0.05,1,15,10,100000,105000,3,25-39,Female,High School,23 or larger,43626,novice,novice
+jt8otutr,V15E10,11262,0,2,15,10,C,C,3,25-39,Female,High School,23 or larger,43626,novice,novice
+jt8otutr,V15E10,33633,0,0,15,10,45000,45000,3,25-39,Female,High School,23 or larger,43626,novice,novice
+jt8otutr,V15E10,23574,0,1,15,10,130000,130000,3,25-39,Female,High School,23 or larger,43626,novice,novice
+jt8otutr,V15E10,20200,0,2,15,10,E,E,4,25-39,Female,High School,23 or larger,43626,novice,novice
+jt8otvxb,V5E10,15612,0.43,1,5,10,150000,105000,2,18-24,Male,Bachelors,11,43789,low-intermediate,low-intermediate
+jt8otvxb,V5E10,5857,0,2,5,10,C,C,4,18-24,Male,Bachelors,11,43789,low-intermediate,low-intermediate
+jt8otvxb,V5E10,1098,0.33,0,5,10,60000,45000,4,18-24,Male,Bachelors,11,43789,low-intermediate,low-intermediate
+jt8otvxb,V5E10,1215,0.38,1,5,10,180000,130000,3,18-24,Male,Bachelors,11,43789,low-intermediate,low-intermediate
+jt8otvxb,V5E10,975,1,2,5,10,D,E,1,18-24,Male,Bachelors,11,43789,low-intermediate,low-intermediate
+jt8otwjk,V15E15,14930,0,1,15,15,105000,105000,3,25-39,Female,High School,13,21-30,novice,novice
+jt8otwjk,V15E15,12712,0,2,15,15,c,C,4,25-39,Female,High School,13,21-30,novice,novice
+jt8otwjk,V15E15,11030,0.02,0,15,15,46000,45000,2,25-39,Female,High School,13,21-30,novice,novice
+jt8otwjk,V15E15,25558,0.04,1,15,15,125000,130000,3,25-39,Female,High School,13,21-30,novice,novice
+jt8otwjk,V15E15,14401,0,2,15,15,e,E,4,25-39,Female,High School,13,21-30,novice,novice
+jt8otws9,V5E5,9937,0.05,1,5,5,100000,105000,3,60,Female,High School,17,41-50,novice,novice
+jt8otws9,V5E5,7128,0,2,5,5,c,C,4,60,Female,High School,17,41-50,novice,novice
+jt8otws9,V5E5,10072,0.07,0,5,5,42000,45000,3,60,Female,High School,17,41-50,novice,novice
+jt8otws9,V5E5,13752,0.04,1,5,5,125000,130000,3,60,Female,High School,17,41-50,novice,novice
+jt8otws9,V5E5,4367,0,2,5,5,e,E,4,60,Female,High School,17,41-50,novice,novice
+jt8otylm,V5E5,14652,0.01,1,5,5,104000,105000,3,40-49,Female,Bachelors,15,31-40,low-intermediate,novice
+jt8otylm,V5E5,4051,0,2,5,5,C,C,3,40-49,Female,Bachelors,15,31-40,low-intermediate,novice
+jt8otylm,V5E5,15112,0.04,0,5,5,43000,45000,3,40-49,Female,Bachelors,15,31-40,low-intermediate,novice
+jt8otylm,V5E5,23978,0.01,1,5,5,129000,130000,3,40-49,Female,Bachelors,15,31-40,low-intermediate,novice
+jt8otylm,V5E5,5834,0,2,5,5,E,E,3,40-49,Female,Bachelors,15,31-40,low-intermediate,novice
+jt8otzwx,V20E10,10929,0.1,1,20,10,95000,105000,3,25-39,Female,Bachelors,15,31-40,intermediate,novice
+jt8otzwx,V20E10,6033,0,2,20,10,C,C,3,25-39,Female,Bachelors,15,31-40,intermediate,novice
+jt8otzwx,V20E10,5107,0.07,0,20,10,42000,45000,3,25-39,Female,Bachelors,15,31-40,intermediate,novice
+jt8otzwx,V20E10,11301,0.08,1,20,10,120000,130000,2,25-39,Female,Bachelors,15,31-40,intermediate,novice
+jt8otzwx,V20E10,8966,0,2,20,10,E,E,3,25-39,Female,Bachelors,15,31-40,intermediate,novice
+jt8ou0hd,V10E15,7041,0,1,10,15,105000,105000,3,40-49,Male,Bachelors,17,31-40,novice,novice
+jt8ou0hd,V10E15,4873,0,2,10,15,c,C,3,40-49,Male,Bachelors,17,31-40,novice,novice
+jt8ou0hd,V10E15,7194,0,0,10,15,45000,45000,3,40-49,Male,Bachelors,17,31-40,novice,novice
+jt8ou0hd,V10E15,5974,0.08,1,10,15,140000,130000,3,40-49,Male,Bachelors,17,31-40,novice,novice
+jt8ou0hd,V10E15,5924,0,2,10,15,e,E,3,40-49,Male,Bachelors,17,31-40,novice,novice
+jt8ou0hj,V15E20,6719,0.1,1,15,20,115000,105000,3,50-59,Female,High School,21,gt60,low-intermediate,novice
+jt8ou0hj,V15E20,10569,1,2,15,20,A,C,2,50-59,Female,High School,21,gt60,low-intermediate,novice
+jt8ou0hj,V15E20,12902,0.29,0,15,20,58000,45000,3,50-59,Female,High School,21,gt60,low-intermediate,novice
+jt8ou0hj,V15E20,9170,0.15,1,15,20,150000,130000,3,50-59,Female,High School,21,gt60,low-intermediate,novice
+jt8ou0hj,V15E20,9220,0,2,15,20,E,E,3,50-59,Female,High School,21,gt60,low-intermediate,novice
+jt8ou20k,V5E10,25480,0.9,1,5,10,11000,105000,1,50-59,Female,High School,21,41-50,novice,novice
+jt8ou20k,V5E10,10831,0,2,5,10,C,C,3,50-59,Female,High School,21,41-50,novice,novice
+jt8ou20k,V5E10,8080,0.33,0,5,10,60000,45000,4,50-59,Female,High School,21,41-50,novice,novice
+jt8ou20k,V5E10,13928,0.38,1,5,10,180000,130000,2,50-59,Female,High School,21,41-50,novice,novice
+jt8ou20k,V5E10,5080,0,2,5,10,E,E,4,50-59,Female,High School,21,41-50,novice,novice
+jt8ou3pb,V5E5,8259,0.33,1,5,5,140000,105000,3,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8ou3pb,V5E5,6584,0,2,5,5,C,C,4,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8ou3pb,V5E5,8612,0.33,0,5,5,60000,45000,3,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8ou3pb,V5E5,12301,0.27,1,5,5,165000,130000,3,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8ou3pb,V5E5,6569,0,2,5,5,E,E,4,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8ou6fn,V10E20,13905,0.05,1,10,20,100000,105000,3,25-39,Female,High School,13,31-40,novice,novice
+jt8ou6fn,V10E20,6818,0,2,10,20,C,C,2,25-39,Female,High School,13,31-40,novice,novice
+jt8ou6fn,V10E20,15818,0,0,10,20,45000,45000,3,25-39,Female,High School,13,31-40,novice,novice
+jt8ou6fn,V10E20,13421,0.5,1,10,20,65000,130000,3,25-39,Female,High School,13,31-40,novice,novice
+jt8ou6fn,V10E20,21010,0,2,10,20,E,E,3,25-39,Female,High School,13,31-40,novice,novice
+jt8ou6l2,V10E10,17511,0.05,1,10,10,100000,105000,3,25-39,Unspecified,Bachelors,21,41-50,intermediate,novice
+jt8ou6l2,V10E10,18996,0,2,10,10,c,C,4,25-39,Unspecified,Bachelors,21,41-50,intermediate,novice
+jt8ou6l2,V10E10,15111,0.11,0,10,10,50000,45000,2,25-39,Unspecified,Bachelors,21,41-50,intermediate,novice
+jt8ou6l2,V10E10,14028,0,1,10,10,130000,130000,4,25-39,Unspecified,Bachelors,21,41-50,intermediate,novice
+jt8ou6l2,V10E10,21806,0,2,10,10,e,E,4,25-39,Unspecified,Bachelors,21,41-50,intermediate,novice
+jt8ou7a1,V15E10,12057,0.05,1,15,10,100000,105000,2,40-49,Male,Bachelors,21,41-50,low-intermediate,novice
+jt8ou7a1,V15E10,8240,0,2,15,10,c,C,3,40-49,Male,Bachelors,21,41-50,low-intermediate,novice
+jt8ou7a1,V15E10,15496,0.11,0,15,10,50000,45000,2,40-49,Male,Bachelors,21,41-50,low-intermediate,novice
+jt8ou7a1,V15E10,13327,0.08,1,15,10,120000,130000,2,40-49,Male,Bachelors,21,41-50,low-intermediate,novice
+jt8ou7a1,V15E10,15232,0,2,15,10,e,E,1,40-49,Male,Bachelors,21,41-50,low-intermediate,novice
+jt8ou8mt,V15E15,12999,0.14,1,15,15,120000,105000,3,60,Female,High School,23 or larger,gt60,low-intermediate,novice
+jt8ou8mt,V15E15,18031,0,2,15,15,C,C,3,60,Female,High School,23 or larger,gt60,low-intermediate,novice
+jt8ou8mt,V15E15,9207,0.11,0,15,15,50000,45000,3,60,Female,High School,23 or larger,gt60,low-intermediate,novice
+jt8ou8mt,V15E15,16559,0.08,1,15,15,140000,130000,3,60,Female,High School,23 or larger,gt60,low-intermediate,novice
+jt8ou8mt,V15E15,10496,0,2,15,15,E,E,3,60,Female,High School,23 or larger,gt60,low-intermediate,novice
+jt8ou92g,V5E10,14752,0.05,1,5,10,110000,105000,2,25-39,Male,Bachelors,15,31-40,novice,novice
+jt8ou92g,V5E10,7544,0,2,5,10,C,C,3,25-39,Male,Bachelors,15,31-40,novice,novice
+jt8ou92g,V5E10,8308,0,0,5,10,45000,45000,3,25-39,Male,Bachelors,15,31-40,novice,novice
+jt8ou92g,V5E10,9748,0,1,5,10,130000,130000,2,25-39,Male,Bachelors,15,31-40,novice,novice
+jt8ou92g,V5E10,7342,0,2,5,10,E,E,4,25-39,Male,Bachelors,15,31-40,novice,novice
+jt8ou956,V5E5,12114,0.05,1,5,5,110000,105000,2,25-39,Male,Bachelors,15,51-60,high-intermediate,high-intermediate
+jt8ou956,V5E5,7264,0,2,5,5,C,C,2,25-39,Male,Bachelors,15,51-60,high-intermediate,high-intermediate
+jt8ou956,V5E5,8296,0.07,0,5,5,42000,45000,2,25-39,Male,Bachelors,15,51-60,high-intermediate,high-intermediate
+jt8ou956,V5E5,7505,0,1,5,5,130000,130000,1,25-39,Male,Bachelors,15,51-60,high-intermediate,high-intermediate
+jt8ou956,V5E5,3644,0,2,5,5,E,E,2,25-39,Male,Bachelors,15,51-60,high-intermediate,high-intermediate
+jt8ou9ty,V5E15,8822,0.05,1,5,15,110000,105000,3,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8ou9ty,V5E15,3752,0,2,5,15,C,C,4,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8ou9ty,V5E15,3276,0.11,0,5,15,40000,45000,4,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8ou9ty,V5E15,5121,0,1,5,15,130000,130000,3,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8ou9ty,V5E15,3420,0,2,5,15,E,E,4,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8oua28,V10E5,12720,0.07,1,10,5,98000,105000,1,40-49,Male,PhD,19,gt60,intermediate,low-intermediate
+jt8oua28,V10E5,1072,0,2,10,5,C,C,4,40-49,Male,PhD,19,gt60,intermediate,low-intermediate
+jt8oua28,V10E5,5792,0.08,0,10,5,48700,45000,3,40-49,Male,PhD,19,gt60,intermediate,low-intermediate
+jt8oua28,V10E5,8808,0,1,10,5,130000,130000,3,40-49,Male,PhD,19,gt60,intermediate,low-intermediate
+jt8oua28,V10E5,1104,0,2,10,5,E,E,4,40-49,Male,PhD,19,gt60,intermediate,low-intermediate
+jt8oub42,V15E20,3784,0.33,1,15,20,140000,105000,4,25-39,Female,Bachelors,23 or larger,43789,intermediate,intermediate
+jt8oub42,V15E20,4874,1,2,15,20,a,C,4,25-39,Female,Bachelors,23 or larger,43789,intermediate,intermediate
+jt8oub42,V15E20,2240,0.33,0,15,20,60000,45000,4,25-39,Female,Bachelors,23 or larger,43789,intermediate,intermediate
+jt8oub42,V15E20,2632,0.38,1,15,20,180000,130000,4,25-39,Female,Bachelors,23 or larger,43789,intermediate,intermediate
+jt8oub42,V15E20,1978,0,2,15,20,e,E,4,25-39,Female,Bachelors,23 or larger,43789,intermediate,intermediate
+jt8ouba6,V20E5,5704,0.19,1,20,5,125000,105000,1,25-39,Male,High School,13,43626,low-intermediate,novice
+jt8ouba6,V20E5,4983,0,2,20,5,C,C,3,25-39,Male,High School,13,43626,low-intermediate,novice
+jt8ouba6,V20E5,6530,0.27,0,20,5,57000,45000,2,25-39,Male,High School,13,43626,low-intermediate,novice
+jt8ouba6,V20E5,7400,0.42,1,20,5,185000,130000,3,25-39,Male,High School,13,43626,low-intermediate,novice
+jt8ouba6,V20E5,4486,0,2,20,5,E,E,3,25-39,Male,High School,13,43626,low-intermediate,novice
+jt8oube7,V15E20,18816,0,1,15,20,105000,105000,3,60,Female,Bachelors,21,51-60,low-intermediate,novice
+jt8oube7,V15E20,6624,0,2,15,20,C,C,4,60,Female,Bachelors,21,51-60,low-intermediate,novice
+jt8oube7,V15E20,12728,0.24,0,15,20,56000,45000,3,60,Female,Bachelors,21,51-60,low-intermediate,novice
+jt8oube7,V15E20,7680,0.08,1,15,20,140000,130000,2,60,Female,Bachelors,21,51-60,low-intermediate,novice
+jt8oube7,V15E20,6848,0,2,15,20,E,E,4,60,Female,Bachelors,21,51-60,low-intermediate,novice
+jt8oubri,V15E20,6576,0.09,1,15,20,114000,105000,2,25-39,Male,Other,23 or larger,gt60,novice,novice
+jt8oubri,V15E20,5556,0,2,15,20,C,C,3,25-39,Male,Other,23 or larger,gt60,novice,novice
+jt8oubri,V15E20,1787,0.03,0,15,20,46200,45000,2,25-39,Male,Other,23 or larger,gt60,novice,novice
+jt8oubri,V15E20,9634,0.1,1,15,20,116400,130000,2,25-39,Male,Other,23 or larger,gt60,novice,novice
+jt8oubri,V15E20,5644,0,2,15,20,E,E,3,25-39,Male,Other,23 or larger,gt60,novice,novice
+jt8oucy0,V5E10,6694,0.31,1,5,10,138000,105000,3,25-39,Female,High School,13,43789,novice,novice
+jt8oucy0,V5E10,4656,0,2,5,10,c,C,3,25-39,Female,High School,13,43789,novice,novice
+jt8oucy0,V5E10,7164,0.36,0,5,10,61000,45000,3,25-39,Female,High School,13,43789,novice,novice
+jt8oucy0,V5E10,5788,0.38,1,5,10,180000,130000,3,25-39,Female,High School,13,43789,novice,novice
+jt8oucy0,V5E10,3396,0,2,5,10,e,E,4,25-39,Female,High School,13,43789,novice,novice
+jt8oudag,V5E20,22574,0,1,5,20,105200,105000,2,25-39,Female,High School,23 or larger,gt60,novice,novice
+jt8oudag,V5E20,17312,0,2,5,20,C,C,4,25-39,Female,High School,23 or larger,gt60,novice,novice
+jt8oudag,V5E20,13152,0.01,0,5,20,45400,45000,2,25-39,Female,High School,23 or larger,gt60,novice,novice
+jt8oudag,V5E20,19138,0.01,1,5,20,131700,130000,1,25-39,Female,High School,23 or larger,gt60,novice,novice
+jt8oudag,V5E20,9952,0,2,5,20,E,E,4,25-39,Female,High School,23 or larger,gt60,novice,novice
+jt8oudos,V15E20,13625,0.06,1,15,20,111000,105000,3,25-39,Female,Masters,21,41-50,low-intermediate,low-intermediate
+jt8oudos,V15E20,11624,0,2,15,20,C,C,3,25-39,Female,Masters,21,41-50,low-intermediate,low-intermediate
+jt8oudos,V15E20,13140,0.09,0,15,20,49200,45000,3,25-39,Female,Masters,21,41-50,low-intermediate,low-intermediate
+jt8oudos,V15E20,9743,0.1,1,15,20,116400,130000,2,25-39,Female,Masters,21,41-50,low-intermediate,low-intermediate
+jt8oudos,V15E20,17590,0,2,15,20,E,E,3,25-39,Female,Masters,21,41-50,low-intermediate,low-intermediate
+jt8oufc7,V15E20,18953,0.14,1,15,20,90000,105000,3,40-49,Female,Other,17,gt60,low-intermediate,novice
+jt8oufc7,V15E20,35438,1,2,15,20,a,C,2,40-49,Female,Other,17,gt60,low-intermediate,novice
+jt8oufc7,V15E20,25140,0.02,0,15,20,46000,45000,3,40-49,Female,Other,17,gt60,low-intermediate,novice
+jt8oufc7,V15E20,30666,0.08,1,15,20,120000,130000,3,40-49,Female,Other,17,gt60,low-intermediate,novice
+jt8oufc7,V15E20,23912,1,2,15,20,d,E,3,40-49,Female,Other,17,gt60,low-intermediate,novice
+jt8oufj8,V20E10,21389,0.1,1,20,10,95000,105000,2,50-59,Female,Bachelors,21,51-60,high-intermediate,low-intermediate
+jt8oufj8,V20E10,10422,0,2,20,10,c,C,4,50-59,Female,Bachelors,21,51-60,high-intermediate,low-intermediate
+jt8oufj8,V20E10,19741,0,0,20,10,45000,45000,2,50-59,Female,Bachelors,21,51-60,high-intermediate,low-intermediate
+jt8oufj8,V20E10,18974,0.08,1,20,10,120000,130000,3,50-59,Female,Bachelors,21,51-60,high-intermediate,low-intermediate
+jt8oufj8,V20E10,10142,0,2,20,10,e,E,4,50-59,Female,Bachelors,21,51-60,high-intermediate,low-intermediate
+jt8oufo9,V10E15,1172,0.33,1,10,15,140000,105000,4,18-24,Female,Bachelors,23 or larger,gt60,expert,expert
+jt8oufo9,V10E15,1862,1,2,10,15,A,C,3,18-24,Female,Bachelors,23 or larger,gt60,expert,expert
+jt8oufo9,V10E15,1239,0.11,0,10,15,40000,45000,3,18-24,Female,Bachelors,23 or larger,gt60,expert,expert
+jt8oufo9,V10E15,1647,0.85,1,10,15,20000,130000,3,18-24,Female,Bachelors,23 or larger,gt60,expert,expert
+jt8oufo9,V10E15,1561,1,2,10,15,20,E,4,18-24,Female,Bachelors,23 or larger,gt60,expert,expert
+jt8ouiz9,V20E15,7925,0.05,1,20,15,100000,105000,3,25-39,Male,Bachelors,21,gt60,intermediate,novice
+jt8ouiz9,V20E15,7790,0,2,20,15,C,C,3,25-39,Male,Bachelors,21,gt60,intermediate,novice
+jt8ouiz9,V20E15,10210,0.11,0,20,15,40000,45000,3,25-39,Male,Bachelors,21,gt60,intermediate,novice
+jt8ouiz9,V20E15,4821,0.08,1,20,15,140000,130000,2,25-39,Male,Bachelors,21,gt60,intermediate,novice
+jt8ouiz9,V20E15,5325,0,2,20,15,E,E,4,25-39,Male,Bachelors,21,gt60,intermediate,novice
+jt8oujbd,V5E20,4025,0.33,1,5,20,140000,105000,2,50-59,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8oujbd,V5E20,4378,0,2,5,20,c,C,2,50-59,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8oujbd,V5E20,8751,0,0,5,20,45000,45000,2,50-59,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8oujbd,V5E20,11481,0.08,1,5,20,120000,130000,2,50-59,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8oujbd,V5E20,6814,0,2,5,20,E,E,2,50-59,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8oujc2,V20E10,33465,0.14,1,20,10,120000,105000,3,25-39,Female,Other,19,21-30,intermediate,low-intermediate
+jt8oujc2,V20E10,24512,0,2,20,10,C,C,4,25-39,Female,Other,19,21-30,intermediate,low-intermediate
+jt8oujc2,V20E10,29855,0.11,0,20,10,50100,45000,4,25-39,Female,Other,19,21-30,intermediate,low-intermediate
+jt8oujc2,V20E10,30456,0.15,1,20,10,110000,130000,3,25-39,Female,Other,19,21-30,intermediate,low-intermediate
+jt8oujc2,V20E10,16655,0,2,20,10,E,E,3,25-39,Female,Other,19,21-30,intermediate,low-intermediate
+jt8ouko0,V5E20,9295,0.05,1,5,20,110000,105000,3,25-39,Male,Bachelors,15,41-50,intermediate,novice
+jt8ouko0,V5E20,10303,0,2,5,20,C,C,3,25-39,Male,Bachelors,15,41-50,intermediate,novice
+jt8ouko0,V5E20,7680,0.04,0,5,20,43000,45000,3,25-39,Male,Bachelors,15,41-50,intermediate,novice
+jt8ouko0,V5E20,11072,0.04,1,5,20,125000,130000,3,25-39,Male,Bachelors,15,41-50,intermediate,novice
+jt8ouko0,V5E20,10273,0,2,5,20,E,E,4,25-39,Male,Bachelors,15,41-50,intermediate,novice
+jt8ouluc,V5E10,7293,0.05,1,5,10,110000,105000,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate
+jt8ouluc,V5E10,2103,0,2,5,10,C,C,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate
+jt8ouluc,V5E10,4434,0.02,0,5,10,46000,45000,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate
+jt8ouluc,V5E10,11257,0,1,5,10,130000,130000,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate
+jt8ouluc,V5E10,2463,0,2,5,10,E,E,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate
+jt8oumpe,V10E10,7153,0.52,1,10,10,160000,105000,4,25-39,Female,High School,21,43626,intermediate,intermediate
+jt8oumpe,V10E10,5069,0,2,10,10,C,C,4,25-39,Female,High School,21,43626,intermediate,intermediate
+jt8oumpe,V10E10,5422,0.56,0,10,10,70000,45000,4,25-39,Female,High School,21,43626,intermediate,intermediate
+jt8oumpe,V10E10,6477,0.46,1,10,10,190000,130000,4,25-39,Female,High School,21,43626,intermediate,intermediate
+jt8oumpe,V10E10,3679,0,2,10,10,E,E,4,25-39,Female,High School,21,43626,intermediate,intermediate
+jt8oungv,V20E20,9524,0,1,20,20,105000,105000,3,25-39,Female,Bachelors,11,41-50,low-intermediate,novice
+jt8oungv,V20E20,7223,0,2,20,20,c,C,4,25-39,Female,Bachelors,11,41-50,low-intermediate,novice
+jt8oungv,V20E20,17166,0.12,0,20,20,39500,45000,3,25-39,Female,Bachelors,11,41-50,low-intermediate,novice
+jt8oungv,V20E20,17675,0.15,1,20,20,110000,130000,2,25-39,Female,Bachelors,11,41-50,low-intermediate,novice
+jt8oungv,V20E20,11588,1,2,20,20,d,E,3,25-39,Female,Bachelors,11,41-50,low-intermediate,novice
+jt8ounub,V15E15,16572,0.05,1,15,15,100000,105000,3,25-39,Male,High School,15,gt60,low-intermediate,novice
+jt8ounub,V15E15,8776,0,2,15,15,c,C,3,25-39,Male,High School,15,gt60,low-intermediate,novice
+jt8ounub,V15E15,21466,0,0,15,15,45000,45000,3,25-39,Male,High School,15,gt60,low-intermediate,novice
+jt8ounub,V15E15,17998,0.08,1,15,15,120000,130000,3,25-39,Male,High School,15,gt60,low-intermediate,novice
+jt8ounub,V15E15,8628,0,2,15,15,e,E,3,25-39,Male,High School,15,gt60,low-intermediate,novice
+jt8ounwy,V20E10,2322,0.14,1,20,10,90000,105000,3,25-39,Male,Masters,13,31-40,low-intermediate,novice
+jt8ounwy,V20E10,5536,1,2,20,10,75k,C,3,25-39,Male,Masters,13,31-40,low-intermediate,novice
+jt8ounwy,V20E10,4618,0.78,0,20,10,80000,45000,3,25-39,Male,Masters,13,31-40,low-intermediate,novice
+jt8ounwy,V20E10,1258,0.31,1,20,10,90000,130000,2,25-39,Male,Masters,13,31-40,low-intermediate,novice
+jt8ounwy,V20E10,7448,0,2,20,10,e,E,3,25-39,Male,Masters,13,31-40,low-intermediate,novice
+jt8ouotw,V10E20,8673,0.05,1,10,20,100000,105000,1,40-49,Female,High School,dontknow,21-30,novice,novice
+jt8ouotw,V10E20,4599,0,2,10,20,C,C,2,40-49,Female,High School,dontknow,21-30,novice,novice
+jt8ouotw,V10E20,4283,0.11,0,10,20,50000,45000,2,40-49,Female,High School,dontknow,21-30,novice,novice
+jt8ouotw,V10E20,11686,0.08,1,10,20,120000,130000,1,40-49,Female,High School,dontknow,21-30,novice,novice
+jt8ouotw,V10E20,5307,0,2,10,20,E,E,3,40-49,Female,High School,dontknow,21-30,novice,novice
+jt8oux2u,V10E10,34464,0.01,1,10,10,105800,105000,1,25-39,Male,High School,23 or larger,31-40,novice,novice
+jt8oux2u,V10E10,7064,0,2,10,10,c,C,3,25-39,Male,High School,23 or larger,31-40,novice,novice
+jt8oux2u,V10E10,21550,0.05,0,10,10,47400,45000,2,25-39,Male,High School,23 or larger,31-40,novice,novice
+jt8oux2u,V10E10,20437,0.01,1,10,10,131000,130000,1,25-39,Male,High School,23 or larger,31-40,novice,novice
+jt8oux2u,V10E10,12314,0,2,10,10,e,E,3,25-39,Male,High School,23 or larger,31-40,novice,novice
+jt8ouxz3,V15E20,7916,0.14,1,15,20,90000,105000,2,25-39,Female,Bachelors,15,43789,novice,novice
+jt8ouxz3,V15E20,5205,0,2,15,20,C,C,3,25-39,Female,Bachelors,15,43789,novice,novice
+jt8ouxz3,V15E20,7776,0,0,15,20,45000,45000,2,25-39,Female,Bachelors,15,43789,novice,novice
+jt8ouxz3,V15E20,8290,0.23,1,15,20,100000,130000,2,25-39,Female,Bachelors,15,43789,novice,novice
+jt8ouxz3,V15E20,6725,0,2,15,20,E,E,3,25-39,Female,Bachelors,15,43789,novice,novice
+jt8ouz9c,V10E15,17021,0.14,1,10,15,90000,105000,2,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8ouz9c,V10E15,13888,1,2,10,15,a,C,3,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8ouz9c,V10E15,14984,0,0,10,15,45000,45000,3,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8ouz9c,V10E15,14695,0,1,10,15,130000,130000,3,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8ouz9c,V10E15,11776,0,2,10,15,E,E,3,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8ouzdn,V10E20,18695,0.33,1,10,20,140000,105000,3,60,Male,Bachelors,11,31-40,intermediate,low-intermediate
+jt8ouzdn,V10E20,9684,0,2,10,20,c,C,4,60,Male,Bachelors,11,31-40,intermediate,low-intermediate
+jt8ouzdn,V10E20,8812,0.09,0,10,20,49000,45000,3,60,Male,Bachelors,11,31-40,intermediate,low-intermediate
+jt8ouzdn,V10E20,11029,0.12,1,10,20,145000,130000,3,60,Male,Bachelors,11,31-40,intermediate,low-intermediate
+jt8ouzdn,V10E20,7762,0,2,10,20,e,E,4,60,Male,Bachelors,11,31-40,intermediate,low-intermediate
+jt8ov09e,V20E20,1112,0.03,1,20,20,107700,105000,2,40-49,Male,Masters,17,31-40,expert,intermediate
+jt8ov09e,V20E20,1448,0,2,20,20,C,C,2,40-49,Male,Masters,17,31-40,expert,intermediate
+jt8ov09e,V20E20,4952,0.03,0,20,20,46400,45000,2,40-49,Male,Masters,17,31-40,expert,intermediate
+jt8ov09e,V20E20,1464,0.14,1,20,20,148300,130000,2,40-49,Male,Masters,17,31-40,expert,intermediate
+jt8ov09e,V20E20,656,1,2,20,20,C,E,1,40-49,Male,Masters,17,31-40,expert,intermediate
+jt8ov1ns,V5E5,1160,0.04,1,5,5,101000,105000,3,25-39,Female,Masters,17,41-50,intermediate,intermediate
+jt8ov1ns,V5E5,1088,0,2,5,5,c,C,3,25-39,Female,Masters,17,41-50,intermediate,intermediate
+jt8ov1ns,V5E5,974,0.89,0,5,5,85000,45000,3,25-39,Female,Masters,17,41-50,intermediate,intermediate
+jt8ov1ns,V5E5,2754,0.22,1,5,5,101000,130000,3,25-39,Female,Masters,17,41-50,intermediate,intermediate
+jt8ov1ns,V5E5,933,1,2,5,5,d,E,3,25-39,Female,Masters,17,41-50,intermediate,intermediate
+jt8ov2zn,V15E20,18550,0,1,15,20,105000,105000,2,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8ov2zn,V15E20,9896,0,2,15,20,C,C,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8ov2zn,V15E20,15672,0.11,0,15,20,50000,45000,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8ov2zn,V15E20,17909,0.15,1,15,20,110000,130000,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8ov2zn,V15E20,10144,0,2,15,20,E,E,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8ov3xo,V5E20,13780,0.05,1,5,20,110000,105000,2,25-39,Female,Bachelors,13,51-60,novice,novice
+jt8ov3xo,V5E20,8188,0,2,5,20,C,C,3,25-39,Female,Bachelors,13,51-60,novice,novice
+jt8ov3xo,V5E20,16631,0,0,5,20,45000,45000,3,25-39,Female,Bachelors,13,51-60,novice,novice
+jt8ov3xo,V5E20,25231,0,1,5,20,130000,130000,3,25-39,Female,Bachelors,13,51-60,novice,novice
+jt8ov3xo,V5E20,3389,0,2,5,20,E,E,2,25-39,Female,Bachelors,13,51-60,novice,novice
+jt8ov5h6,V15E10,8146,0.05,1,15,10,100000,105000,2,25-39,Male,Bachelors,17,31-40,intermediate,novice
+jt8ov5h6,V15E10,6216,0,2,15,10,C,C,3,25-39,Male,Bachelors,17,31-40,intermediate,novice
+jt8ov5h6,V15E10,7219,0,0,15,10,45000,45000,2,25-39,Male,Bachelors,17,31-40,intermediate,novice
+jt8ov5h6,V15E10,1278,0.08,1,15,10,120000,130000,2,25-39,Male,Bachelors,17,31-40,intermediate,novice
+jt8ov5h6,V15E10,7078,0,2,15,10,E,E,3,25-39,Male,Bachelors,17,31-40,intermediate,novice
+jt8ov6il,V15E15,1938,0.05,1,15,15,100000,105000,2,25-39,Male,Bachelors,23 or larger,gt60,low-intermediate,novice
+jt8ov6il,V15E15,3003,1,2,15,15,a,C,4,25-39,Male,Bachelors,23 or larger,gt60,low-intermediate,novice
+jt8ov6il,V15E15,6271,0.02,0,15,15,44000,45000,3,25-39,Male,Bachelors,23 or larger,gt60,low-intermediate,novice
+jt8ov6il,V15E15,5432,0.15,1,15,15,110000,130000,2,25-39,Male,Bachelors,23 or larger,gt60,low-intermediate,novice
+jt8ov6il,V15E15,8318,0,2,15,15,e,E,2,25-39,Male,Bachelors,23 or larger,gt60,low-intermediate,novice
+jt8ov6p8,V10E5,20536,0.05,1,10,5,100000,105000,3,50-59,Female,Bachelors,dontknow,51-60,novice,novice
+jt8ov6p8,V10E5,17879,0,2,10,5,C,C,3,50-59,Female,Bachelors,dontknow,51-60,novice,novice
+jt8ov6p8,V10E5,13840,0,0,10,5,45000,45000,3,50-59,Female,Bachelors,dontknow,51-60,novice,novice
+jt8ov6p8,V10E5,24475,0.04,1,10,5,135000,130000,3,50-59,Female,Bachelors,dontknow,51-60,novice,novice
+jt8ov6p8,V10E5,13205,0,2,10,5,E,E,4,50-59,Female,Bachelors,dontknow,51-60,novice,novice
+jt8ov6wq,V20E10,6838,0,1,20,10,105000,105000,2,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8ov6wq,V20E10,5551,0,2,20,10,C,C,3,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8ov6wq,V20E10,8701,0,0,20,10,45000,45000,2,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8ov6wq,V20E10,7614,0.08,1,20,10,120000,130000,2,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8ov6wq,V20E10,7623,0,2,20,10,E,E,2,25-39,Male,High School,23 or larger,21-30,low-intermediate,novice
+jt8ov7py,V5E5,9938,0.02,1,5,5,107000,105000,3,40-49,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8ov7py,V5E5,5918,0,2,5,5,C,C,4,40-49,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8ov7py,V5E5,9261,0.07,0,5,5,48000,45000,2,40-49,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8ov7py,V5E5,11709,0,1,5,5,130000,130000,3,40-49,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8ov7py,V5E5,1250,0,2,5,5,E,E,2,40-49,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8ovaem,V5E10,964,0.14,1,5,10,90000,105000,1,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovaem,V5E10,1025,1,2,5,10,A,C,1,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovaem,V5E10,949,3.44,0,5,10,200000,45000,1,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovaem,V5E10,1519,0.38,1,5,10,180000,130000,2,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovaem,V5E10,1022,0,2,5,10,E,E,2,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovas7,V10E20,9385,0.52,1,10,20,160000,105000,3,60,Female,Other,17,43789,intermediate,intermediate
+jt8ovas7,V10E20,5176,0,2,10,20,C,C,3,60,Female,Other,17,43789,intermediate,intermediate
+jt8ovas7,V10E20,4848,0.33,0,10,20,60000,45000,3,60,Female,Other,17,43789,intermediate,intermediate
+jt8ovas7,V10E20,6689,0.38,1,10,20,180000,130000,3,60,Female,Other,17,43789,intermediate,intermediate
+jt8ovas7,V10E20,4440,0,2,10,20,E,E,3,60,Female,Other,17,43789,intermediate,intermediate
+jt8ovbau,V10E20,31964,0.05,1,10,20,110000,105000,1,25-39,Female,Bachelors,11,43626,low-intermediate,novice
+jt8ovbau,V10E20,15058,0,2,10,20,C,C,2,25-39,Female,Bachelors,11,43626,low-intermediate,novice
+jt8ovbau,V10E20,16775,0,0,10,20,45000,45000,2,25-39,Female,Bachelors,11,43626,low-intermediate,novice
+jt8ovbau,V10E20,16819,0.9,1,10,20,13000,130000,1,25-39,Female,Bachelors,11,43626,low-intermediate,novice
+jt8ovbau,V10E20,10366,0,2,10,20,E,E,2,25-39,Female,Bachelors,11,43626,low-intermediate,novice
+jt8ove7w,V20E10,17887,0.05,1,20,10,110000,105000,3,40-49,Male,Masters,15,31-40,intermediate,low-intermediate
+jt8ove7w,V20E10,6838,0,2,20,10,C,C,3,40-49,Male,Masters,15,31-40,intermediate,low-intermediate
+jt8ove7w,V20E10,18443,0,0,20,10,45000,45000,2,40-49,Male,Masters,15,31-40,intermediate,low-intermediate
+jt8ove7w,V20E10,19990,0.08,1,20,10,120000,130000,2,40-49,Male,Masters,15,31-40,intermediate,low-intermediate
+jt8ove7w,V20E10,14038,0,2,20,10,E,E,4,40-49,Male,Masters,15,31-40,intermediate,low-intermediate
+jt8ovgba,V15E15,4803,0.06,1,15,15,98300,105000,2,40-49,Male,Masters,23 or larger,51-60,intermediate,novice
+jt8ovgba,V15E15,1001,1,2,15,15,A,C,1,40-49,Male,Masters,23 or larger,51-60,intermediate,novice
+jt8ovgba,V15E15,3321,0.13,0,15,15,39000,45000,2,40-49,Male,Masters,23 or larger,51-60,intermediate,novice
+jt8ovgba,V15E15,14717,0.05,1,15,15,136000,130000,2,40-49,Male,Masters,23 or larger,51-60,intermediate,novice
+jt8ovgba,V15E15,5893,0,2,15,15,E,E,3,40-49,Male,Masters,23 or larger,51-60,intermediate,novice
+jt8ovkhw,V5E10,17480,0.06,1,5,10,99000,105000,2,25-39,Male,Masters,13,21-30,high-intermediate,low-intermediate
+jt8ovkhw,V5E10,3693,0,2,5,10,C,C,3,25-39,Male,Masters,13,21-30,high-intermediate,low-intermediate
+jt8ovkhw,V5E10,7466,0.2,0,5,10,54000,45000,2,25-39,Male,Masters,13,21-30,high-intermediate,low-intermediate
+jt8ovkhw,V5E10,11697,0.01,1,5,10,131000,130000,2,25-39,Male,Masters,13,21-30,high-intermediate,low-intermediate
+jt8ovkhw,V5E10,3598,0,2,5,10,E,E,3,25-39,Male,Masters,13,21-30,high-intermediate,low-intermediate
+jt8ovkms,V20E20,28281,0.05,1,20,20,100000,105000,2,25-39,Female,Bachelors,17,21-30,intermediate,novice
+jt8ovkms,V20E20,21084,0,2,20,20,C,C,3,25-39,Female,Bachelors,17,21-30,intermediate,novice
+jt8ovkms,V20E20,26173,0.09,0,20,20,49000,45000,3,25-39,Female,Bachelors,17,21-30,intermediate,novice
+jt8ovkms,V20E20,29778,0.07,1,20,20,120500,130000,3,25-39,Female,Bachelors,17,21-30,intermediate,novice
+jt8ovkms,V20E20,16320,0,2,20,20,E,E,2,25-39,Female,Bachelors,17,21-30,intermediate,novice
+jt8ovlee,V20E20,20582,0.05,1,20,20,110000,105000,2,40-49,Male,High School,23 or larger,41-50,low-intermediate,novice
+jt8ovlee,V20E20,6758,0,2,20,20,c,C,3,40-49,Male,High School,23 or larger,41-50,low-intermediate,novice
+jt8ovlee,V20E20,9666,0,0,20,20,45000,45000,3,40-49,Male,High School,23 or larger,41-50,low-intermediate,novice
+jt8ovlee,V20E20,10382,0.08,1,20,20,120000,130000,3,40-49,Male,High School,23 or larger,41-50,low-intermediate,novice
+jt8ovlee,V20E20,6946,0,2,20,20,e,E,3,40-49,Male,High School,23 or larger,41-50,low-intermediate,novice
+jt8ovll6,V5E15,17272,0.14,1,5,15,120000,105000,4,25-39,Female,Bachelors,19,43789,high-intermediate,intermediate
+jt8ovll6,V5E15,14111,0,2,5,15,C,C,4,25-39,Female,Bachelors,19,43789,high-intermediate,intermediate
+jt8ovll6,V5E15,10881,0.33,0,5,15,60000,45000,4,25-39,Female,Bachelors,19,43789,high-intermediate,intermediate
+jt8ovll6,V5E15,9217,0.31,1,5,15,170000,130000,4,25-39,Female,Bachelors,19,43789,high-intermediate,intermediate
+jt8ovll6,V5E15,4678,0,2,5,15,E,E,4,25-39,Female,Bachelors,19,43789,high-intermediate,intermediate
+jt8ovmnl,V15E10,656,0.24,1,15,10,80000,105000,3,25-39,Male,Bachelors,15,43789,high-intermediate,high-intermediate
+jt8ovmnl,V15E10,1376,1,2,15,10,70,C,4,25-39,Male,Bachelors,15,43789,high-intermediate,high-intermediate
+jt8ovmnl,V15E10,703,0.11,0,15,10,50000,45000,3,25-39,Male,Bachelors,15,43789,high-intermediate,high-intermediate
+jt8ovmnl,V15E10,1471,0.69,1,15,10,40000,130000,4,25-39,Male,Bachelors,15,43789,high-intermediate,high-intermediate
+jt8ovmnl,V15E10,712,0,2,15,10,e,E,3,25-39,Male,Bachelors,15,43789,high-intermediate,high-intermediate
+jt8ovnhv,V20E15,1896,0.05,1,20,15,100000,105000,3,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovnhv,V20E15,1495,1,2,20,15,a,C,2,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovnhv,V20E15,1672,0.11,0,20,15,40000,45000,3,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovnhv,V20E15,1600,0.08,1,20,15,140000,130000,3,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovnhv,V20E15,1920,1,2,20,15,5,E,2,25-39,Male,Bachelors,21,41-50,low-intermediate,low-intermediate
+jt8ovob4,V10E20,859,0.57,1,10,20,45000,105000,1,25-39,Female,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8ovob4,V10E20,9034,0,2,10,20,C,C,4,25-39,Female,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8ovob4,V10E20,8262,0.09,0,10,20,49000,45000,4,25-39,Female,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8ovob4,V10E20,18283,0.08,1,10,20,141000,130000,3,25-39,Female,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8ovob4,V10E20,9934,0,2,10,20,E,E,4,25-39,Female,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8ovqk5,V10E10,9398,0,1,10,10,105000,105000,3,25-39,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8ovqk5,V10E10,1630,0,2,10,10,C,C,3,25-39,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8ovqk5,V10E10,10168,0.13,0,10,10,39000,45000,2,25-39,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8ovqk5,V10E10,6922,0.08,1,10,10,120000,130000,2,25-39,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8ovqk5,V10E10,10412,0,2,10,10,E,E,3,25-39,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8ovt5n,V10E20,7508,0.05,1,10,20,110000,105000,2,18-24,Male,High School,23 or larger,gt60,intermediate,low-intermediate
+jt8ovt5n,V10E20,3609,0,2,10,20,C,C,4,18-24,Male,High School,23 or larger,gt60,intermediate,low-intermediate
+jt8ovt5n,V10E20,7818,0.04,0,10,20,43000,45000,3,18-24,Male,High School,23 or larger,gt60,intermediate,low-intermediate
+jt8ovt5n,V10E20,8430,0,1,10,20,130000,130000,2,18-24,Male,High School,23 or larger,gt60,intermediate,low-intermediate
+jt8ovt5n,V10E20,5453,0,2,10,20,E,E,4,18-24,Male,High School,23 or larger,gt60,intermediate,low-intermediate
+jt8ovtho,V5E10,8463,0.05,1,5,10,110000,105000,3,18-24,Male,High School,21,31-40,novice,novice
+jt8ovtho,V5E10,496,1,2,5,10,b,C,1,18-24,Male,High School,21,31-40,novice,novice
+jt8ovtho,V5E10,6157,0.02,0,5,10,46000,45000,4,18-24,Male,High School,21,31-40,novice,novice
+jt8ovtho,V5E10,3252,0,1,5,10,129800,130000,3,18-24,Male,High School,21,31-40,novice,novice
+jt8ovtho,V5E10,2518,0,2,5,10,e,E,4,18-24,Male,High School,21,31-40,novice,novice
+jt8ovtn9,V15E10,22017,0.05,1,15,10,100000,105000,2,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8ovtn9,V15E10,16279,0,2,15,10,c,C,3,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8ovtn9,V15E10,20841,0.11,0,15,10,40000,45000,2,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8ovtn9,V15E10,20373,0,1,15,10,130000,130000,2,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8ovtn9,V15E10,20609,0,2,15,10,e,E,3,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8ovvgk,V20E15,2704,0.11,1,20,15,93000,105000,4,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8ovvgk,V20E15,1528,0,2,20,15,c,C,3,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8ovvgk,V20E15,1816,0.09,0,20,15,41000,45000,3,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8ovvgk,V20E15,2368,0,1,20,15,130000,130000,2,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8ovvgk,V20E15,1824,0,2,20,15,E,E,4,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8ovvv4,V15E20,18031,0.05,1,15,20,100000,105000,3,25-39,Male,Masters,13,31-40,intermediate,novice
+jt8ovvv4,V15E20,8190,0,2,15,20,C,C,4,25-39,Male,Masters,13,31-40,intermediate,novice
+jt8ovvv4,V15E20,12630,0.02,0,15,20,44000,45000,3,25-39,Male,Masters,13,31-40,intermediate,novice
+jt8ovvv4,V15E20,28218,0.04,1,15,20,125000,130000,3,25-39,Male,Masters,13,31-40,intermediate,novice
+jt8ovvv4,V15E20,22143,0,2,15,20,E,E,3,25-39,Male,Masters,13,31-40,intermediate,novice
+jt8ow3bz,V20E15,14502,0.05,1,20,15,100000,105000,3,25-39,Male,High School,9 or smaller,gt60,novice,novice
+jt8ow3bz,V20E15,13546,0,2,20,15,c,C,3,25-39,Male,High School,9 or smaller,gt60,novice,novice
+jt8ow3bz,V20E15,10558,0.11,0,20,15,40000,45000,3,25-39,Male,High School,9 or smaller,gt60,novice,novice
+jt8ow3bz,V20E15,20325,0.08,1,20,15,140000,130000,3,25-39,Male,High School,9 or smaller,gt60,novice,novice
+jt8ow3bz,V20E15,15689,0,2,20,15,e,E,3,25-39,Male,High School,9 or smaller,gt60,novice,novice
+jt8ow5s8,V10E15,30744,0.05,1,10,15,110000,105000,3,25-39,Male,High School,19,31-40,low-intermediate,novice
+jt8ow5s8,V10E15,11542,0,2,10,15,c,C,4,25-39,Male,High School,19,31-40,low-intermediate,novice
+jt8ow5s8,V10E15,25132,0.12,0,10,15,39500,45000,3,25-39,Male,High School,19,31-40,low-intermediate,novice
+jt8ow5s8,V10E15,17352,0.13,1,10,15,113000,130000,4,25-39,Male,High School,19,31-40,low-intermediate,novice
+jt8ow5s8,V10E15,9864,0,2,10,15,E,E,4,25-39,Male,High School,19,31-40,low-intermediate,novice
+jt8ow6m9,V15E15,10646,0.05,1,15,15,100000,105000,3,25-39,Male,Bachelors,13,41-50,intermediate,low-intermediate
+jt8ow6m9,V15E15,4992,0,2,15,15,c,C,2,25-39,Male,Bachelors,13,41-50,intermediate,low-intermediate
+jt8ow6m9,V15E15,10784,0.11,0,15,15,50000,45000,3,25-39,Male,Bachelors,13,41-50,intermediate,low-intermediate
+jt8ow6m9,V15E15,6130,0.08,1,15,15,120000,130000,3,25-39,Male,Bachelors,13,41-50,intermediate,low-intermediate
+jt8ow6m9,V15E15,2628,0,2,15,15,e,E,4,25-39,Male,Bachelors,13,41-50,intermediate,low-intermediate
+jt8owfk2,V5E5,21974,0,1,5,5,105000,105000,3,60,Female,Bachelors,15,51-60,intermediate,novice
+jt8owfk2,V5E5,15058,0,2,5,5,c,C,3,60,Female,Bachelors,15,51-60,intermediate,novice
+jt8owfk2,V5E5,14069,0.04,0,5,5,43000,45000,3,60,Female,Bachelors,15,51-60,intermediate,novice
+jt8owfk2,V5E5,29379,0.04,1,5,5,125000,130000,3,60,Female,Bachelors,15,51-60,intermediate,novice
+jt8owfk2,V5E5,28870,0,2,5,5,e,E,3,60,Female,Bachelors,15,51-60,intermediate,novice
+jt8owga3,V15E20,22199,0.14,1,15,20,90000,105000,2,50-59,Female,High School,15,43789,low-intermediate,novice
+jt8owga3,V15E20,9279,0,2,15,20,c,C,2,50-59,Female,High School,15,43789,low-intermediate,novice
+jt8owga3,V15E20,16255,0,0,15,20,45000,45000,2,50-59,Female,High School,15,43789,low-intermediate,novice
+jt8owga3,V15E20,18400,0.15,1,15,20,110000,130000,2,50-59,Female,High School,15,43789,low-intermediate,novice
+jt8owga3,V15E20,13832,0,2,15,20,e,E,2,50-59,Female,High School,15,43789,low-intermediate,novice
+jt8owuoi,V10E10,10416,0.1,1,10,10,115000,105000,2,25-39,Female,High School,15,43789,intermediate,novice
+jt8owuoi,V10E10,920,1,2,10,10,a,C,3,25-39,Female,High School,15,43789,intermediate,novice
+jt8owuoi,V10E10,12527,0.44,0,10,10,65000,45000,3,25-39,Female,High School,15,43789,intermediate,novice
+jt8owuoi,V10E10,14385,0.02,1,10,10,132000,130000,3,25-39,Female,High School,15,43789,intermediate,novice
+jt8owuoi,V10E10,10055,0,2,10,10,e,E,4,25-39,Female,High School,15,43789,intermediate,novice
+jt8oxfkh,V20E10,14639,0.52,1,20,10,160000,105000,3,25-39,Female,High School,11,31-40,intermediate,intermediate
+jt8oxfkh,V20E10,5986,0,2,20,10,c,C,3,25-39,Female,High School,11,31-40,intermediate,intermediate
+jt8oxfkh,V20E10,8174,0.44,0,20,10,65000,45000,3,25-39,Female,High School,11,31-40,intermediate,intermediate
+jt8oxfkh,V20E10,15309,0.48,1,20,10,193000,130000,3,25-39,Female,High School,11,31-40,intermediate,intermediate
+jt8oxfkh,V20E10,7432,0,2,20,10,e,E,3,25-39,Female,High School,11,31-40,intermediate,intermediate
+jt8oxfqx,V10E20,1285,0.1,1,10,20,95000,105000,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8oxfqx,V10E20,1088,1,2,10,20,40,C,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8oxfqx,V10E20,1379,1,0,10,20,90000,45000,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8oxfqx,V10E20,1299,0.35,1,10,20,85000,130000,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8oxfqx,V10E20,1327,1,2,10,20,85,E,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8oxj9p,V5E15,9103,0.05,1,5,15,100000,105000,2,40-49,Female,Bachelors,dontknow,43789,low-intermediate,novice
+jt8oxj9p,V5E15,5129,0,2,5,15,c,C,3,40-49,Female,Bachelors,dontknow,43789,low-intermediate,novice
+jt8oxj9p,V5E15,5856,0.04,0,5,15,43000,45000,2,40-49,Female,Bachelors,dontknow,43789,low-intermediate,novice
+jt8oxj9p,V5E15,8824,0,1,5,15,130000,130000,2,40-49,Female,Bachelors,dontknow,43789,low-intermediate,novice
+jt8oxj9p,V5E15,4232,0,2,5,15,E,E,4,40-49,Female,Bachelors,dontknow,43789,low-intermediate,novice
+jt8oxkc8,V10E10,15975,0.01,1,10,10,104000,105000,2,18-24,Female,Unspecified,23 or larger,41-50,low-intermediate,novice
+jt8oxkc8,V10E10,11619,0,2,10,10,C,C,4,18-24,Female,Unspecified,23 or larger,41-50,low-intermediate,novice
+jt8oxkc8,V10E10,15429,0.04,0,10,10,43000,45000,3,18-24,Female,Unspecified,23 or larger,41-50,low-intermediate,novice
+jt8oxkc8,V10E10,16038,0.05,1,10,10,137000,130000,2,18-24,Female,Unspecified,23 or larger,41-50,low-intermediate,novice
+jt8oxkc8,V10E10,11761,0,2,10,10,E,E,3,18-24,Female,Unspecified,23 or larger,41-50,low-intermediate,novice
+jt8oxszt,V5E10,13922,0.05,1,5,10,100000,105000,2,40-49,Female,Bachelors,23 or larger,41-50,novice,low-intermediate
+jt8oxszt,V5E10,2948,0,2,5,10,c,C,4,40-49,Female,Bachelors,23 or larger,41-50,novice,low-intermediate
+jt8oxszt,V5E10,5718,0,0,5,10,45000,45000,2,40-49,Female,Bachelors,23 or larger,41-50,novice,low-intermediate
+jt8oxszt,V5E10,5689,0,1,5,10,130000,130000,2,40-49,Female,Bachelors,23 or larger,41-50,novice,low-intermediate
+jt8oxszt,V5E10,3654,0,2,5,10,e,E,3,40-49,Female,Bachelors,23 or larger,41-50,novice,low-intermediate
+jt8oy7ty,V20E10,7476,0,1,20,10,105000,105000,2,25-39,Male,Bachelors,15,31-40,intermediate,novice
+jt8oy7ty,V20E10,7796,0,2,20,10,C,C,4,25-39,Male,Bachelors,15,31-40,intermediate,novice
+jt8oy7ty,V20E10,8419,0.02,0,20,10,46000,45000,3,25-39,Male,Bachelors,15,31-40,intermediate,novice
+jt8oy7ty,V20E10,8404,0,1,20,10,130000,130000,2,25-39,Male,Bachelors,15,31-40,intermediate,novice
+jt8oy7ty,V20E10,7164,0,2,20,10,E,E,3,25-39,Male,Bachelors,15,31-40,intermediate,novice
+jt8oyt9p,V20E15,14351,0.05,1,20,15,100000,105000,2,25-39,Male,Masters,19,gt60,high-intermediate,intermediate
+jt8oyt9p,V20E15,9776,0,2,20,15,C,C,1,25-39,Male,Masters,19,gt60,high-intermediate,intermediate
+jt8oyt9p,V20E15,3816,0.07,0,20,15,42000,45000,2,25-39,Male,Masters,19,gt60,high-intermediate,intermediate
+jt8oyt9p,V20E15,8528,0.08,1,20,15,140000,130000,1,25-39,Male,Masters,19,gt60,high-intermediate,intermediate
+jt8oyt9p,V20E15,5216,0,2,20,15,E,E,3,25-39,Male,Masters,19,gt60,high-intermediate,intermediate
+jt8oyu45,V20E20,2487,0.43,1,20,20,60000,105000,3,25-39,Male,Bachelors,23 or larger,41-50,expert,expert
+jt8oyu45,V20E20,1849,1,2,20,20,20k,C,4,25-39,Male,Bachelors,23 or larger,41-50,expert,expert
+jt8oyu45,V20E20,824,0.44,0,20,20,65000,45000,4,25-39,Male,Bachelors,23 or larger,41-50,expert,expert
+jt8oyu45,V20E20,1096,0.65,1,20,20,45000,130000,3,25-39,Male,Bachelors,23 or larger,41-50,expert,expert
+jt8oyu45,V20E20,976,0,2,20,20,E,E,4,25-39,Male,Bachelors,23 or larger,41-50,expert,expert
+jt8oyw1l,V20E15,8272,0.05,1,20,15,100000,105000,3,25-39,Male,Masters,dontknow,41-50,intermediate,low-intermediate
+jt8oyw1l,V20E15,8042,0,2,20,15,C,C,4,25-39,Male,Masters,dontknow,41-50,intermediate,low-intermediate
+jt8oyw1l,V20E15,13872,0,0,20,15,45000,45000,3,25-39,Male,Masters,dontknow,41-50,intermediate,low-intermediate
+jt8oyw1l,V20E15,9213,0.15,1,20,15,150000,130000,3,25-39,Male,Masters,dontknow,41-50,intermediate,low-intermediate
+jt8oyw1l,V20E15,6286,0,2,20,15,E,E,4,25-39,Male,Masters,dontknow,41-50,intermediate,low-intermediate
+jt8oz9g9,V5E10,15523,0.05,1,5,10,100000,105000,3,25-39,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8oz9g9,V5E10,6194,0,2,5,10,C,C,4,25-39,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8oz9g9,V5E10,6431,0,0,5,10,45000,45000,3,25-39,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8oz9g9,V5E10,12320,0,1,5,10,130000,130000,3,25-39,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8oz9g9,V5E10,4316,0,2,5,10,E,E,4,25-39,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8ozlg5,V15E10,24168,0.01,1,15,10,106000,105000,1,25-39,Female,High School,19,41-50,novice,novice
+jt8ozlg5,V15E10,8512,0,2,15,10,c,C,3,25-39,Female,High School,19,41-50,novice,novice
+jt8ozlg5,V15E10,27592,0,0,15,10,45000,45000,2,25-39,Female,High School,19,41-50,novice,novice
+jt8ozlg5,V15E10,8672,0.02,1,15,10,133000,130000,1,25-39,Female,High School,19,41-50,novice,novice
+jt8ozlg5,V15E10,6144,1,2,15,10,4,E,4,25-39,Female,High School,19,41-50,novice,novice
+jt8ozloe,V20E20,16828,0.05,1,20,20,110000,105000,2,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,high-intermediate
+jt8ozloe,V20E20,5479,0,2,20,20,C,C,3,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,high-intermediate
+jt8ozloe,V20E20,5283,0.07,0,20,20,42000,45000,2,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,high-intermediate
+jt8ozloe,V20E20,18912,0,1,20,20,130000,130000,2,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,high-intermediate
+jt8ozloe,V20E20,6076,0,2,20,20,E,E,2,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,high-intermediate
+jt8ozovm,V20E10,10547,0.05,1,20,10,100000,105000,2,25-39,Male,Masters,13,43626,low-intermediate,low-intermediate
+jt8ozovm,V20E10,5509,0,2,20,10,C,C,4,25-39,Male,Masters,13,43626,low-intermediate,low-intermediate
+jt8ozovm,V20E10,11729,0.07,0,20,10,48000,45000,3,25-39,Male,Masters,13,43626,low-intermediate,low-intermediate
+jt8ozovm,V20E10,15747,0.08,1,20,10,120000,130000,2,25-39,Male,Masters,13,43626,low-intermediate,low-intermediate
+jt8ozovm,V20E10,10635,0,2,20,10,E,E,4,25-39,Male,Masters,13,43626,low-intermediate,low-intermediate
+jt8ozvhv,V15E20,26744,0.1,1,15,20,115200,105000,3,25-39,Male,Masters,21,51-60,intermediate,low-intermediate
+jt8ozvhv,V15E20,13192,0,2,15,20,C,C,3,25-39,Male,Masters,21,51-60,intermediate,low-intermediate
+jt8ozvhv,V15E20,1256,0.02,0,15,20,46000,45000,2,25-39,Male,Masters,21,51-60,intermediate,low-intermediate
+jt8ozvhv,V15E20,9784,0.02,1,15,20,127000,130000,3,25-39,Male,Masters,21,51-60,intermediate,low-intermediate
+jt8ozvhv,V15E20,20127,0,2,15,20,E,E,3,25-39,Male,Masters,21,51-60,intermediate,low-intermediate
+jt8ozxug,V15E10,6825,0.19,1,15,10,125000,105000,3,50-59,Male,High School,15,41-50,high-intermediate,intermediate
+jt8ozxug,V15E10,8288,0,2,15,10,c,C,3,50-59,Male,High School,15,41-50,high-intermediate,intermediate
+jt8ozxug,V15E10,26240,0.11,0,15,10,40000,45000,2,50-59,Male,High School,15,41-50,high-intermediate,intermediate
+jt8ozxug,V15E10,16807,0.08,1,15,10,120000,130000,2,50-59,Male,High School,15,41-50,high-intermediate,intermediate
+jt8ozxug,V15E10,8415,0,2,15,10,e,E,3,50-59,Male,High School,15,41-50,high-intermediate,intermediate
+jt8p01rg,V5E10,4672,0.05,1,5,10,100000,105000,2,50-59,Female,High School,17,41-50,novice,novice
+jt8p01rg,V5E10,4734,0,2,5,10,c,C,2,50-59,Female,High School,17,41-50,novice,novice
+jt8p01rg,V5E10,5888,0.11,0,5,10,50000,45000,2,50-59,Female,High School,17,41-50,novice,novice
+jt8p01rg,V5E10,5375,0,1,5,10,130000,130000,2,50-59,Female,High School,17,41-50,novice,novice
+jt8p01rg,V5E10,5387,0,2,5,10,e,E,2,50-59,Female,High School,17,41-50,novice,novice
+jt8p0ca3,V5E20,13478,0.03,1,5,20,102000,105000,3,40-49,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p0ca3,V5E20,16014,0,2,5,20,C,C,3,40-49,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p0ca3,V5E20,12547,0,0,5,20,45000,45000,2,40-49,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p0ca3,V5E20,21264,0.05,1,5,20,124000,130000,2,40-49,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p0ca3,V5E20,18898,0,2,5,20,E,E,3,40-49,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p16fr,V15E20,33140,0.05,1,15,20,100000,105000,2,18-24,Male,Bachelors,23 or larger,41-50,low-intermediate,novice
+jt8p16fr,V15E20,18816,0,2,15,20,C,C,2,18-24,Male,Bachelors,23 or larger,41-50,low-intermediate,novice
+jt8p16fr,V15E20,20612,0.14,0,15,20,38500,45000,2,18-24,Male,Bachelors,23 or larger,41-50,low-intermediate,novice
+jt8p16fr,V15E20,33718,0.15,1,15,20,110000,130000,2,18-24,Male,Bachelors,23 or larger,41-50,low-intermediate,novice
+jt8p16fr,V15E20,17744,0,2,15,20,E,E,3,18-24,Male,Bachelors,23 or larger,41-50,low-intermediate,novice
+jt8p17ph,V15E15,6713,0.05,1,15,15,100000,105000,4,18-24,Male,High School,13,gt60,intermediate,novice
+jt8p17ph,V15E15,7904,0,2,15,15,C,C,4,18-24,Male,High School,13,gt60,intermediate,novice
+jt8p17ph,V15E15,7832,0.13,0,15,15,51000,45000,4,18-24,Male,High School,13,gt60,intermediate,novice
+jt8p17ph,V15E15,7753,0.05,1,15,15,124000,130000,4,18-24,Male,High School,13,gt60,intermediate,novice
+jt8p17ph,V15E15,3664,0,2,15,15,E,E,4,18-24,Male,High School,13,gt60,intermediate,novice
+jt8p1bjl,V5E20,20183,0.05,1,5,20,110000,105000,2,25-39,Male,Other,23 or larger,51-60,intermediate,novice
+jt8p1bjl,V5E20,15616,0,2,5,20,c,C,2,25-39,Male,Other,23 or larger,51-60,intermediate,novice
+jt8p1bjl,V5E20,24847,0.03,0,5,20,46500,45000,2,25-39,Male,Other,23 or larger,51-60,intermediate,novice
+jt8p1bjl,V5E20,24457,0,1,5,20,130000,130000,1,25-39,Male,Other,23 or larger,51-60,intermediate,novice
+jt8p1bjl,V5E20,15864,0,2,5,20,e,E,1,25-39,Male,Other,23 or larger,51-60,intermediate,novice
+jt8p1fpl,V20E10,13423,0.62,1,20,10,170000,105000,2,25-39,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate
+jt8p1fpl,V20E10,6538,0,2,20,10,c,C,4,25-39,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate
+jt8p1fpl,V20E10,8190,0.67,0,20,10,75000,45000,3,25-39,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate
+jt8p1fpl,V20E10,6274,0.54,1,20,10,200000,130000,3,25-39,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate
+jt8p1fpl,V20E10,6357,0,2,20,10,e,E,4,25-39,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate
+jt8p1iny,V20E20,1092,0,1,20,20,105000,105000,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8p1iny,V20E20,1142,0,2,20,20,c,C,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8p1iny,V20E20,2198,0.05,0,20,20,42700,45000,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8p1iny,V20E20,1928,0.22,1,20,20,101000,130000,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8p1iny,V20E20,2239,0,2,20,20,e,E,3,25-39,Male,Masters,17,41-50,intermediate,intermediate
+jt8p1ioa,V5E20,1120,0.02,1,5,20,102400,105000,3,25-39,Male,Bachelors,15,41-50,low-intermediate,novice
+jt8p1ioa,V5E20,2748,0,2,5,20,C,C,3,25-39,Male,Bachelors,15,41-50,low-intermediate,novice
+jt8p1ioa,V5E20,19553,0.03,0,5,20,43700,45000,3,25-39,Male,Bachelors,15,41-50,low-intermediate,novice
+jt8p1ioa,V5E20,641,1,1,5,20,0,130000,1,25-39,Male,Bachelors,15,41-50,low-intermediate,novice
+jt8p1ioa,V5E20,4498,0,2,5,20,E,E,3,25-39,Male,Bachelors,15,41-50,low-intermediate,novice
+jt8p1mu9,V5E20,11800,0,1,5,20,105000,105000,2,25-39,Male,Bachelors,23 or larger,41-50,novice,novice
+jt8p1mu9,V5E20,10127,0,2,5,20,C,C,2,25-39,Male,Bachelors,23 or larger,41-50,novice,novice
+jt8p1mu9,V5E20,4136,0.11,0,5,20,50000,45000,2,25-39,Male,Bachelors,23 or larger,41-50,novice,novice
+jt8p1mu9,V5E20,5859,0.04,1,5,20,125000,130000,2,25-39,Male,Bachelors,23 or larger,41-50,novice,novice
+jt8p1mu9,V5E20,14728,0,2,5,20,E,E,2,25-39,Male,Bachelors,23 or larger,41-50,novice,novice
+jt8p1xcy,V20E10,12714,0.05,1,20,10,100000,105000,1,40-49,Female,High School,15,31-40,novice,novice
+jt8p1xcy,V20E10,6878,0,2,20,10,C,C,2,40-49,Female,High School,15,31-40,novice,novice
+jt8p1xcy,V20E10,11088,0,0,20,10,45000,45000,1,40-49,Female,High School,15,31-40,novice,novice
+jt8p1xcy,V20E10,10310,0.08,1,20,10,140000,130000,1,40-49,Female,High School,15,31-40,novice,novice
+jt8p1xcy,V20E10,6117,0,2,20,10,E,E,3,40-49,Female,High School,15,31-40,novice,novice
+jt8p229q,V15E10,19429,0.24,1,15,10,130000,105000,3,25-39,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p229q,V15E10,9349,0,2,15,10,C,C,3,25-39,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p229q,V15E10,10136,0.33,0,15,10,60000,45000,3,25-39,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p229q,V15E10,23524,0.23,1,15,10,160000,130000,3,25-39,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p229q,V15E10,17112,0,2,15,10,E,E,3,25-39,Female,Bachelors,23 or larger,31-40,novice,novice
+jt8p289m,V5E5,14191,0.01,1,5,5,105600,105000,2,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8p289m,V5E5,3376,1,2,5,5,A,C,3,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8p289m,V5E5,5016,0.02,0,5,5,46000,45000,3,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8p289m,V5E5,6000,0,1,5,5,130500,130000,3,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8p289m,V5E5,3983,0,2,5,5,E,E,3,25-39,Male,Bachelors,21,31-40,intermediate,intermediate
+jt8p290k,V10E15,9216,0.05,1,10,15,110000,105000,3,25-39,Male,High School,17,43789,high-intermediate,low-intermediate
+jt8p290k,V10E15,4586,0,2,10,15,C,C,4,25-39,Male,High School,17,43789,high-intermediate,low-intermediate
+jt8p290k,V10E15,5415,0.11,0,10,15,50000,45000,3,25-39,Male,High School,17,43789,high-intermediate,low-intermediate
+jt8p290k,V10E15,9078,0.08,1,10,15,140000,130000,2,25-39,Male,High School,17,43789,high-intermediate,low-intermediate
+jt8p290k,V10E15,5808,0,2,10,15,e,E,3,25-39,Male,High School,17,43789,high-intermediate,low-intermediate
+jt8p2j3o,V15E10,14447,0.05,1,15,10,110000,105000,1,25-39,Male,Masters,23 or larger,43789,low-intermediate,low-intermediate
+jt8p2j3o,V15E10,9299,0,2,15,10,C,C,3,25-39,Male,Masters,23 or larger,43789,low-intermediate,low-intermediate
+jt8p2j3o,V15E10,14409,0.02,0,15,10,44000,45000,3,25-39,Male,Masters,23 or larger,43789,low-intermediate,low-intermediate
+jt8p2j3o,V15E10,14371,0.04,1,15,10,135000,130000,1,25-39,Male,Masters,23 or larger,43789,low-intermediate,low-intermediate
+jt8p2j3o,V15E10,10105,0,2,15,10,E,E,2,25-39,Male,Masters,23 or larger,43789,low-intermediate,low-intermediate
+jt8p2lut,V20E20,32696,0.1,1,20,20,115000,105000,1,25-39,Female,Bachelors,13,41-50,novice,novice
+jt8p2lut,V20E20,12005,1,2,20,20,B,C,2,25-39,Female,Bachelors,13,41-50,novice,novice
+jt8p2lut,V20E20,27629,0.29,0,20,20,32000,45000,1,25-39,Female,Bachelors,13,41-50,novice,novice
+jt8p2lut,V20E20,12459,0.17,1,20,20,108000,130000,1,25-39,Female,Bachelors,13,41-50,novice,novice
+jt8p2lut,V20E20,13658,0,2,20,20,E,E,4,25-39,Female,Bachelors,13,41-50,novice,novice
+jt8p36pc,V20E15,9952,0.05,1,20,15,100000,105000,3,25-39,Female,High School,23 or larger,41-50,novice,novice
+jt8p36pc,V20E15,14048,1,2,20,15,E,C,4,25-39,Female,High School,23 or larger,41-50,novice,novice
+jt8p36pc,V20E15,11131,0.33,0,20,15,60000,45000,3,25-39,Female,High School,23 or larger,41-50,novice,novice
+jt8p36pc,V20E15,8858,0.15,1,20,15,150000,130000,3,25-39,Female,High School,23 or larger,41-50,novice,novice
+jt8p36pc,V20E15,7287,0,2,20,15,E,E,4,25-39,Female,High School,23 or larger,41-50,novice,novice
+jt8p37hl,V15E10,11001,0.22,1,15,10,82000,105000,2,40-49,Male,Bachelors,21,43626,intermediate,intermediate
+jt8p37hl,V15E10,10728,0,2,15,10,c,C,1,40-49,Male,Bachelors,21,43626,intermediate,intermediate
+jt8p37hl,V15E10,14688,0.29,0,15,10,58000,45000,1,40-49,Male,Bachelors,21,43626,intermediate,intermediate
+jt8p37hl,V15E10,14241,0.88,1,15,10,15000,130000,2,40-49,Male,Bachelors,21,43626,intermediate,intermediate
+jt8p37hl,V15E10,10393,0,2,15,10,e,E,2,40-49,Male,Bachelors,21,43626,intermediate,intermediate
+jt8p3hcx,V5E5,32372,0.01,1,5,5,104400,105000,1,25-39,Female,High School,11,43626,novice,novice
+jt8p3hcx,V5E5,8865,0,2,5,5,c,C,3,25-39,Female,High School,11,43626,novice,novice
+jt8p3hcx,V5E5,13024,0,0,5,5,45100,45000,2,25-39,Female,High School,11,43626,novice,novice
+jt8p3hcx,V5E5,27560,0.02,1,5,5,132400,130000,2,25-39,Female,High School,11,43626,novice,novice
+jt8p3hcx,V5E5,15782,0,2,5,5,E,E,3,25-39,Female,High School,11,43626,novice,novice
+jt8p3tua,V10E15,14488,0.05,1,10,15,100000,105000,3,25-39,Female,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8p3tua,V10E15,17952,0,2,10,15,C,C,3,25-39,Female,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8p3tua,V10E15,11960,0.07,0,10,15,48000,45000,2,25-39,Female,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8p3tua,V10E15,18728,0.08,1,10,15,120000,130000,3,25-39,Female,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8p3tua,V10E15,19023,0,2,10,15,E,E,3,25-39,Female,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8p4g1v,V10E20,5912,0.33,1,10,20,140000,105000,4,25-39,Female,High School,21,31-40,novice,novice
+jt8p4g1v,V10E20,2576,0,2,10,20,c,C,4,25-39,Female,High School,21,31-40,novice,novice
+jt8p4g1v,V10E20,3129,0.33,0,10,20,60000,45000,3,25-39,Female,High School,21,31-40,novice,novice
+jt8p4g1v,V10E20,1936,0.54,1,10,20,200000,130000,3,25-39,Female,High School,21,31-40,novice,novice
+jt8p4g1v,V10E20,2800,0,2,10,20,e,E,4,25-39,Female,High School,21,31-40,novice,novice
+jt8p4y1o,V10E5,6911,0.01,1,10,5,104000,105000,4,25-39,Male,Bachelors,23 or larger,31-40,expert,high-intermediate
+jt8p4y1o,V10E5,5327,0,2,10,5,C,C,4,25-39,Male,Bachelors,23 or larger,31-40,expert,high-intermediate
+jt8p4y1o,V10E5,4968,0.02,0,10,5,44000,45000,4,25-39,Male,Bachelors,23 or larger,31-40,expert,high-intermediate
+jt8p4y1o,V10E5,8537,0.15,1,10,5,110000,130000,3,25-39,Male,Bachelors,23 or larger,31-40,expert,high-intermediate
+jt8p4y1o,V10E5,2040,0,2,10,5,E,E,4,25-39,Male,Bachelors,23 or larger,31-40,expert,high-intermediate
+jt8p5pxw,V5E20,34851,0.06,1,5,20,111000,105000,1,25-39,Female,High School,13,43789,novice,novice
+jt8p5pxw,V5E20,9373,0,2,5,20,c,C,2,25-39,Female,High School,13,43789,novice,novice
+jt8p5pxw,V5E20,14943,0.02,0,5,20,45800,45000,1,25-39,Female,High School,13,43789,novice,novice
+jt8p5pxw,V5E20,25149,0.08,1,5,20,120000,130000,1,25-39,Female,High School,13,43789,novice,novice
+jt8p5pxw,V5E20,23448,0,2,5,20,e,E,3,25-39,Female,High School,13,43789,novice,novice
+jt8p771q,V20E5,2383,0.09,1,20,5,96000,105000,2,25-39,Male,Masters,15,31-40,intermediate,intermediate
+jt8p771q,V20E5,3569,0,2,20,5,C,C,3,25-39,Male,Masters,15,31-40,intermediate,intermediate
+jt8p771q,V20E5,2610,0.05,0,20,5,42700,45000,3,25-39,Male,Masters,15,31-40,intermediate,intermediate
+jt8p771q,V20E5,2404,0.04,1,20,5,124800,130000,4,25-39,Male,Masters,15,31-40,intermediate,intermediate
+jt8p771q,V20E5,3087,0,2,20,5,E,E,3,25-39,Male,Masters,15,31-40,intermediate,intermediate
+jt8p77cs,V10E20,12644,0.43,1,10,20,150000,105000,3,25-39,Male,Masters,13,51-60,high-intermediate,intermediate
+jt8p77cs,V10E20,10048,0,2,10,20,C,C,4,25-39,Male,Masters,13,51-60,high-intermediate,intermediate
+jt8p77cs,V10E20,11029,0.33,0,10,20,60000,45000,4,25-39,Male,Masters,13,51-60,high-intermediate,intermediate
+jt8p77cs,V10E20,7213,0.85,1,10,20,20000,130000,3,25-39,Male,Masters,13,51-60,high-intermediate,intermediate
+jt8p77cs,V10E20,6759,0,2,10,20,E,E,4,25-39,Male,Masters,13,51-60,high-intermediate,intermediate
+jt8p8o60,V10E20,3072,0.24,1,10,20,80000,105000,3,25-39,Female,High School,15,41-50,intermediate,low-intermediate
+jt8p8o60,V10E20,5813,0,2,10,20,c,C,3,25-39,Female,High School,15,41-50,intermediate,low-intermediate
+jt8p8o60,V10E20,6134,0.56,0,10,20,70000,45000,2,25-39,Female,High School,15,41-50,intermediate,low-intermediate
+jt8p8o60,V10E20,4636,0.62,1,10,20,210000,130000,3,25-39,Female,High School,15,41-50,intermediate,low-intermediate
+jt8p8o60,V10E20,5752,0,2,10,20,e,E,3,25-39,Female,High School,15,41-50,intermediate,low-intermediate
+jt8p9a78,V5E15,14567,0.05,1,5,15,100000,105000,3,40-49,Female,High School,13,21-30,novice,novice
+jt8p9a78,V5E15,18760,0,2,5,15,c,C,3,40-49,Female,High School,13,21-30,novice,novice
+jt8p9a78,V5E15,4983,0.33,0,5,15,60000,45000,3,40-49,Female,High School,13,21-30,novice,novice
+jt8p9a78,V5E15,5072,0.38,1,5,15,180000,130000,3,40-49,Female,High School,13,21-30,novice,novice
+jt8p9a78,V5E15,6863,0,2,5,15,e,E,3,40-49,Female,High School,13,21-30,novice,novice
+jt8p9v7j,V10E15,23767,0.1,1,10,15,95000,105000,3,25-39,Male,High School,15,21-30,novice,novice
+jt8p9v7j,V10E15,19736,0,2,10,15,C,C,3,25-39,Male,High School,15,21-30,novice,novice
+jt8p9v7j,V10E15,27472,0.04,0,10,15,43000,45000,3,25-39,Male,High School,15,21-30,novice,novice
+jt8p9v7j,V10E15,24721,0.04,1,10,15,125000,130000,3,25-39,Male,High School,15,21-30,novice,novice
+jt8p9v7j,V10E15,16168,0,2,10,15,E,E,4,25-39,Male,High School,15,21-30,novice,novice
+jt8pa2lw,V10E20,12448,0.33,1,10,20,140000,105000,1,25-39,Female,Bachelors,15,21-30,low-intermediate,novice
+jt8pa2lw,V10E20,11759,0,2,10,20,c,C,3,25-39,Female,Bachelors,15,21-30,low-intermediate,novice
+jt8pa2lw,V10E20,12744,0.33,0,10,20,60000,45000,4,25-39,Female,Bachelors,15,21-30,low-intermediate,novice
+jt8pa2lw,V10E20,13992,0.85,1,10,20,20000,130000,4,25-39,Female,Bachelors,15,21-30,low-intermediate,novice
+jt8pa2lw,V10E20,5667,0,2,10,20,E,E,4,25-39,Female,Bachelors,15,21-30,low-intermediate,novice
+jt8pa4u7,V10E20,15497,0.05,1,10,20,110000,105000,3,50-59,Female,Masters,19,51-60,intermediate,low-intermediate
+jt8pa4u7,V10E20,20046,1,2,10,20,A,C,4,50-59,Female,Masters,19,51-60,intermediate,low-intermediate
+jt8pa4u7,V10E20,30657,0.04,0,10,20,47000,45000,3,50-59,Female,Masters,19,51-60,intermediate,low-intermediate
+jt8pa4u7,V10E20,33063,0.08,1,10,20,140000,130000,2,50-59,Female,Masters,19,51-60,intermediate,low-intermediate
+jt8pa4u7,V10E20,21238,0,2,10,20,E,E,4,50-59,Female,Masters,19,51-60,intermediate,low-intermediate
+jt8pacx8,V5E10,1725,0.33,1,5,10,140000,105000,4,25-39,Female,Bachelors,17,41-50,high-intermediate,high-intermediate
+jt8pacx8,V5E10,1078,0,2,5,10,c,C,4,25-39,Female,Bachelors,17,41-50,high-intermediate,high-intermediate
+jt8pacx8,V5E10,8640,0.33,0,5,10,60000,45000,4,25-39,Female,Bachelors,17,41-50,high-intermediate,high-intermediate
+jt8pacx8,V5E10,11574,0.37,1,5,10,178000,130000,2,25-39,Female,Bachelors,17,41-50,high-intermediate,high-intermediate
+jt8pacx8,V5E10,1098,1,2,5,10,58K,E,4,25-39,Female,Bachelors,17,41-50,high-intermediate,high-intermediate
+jt8pagbx,V5E20,9813,0.24,1,5,20,130000,105000,2,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate
+jt8pagbx,V5E20,4640,0,2,5,20,C,C,3,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate
+jt8pagbx,V5E20,7836,0.29,0,5,20,58000,45000,3,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate
+jt8pagbx,V5E20,7970,0.31,1,5,20,170000,130000,3,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate
+jt8pagbx,V5E20,5691,0,2,5,20,E,E,4,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate
+jt8pbq66,V15E10,6985,0.33,1,15,10,140000,105000,3,25-39,Male,High School,21,gt60,low-intermediate,low-intermediate
+jt8pbq66,V15E10,4524,0,2,15,10,c,C,3,25-39,Male,High School,21,gt60,low-intermediate,low-intermediate
+jt8pbq66,V15E10,2799,0.33,0,15,10,60000,45000,3,25-39,Male,High School,21,gt60,low-intermediate,low-intermediate
+jt8pbq66,V15E10,4438,0.54,1,15,10,200000,130000,3,25-39,Male,High School,21,gt60,low-intermediate,low-intermediate
+jt8pbq66,V15E10,4511,1,2,15,10,d,E,4,25-39,Male,High School,21,gt60,low-intermediate,low-intermediate
+jt8pbrgq,V20E15,13320,0.14,1,20,15,90000,105000,4,25-39,Male,High School,23 or larger,43789,novice,novice
+jt8pbrgq,V20E15,12481,0,2,20,15,C,C,4,25-39,Male,High School,23 or larger,43789,novice,novice
+jt8pbrgq,V20E15,11692,0.11,0,20,15,50000,45000,4,25-39,Male,High School,23 or larger,43789,novice,novice
+jt8pbrgq,V20E15,13850,0,1,20,15,130000,130000,4,25-39,Male,High School,23 or larger,43789,novice,novice
+jt8pbrgq,V20E15,8193,0,2,20,15,E,E,4,25-39,Male,High School,23 or larger,43789,novice,novice
+jt8pciz7,V10E5,14099,0.05,1,10,5,110000,105000,2,25-39,Female,Bachelors,17,21-30,low-intermediate,novice
+jt8pciz7,V10E5,6344,0,2,10,5,C,C,3,25-39,Female,Bachelors,17,21-30,low-intermediate,novice
+jt8pciz7,V10E5,13366,0,0,10,5,45000,45000,2,25-39,Female,Bachelors,17,21-30,low-intermediate,novice
+jt8pciz7,V10E5,14911,0.04,1,10,5,135000,130000,2,25-39,Female,Bachelors,17,21-30,low-intermediate,novice
+jt8pciz7,V10E5,5944,0,2,10,5,E,E,3,25-39,Female,Bachelors,17,21-30,low-intermediate,novice
+jt8pcngo,V20E5,23098,0.52,1,20,5,50000,105000,4,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8pcngo,V20E5,10281,0,2,20,5,C,C,4,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8pcngo,V20E5,25742,0.42,0,20,5,64000,45000,3,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8pcngo,V20E5,11968,0.46,1,20,5,70000,130000,3,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8pcngo,V20E5,7028,0,2,20,5,E,E,4,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8pcuv8,V5E5,1297,0.14,1,5,5,90000,105000,2,25-39,Male,Bachelors,19,51-60,high-intermediate,intermediate
+jt8pcuv8,V5E5,1080,1,2,5,5,90,C,3,25-39,Male,Bachelors,19,51-60,high-intermediate,intermediate
+jt8pcuv8,V5E5,872,0.78,0,5,5,10000,45000,2,25-39,Male,Bachelors,19,51-60,high-intermediate,intermediate
+jt8pcuv8,V5E5,2728,0.23,1,5,5,100000,130000,3,25-39,Male,Bachelors,19,51-60,high-intermediate,intermediate
+jt8pcuv8,V5E5,2058,1,2,5,5,90,E,3,25-39,Male,Bachelors,19,51-60,high-intermediate,intermediate
+jt8pdc7e,V10E10,847,0.43,1,10,10,60000,105000,3,25-39,Male,Bachelors,15,43789,low-intermediate,low-intermediate
+jt8pdc7e,V10E10,2237,1,2,10,10,A,C,2,25-39,Male,Bachelors,15,43789,low-intermediate,low-intermediate
+jt8pdc7e,V10E10,689,0.78,0,10,10,80000,45000,3,25-39,Male,Bachelors,15,43789,low-intermediate,low-intermediate
+jt8pdc7e,V10E10,811,0.31,1,10,10,90000,130000,3,25-39,Male,Bachelors,15,43789,low-intermediate,low-intermediate
+jt8pdc7e,V10E10,5544,0,2,10,10,E,E,2,25-39,Male,Bachelors,15,43789,low-intermediate,low-intermediate
+jt8pdfkd,V15E15,16831,0.05,1,15,15,110000,105000,2,40-49,Male,Bachelors,23 or larger,gt60,low-intermediate,low-intermediate
+jt8pdfkd,V15E15,16029,0,2,15,15,C,C,3,40-49,Male,Bachelors,23 or larger,gt60,low-intermediate,low-intermediate
+jt8pdfkd,V15E15,13487,0.11,0,15,15,50000,45000,3,40-49,Male,Bachelors,23 or larger,gt60,low-intermediate,low-intermediate
+jt8pdfkd,V15E15,19270,0,1,15,15,130000,130000,3,40-49,Male,Bachelors,23 or larger,gt60,low-intermediate,low-intermediate
+jt8pdfkd,V15E15,13742,0,2,15,15,E,E,3,40-49,Male,Bachelors,23 or larger,gt60,low-intermediate,low-intermediate
+jt8pe0yr,V20E15,7658,0.05,1,20,15,110000,105000,2,40-49,Male,High School,19,gt60,intermediate,novice
+jt8pe0yr,V20E15,7559,0,2,20,15,c,C,3,40-49,Male,High School,19,gt60,intermediate,novice
+jt8pe0yr,V20E15,10664,0.11,0,20,15,50000,45000,2,40-49,Male,High School,19,gt60,intermediate,novice
+jt8pe0yr,V20E15,16024,0,1,20,15,130000,130000,3,40-49,Male,High School,19,gt60,intermediate,novice
+jt8pe0yr,V20E15,6376,0,2,20,15,e,E,3,40-49,Male,High School,19,gt60,intermediate,novice
+jt8ped3m,V10E5,8744,0.05,1,10,5,100000,105000,1,18-24,Female,High School,13,41-50,low-intermediate,novice
+jt8ped3m,V10E5,6560,0,2,10,5,C,C,2,18-24,Female,High School,13,41-50,low-intermediate,novice
+jt8ped3m,V10E5,6140,0.33,0,10,5,60000,45000,2,18-24,Female,High School,13,41-50,low-intermediate,novice
+jt8ped3m,V10E5,10790,0.31,1,10,5,90000,130000,1,18-24,Female,High School,13,41-50,low-intermediate,novice
+jt8ped3m,V10E5,9206,0,2,10,5,E,E,3,18-24,Female,High School,13,41-50,low-intermediate,novice
+jt8pes03,V5E15,24304,0,1,5,15,105000,105000,2,25-39,Male,Bachelors,23 or larger,gt60,expert,high-intermediate
+jt8pes03,V5E15,6336,0,2,5,15,C,C,3,25-39,Male,Bachelors,23 or larger,gt60,expert,high-intermediate
+jt8pes03,V5E15,10601,0,0,5,15,45000,45000,2,25-39,Male,Bachelors,23 or larger,gt60,expert,high-intermediate
+jt8pes03,V5E15,12624,0,1,5,15,130000,130000,2,25-39,Male,Bachelors,23 or larger,gt60,expert,high-intermediate
+jt8pes03,V5E15,7430,0,2,5,15,E,E,3,25-39,Male,Bachelors,23 or larger,gt60,expert,high-intermediate
+jt8pes8b,V10E15,1269,0.33,1,10,15,140000,105000,2,50-59,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8pes8b,V10E15,1776,1,2,10,15,40K,C,3,50-59,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8pes8b,V10E15,1851,0.33,0,10,15,60000,45000,2,50-59,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8pes8b,V10E15,1013,0.38,1,10,15,180000,130000,2,50-59,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8pes8b,V10E15,1012,0,2,10,15,E,E,2,50-59,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8peuea,V15E15,11984,0.05,1,15,15,100000,105000,3,40-49,Female,High School,15,31-40,intermediate,intermediate
+jt8peuea,V15E15,7917,0,2,15,15,C,C,3,40-49,Female,High School,15,31-40,intermediate,intermediate
+jt8peuea,V15E15,9577,0,0,15,15,45000,45000,3,40-49,Female,High School,15,31-40,intermediate,intermediate
+jt8peuea,V15E15,8266,0.08,1,15,15,140000,130000,3,40-49,Female,High School,15,31-40,intermediate,intermediate
+jt8peuea,V15E15,7651,0,2,15,15,E,E,3,40-49,Female,High School,15,31-40,intermediate,intermediate
+jt8pf5eb,V10E5,1826,0.05,1,10,5,110300,105000,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8pf5eb,V10E5,1760,0,2,10,5,C,C,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8pf5eb,V10E5,3984,0.03,0,10,5,46200,45000,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8pf5eb,V10E5,2568,0.04,1,10,5,125000,130000,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8pf5eb,V10E5,4710,0,2,10,5,E,E,3,18-24,Female,Bachelors,17,31-40,low-intermediate,novice
+jt8pgkb2,V5E10,9490,0.14,1,5,10,90000,105000,3,25-39,Male,High School,23 or larger,gt60,high-intermediate,intermediate
+jt8pgkb2,V5E10,6232,0,2,5,10,C,C,4,25-39,Male,High School,23 or larger,gt60,high-intermediate,intermediate
+jt8pgkb2,V5E10,8410,0.11,0,5,10,40000,45000,3,25-39,Male,High School,23 or larger,gt60,high-intermediate,intermediate
+jt8pgkb2,V5E10,5144,0,1,5,10,130000,130000,3,25-39,Male,High School,23 or larger,gt60,high-intermediate,intermediate
+jt8pgkb2,V5E10,4754,0,2,5,10,E,E,4,25-39,Male,High School,23 or larger,gt60,high-intermediate,intermediate
+jt8php7s,V5E20,12138,0,1,5,20,105000,105000,2,25-39,Male,High School,15,43789,novice,novice
+jt8php7s,V5E20,13179,0,2,5,20,C,C,4,25-39,Male,High School,15,43789,novice,novice
+jt8php7s,V5E20,13594,0.02,0,5,20,45800,45000,3,25-39,Male,High School,15,43789,novice,novice
+jt8php7s,V5E20,11693,0,1,5,20,129700,130000,3,25-39,Male,High School,15,43789,novice,novice
+jt8php7s,V5E20,13337,0,2,5,20,e,E,4,25-39,Male,High School,15,43789,novice,novice
+jt8pji59,V20E10,36919,0.43,1,20,10,60000,105000,1,60,Female,Bachelors,15,31-40,low-intermediate,low-intermediate
+jt8pji59,V20E10,17139,1,2,20,10,A,C,1,60,Female,Bachelors,15,31-40,low-intermediate,low-intermediate
+jt8pji59,V20E10,22984,0.11,0,20,10,40000,45000,1,60,Female,Bachelors,15,31-40,low-intermediate,low-intermediate
+jt8pji59,V20E10,9776,0.42,1,20,10,75000,130000,1,60,Female,Bachelors,15,31-40,low-intermediate,low-intermediate
+jt8pji59,V20E10,12400,0,2,20,10,E,E,2,60,Female,Bachelors,15,31-40,low-intermediate,low-intermediate
+jt8pjlr6,V5E10,30462,0.05,1,5,10,100000,105000,2,25-39,Male,High School,23 or larger,51-60,low-intermediate,low-intermediate
+jt8pjlr6,V5E10,17719,0,2,5,10,C,C,4,25-39,Male,High School,23 or larger,51-60,low-intermediate,low-intermediate
+jt8pjlr6,V5E10,25386,0.02,0,5,10,46000,45000,3,25-39,Male,High School,23 or larger,51-60,low-intermediate,low-intermediate
+jt8pjlr6,V5E10,36180,0,1,5,10,130000,130000,3,25-39,Male,High School,23 or larger,51-60,low-intermediate,low-intermediate
+jt8pjlr6,V5E10,13610,0,2,5,10,E,E,3,25-39,Male,High School,23 or larger,51-60,low-intermediate,low-intermediate
+jt8pkhut,V5E10,2256,0.24,1,5,10,80000,105000,2,40-49,Male,Masters,15,43789,high-intermediate,high-intermediate
+jt8pkhut,V5E10,648,1,2,5,10,A,C,2,40-49,Male,Masters,15,43789,high-intermediate,high-intermediate
+jt8pkhut,V5E10,887,0.33,0,5,10,60000,45000,2,40-49,Male,Masters,15,43789,high-intermediate,high-intermediate
+jt8pkhut,V5E10,648,0.69,1,5,10,40000,130000,2,40-49,Male,Masters,15,43789,high-intermediate,high-intermediate
+jt8pkhut,V5E10,638,0,2,5,10,E,E,2,40-49,Male,Masters,15,43789,high-intermediate,high-intermediate
+jt8pkmvc,V15E15,7535,0.43,1,15,15,150000,105000,4,25-39,Male,Masters,13,41-50,intermediate,intermediate
+jt8pkmvc,V15E15,4871,0,2,15,15,C,C,4,25-39,Male,Masters,13,41-50,intermediate,intermediate
+jt8pkmvc,V15E15,9231,0.33,0,15,15,60000,45000,3,25-39,Male,Masters,13,41-50,intermediate,intermediate
+jt8pkmvc,V15E15,8551,0.85,1,15,15,20000,130000,3,25-39,Male,Masters,13,41-50,intermediate,intermediate
+jt8pkmvc,V15E15,9511,0,2,15,15,E,E,4,25-39,Male,Masters,13,41-50,intermediate,intermediate
+jt8pkpqg,V15E15,12887,0.33,1,15,15,70000,105000,2,40-49,Female,Bachelors,15,lt5,high-intermediate,intermediate
+jt8pkpqg,V15E15,783,1,2,15,15,E,C,2,40-49,Female,Bachelors,15,lt5,high-intermediate,intermediate
+jt8pkpqg,V15E15,13071,0.33,0,15,15,60000,45000,4,40-49,Female,Bachelors,15,lt5,high-intermediate,intermediate
+jt8pkpqg,V15E15,26591,0.31,1,15,15,90000,130000,2,40-49,Female,Bachelors,15,lt5,high-intermediate,intermediate
+jt8pkpqg,V15E15,7839,0,2,15,15,E,E,4,40-49,Female,Bachelors,15,lt5,high-intermediate,intermediate
+jt8pkskp,V20E15,14028,0.12,1,20,15,92500,105000,2,25-39,Female,High School,17,51-60,novice,novice
+jt8pkskp,V20E15,7203,0,2,20,15,c,C,3,25-39,Female,High School,17,51-60,novice,novice
+jt8pkskp,V20E15,9484,0.07,0,20,15,42000,45000,2,25-39,Female,High School,17,51-60,novice,novice
+jt8pkskp,V20E15,17107,0.24,1,20,15,98450,130000,2,25-39,Female,High School,17,51-60,novice,novice
+jt8pkskp,V20E15,7158,0,2,20,15,e,E,3,25-39,Female,High School,17,51-60,novice,novice
+jt8plz6z,V5E5,16196,0.13,1,5,5,91000,105000,2,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate
+jt8plz6z,V5E5,10222,0,2,5,5,C,C,4,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate
+jt8plz6z,V5E5,15557,0.07,0,5,5,42000,45000,3,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate
+jt8plz6z,V5E5,24081,0.08,1,5,5,120000,130000,2,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate
+jt8plz6z,V5E5,7036,0,2,5,5,E,E,4,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate
+jt8pm2g0,V10E15,7689,0.02,1,10,15,103000,105000,3,25-39,Female,Masters,19,31-40,high-intermediate,intermediate
+jt8pm2g0,V10E15,2447,0,2,10,15,C,C,3,25-39,Female,Masters,19,31-40,high-intermediate,intermediate
+jt8pm2g0,V10E15,1904,0.44,0,10,15,65000,45000,3,25-39,Female,Masters,19,31-40,high-intermediate,intermediate
+jt8pm2g0,V10E15,1948,0.35,1,10,15,85000,130000,4,25-39,Female,Masters,19,31-40,high-intermediate,intermediate
+jt8pm2g0,V10E15,1232,0,2,10,15,E,E,3,25-39,Female,Masters,19,31-40,high-intermediate,intermediate
+jt8pm4sa,V15E15,7729,0,1,15,15,105200,105000,3,25-39,Female,Bachelors,21,31-40,high-intermediate,low-intermediate
+jt8pm4sa,V15E15,24975,0,2,15,15,C,C,3,25-39,Female,Bachelors,21,31-40,high-intermediate,low-intermediate
+jt8pm4sa,V15E15,15751,0.06,0,15,15,47900,45000,2,25-39,Female,Bachelors,21,31-40,high-intermediate,low-intermediate
+jt8pm4sa,V15E15,15717,0.07,1,15,15,120300,130000,3,25-39,Female,Bachelors,21,31-40,high-intermediate,low-intermediate
+jt8pm4sa,V15E15,13083,0,2,15,15,E,E,4,25-39,Female,Bachelors,21,31-40,high-intermediate,low-intermediate
+jt8pm5ci,V10E10,7728,0.33,1,10,10,140000,105000,4,25-39,Male,High School,23 or larger,51-60,novice,novice
+jt8pm5ci,V10E10,3072,0,2,10,10,C,C,4,25-39,Male,High School,23 or larger,51-60,novice,novice
+jt8pm5ci,V10E10,4160,0.33,0,10,10,60000,45000,4,25-39,Male,High School,23 or larger,51-60,novice,novice
+jt8pm5ci,V10E10,5648,0.38,1,10,10,180000,130000,4,25-39,Male,High School,23 or larger,51-60,novice,novice
+jt8pm5ci,V10E10,3544,0,2,10,10,E,E,4,25-39,Male,High School,23 or larger,51-60,novice,novice
+jt8po33s,V20E10,10575,0,1,20,10,105000,105000,3,25-39,Male,Other,13,31-40,intermediate,novice
+jt8po33s,V20E10,6466,0,2,20,10,C,C,4,25-39,Male,Other,13,31-40,intermediate,novice
+jt8po33s,V20E10,9540,0.07,0,20,10,48000,45000,3,25-39,Male,Other,13,31-40,intermediate,novice
+jt8po33s,V20E10,12030,0,1,20,10,130000,130000,2,25-39,Male,Other,13,31-40,intermediate,novice
+jt8po33s,V20E10,7239,0,2,20,10,E,E,3,25-39,Male,Other,13,31-40,intermediate,novice
+jt8po4cx,V10E5,10152,0.05,1,10,5,110000,105000,4,40-49,Female,Bachelors,17,43789,intermediate,novice
+jt8po4cx,V10E5,9367,0,2,10,5,c,C,4,40-49,Female,Bachelors,17,43789,intermediate,novice
+jt8po4cx,V10E5,13167,0,0,10,5,45000,45000,4,40-49,Female,Bachelors,17,43789,intermediate,novice
+jt8po4cx,V10E5,11904,0.04,1,10,5,125000,130000,4,40-49,Female,Bachelors,17,43789,intermediate,novice
+jt8po4cx,V10E5,6880,0,2,10,5,e,E,4,40-49,Female,Bachelors,17,43789,intermediate,novice
+jt8porbs,V5E5,18654,0.01,1,5,5,106000,105000,3,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,low-intermediate
+jt8porbs,V5E5,23726,0,2,5,5,C,C,3,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,low-intermediate
+jt8porbs,V5E5,18355,0.02,0,5,5,46000,45000,3,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,low-intermediate
+jt8porbs,V5E5,26767,0.02,1,5,5,128000,130000,3,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,low-intermediate
+jt8porbs,V5E5,28734,0,2,5,5,E,E,3,25-39,Male,Bachelors,23 or larger,gt60,high-intermediate,low-intermediate
+jt8pp02v,V20E10,11274,0.05,1,20,10,100000,105000,2,50-59,Female,High School,23 or larger,43626,low-intermediate,low-intermediate
+jt8pp02v,V20E10,5583,0,2,20,10,C,C,3,50-59,Female,High School,23 or larger,43626,low-intermediate,low-intermediate
+jt8pp02v,V20E10,11903,0.11,0,20,10,50000,45000,2,50-59,Female,High School,23 or larger,43626,low-intermediate,low-intermediate
+jt8pp02v,V20E10,1265,0.08,1,20,10,140000,130000,2,50-59,Female,High School,23 or larger,43626,low-intermediate,low-intermediate
+jt8pp02v,V20E10,7834,0,2,20,10,E,E,3,50-59,Female,High School,23 or larger,43626,low-intermediate,low-intermediate
+jt8ppg0d,V15E10,1537,0.14,1,15,10,120000,105000,3,25-39,Male,Bachelors,15,51-60,low-intermediate,intermediate
+jt8ppg0d,V15E10,5343,0,2,15,10,C,C,3,25-39,Male,Bachelors,15,51-60,low-intermediate,intermediate
+jt8ppg0d,V15E10,19017,1.22,0,15,10,100000,45000,4,25-39,Male,Bachelors,15,51-60,low-intermediate,intermediate
+jt8ppg0d,V15E10,30432,0.12,1,15,10,145000,130000,3,25-39,Male,Bachelors,15,51-60,low-intermediate,intermediate
+jt8ppg0d,V15E10,12132,0,2,15,10,E,E,4,25-39,Male,Bachelors,15,51-60,low-intermediate,intermediate
+jt8pq0mo,V5E15,4544,0.05,1,5,15,100000,105000,3,25-39,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8pq0mo,V5E15,3039,0,2,5,15,C,C,4,25-39,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8pq0mo,V5E15,4071,0.07,0,5,15,42000,45000,2,25-39,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8pq0mo,V5E15,5320,0,1,5,15,130000,130000,3,25-39,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8pq0mo,V5E15,3369,0,2,5,15,E,E,4,25-39,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8pqniu,V20E20,6912,0.05,1,20,20,100000,105000,3,25-39,Female,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pqniu,V20E20,6472,0,2,20,20,c,C,4,25-39,Female,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pqniu,V20E20,3216,0.11,0,20,20,40000,45000,4,25-39,Female,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pqniu,V20E20,7671,0.08,1,20,20,120000,130000,3,25-39,Female,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pqniu,V20E20,5724,0,2,20,20,e,E,4,25-39,Female,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pqyzm,V10E15,16880,0.05,1,10,15,100000,105000,2,25-39,Male,Bachelors,13,43789,novice,novice
+jt8pqyzm,V10E15,13092,0,2,10,15,C,C,3,25-39,Male,Bachelors,13,43789,novice,novice
+jt8pqyzm,V10E15,16929,0.02,0,10,15,44000,45000,3,25-39,Male,Bachelors,13,43789,novice,novice
+jt8pqyzm,V10E15,14497,0.04,1,10,15,125000,130000,2,25-39,Male,Bachelors,13,43789,novice,novice
+jt8pqyzm,V10E15,4667,0,2,10,15,E,E,4,25-39,Male,Bachelors,13,43789,novice,novice
+jt8pr3do,V20E15,26390,0.07,1,20,15,112000,105000,1,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pr3do,V20E15,11077,0,2,20,15,C,C,4,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pr3do,V20E15,22508,0,0,20,15,45000,45000,2,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pr3do,V20E15,35256,0.05,1,20,15,136000,130000,1,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pr3do,V20E15,11715,0,2,20,15,E,E,4,25-39,Male,Bachelors,15,51-60,low-intermediate,low-intermediate
+jt8pr525,V5E20,4975,0.33,1,5,20,140000,105000,4,40-49,Male,Masters,21,43626,high-intermediate,high-intermediate
+jt8pr525,V5E20,1375,1,2,5,20,60K,C,3,40-49,Male,Masters,21,43626,high-intermediate,high-intermediate
+jt8pr525,V5E20,1304,0.33,0,5,20,60000,45000,3,40-49,Male,Masters,21,43626,high-intermediate,high-intermediate
+jt8pr525,V5E20,1151,0.38,1,5,20,180000,130000,2,40-49,Male,Masters,21,43626,high-intermediate,high-intermediate
+jt8pr525,V5E20,984,0,2,5,20,e,E,1,40-49,Male,Masters,21,43626,high-intermediate,high-intermediate
+jt8prqi2,V20E15,15368,0.02,1,20,15,107000,105000,2,25-39,Female,Bachelors,21,43789,low-intermediate,low-intermediate
+jt8prqi2,V20E15,5496,0,2,20,15,C,C,4,25-39,Female,Bachelors,21,43789,low-intermediate,low-intermediate
+jt8prqi2,V20E15,13303,0.08,0,20,15,48500,45000,3,25-39,Female,Bachelors,21,43789,low-intermediate,low-intermediate
+jt8prqi2,V20E15,22367,0,1,20,15,130000,130000,2,25-39,Female,Bachelors,21,43789,low-intermediate,low-intermediate
+jt8prqi2,V20E15,9976,0,2,20,15,E,E,3,25-39,Female,Bachelors,21,43789,low-intermediate,low-intermediate
+jt8psann,V10E15,7256,0.14,1,10,15,120000,105000,3,40-49,Male,Masters,17,41-50,high-intermediate,intermediate
+jt8psann,V10E15,4800,0,2,10,15,C,C,4,40-49,Male,Masters,17,41-50,high-intermediate,intermediate
+jt8psann,V10E15,3336,0.11,0,10,15,50000,45000,3,40-49,Male,Masters,17,41-50,high-intermediate,intermediate
+jt8psann,V10E15,3231,0,1,10,15,130000,130000,4,40-49,Male,Masters,17,41-50,high-intermediate,intermediate
+jt8psann,V10E15,8126,0,2,10,15,e,E,4,40-49,Male,Masters,17,41-50,high-intermediate,intermediate
+jt8pt0pe,V15E10,32568,0.1,1,15,10,95000,105000,2,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8pt0pe,V15E10,10298,0,2,15,10,C,C,3,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8pt0pe,V15E10,20907,0.11,0,15,10,40000,45000,2,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8pt0pe,V15E10,30650,0.15,1,15,10,110000,130000,2,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8pt0pe,V15E10,19183,0,2,15,10,E,E,2,25-39,Male,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8ptn48,V10E5,18969,0.05,1,10,5,110000,105000,2,25-39,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8ptn48,V10E5,11761,0,2,10,5,C,C,3,25-39,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8ptn48,V10E5,26877,0,0,10,5,45000,45000,2,25-39,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8ptn48,V10E5,29256,0.04,1,10,5,135000,130000,2,25-39,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8ptn48,V10E5,17617,0,2,10,5,E,E,3,25-39,Female,Bachelors,13,41-50,low-intermediate,novice
+jt8pub9c,V15E20,21564,0.14,1,15,20,90000,105000,2,25-39,Male,High School,13,43789,novice,novice
+jt8pub9c,V15E20,10735,0,2,15,20,c,C,3,25-39,Male,High School,13,43789,novice,novice
+jt8pub9c,V15E20,15859,0.07,0,15,20,48000,45000,2,25-39,Male,High School,13,43789,novice,novice
+jt8pub9c,V15E20,35840,0.12,1,15,20,115000,130000,2,25-39,Male,High School,13,43789,novice,novice
+jt8pub9c,V15E20,10845,0,2,15,20,e,E,2,25-39,Male,High School,13,43789,novice,novice
+jt8pw46p,V5E10,9604,0.05,1,5,10,100000,105000,2,25-39,Female,Bachelors,13,51-60,low-intermediate,novice
+jt8pw46p,V5E10,5918,0,2,5,10,c,C,4,25-39,Female,Bachelors,13,51-60,low-intermediate,novice
+jt8pw46p,V5E10,6182,0,0,5,10,45000,45000,2,25-39,Female,Bachelors,13,51-60,low-intermediate,novice
+jt8pw46p,V5E10,7574,0.01,1,5,10,131200,130000,2,25-39,Female,Bachelors,13,51-60,low-intermediate,novice
+jt8pw46p,V5E10,2826,0,2,5,10,e,E,3,25-39,Female,Bachelors,13,51-60,low-intermediate,novice
+jt8pw6l6,V5E15,7604,0.01,1,5,15,103600,105000,2,25-39,Male,Masters,15,gt60,low-intermediate,high-intermediate
+jt8pw6l6,V5E15,12380,0,2,5,15,C,C,4,25-39,Male,Masters,15,gt60,low-intermediate,high-intermediate
+jt8pw6l6,V5E15,10728,0.05,0,5,15,42900,45000,2,25-39,Male,Masters,15,gt60,low-intermediate,high-intermediate
+jt8pw6l6,V5E15,30812,0.02,1,5,15,132900,130000,4,25-39,Male,Masters,15,gt60,low-intermediate,high-intermediate
+jt8pw6l6,V5E15,2768,0,2,5,15,E,E,4,25-39,Male,Masters,15,gt60,low-intermediate,high-intermediate
+jt8pwfiu,V5E10,6712,0.05,1,5,10,100000,105000,4,40-49,Female,Bachelors,23 or larger,21-30,high-intermediate,novice
+jt8pwfiu,V5E10,4912,0,2,5,10,C,C,4,40-49,Female,Bachelors,23 or larger,21-30,high-intermediate,novice
+jt8pwfiu,V5E10,4224,0.11,0,5,10,50000,45000,4,40-49,Female,Bachelors,23 or larger,21-30,high-intermediate,novice
+jt8pwfiu,V5E10,959,0.23,1,5,10,100000,130000,1,40-49,Female,Bachelors,23 or larger,21-30,high-intermediate,novice
+jt8pwfiu,V5E10,4072,0,2,5,10,E,E,4,40-49,Female,Bachelors,23 or larger,21-30,high-intermediate,novice
+jt8pwow8,V10E15,9480,0.05,1,10,15,110000,105000,3,25-39,Male,Bachelors,23 or larger,41-50,high-intermediate,low-intermediate
+jt8pwow8,V10E15,5393,0,2,10,15,c,C,4,25-39,Male,Bachelors,23 or larger,41-50,high-intermediate,low-intermediate
+jt8pwow8,V10E15,11183,0,0,10,15,45000,45000,3,25-39,Male,Bachelors,23 or larger,41-50,high-intermediate,low-intermediate
+jt8pwow8,V10E15,10520,0,1,10,15,130000,130000,3,25-39,Male,Bachelors,23 or larger,41-50,high-intermediate,low-intermediate
+jt8pwow8,V10E15,5280,0,2,10,15,e,E,3,25-39,Male,Bachelors,23 or larger,41-50,high-intermediate,low-intermediate
+jt8pyki9,V15E10,4327,0.62,1,15,10,40000,105000,1,50-59,Female,High School,23 or larger,31-40,low-intermediate,low-intermediate
+jt8pyki9,V15E10,10077,0,2,15,10,C,C,3,50-59,Female,High School,23 or larger,31-40,low-intermediate,low-intermediate
+jt8pyki9,V15E10,15036,0.22,0,15,10,55000,45000,2,50-59,Female,High School,23 or larger,31-40,low-intermediate,low-intermediate
+jt8pyki9,V15E10,9216,0.38,1,15,10,180000,130000,2,50-59,Female,High School,23 or larger,31-40,low-intermediate,low-intermediate
+jt8pyki9,V15E10,10638,0,2,15,10,E,E,4,50-59,Female,High School,23 or larger,31-40,low-intermediate,low-intermediate
+jt8pyw73,V10E20,1216,0.71,1,10,20,180000,105000,3,40-49,Male,Bachelors,17,41-50,low-intermediate,intermediate
+jt8pyw73,V10E20,6896,0,2,10,20,C,C,3,40-49,Male,Bachelors,17,41-50,low-intermediate,intermediate
+jt8pyw73,V10E20,1120,1.22,0,10,20,100000,45000,3,40-49,Male,Bachelors,17,41-50,low-intermediate,intermediate
+jt8pyw73,V10E20,11928,0.38,1,10,20,180000,130000,3,40-49,Male,Bachelors,17,41-50,low-intermediate,intermediate
+jt8pyw73,V10E20,4344,0,2,10,20,E,E,4,40-49,Male,Bachelors,17,41-50,low-intermediate,intermediate
+jt8pyydu,V20E15,22875,0.05,1,20,15,100000,105000,4,40-49,Female,Bachelors,21,41-50,intermediate,low-intermediate
+jt8pyydu,V20E15,11713,0,2,20,15,c,C,4,40-49,Female,Bachelors,21,41-50,intermediate,low-intermediate
+jt8pyydu,V20E15,24232,0,0,20,15,45000,45000,3,40-49,Female,Bachelors,21,41-50,intermediate,low-intermediate
+jt8pyydu,V20E15,21033,0.15,1,20,15,110000,130000,4,40-49,Female,Bachelors,21,41-50,intermediate,low-intermediate
+jt8pyydu,V20E15,13688,0,2,20,15,e,E,4,40-49,Female,Bachelors,21,41-50,intermediate,low-intermediate
+jt8q0aw3,V10E20,13111,0.05,1,10,20,100200,105000,4,40-49,Male,Bachelors,23 or larger,21-30,novice,novice
+jt8q0aw3,V10E20,28552,1,2,10,20,a,C,2,40-49,Male,Bachelors,23 or larger,21-30,novice,novice
+jt8q0aw3,V10E20,3832,0.03,0,10,20,46200,45000,3,40-49,Male,Bachelors,23 or larger,21-30,novice,novice
+jt8q0aw3,V10E20,11528,0.04,1,10,20,124900,130000,4,40-49,Male,Bachelors,23 or larger,21-30,novice,novice
+jt8q0aw3,V10E20,12063,0,2,10,20,e,E,3,40-49,Male,Bachelors,23 or larger,21-30,novice,novice
+jt8q3lep,V10E20,4895,0.05,1,10,20,110000,105000,3,50-59,Male,Bachelors,21,43789,low-intermediate,novice
+jt8q3lep,V10E20,1906,0,2,10,20,c,C,4,50-59,Male,Bachelors,21,43789,low-intermediate,novice
+jt8q3lep,V10E20,3654,0.03,0,10,20,46200,45000,3,50-59,Male,Bachelors,21,43789,low-intermediate,novice
+jt8q3lep,V10E20,1873,0.1,1,10,20,143000,130000,3,50-59,Male,Bachelors,21,43789,low-intermediate,novice
+jt8q3lep,V10E20,1768,0,2,10,20,e,E,3,50-59,Male,Bachelors,21,43789,low-intermediate,novice
+jt8q4vfl,V15E15,15161,0.14,1,15,15,90000,105000,3,40-49,Male,High School,15,31-40,low-intermediate,low-intermediate
+jt8q4vfl,V15E15,12403,1,2,15,15,E,C,2,40-49,Male,High School,15,31-40,low-intermediate,low-intermediate
+jt8q4vfl,V15E15,8214,0.07,0,15,15,42000,45000,3,40-49,Male,High School,15,31-40,low-intermediate,low-intermediate
+jt8q4vfl,V15E15,17080,0.08,1,15,15,120000,130000,2,40-49,Male,High School,15,31-40,low-intermediate,low-intermediate
+jt8q4vfl,V15E15,16162,0,2,15,15,E,E,2,40-49,Male,High School,15,31-40,low-intermediate,low-intermediate
+jt8q59jz,V15E20,19961,0.2,1,15,20,84000,105000,3,60,Male,Other,17,51-60,low-intermediate,novice
+jt8q59jz,V15E20,2523,0,2,15,20,c,C,3,60,Male,Other,17,51-60,low-intermediate,novice
+jt8q59jz,V15E20,15708,0.02,0,15,20,44000,45000,3,60,Male,Other,17,51-60,low-intermediate,novice
+jt8q59jz,V15E20,20476,0.27,1,15,20,165000,130000,3,60,Male,Other,17,51-60,low-intermediate,novice
+jt8q59jz,V15E20,18943,0,2,15,20,e,E,4,60,Male,Other,17,51-60,low-intermediate,novice
+jt8q5eot,V15E10,15345,0.52,1,15,10,160000,105000,3,25-39,Male,Other,21,gt60,low-intermediate,novice
+jt8q5eot,V15E10,6120,0,2,15,10,C,C,4,25-39,Male,Other,21,gt60,low-intermediate,novice
+jt8q5eot,V15E10,9864,0.56,0,15,10,70000,45000,3,25-39,Male,Other,21,gt60,low-intermediate,novice
+jt8q5eot,V15E10,11145,0.46,1,15,10,190000,130000,2,25-39,Male,Other,21,gt60,low-intermediate,novice
+jt8q5eot,V15E10,5937,0,2,15,10,E,E,4,25-39,Male,Other,21,gt60,low-intermediate,novice
+jt8q5n59,V10E10,6557,0.43,1,10,10,150000,105000,2,25-39,Female,High School,15,21-30,intermediate,intermediate
+jt8q5n59,V10E10,3868,0,2,10,10,c,C,3,25-39,Female,High School,15,21-30,intermediate,intermediate
+jt8q5n59,V10E10,5541,0.33,0,10,10,60000,45000,3,25-39,Female,High School,15,21-30,intermediate,intermediate
+jt8q5n59,V10E10,5323,0.38,1,10,10,180000,130000,3,25-39,Female,High School,15,21-30,intermediate,intermediate
+jt8q5n59,V10E10,10884,0,2,10,10,e,E,3,25-39,Female,High School,15,21-30,intermediate,intermediate
+jt8q5z1b,V15E20,9696,0.43,1,15,20,60000,105000,2,25-39,Male,Bachelors,21,31-40,intermediate,high-intermediate
+jt8q5z1b,V15E20,14960,0,2,15,20,c,C,4,25-39,Male,Bachelors,21,31-40,intermediate,high-intermediate
+jt8q5z1b,V15E20,11424,0.33,0,15,20,60000,45000,3,25-39,Male,Bachelors,21,31-40,intermediate,high-intermediate
+jt8q5z1b,V15E20,9840,0.38,1,15,20,80000,130000,2,25-39,Male,Bachelors,21,31-40,intermediate,high-intermediate
+jt8q5z1b,V15E20,9169,0,2,15,20,E,E,2,25-39,Male,Bachelors,21,31-40,intermediate,high-intermediate
+jt8q64nl,V15E10,10533,0.03,1,15,10,107800,105000,2,25-39,Male,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8q64nl,V15E10,9574,0,2,15,10,C,C,3,25-39,Male,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8q64nl,V15E10,6573,0.03,0,15,10,46200,45000,3,25-39,Male,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8q64nl,V15E10,1781,0.01,1,15,10,131200,130000,3,25-39,Male,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8q64nl,V15E10,7360,0,2,15,10,E,E,3,25-39,Male,Bachelors,15,41-50,high-intermediate,low-intermediate
+jt8q6f61,V20E15,7244,0.05,1,20,15,100000,105000,3,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8q6f61,V20E15,14039,0,2,20,15,c,C,3,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8q6f61,V20E15,22791,0.11,0,20,15,40000,45000,3,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8q6f61,V20E15,12294,0.15,1,20,15,110000,130000,2,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8q6f61,V20E15,7729,0,2,20,15,e,E,3,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8q6sjb,V10E20,17383,0.14,1,10,20,120000,105000,2,40-49,Male,Bachelors,15,gt60,intermediate,novice
+jt8q6sjb,V10E20,7288,0,2,10,20,C,C,4,40-49,Male,Bachelors,15,gt60,intermediate,novice
+jt8q6sjb,V10E20,15552,0,0,10,20,45000,45000,3,40-49,Male,Bachelors,15,gt60,intermediate,novice
+jt8q6sjb,V10E20,13250,0,1,10,20,130000,130000,3,40-49,Male,Bachelors,15,gt60,intermediate,novice
+jt8q6sjb,V10E20,7185,0,2,10,20,E,E,4,40-49,Male,Bachelors,15,gt60,intermediate,novice
+jt8q86bk,V10E10,12839,0.33,1,10,10,140000,105000,4,40-49,Male,Bachelors,19,lt5,low-intermediate,novice
+jt8q86bk,V10E10,6218,0,2,10,10,C,C,4,40-49,Male,Bachelors,19,lt5,low-intermediate,novice
+jt8q86bk,V10E10,11377,0.11,0,10,10,50000,45000,3,40-49,Male,Bachelors,19,lt5,low-intermediate,novice
+jt8q86bk,V10E10,7951,0.38,1,10,10,180000,130000,4,40-49,Male,Bachelors,19,lt5,low-intermediate,novice
+jt8q86bk,V10E10,5516,0,2,10,10,E,E,4,40-49,Male,Bachelors,19,lt5,low-intermediate,novice
+jt8q8dvk,V10E20,7934,0.02,1,10,20,103300,105000,3,25-39,Female,Bachelors,15,51-60,intermediate,intermediate
+jt8q8dvk,V10E20,7079,0,2,10,20,C,C,3,25-39,Female,Bachelors,15,51-60,intermediate,intermediate
+jt8q8dvk,V10E20,3599,0.03,0,10,20,46200,45000,3,25-39,Female,Bachelors,15,51-60,intermediate,intermediate
+jt8q8dvk,V10E20,2344,0.04,1,10,20,125000,130000,3,25-39,Female,Bachelors,15,51-60,intermediate,intermediate
+jt8q8dvk,V10E20,2136,0,2,10,20,E,E,4,25-39,Female,Bachelors,15,51-60,intermediate,intermediate
+jt8q9ft1,V10E20,12703,0.33,1,10,20,140000,105000,2,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8q9ft1,V10E20,4045,0,2,10,20,C,C,4,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8q9ft1,V10E20,5422,0.33,0,10,20,60000,45000,2,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8q9ft1,V10E20,8185,0.38,1,10,20,180000,130000,3,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8q9ft1,V10E20,3616,0,2,10,20,E,E,2,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8q9sdo,V20E10,6377,0.33,1,20,10,140000,105000,3,40-49,Female,Other,21,gt60,intermediate,low-intermediate
+jt8q9sdo,V20E10,5304,0,2,20,10,C,C,4,40-49,Female,Other,21,gt60,intermediate,low-intermediate
+jt8q9sdo,V20E10,3167,0.29,0,20,10,58000,45000,2,40-49,Female,Other,21,gt60,intermediate,low-intermediate
+jt8q9sdo,V20E10,5697,0.46,1,20,10,190000,130000,3,40-49,Female,Other,21,gt60,intermediate,low-intermediate
+jt8q9sdo,V20E10,7760,0,2,20,10,E,E,3,40-49,Female,Other,21,gt60,intermediate,low-intermediate
+jt8qes4f,V5E5,19161,0,1,5,5,105000,105000,3,25-39,Male,Masters,15,21-30,intermediate,intermediate
+jt8qes4f,V5E5,13545,0,2,5,5,C,C,3,25-39,Male,Masters,15,21-30,intermediate,intermediate
+jt8qes4f,V5E5,31386,0.02,0,5,5,44000,45000,3,25-39,Male,Masters,15,21-30,intermediate,intermediate
+jt8qes4f,V5E5,18125,0,1,5,5,130000,130000,3,25-39,Male,Masters,15,21-30,intermediate,intermediate
+jt8qes4f,V5E5,17062,0,2,5,5,E,E,3,25-39,Male,Masters,15,21-30,intermediate,intermediate
+jt8qfpum,V20E10,15952,0.14,1,20,10,90000,105000,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qfpum,V20E10,30808,1,2,20,10,a,C,1,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qfpum,V20E10,20696,0.11,0,20,10,40000,45000,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qfpum,V20E10,14223,0.08,1,20,10,120000,130000,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qfpum,V20E10,16864,1,2,20,10,d,E,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qg4xz,V5E5,12232,0.33,1,5,5,140000,105000,3,50-59,Female,Masters,13,21-30,intermediate,intermediate
+jt8qg4xz,V5E5,4886,0,2,5,5,C,C,4,50-59,Female,Masters,13,21-30,intermediate,intermediate
+jt8qg4xz,V5E5,16853,0.38,0,5,5,62000,45000,3,50-59,Female,Masters,13,21-30,intermediate,intermediate
+jt8qg4xz,V5E5,7825,0.38,1,5,5,180000,130000,3,50-59,Female,Masters,13,21-30,intermediate,intermediate
+jt8qg4xz,V5E5,8503,0,2,5,5,E,E,4,50-59,Female,Masters,13,21-30,intermediate,intermediate
+jt8qg6g4,V15E15,9629,0.14,1,15,15,120000,105000,3,25-39,Female,High School,13,gt60,intermediate,novice
+jt8qg6g4,V15E15,7132,0,2,15,15,c,C,2,25-39,Female,High School,13,gt60,intermediate,novice
+jt8qg6g4,V15E15,5591,0.11,0,15,15,50000,45000,3,25-39,Female,High School,13,gt60,intermediate,novice
+jt8qg6g4,V15E15,8151,0.27,1,15,15,165000,130000,3,25-39,Female,High School,13,gt60,intermediate,novice
+jt8qg6g4,V15E15,6810,0,2,15,15,e,E,3,25-39,Female,High School,13,gt60,intermediate,novice
+jt8qg6om,V15E15,5263,0.05,1,15,15,100000,105000,2,25-39,Female,High School,15,41-50,low-intermediate,intermediate
+jt8qg6om,V15E15,1296,0,2,15,15,C,C,2,25-39,Female,High School,15,41-50,low-intermediate,intermediate
+jt8qg6om,V15E15,9870,0,0,15,15,45000,45000,2,25-39,Female,High School,15,41-50,low-intermediate,intermediate
+jt8qg6om,V15E15,4704,0.04,1,15,15,125000,130000,2,25-39,Female,High School,15,41-50,low-intermediate,intermediate
+jt8qg6om,V15E15,2384,1,2,15,15,D,E,2,25-39,Female,High School,15,41-50,low-intermediate,intermediate
+jt8qiqlm,V10E10,10248,0.33,1,10,10,140000,105000,2,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8qiqlm,V10E10,4209,0,2,10,10,C,C,3,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8qiqlm,V10E10,6968,0.33,0,10,10,60000,45000,3,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8qiqlm,V10E10,4296,0.38,1,10,10,180000,130000,2,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8qiqlm,V10E10,1160,0,2,10,10,E,E,3,25-39,Male,Bachelors,21,41-50,intermediate,intermediate
+jt8qjb3k,V15E10,12741,0.03,1,15,10,108000,105000,3,25-39,Female,Bachelors,17,21-30,novice,novice
+jt8qjb3k,V15E10,6639,0,2,15,10,c,C,4,25-39,Female,Bachelors,17,21-30,novice,novice
+jt8qjb3k,V15E10,7605,0.07,0,15,10,41700,45000,4,25-39,Female,Bachelors,17,21-30,novice,novice
+jt8qjb3k,V15E10,4689,0.14,1,15,10,112200,130000,2,25-39,Female,Bachelors,17,21-30,novice,novice
+jt8qjb3k,V15E10,8830,0,2,15,10,e,E,4,25-39,Female,Bachelors,17,21-30,novice,novice
+jt8qjiqz,V5E5,7115,0,1,5,5,105000,105000,3,25-39,Male,Bachelors,17,41-50,intermediate,intermediate
+jt8qjiqz,V5E5,5597,0,2,5,5,C,C,4,25-39,Male,Bachelors,17,41-50,intermediate,intermediate
+jt8qjiqz,V5E5,5995,0.33,0,5,5,60000,45000,2,25-39,Male,Bachelors,17,41-50,intermediate,intermediate
+jt8qjiqz,V5E5,9936,0.04,1,5,5,125000,130000,3,25-39,Male,Bachelors,17,41-50,intermediate,intermediate
+jt8qjiqz,V5E5,10358,1,2,5,5,B,E,2,25-39,Male,Bachelors,17,41-50,intermediate,intermediate
+jt8qjkiu,V5E20,21935,0.02,1,5,20,103000,105000,3,25-39,Female,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8qjkiu,V5E20,6029,0,2,5,20,C,C,4,25-39,Female,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8qjkiu,V5E20,8142,0.02,0,5,20,44000,45000,3,25-39,Female,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8qjkiu,V5E20,20746,0.02,1,5,20,127000,130000,3,25-39,Female,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8qjkiu,V5E20,5969,0,2,5,20,E,E,4,25-39,Female,Bachelors,17,41-50,high-intermediate,low-intermediate
+jt8qk1ye,V10E20,10304,0.05,1,10,20,100000,105000,3,25-39,Male,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8qk1ye,V10E20,11264,0,2,10,20,c,C,4,25-39,Male,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8qk1ye,V10E20,15338,0.07,0,10,20,42000,45000,4,25-39,Male,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8qk1ye,V10E20,5808,0.08,1,10,20,120000,130000,4,25-39,Male,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8qk1ye,V10E20,5632,0,2,10,20,E,E,4,25-39,Male,Bachelors,23 or larger,43789,intermediate,low-intermediate
+jt8qkcg8,V5E15,8119,0.33,1,5,15,140000,105000,4,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8qkcg8,V5E15,5032,1,2,5,15,60K,C,3,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8qkcg8,V5E15,11624,0.33,0,5,15,60000,45000,2,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8qkcg8,V5E15,12254,0.38,1,5,15,180000,130000,3,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8qkcg8,V5E15,5456,1,2,5,15,60K,E,2,40-49,Male,Bachelors,19,43789,intermediate,high-intermediate
+jt8qku59,V10E10,9806,0.01,1,10,10,104200,105000,4,50-59,Female,Masters,21,31-40,low-intermediate,low-intermediate
+jt8qku59,V10E10,5822,0,2,10,10,C,C,4,50-59,Female,Masters,21,31-40,low-intermediate,low-intermediate
+jt8qku59,V10E10,6171,0.09,0,10,10,49048,45000,4,50-59,Female,Masters,21,31-40,low-intermediate,low-intermediate
+jt8qku59,V10E10,7346,0.01,1,10,10,129300,130000,4,50-59,Female,Masters,21,31-40,low-intermediate,low-intermediate
+jt8qku59,V10E10,6975,0,2,10,10,E,E,4,50-59,Female,Masters,21,31-40,low-intermediate,low-intermediate
+jt8qlan2,V5E10,892,0.8,1,5,10,21000,105000,2,25-39,Male,High School,15,21-30,low-intermediate,low-intermediate
+jt8qlan2,V5E10,12283,0,2,5,10,C,C,2,25-39,Male,High School,15,21-30,low-intermediate,low-intermediate
+jt8qlan2,V5E10,5095,0.33,0,5,10,60000,45000,3,25-39,Male,High School,15,21-30,low-intermediate,low-intermediate
+jt8qlan2,V5E10,2015,0.23,1,5,10,160000,130000,2,25-39,Male,High School,15,21-30,low-intermediate,low-intermediate
+jt8qlan2,V5E10,4296,0,2,5,10,E,E,2,25-39,Male,High School,15,21-30,low-intermediate,low-intermediate
+jt8qmh4h,V5E5,11421,0.05,1,5,5,110000,105000,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qmh4h,V5E5,9968,0,2,5,5,c,C,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qmh4h,V5E5,9784,0.11,0,5,5,50000,45000,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qmh4h,V5E5,2279,0.15,1,5,5,110000,130000,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qmh4h,V5E5,16384,0,2,5,5,e,E,2,40-49,Male,High School,23 or larger,gt60,intermediate,novice
+jt8qn2v9,V5E5,7824,0.01,1,5,5,103600,105000,3,25-39,Male,Bachelors,15,43626,expert,intermediate
+jt8qn2v9,V5E5,1773,0,2,5,5,C,C,4,25-39,Male,Bachelors,15,43626,expert,intermediate
+jt8qn2v9,V5E5,1497,0,0,5,5,45000,45000,4,25-39,Male,Bachelors,15,43626,expert,intermediate
+jt8qn2v9,V5E5,1136,0.01,1,5,5,129000,130000,3,25-39,Male,Bachelors,15,43626,expert,intermediate
+jt8qn2v9,V5E5,1336,0,2,5,5,E,E,3,25-39,Male,Bachelors,15,43626,expert,intermediate
+jt8qnunt,V5E5,22016,0,1,5,5,105000,105000,2,25-39,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8qnunt,V5E5,6128,0,2,5,5,C,C,3,25-39,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8qnunt,V5E5,14807,0,0,5,5,45000,45000,2,25-39,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8qnunt,V5E5,21943,0.02,1,5,5,133000,130000,3,25-39,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8qnunt,V5E5,12049,0,2,5,5,E,E,4,25-39,Female,Bachelors,17,31-40,low-intermediate,low-intermediate
+jt8qnz43,V20E20,6442,0.05,1,20,20,100000,105000,3,18-24,Male,High School,21,Unspecified,intermediate,intermediate
+jt8qnz43,V20E20,6325,0,2,20,20,C,C,4,18-24,Male,High School,21,Unspecified,intermediate,intermediate
+jt8qnz43,V20E20,6706,0,0,20,20,45000,45000,3,18-24,Male,High School,21,Unspecified,intermediate,intermediate
+jt8qnz43,V20E20,6684,0.12,1,20,20,145000,130000,3,18-24,Male,High School,21,Unspecified,intermediate,intermediate
+jt8qnz43,V20E20,5602,0,2,20,20,E,E,4,18-24,Male,High School,21,Unspecified,intermediate,intermediate
+jt8qogev,V10E15,13693,0.05,1,10,15,100000,105000,2,25-39,Female,High School,13,31-40,low-intermediate,low-intermediate
+jt8qogev,V10E15,7624,0,2,10,15,C,C,4,25-39,Female,High School,13,31-40,low-intermediate,low-intermediate
+jt8qogev,V10E15,9360,0.11,0,10,15,50000,45000,2,25-39,Female,High School,13,31-40,low-intermediate,low-intermediate
+jt8qogev,V10E15,11464,0,1,10,15,130000,130000,2,25-39,Female,High School,13,31-40,low-intermediate,low-intermediate
+jt8qogev,V10E15,3273,0,2,10,15,E,E,4,25-39,Female,High School,13,31-40,low-intermediate,low-intermediate
+jt8qoxd1,V5E10,16673,0.01,1,5,10,104000,105000,2,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8qoxd1,V5E10,9509,0,2,5,10,C,C,3,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8qoxd1,V5E10,5535,0.05,0,5,10,42900,45000,3,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8qoxd1,V5E10,34413,0,1,5,10,130000,130000,3,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8qoxd1,V5E10,7774,0,2,5,10,E,E,4,25-39,Male,Bachelors,15,31-40,intermediate,low-intermediate
+jt8qpo9l,V5E5,824,0.81,1,5,5,20000,105000,1,25-39,Female,High School,15,21-30,low-intermediate,intermediate
+jt8qpo9l,V5E5,4961,0,2,5,5,c,C,3,25-39,Female,High School,15,21-30,low-intermediate,intermediate
+jt8qpo9l,V5E5,7796,0,0,5,5,45000,45000,2,25-39,Female,High School,15,21-30,low-intermediate,intermediate
+jt8qpo9l,V5E5,8468,0.65,1,5,5,45000,130000,2,25-39,Female,High School,15,21-30,low-intermediate,intermediate
+jt8qpo9l,V5E5,3390,0,2,5,5,e,E,4,25-39,Female,High School,15,21-30,low-intermediate,intermediate
+jt8qqjcv,V20E10,18665,0.17,1,20,10,123100,105000,3,40-49,Female,High School,19,41-50,intermediate,intermediate
+jt8qqjcv,V20E10,14417,0,2,20,10,c,C,4,40-49,Female,High School,19,41-50,intermediate,intermediate
+jt8qqjcv,V20E10,8257,0.12,0,20,10,50300,45000,4,40-49,Female,High School,19,41-50,intermediate,intermediate
+jt8qqjcv,V20E10,20963,0.15,1,20,10,149000,130000,2,40-49,Female,High School,19,41-50,intermediate,intermediate
+jt8qqjcv,V20E10,9528,0,2,20,10,e,E,4,40-49,Female,High School,19,41-50,intermediate,intermediate
+jt8qtq3z,V10E20,14722,0.06,1,10,20,99000,105000,1,25-39,Male,Other,23 or larger,41-50,novice,novice
+jt8qtq3z,V10E20,7897,0,2,10,20,c,C,2,25-39,Male,Other,23 or larger,41-50,novice,novice
+jt8qtq3z,V10E20,11110,0.02,0,10,20,46000,45000,1,25-39,Male,Other,23 or larger,41-50,novice,novice
+jt8qtq3z,V10E20,5970,0.04,1,10,20,125000,130000,1,25-39,Male,Other,23 or larger,41-50,novice,novice
+jt8qtq3z,V10E20,12136,0,2,10,20,e,E,3,25-39,Male,Other,23 or larger,41-50,novice,novice
+jt8qu9gu,V15E10,7872,0.54,1,15,10,162000,105000,1,25-39,Female,High School,13,43626,novice,novice
+jt8qu9gu,V15E10,1238,0,2,15,10,C,C,1,25-39,Female,High School,13,43626,novice,novice
+jt8qu9gu,V15E10,6713,0.44,0,15,10,65000,45000,1,25-39,Female,High School,13,43626,novice,novice
+jt8qu9gu,V15E10,1137,0.31,1,15,10,170000,130000,1,25-39,Female,High School,13,43626,novice,novice
+jt8qu9gu,V15E10,817,0,2,15,10,E,E,1,25-39,Female,High School,13,43626,novice,novice
+jt8quzbt,V10E20,11778,0.33,1,10,20,140000,105000,3,40-49,Female,Masters,23 or larger,31-40,intermediate,novice
+jt8quzbt,V10E20,15675,0,2,10,20,C,C,2,40-49,Female,Masters,23 or larger,31-40,intermediate,novice
+jt8quzbt,V10E20,4520,0.33,0,10,20,60000,45000,3,40-49,Female,Masters,23 or larger,31-40,intermediate,novice
+jt8quzbt,V10E20,8243,0.38,1,10,20,180000,130000,3,40-49,Female,Masters,23 or larger,31-40,intermediate,novice
+jt8quzbt,V10E20,6175,0,2,10,20,E,E,3,40-49,Female,Masters,23 or larger,31-40,intermediate,novice
+jt8qvnz9,V20E10,711,0.24,1,20,10,80000,105000,2,25-39,Male,Bachelors,17,gt60,low-intermediate,low-intermediate
+jt8qvnz9,V20E10,1152,0,2,20,10,c,C,3,25-39,Male,Bachelors,17,gt60,low-intermediate,low-intermediate
+jt8qvnz9,V20E10,472,0.11,0,20,10,40000,45000,2,25-39,Male,Bachelors,17,gt60,low-intermediate,low-intermediate
+jt8qvnz9,V20E10,583,0.46,1,20,10,70000,130000,2,25-39,Male,Bachelors,17,gt60,low-intermediate,low-intermediate
+jt8qvnz9,V20E10,702,1,2,20,10,a,E,2,25-39,Male,Bachelors,17,gt60,low-intermediate,low-intermediate
+jt8qwir5,V20E5,9037,0.05,1,20,5,110000,105000,3,18-24,Male,High School,15,21-30,intermediate,low-intermediate
+jt8qwir5,V20E5,6253,0,2,20,5,C,C,4,18-24,Male,High School,15,21-30,intermediate,low-intermediate
+jt8qwir5,V20E5,10494,0.11,0,20,5,50000,45000,4,18-24,Male,High School,15,21-30,intermediate,low-intermediate
+jt8qwir5,V20E5,12276,0,1,20,5,130000,130000,3,18-24,Male,High School,15,21-30,intermediate,low-intermediate
+jt8qwir5,V20E5,6445,0,2,20,5,E,E,4,18-24,Male,High School,15,21-30,intermediate,low-intermediate
+jt8r0mmh,V5E20,14016,0.05,1,5,20,110000,105000,3,25-39,Male,Masters,17,31-40,intermediate,low-intermediate
+jt8r0mmh,V5E20,6410,0,2,5,20,C,C,4,25-39,Male,Masters,17,31-40,intermediate,low-intermediate
+jt8r0mmh,V5E20,10239,0,0,5,20,45000,45000,3,25-39,Male,Masters,17,31-40,intermediate,low-intermediate
+jt8r0mmh,V5E20,16289,0.04,1,5,20,125000,130000,3,25-39,Male,Masters,17,31-40,intermediate,low-intermediate
+jt8r0mmh,V5E20,3464,0,2,5,20,E,E,4,25-39,Male,Masters,17,31-40,intermediate,low-intermediate
+jt8r2qsc,V5E20,9894,0.33,1,5,20,140000,105000,2,25-39,Female,Masters,15,21-30,intermediate,intermediate
+jt8r2qsc,V5E20,12649,0,2,5,20,C,C,1,25-39,Female,Masters,15,21-30,intermediate,intermediate
+jt8r2qsc,V5E20,6518,0.33,0,5,20,60000,45000,2,25-39,Female,Masters,15,21-30,intermediate,intermediate
+jt8r2qsc,V5E20,5167,0.08,1,5,20,120000,130000,1,25-39,Female,Masters,15,21-30,intermediate,intermediate
+jt8r2qsc,V5E20,6480,1,2,5,20,D,E,2,25-39,Female,Masters,15,21-30,intermediate,intermediate
+jt8r2v14,V10E10,10355,0.05,1,10,10,100000,105000,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,intermediate
+jt8r2v14,V10E10,3758,0,2,10,10,c,C,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,intermediate
+jt8r2v14,V10E10,8490,0.78,0,10,10,80000,45000,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,intermediate
+jt8r2v14,V10E10,5399,0.08,1,10,10,120000,130000,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,intermediate
+jt8r2v14,V10E10,18668,0,2,10,10,e,E,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,intermediate
+jt8r2y22,V15E10,6634,0.05,1,15,10,100000,105000,3,25-39,Male,Bachelors,19,41-50,intermediate,intermediate
+jt8r2y22,V15E10,5592,0,2,15,10,C,C,4,25-39,Male,Bachelors,19,41-50,intermediate,intermediate
+jt8r2y22,V15E10,6783,0,0,15,10,45000,45000,3,25-39,Male,Bachelors,19,41-50,intermediate,intermediate
+jt8r2y22,V15E10,5666,0,1,15,10,130000,130000,3,25-39,Male,Bachelors,19,41-50,intermediate,intermediate
+jt8r2y22,V15E10,5479,0,2,15,10,E,E,4,25-39,Male,Bachelors,19,41-50,intermediate,intermediate
+jt8r48x1,V10E20,5188,0.14,1,10,20,120000,105000,3,25-39,Male,High School,11,gt60,intermediate,low-intermediate
+jt8r48x1,V10E20,3356,0,2,10,20,C,C,3,25-39,Male,High School,11,gt60,intermediate,low-intermediate
+jt8r48x1,V10E20,2037,0.11,0,10,20,40000,45000,3,25-39,Male,High School,11,gt60,intermediate,low-intermediate
+jt8r48x1,V10E20,6506,0.08,1,10,20,140000,130000,2,25-39,Male,High School,11,gt60,intermediate,low-intermediate
+jt8r48x1,V10E20,2155,0,2,10,20,E,E,3,25-39,Male,High School,11,gt60,intermediate,low-intermediate
+jt8r50gq,V10E15,15884,0,1,10,15,105000,105000,3,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate
+jt8r50gq,V10E15,12142,0,2,10,15,C,C,4,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate
+jt8r50gq,V10E15,10922,0.11,0,10,15,50000,45000,3,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate
+jt8r50gq,V10E15,15929,0.02,1,10,15,132000,130000,3,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate
+jt8r50gq,V10E15,10778,0,2,10,15,E,E,4,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate
+jt8r58y8,V15E15,15531,0,1,15,15,104600,105000,4,25-39,Female,Bachelors,15,41-50,intermediate,high-intermediate
+jt8r58y8,V15E15,7691,0,2,15,15,C,C,4,25-39,Female,Bachelors,15,41-50,intermediate,high-intermediate
+jt8r58y8,V15E15,3346,0.11,0,15,15,39900,45000,4,25-39,Female,Bachelors,15,41-50,intermediate,high-intermediate
+jt8r58y8,V15E15,8281,0.31,1,15,15,170000,130000,3,25-39,Female,Bachelors,15,41-50,intermediate,high-intermediate
+jt8r58y8,V15E15,8448,0,2,15,15,E,E,4,25-39,Female,Bachelors,15,41-50,intermediate,high-intermediate
+jt8r5bdy,V15E20,8946,0.05,1,15,20,100000,105000,3,40-49,Female,High School,15,31-40,low-intermediate,low-intermediate
+jt8r5bdy,V15E20,10170,0,2,15,20,C,C,4,40-49,Female,High School,15,31-40,low-intermediate,low-intermediate
+jt8r5bdy,V15E20,7104,0.11,0,15,20,50000,45000,3,40-49,Female,High School,15,31-40,low-intermediate,low-intermediate
+jt8r5bdy,V15E20,14762,0.15,1,15,20,150000,130000,3,40-49,Female,High School,15,31-40,low-intermediate,low-intermediate
+jt8r5bdy,V15E20,10508,0,2,15,20,E,E,3,40-49,Female,High School,15,31-40,low-intermediate,low-intermediate
+jt8r6mml,V5E10,26904,0,1,5,10,105000,105000,2,18-24,Female,High School,21,31-40,low-intermediate,novice
+jt8r6mml,V5E10,7809,0,2,5,10,C,C,3,18-24,Female,High School,21,31-40,low-intermediate,novice
+jt8r6mml,V5E10,21528,0.02,0,5,10,46000,45000,2,18-24,Female,High School,21,31-40,low-intermediate,novice
+jt8r6mml,V5E10,22688,0.08,1,5,10,120000,130000,2,18-24,Female,High School,21,31-40,low-intermediate,novice
+jt8r6mml,V5E10,8440,0,2,5,10,E,E,3,18-24,Female,High School,21,31-40,low-intermediate,novice
+jt8r76ou,V10E15,9512,0.05,1,10,15,110000,105000,3,25-39,Male,High School,21,gt60,novice,novice
+jt8r76ou,V10E15,13224,0,2,10,15,C,C,4,25-39,Male,High School,21,gt60,novice,novice
+jt8r76ou,V10E15,7905,0.11,0,10,15,50000,45000,3,25-39,Male,High School,21,gt60,novice,novice
+jt8r76ou,V10E15,19072,0,1,10,15,130000,130000,3,25-39,Male,High School,21,gt60,novice,novice
+jt8r76ou,V10E15,14392,0,2,10,15,E,E,4,25-39,Male,High School,21,gt60,novice,novice
+jt8r7jkk,V20E5,13517,0.05,1,20,5,110000,105000,2,18-24,Female,High School,23 or larger,gt60,low-intermediate,low-intermediate
+jt8r7jkk,V20E5,4442,0,2,20,5,C,C,3,18-24,Female,High School,23 or larger,gt60,low-intermediate,low-intermediate
+jt8r7jkk,V20E5,8108,0.04,0,20,5,47000,45000,3,18-24,Female,High School,23 or larger,gt60,low-intermediate,low-intermediate
+jt8r7jkk,V20E5,15981,0.05,1,20,5,136000,130000,2,18-24,Female,High School,23 or larger,gt60,low-intermediate,low-intermediate
+jt8r7jkk,V20E5,6095,0,2,20,5,E,E,3,18-24,Female,High School,23 or larger,gt60,low-intermediate,low-intermediate
+jt8r7lax,V20E5,22718,0.09,1,20,5,114000,105000,3,40-49,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8r7lax,V20E5,15699,0,2,20,5,c,C,3,40-49,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8r7lax,V20E5,17535,0.1,0,20,5,49500,45000,3,40-49,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8r7lax,V20E5,18562,0.08,1,20,5,140000,130000,3,40-49,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8r7lax,V20E5,15195,0,2,20,5,e,E,3,40-49,Female,Bachelors,23 or larger,gt60,intermediate,low-intermediate
+jt8r7vds,V15E10,20419,0.52,1,15,10,50000,105000,3,25-39,Male,Masters,13,41-50,low-intermediate,low-intermediate
+jt8r7vds,V15E10,15632,0,2,15,10,C,C,3,25-39,Male,Masters,13,41-50,low-intermediate,low-intermediate
+jt8r7vds,V15E10,18508,0.09,0,15,10,49000,45000,3,25-39,Male,Masters,13,41-50,low-intermediate,low-intermediate
+jt8r7vds,V15E10,5844,0.31,1,15,10,90000,130000,3,25-39,Male,Masters,13,41-50,low-intermediate,low-intermediate
+jt8r7vds,V15E10,9383,0,2,15,10,E,E,3,25-39,Male,Masters,13,41-50,low-intermediate,low-intermediate
+jt8r8wcx,V5E10,13770,0.05,1,5,10,100000,105000,3,25-39,Male,Bachelors,23 or larger,31-40,high-intermediate,intermediate
+jt8r8wcx,V5E10,5392,0,2,5,10,c,C,4,25-39,Male,Bachelors,23 or larger,31-40,high-intermediate,intermediate
+jt8r8wcx,V5E10,15465,0.02,0,5,10,44000,45000,3,25-39,Male,Bachelors,23 or larger,31-40,high-intermediate,intermediate
+jt8r8wcx,V5E10,8936,0,1,5,10,130000,130000,3,25-39,Male,Bachelors,23 or larger,31-40,high-intermediate,intermediate
+jt8r8wcx,V5E10,9672,0,2,5,10,e,E,2,25-39,Male,Bachelors,23 or larger,31-40,high-intermediate,intermediate
+jt8r9nju,V10E20,10386,0.05,1,10,20,100000,105000,3,25-39,Female,Masters,17,31-40,intermediate,novice
+jt8r9nju,V10E20,4104,0,2,10,20,C,C,4,25-39,Female,Masters,17,31-40,intermediate,novice
+jt8r9nju,V10E20,4284,0.09,0,10,20,41000,45000,2,25-39,Female,Masters,17,31-40,intermediate,novice
+jt8r9nju,V10E20,7851,0.02,1,10,20,132000,130000,2,25-39,Female,Masters,17,31-40,intermediate,novice
+jt8r9nju,V10E20,3177,0,2,10,20,E,E,4,25-39,Female,Masters,17,31-40,intermediate,novice
+jt8ra3sj,V10E20,30103,0,1,10,20,105000,105000,1,25-39,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8ra3sj,V10E20,12644,0,2,10,20,C,C,3,25-39,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8ra3sj,V10E20,9564,0.11,0,10,20,40000,45000,3,25-39,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8ra3sj,V10E20,20893,0.04,1,10,20,135000,130000,2,25-39,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8ra3sj,V10E20,12072,0,2,10,20,E,E,2,25-39,Male,Bachelors,15,gt60,low-intermediate,low-intermediate
+jt8raijk,V20E10,5935,0.33,1,20,10,70000,105000,2,25-39,Male,Bachelors,15,31-40,low-intermediate,novice
+jt8raijk,V20E10,11592,0,2,20,10,c,C,3,25-39,Male,Bachelors,15,31-40,low-intermediate,novice
+jt8raijk,V20E10,8760,0.11,0,20,10,50000,45000,3,25-39,Male,Bachelors,15,31-40,low-intermediate,novice
+jt8raijk,V20E10,6800,0.31,1,20,10,90000,130000,2,25-39,Male,Bachelors,15,31-40,low-intermediate,novice
+jt8raijk,V20E10,9056,0,2,20,10,E,E,4,25-39,Male,Bachelors,15,31-40,low-intermediate,novice
+jt8razea,V15E20,4000,0.33,1,15,20,140000,105000,3,40-49,Male,Bachelors,19,31-40,intermediate,low-intermediate
+jt8razea,V15E20,2300,0,2,15,20,C,C,3,40-49,Male,Bachelors,19,31-40,intermediate,low-intermediate
+jt8razea,V15E20,2021,0.33,0,15,20,60000,45000,3,40-49,Male,Bachelors,19,31-40,intermediate,low-intermediate
+jt8razea,V15E20,3728,0.54,1,15,20,200000,130000,3,40-49,Male,Bachelors,19,31-40,intermediate,low-intermediate
+jt8razea,V15E20,7431,0,2,15,20,E,E,4,40-49,Male,Bachelors,19,31-40,intermediate,low-intermediate
+jt8rb7ec,V20E5,20077,0.05,1,20,5,100000,105000,3,25-39,Female,Bachelors,21,31-40,intermediate,low-intermediate
+jt8rb7ec,V20E5,20376,0,2,20,5,C,C,3,25-39,Female,Bachelors,21,31-40,intermediate,low-intermediate
+jt8rb7ec,V20E5,19847,0,0,20,5,45000,45000,3,25-39,Female,Bachelors,21,31-40,intermediate,low-intermediate
+jt8rb7ec,V20E5,23064,0.08,1,20,5,140000,130000,2,25-39,Female,Bachelors,21,31-40,intermediate,low-intermediate
+jt8rb7ec,V20E5,13808,0,2,20,5,E,E,3,25-39,Female,Bachelors,21,31-40,intermediate,low-intermediate
+jt8rh2fy,V20E20,12561,0.05,1,20,20,100000,105000,2,50-59,Female,Bachelors,21,21-30,novice,novice
+jt8rh2fy,V20E20,9512,0,2,20,20,c,C,3,50-59,Female,Bachelors,21,21-30,novice,novice
+jt8rh2fy,V20E20,6769,0.11,0,20,20,40000,45000,3,50-59,Female,Bachelors,21,21-30,novice,novice
+jt8rh2fy,V20E20,10086,0.08,1,20,20,120000,130000,2,50-59,Female,Bachelors,21,21-30,novice,novice
+jt8rh2fy,V20E20,9951,0,2,20,20,E,E,3,50-59,Female,Bachelors,21,21-30,novice,novice
+jt8rh3p5,V15E20,10562,1.1,1,15,20,220000,105000,1,25-39,Male,High School,15,21-30,novice,novice
+jt8rh3p5,V15E20,11124,0,2,15,20,c,C,3,25-39,Male,High School,15,21-30,novice,novice
+jt8rh3p5,V15E20,6334,0.33,0,15,20,60000,45000,2,25-39,Male,High School,15,21-30,novice,novice
+jt8rh3p5,V15E20,5161,0.23,1,15,20,160000,130000,2,25-39,Male,High School,15,21-30,novice,novice
+jt8rh3p5,V15E20,7577,1,2,15,20,F,E,3,25-39,Male,High School,15,21-30,novice,novice
+jt8rhdm7,V5E15,10602,0.52,1,5,15,160000,105000,2,25-39,Male,High School,dontknow,Unspecified,novice,novice
+jt8rhdm7,V5E15,7392,0,2,5,15,c,C,2,25-39,Male,High School,dontknow,Unspecified,novice,novice
+jt8rhdm7,V5E15,7720,0.33,0,5,15,60000,45000,2,25-39,Male,High School,dontknow,Unspecified,novice,novice
+jt8rhdm7,V5E15,8148,0,1,5,15,130000,130000,2,25-39,Male,High School,dontknow,Unspecified,novice,novice
+jt8rhdm7,V5E15,9562,1,2,5,15,c,E,1,25-39,Male,High School,dontknow,Unspecified,novice,novice
+jt8rli1z,V5E15,14735,0.14,1,5,15,90000,105000,2,25-39,Female,Masters,17,21-30,intermediate,low-intermediate
+jt8rli1z,V5E15,13877,0,2,5,15,c,C,3,25-39,Female,Masters,17,21-30,intermediate,low-intermediate
+jt8rli1z,V5E15,12383,0,0,5,15,45000,45000,2,25-39,Female,Masters,17,21-30,intermediate,low-intermediate
+jt8rli1z,V5E15,16844,0.08,1,5,15,120000,130000,2,25-39,Female,Masters,17,21-30,intermediate,low-intermediate
+jt8rli1z,V5E15,14537,0,2,5,15,e,E,3,25-39,Female,Masters,17,21-30,intermediate,low-intermediate
+jt8ro25w,V10E5,25666,0.14,1,10,5,90000,105000,3,40-49,Female,High School,19,41-50,novice,novice
+jt8ro25w,V10E5,6913,0,2,10,5,C,C,4,40-49,Female,High School,19,41-50,novice,novice
+jt8ro25w,V10E5,12591,0.33,0,10,5,60000,45000,3,40-49,Female,High School,19,41-50,novice,novice
+jt8ro25w,V10E5,13012,0.35,1,10,5,175000,130000,2,40-49,Female,High School,19,41-50,novice,novice
+jt8ro25w,V10E5,6116,0,2,10,5,E,E,3,40-49,Female,High School,19,41-50,novice,novice
+jt8ro6ek,V20E10,10945,0.36,1,20,10,143000,105000,4,25-39,Male,High School,15,31-40,intermediate,low-intermediate
+jt8ro6ek,V20E10,32334,1,2,20,10,a,C,4,25-39,Male,High School,15,31-40,intermediate,low-intermediate
+jt8ro6ek,V20E10,9731,0.08,0,20,10,48500,45000,4,25-39,Male,High School,15,31-40,intermediate,low-intermediate
+jt8ro6ek,V20E10,8055,0.02,1,20,10,127300,130000,4,25-39,Male,High School,15,31-40,intermediate,low-intermediate
+jt8ro6ek,V20E10,6686,0,2,20,10,e,E,4,25-39,Male,High School,15,31-40,intermediate,low-intermediate
+jt8routr,V10E20,10722,0.1,1,10,20,115000,105000,1,60,Female,Bachelors,15,gt60,novice,novice
+jt8routr,V10E20,6132,0,2,10,20,C,C,4,60,Female,Bachelors,15,gt60,novice,novice
+jt8routr,V10E20,12898,0.07,0,10,20,41700,45000,3,60,Female,Bachelors,15,gt60,novice,novice
+jt8routr,V10E20,18887,0.13,1,10,20,113500,130000,3,60,Female,Bachelors,15,gt60,novice,novice
+jt8routr,V10E20,5381,0,2,10,20,E,E,4,60,Female,Bachelors,15,gt60,novice,novice
+jt8rso7e,V5E15,34751,0.17,1,5,15,87000,105000,2,25-39,Male,Bachelors,19,21-30,intermediate,low-intermediate
+jt8rso7e,V5E15,5672,0,2,5,15,C,C,3,25-39,Male,Bachelors,19,21-30,intermediate,low-intermediate
+jt8rso7e,V5E15,11464,0.56,0,5,15,20000,45000,3,25-39,Male,Bachelors,19,21-30,intermediate,low-intermediate
+jt8rso7e,V5E15,30399,0.5,1,5,15,65000,130000,3,25-39,Male,Bachelors,19,21-30,intermediate,low-intermediate
+jt8rso7e,V5E15,4975,0,2,5,15,E,E,4,25-39,Male,Bachelors,19,21-30,intermediate,low-intermediate
+jt8rthje,V5E5,14398,0,1,5,5,105000,105000,4,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8rthje,V5E5,3509,0,2,5,5,C,C,4,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8rthje,V5E5,7364,0.07,0,5,5,42000,45000,3,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8rthje,V5E5,9304,0.04,1,5,5,125000,130000,3,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8rthje,V5E5,7758,0,2,5,5,E,E,4,25-39,Male,Bachelors,23 or larger,21-30,high-intermediate,intermediate
+jt8rv3ub,V5E5,17304,0,1,5,5,105000,105000,3,25-39,Female,High School,19,51-60,low-intermediate,novice
+jt8rv3ub,V5E5,9999,0,2,5,5,c,C,3,25-39,Female,High School,19,51-60,low-intermediate,novice
+jt8rv3ub,V5E5,32695,0.01,0,5,5,44500,45000,3,25-39,Female,High School,19,51-60,low-intermediate,novice
+jt8rv3ub,V5E5,24652,0.09,1,5,5,142000,130000,3,25-39,Female,High School,19,51-60,low-intermediate,novice
+jt8rv3ub,V5E5,20368,0,2,5,5,e,E,4,25-39,Female,High School,19,51-60,low-intermediate,novice
+jt8rwiep,V10E15,697,0.02,1,10,15,103000,105000,4,25-39,Female,Masters,19,31-40,intermediate,high-intermediate
+jt8rwiep,V10E15,809,1,2,10,15,E,C,4,25-39,Female,Masters,19,31-40,intermediate,high-intermediate
+jt8rwiep,V10E15,2143,0.22,0,10,15,55000,45000,4,25-39,Female,Masters,19,31-40,intermediate,high-intermediate
+jt8rwiep,V10E15,768,0.21,1,10,15,103000,130000,4,25-39,Female,Masters,19,31-40,intermediate,high-intermediate
+jt8rwiep,V10E15,639,1,2,10,15,50,E,4,25-39,Female,Masters,19,31-40,intermediate,high-intermediate
+jt8rycc9,V5E15,10705,0.05,1,5,15,110000,105000,2,25-39,Female,Bachelors,15,21-30,novice,novice
+jt8rycc9,V5E15,6224,0,2,5,15,c,C,3,25-39,Female,Bachelors,15,21-30,novice,novice
+jt8rycc9,V5E15,11471,0,0,5,15,45000,45000,2,25-39,Female,Bachelors,15,21-30,novice,novice
+jt8rycc9,V5E15,8079,0.08,1,5,15,140000,130000,2,25-39,Female,Bachelors,15,21-30,novice,novice
+jt8rycc9,V5E15,5920,0,2,5,15,e,E,3,25-39,Female,Bachelors,15,21-30,novice,novice
+jt8rz1bl,V5E20,10985,0.05,1,5,20,110000,105000,1,40-49,Male,High School,17,gt60,novice,novice
+jt8rz1bl,V5E20,5728,0,2,5,20,c,C,3,40-49,Male,High School,17,gt60,novice,novice
+jt8rz1bl,V5E20,11171,0,0,5,20,45000,45000,2,40-49,Male,High School,17,gt60,novice,novice
+jt8rz1bl,V5E20,8546,0,1,5,20,130000,130000,2,40-49,Male,High School,17,gt60,novice,novice
+jt8rz1bl,V5E20,3782,0,2,5,20,e,E,4,40-49,Male,High School,17,gt60,novice,novice
+jt8s0mcq,V10E15,15931,0,1,10,15,105000,105000,3,50-59,Male,Bachelors,23 or larger,41-50,intermediate,low-intermediate
+jt8s0mcq,V10E15,6833,0,2,10,15,c,C,4,50-59,Male,Bachelors,23 or larger,41-50,intermediate,low-intermediate
+jt8s0mcq,V10E15,11450,0,0,10,15,45000,45000,3,50-59,Male,Bachelors,23 or larger,41-50,intermediate,low-intermediate
+jt8s0mcq,V10E15,23737,0.01,1,10,15,131000,130000,3,50-59,Male,Bachelors,23 or larger,41-50,intermediate,low-intermediate
+jt8s0mcq,V10E15,4497,0,2,10,15,e,E,4,50-59,Male,Bachelors,23 or larger,41-50,intermediate,low-intermediate
+jt8s0npf,V5E20,6697,0.05,1,5,20,100000,105000,2,25-39,Female,High School,19,gt60,novice,novice
+jt8s0npf,V5E20,7271,0,2,5,20,c,C,2,25-39,Female,High School,19,gt60,novice,novice
+jt8s0npf,V5E20,7144,0,0,5,20,45000,45000,2,25-39,Female,High School,19,gt60,novice,novice
+jt8s0npf,V5E20,10458,0,1,5,20,130000,130000,2,25-39,Female,High School,19,gt60,novice,novice
+jt8s0npf,V5E20,6149,0,2,5,20,e,E,3,25-39,Female,High School,19,gt60,novice,novice
+jt8s1msp,V10E20,14970,0.14,1,10,20,120000,105000,2,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8s1msp,V10E20,6104,0,2,10,20,C,C,3,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8s1msp,V10E20,10277,0,0,10,20,45000,45000,3,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8s1msp,V10E20,14894,0,1,10,20,130000,130000,2,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8s1msp,V10E20,6707,0,2,10,20,E,E,4,25-39,Female,Bachelors,15,41-50,high-intermediate,novice
+jt8s253q,V5E15,15643,0.05,1,5,15,100000,105000,4,40-49,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8s253q,V5E15,1242,0,2,5,15,C,C,3,40-49,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8s253q,V5E15,11914,0.11,0,5,15,40000,45000,4,40-49,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8s253q,V5E15,14747,0,1,5,15,130000,130000,3,40-49,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8s253q,V5E15,10660,1,2,5,15,C,E,3,40-49,Male,Bachelors,15,21-30,intermediate,low-intermediate
+jt8s3s0q,V15E15,15194,0.33,1,15,15,140000,105000,2,40-49,Female,Bachelors,17,51-60,intermediate,novice
+jt8s3s0q,V15E15,14733,0,2,15,15,C,C,3,40-49,Female,Bachelors,17,51-60,intermediate,novice
+jt8s3s0q,V15E15,17762,0.56,0,15,15,70000,45000,2,40-49,Female,Bachelors,17,51-60,intermediate,novice
+jt8s3s0q,V15E15,27419,0.04,1,15,15,135000,130000,2,40-49,Female,Bachelors,17,51-60,intermediate,novice
+jt8s3s0q,V15E15,13724,0,2,15,15,E,E,3,40-49,Female,Bachelors,17,51-60,intermediate,novice
+jt8s41tx,V5E10,17498,0.05,1,5,10,100000,105000,2,18-24,Male,Bachelors,23 or larger,41-50,high-intermediate,intermediate
+jt8s41tx,V5E10,6720,0,2,5,10,C,C,3,18-24,Male,Bachelors,23 or larger,41-50,high-intermediate,intermediate
+jt8s41tx,V5E10,8365,0.11,0,5,10,40000,45000,2,18-24,Male,Bachelors,23 or larger,41-50,high-intermediate,intermediate
+jt8s41tx,V5E10,8998,0,1,5,10,130000,130000,3,18-24,Male,Bachelors,23 or larger,41-50,high-intermediate,intermediate
+jt8s41tx,V5E10,6543,0,2,5,10,E,E,3,18-24,Male,Bachelors,23 or larger,41-50,high-intermediate,intermediate
+jt8s41wt,V20E20,28799,0.1,1,20,20,115000,105000,2,25-39,Male,High School,21,21-30,novice,novice
+jt8s41wt,V20E20,23128,0,2,20,20,C,C,3,25-39,Male,High School,21,21-30,novice,novice
+jt8s41wt,V20E20,35438,0.11,0,20,20,40000,45000,3,25-39,Male,High School,21,21-30,novice,novice
+jt8s41wt,V20E20,36377,0.04,1,20,20,135000,130000,1,25-39,Male,High School,21,21-30,novice,novice
+jt8s41wt,V20E20,22443,0,2,20,20,E,E,3,25-39,Male,High School,21,21-30,novice,novice
+jt8s46ge,V20E5,3844,0.05,1,20,5,110000,105000,4,40-49,Male,Bachelors,13,51-60,intermediate,intermediate
+jt8s46ge,V20E5,5645,0,2,20,5,C,C,4,40-49,Male,Bachelors,13,51-60,intermediate,intermediate
+jt8s46ge,V20E5,2606,0.11,0,20,5,40000,45000,4,40-49,Male,Bachelors,13,51-60,intermediate,intermediate
+jt8s46ge,V20E5,4927,0.08,1,20,5,140000,130000,3,40-49,Male,Bachelors,13,51-60,intermediate,intermediate
+jt8s46ge,V20E5,5571,0,2,20,5,E,E,4,40-49,Male,Bachelors,13,51-60,intermediate,intermediate
+jt8s517j,V10E10,1772,0.43,1,10,10,150000,105000,3,25-39,Male,Bachelors,23 or larger,43626,intermediate,intermediate
+jt8s517j,V10E10,5205,0,2,10,10,c,C,2,25-39,Male,Bachelors,23 or larger,43626,intermediate,intermediate
+jt8s517j,V10E10,6976,0.07,0,10,10,48000,45000,3,25-39,Male,Bachelors,23 or larger,43626,intermediate,intermediate
+jt8s517j,V10E10,771,0.54,1,10,10,60000,130000,2,25-39,Male,Bachelors,23 or larger,43626,intermediate,intermediate
+jt8s517j,V10E10,941,1,2,10,10,b,E,3,25-39,Male,Bachelors,23 or larger,43626,intermediate,intermediate
+jt8s5jcb,V5E10,20604,0.05,1,5,10,100000,105000,3,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8s5jcb,V5E10,10992,0,2,5,10,c,C,4,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8s5jcb,V5E10,12174,0.02,0,5,10,44000,45000,3,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8s5jcb,V5E10,13556,0.04,1,5,10,125000,130000,3,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8s5jcb,V5E10,6188,0,2,5,10,e,E,4,25-39,Male,High School,23 or larger,41-50,novice,novice
+jt8s5ub7,V10E20,30009,0.24,1,10,20,130000,105000,3,40-49,Male,Bachelors,23 or larger,21-30,low-intermediate,novice
+jt8s5ub7,V10E20,20031,0,2,10,20,c,C,4,40-49,Male,Bachelors,23 or larger,21-30,low-intermediate,novice
+jt8s5ub7,V10E20,30192,0,0,10,20,45000,45000,4,40-49,Male,Bachelors,23 or larger,21-30,low-intermediate,novice
+jt8s5ub7,V10E20,25241,0,1,10,20,130000,130000,4,40-49,Male,Bachelors,23 or larger,21-30,low-intermediate,novice
+jt8s5ub7,V10E20,22576,0,2,10,20,E,E,4,40-49,Male,Bachelors,23 or larger,21-30,low-intermediate,novice
+jt8s7yuh,V20E15,8240,0.05,1,20,15,100000,105000,2,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8s7yuh,V20E15,5424,0,2,20,15,C,C,3,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8s7yuh,V20E15,10104,0.22,0,20,15,55000,45000,2,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8s7yuh,V20E15,5608,0,1,20,15,130000,130000,2,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8s7yuh,V20E15,5407,0,2,20,15,E,E,3,25-39,Male,Bachelors,23 or larger,41-50,low-intermediate,intermediate
+jt8s9gz8,V15E15,9448,0.1,1,15,15,95000,105000,3,60,Female,Bachelors,23 or larger,31-40,intermediate,novice
+jt8s9gz8,V15E15,5119,0,2,15,15,C,C,4,60,Female,Bachelors,23 or larger,31-40,intermediate,novice
+jt8s9gz8,V15E15,15005,0.11,0,15,15,50000,45000,2,60,Female,Bachelors,23 or larger,31-40,intermediate,novice
+jt8s9gz8,V15E15,18401,0.1,1,15,15,117000,130000,3,60,Female,Bachelors,23 or larger,31-40,intermediate,novice
+jt8s9gz8,V15E15,6953,0,2,15,15,E,E,4,60,Female,Bachelors,23 or larger,31-40,intermediate,novice
+jt8s9yoj,V5E5,22064,0,1,5,5,105000,105000,2,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8s9yoj,V5E5,7808,0,2,5,5,c,C,3,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8s9yoj,V5E5,9491,0,0,5,5,45000,45000,3,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8s9yoj,V5E5,10937,0,1,5,5,130000,130000,3,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8s9yoj,V5E5,12067,0,2,5,5,e,E,3,25-39,Male,Bachelors,13,21-30,low-intermediate,novice
+jt8sah2r,V5E20,22632,0.18,1,5,20,86000,105000,3,25-39,Female,Bachelors,13,43789,high-intermediate,intermediate
+jt8sah2r,V5E20,3787,0,2,5,20,c,C,3,25-39,Female,Bachelors,13,43789,high-intermediate,intermediate
+jt8sah2r,V5E20,12872,0,0,5,20,45000,45000,3,25-39,Female,Bachelors,13,43789,high-intermediate,intermediate
+jt8sah2r,V5E20,20888,0.15,1,5,20,150000,130000,2,25-39,Female,Bachelors,13,43789,high-intermediate,intermediate
+jt8sah2r,V5E20,6990,0,2,5,20,e,E,4,25-39,Female,Bachelors,13,43789,high-intermediate,intermediate
+jt8sc6fi,V20E20,12611,0.24,1,20,20,130000,105000,3,25-39,Male,High School,23 or larger,41-50,intermediate,novice
+jt8sc6fi,V20E20,6280,0,2,20,20,c,C,3,25-39,Male,High School,23 or larger,41-50,intermediate,novice
+jt8sc6fi,V20E20,8978,0.11,0,20,20,50000,45000,3,25-39,Male,High School,23 or larger,41-50,intermediate,novice
+jt8sc6fi,V20E20,6272,0.08,1,20,20,140000,130000,3,25-39,Male,High School,23 or larger,41-50,intermediate,novice
+jt8sc6fi,V20E20,6376,0,2,20,20,e,E,3,25-39,Male,High School,23 or larger,41-50,intermediate,novice
+jt8sfjdd,V5E5,13534,0.07,1,5,5,98000,105000,2,18-24,Male,High School,13,51-60,novice,novice
+jt8sfjdd,V5E5,8563,0,2,5,5,C,C,4,18-24,Male,High School,13,51-60,novice,novice
+jt8sfjdd,V5E5,13958,0.02,0,5,5,44300,45000,2,18-24,Male,High School,13,51-60,novice,novice
+jt8sfjdd,V5E5,5168,0.91,1,5,5,12100,130000,2,18-24,Male,High School,13,51-60,novice,novice
+jt8sfjdd,V5E5,7232,0,2,5,5,E,E,4,18-24,Male,High School,13,51-60,novice,novice
+jt8sg5sq,V15E10,974,0.24,1,15,10,80000,105000,3,25-39,Female,High School,21,31-40,expert,expert
+jt8sg5sq,V15E10,1011,1,2,15,10,70,C,3,25-39,Female,High School,21,31-40,expert,expert
+jt8sg5sq,V15E10,1903,0.11,0,15,10,40000,45000,4,25-39,Female,High School,21,31-40,expert,expert
+jt8sg5sq,V15E10,1275,0.77,1,15,10,30000,130000,4,25-39,Female,High School,21,31-40,expert,expert
+jt8sg5sq,V15E10,1135,1,2,15,10,60,E,3,25-39,Female,High School,21,31-40,expert,expert
+jt8shqmt,V20E5,4256,0.33,1,20,5,70000,105000,2,40-49,Female,Bachelors,21,31-40,low-intermediate,low-intermediate
+jt8shqmt,V20E5,5504,0,2,20,5,c,C,2,40-49,Female,Bachelors,21,31-40,low-intermediate,low-intermediate
+jt8shqmt,V20E5,5696,0.56,0,20,5,70000,45000,3,40-49,Female,Bachelors,21,31-40,low-intermediate,low-intermediate
+jt8shqmt,V20E5,5080,0.08,1,20,5,120000,130000,2,40-49,Female,Bachelors,21,31-40,low-intermediate,low-intermediate
+jt8shqmt,V20E5,6305,0,2,20,5,e,E,4,40-49,Female,Bachelors,21,31-40,low-intermediate,low-intermediate
+jt8sid1e,V5E20,10984,0.24,1,5,20,130000,105000,3,50-59,Female,Bachelors,17,51-60,intermediate,low-intermediate
+jt8sid1e,V5E20,6548,0,2,5,20,C,C,4,50-59,Female,Bachelors,17,51-60,intermediate,low-intermediate
+jt8sid1e,V5E20,8000,0.02,0,5,20,46000,45000,3,50-59,Female,Bachelors,17,51-60,intermediate,low-intermediate
+jt8sid1e,V5E20,6874,0.03,1,5,20,126000,130000,3,50-59,Female,Bachelors,17,51-60,intermediate,low-intermediate
+jt8sid1e,V5E20,9351,0,2,5,20,e,E,4,50-59,Female,Bachelors,17,51-60,intermediate,low-intermediate
+jt8sifmv,V15E20,7843,0.14,1,15,20,120000,105000,2,25-39,Female,High School,dontknow,41-50,low-intermediate,low-intermediate
+jt8sifmv,V15E20,4601,0,2,15,20,C,C,3,25-39,Female,High School,dontknow,41-50,low-intermediate,low-intermediate
+jt8sifmv,V15E20,6142,0.11,0,15,20,50000,45000,2,25-39,Female,High School,dontknow,41-50,low-intermediate,low-intermediate
+jt8sifmv,V15E20,5907,0.08,1,15,20,120000,130000,2,25-39,Female,High School,dontknow,41-50,low-intermediate,low-intermediate
+jt8sifmv,V15E20,9289,0,2,15,20,e,E,2,25-39,Female,High School,dontknow,41-50,low-intermediate,low-intermediate
+jt8so3jz,V5E15,8268,0.43,1,5,15,60000,105000,1,60,Male,Bachelors,17,41-50,intermediate,novice
+jt8so3jz,V5E15,21747,1,2,5,15,a,C,1,60,Male,Bachelors,17,41-50,intermediate,novice
+jt8so3jz,V5E15,12776,0.33,0,5,15,60000,45000,1,60,Male,Bachelors,17,41-50,intermediate,novice
+jt8so3jz,V5E15,11832,0.31,1,5,15,170000,130000,1,60,Male,Bachelors,17,41-50,intermediate,novice
+jt8so3jz,V5E15,6276,0,2,5,15,e,E,3,60,Male,Bachelors,17,41-50,intermediate,novice
+jt8sqahh,V20E10,9269,0.05,1,20,10,110000,105000,2,40-49,Male,Masters,23 or larger,31-40,intermediate,intermediate
+jt8sqahh,V20E10,5637,0,2,20,10,C,C,3,40-49,Male,Masters,23 or larger,31-40,intermediate,intermediate
+jt8sqahh,V20E10,13736,0.09,0,20,10,41000,45000,3,40-49,Male,Masters,23 or larger,31-40,intermediate,intermediate
+jt8sqahh,V20E10,9057,0,1,20,10,130000,130000,2,40-49,Male,Masters,23 or larger,31-40,intermediate,intermediate
+jt8sqahh,V20E10,7020,0,2,20,10,E,E,3,40-49,Male,Masters,23 or larger,31-40,intermediate,intermediate
+jt8st7wj,V5E5,7728,0.05,1,5,5,100000,105000,3,25-39,Male,High School,19,gt60,intermediate,high-intermediate
+jt8st7wj,V5E5,3345,0,2,5,5,c,C,4,25-39,Male,High School,19,gt60,intermediate,high-intermediate
+jt8st7wj,V5E5,6389,0.04,0,5,5,43000,45000,3,25-39,Male,High School,19,gt60,intermediate,high-intermediate
+jt8st7wj,V5E5,4739,0,1,5,5,130000,130000,3,25-39,Male,High School,19,gt60,intermediate,high-intermediate
+jt8st7wj,V5E5,2416,0,2,5,5,e,E,4,25-39,Male,High School,19,gt60,intermediate,high-intermediate
+jt8stowr,V10E15,13311,0.05,1,10,15,100000,105000,2,18-24,Male,High School,15,21-30,high-intermediate,high-intermediate
+jt8stowr,V10E15,4029,0,2,10,15,c,C,2,18-24,Male,High School,15,21-30,high-intermediate,high-intermediate
+jt8stowr,V10E15,1561,0.04,0,10,15,47000,45000,2,18-24,Male,High School,15,21-30,high-intermediate,high-intermediate
+jt8stowr,V10E15,909,0.92,1,10,15,10000,130000,1,18-24,Male,High School,15,21-30,high-intermediate,high-intermediate
+jt8stowr,V10E15,3669,0,2,10,15,e,E,2,18-24,Male,High School,15,21-30,high-intermediate,high-intermediate
+jt8sx0ib,V5E15,17836,0.05,1,5,15,100000,105000,2,25-39,Female,High School,23 or larger,31-40,high-intermediate,intermediate
+jt8sx0ib,V5E15,5910,0,2,5,15,C,C,2,25-39,Female,High School,23 or larger,31-40,high-intermediate,intermediate
+jt8sx0ib,V5E15,7311,0,0,5,15,45000,45000,2,25-39,Female,High School,23 or larger,31-40,high-intermediate,intermediate
+jt8sx0ib,V5E15,7743,0,1,5,15,130000,130000,2,25-39,Female,High School,23 or larger,31-40,high-intermediate,intermediate
+jt8sx0ib,V5E15,5878,0,2,5,15,E,E,2,25-39,Female,High School,23 or larger,31-40,high-intermediate,intermediate
+jt8sxckz,V15E20,1216,0.33,1,15,20,140000,105000,3,40-49,Female,Masters,15,21-30,intermediate,high-intermediate
+jt8sxckz,V15E20,1408,0,2,15,20,C,C,4,40-49,Female,Masters,15,21-30,intermediate,high-intermediate
+jt8sxckz,V15E20,1536,0.33,0,15,20,60000,45000,4,40-49,Female,Masters,15,21-30,intermediate,high-intermediate
+jt8sxckz,V15E20,2192,0.15,1,15,20,150000,130000,3,40-49,Female,Masters,15,21-30,intermediate,high-intermediate
+jt8sxckz,V15E20,2112,1,2,15,20,53,E,4,40-49,Female,Masters,15,21-30,intermediate,high-intermediate
+jt8t1yh2,V10E5,11878,0.02,1,10,5,107000,105000,3,40-49,Male,High School,21,41-50,low-intermediate,novice
+jt8t1yh2,V10E5,6791,0,2,10,5,c,C,2,40-49,Male,High School,21,41-50,low-intermediate,novice
+jt8t1yh2,V10E5,6928,0,0,10,5,45000,45000,2,40-49,Male,High School,21,41-50,low-intermediate,novice
+jt8t1yh2,V10E5,7384,0.08,1,10,5,140000,130000,2,40-49,Male,High School,21,41-50,low-intermediate,novice
+jt8t1yh2,V10E5,5329,0,2,10,5,e,E,3,40-49,Male,High School,21,41-50,low-intermediate,novice
+jt8t3p7q,V10E20,36038,0.02,1,10,20,103000,105000,2,25-39,Female,High School,21,21-30,novice,novice
+jt8t3p7q,V10E20,6736,0,2,10,20,c,C,3,25-39,Female,High School,21,21-30,novice,novice
+jt8t3p7q,V10E20,14711,0.09,0,10,20,41000,45000,2,25-39,Female,High School,21,21-30,novice,novice
+jt8t3p7q,V10E20,33903,0.05,1,10,20,123000,130000,2,25-39,Female,High School,21,21-30,novice,novice
+jt8t3p7q,V10E20,10167,0,2,10,20,e,E,2,25-39,Female,High School,21,21-30,novice,novice
+jt8t4l10,V15E15,20283,0.07,1,15,15,98000,105000,3,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8t4l10,V15E15,17957,0,2,15,15,c,C,3,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8t4l10,V15E15,14833,0.02,0,15,15,44000,45000,4,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8t4l10,V15E15,17501,0.07,1,15,15,139000,130000,3,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8t4l10,V15E15,5599,0,2,15,15,E,E,4,25-39,Male,Bachelors,15,51-60,intermediate,low-intermediate
+jt8t4qbj,V15E20,11549,0.09,1,15,20,96000,105000,1,25-39,Male,Bachelors,13,41-50,intermediate,intermediate
+jt8t4qbj,V15E20,1127,0,2,15,20,C,C,3,25-39,Male,Bachelors,13,41-50,intermediate,intermediate
+jt8t4qbj,V15E20,13388,0.07,0,15,20,48000,45000,2,25-39,Male,Bachelors,13,41-50,intermediate,intermediate
+jt8t4qbj,V15E20,15961,0.06,1,15,20,122000,130000,2,25-39,Male,Bachelors,13,41-50,intermediate,intermediate
+jt8t4qbj,V15E20,9323,0,2,15,20,E,E,4,25-39,Male,Bachelors,13,41-50,intermediate,intermediate
+jt8t56u7,V10E5,9989,0,1,10,5,105000,105000,2,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8t56u7,V10E5,18313,0,2,10,5,C,C,3,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8t56u7,V10E5,11832,0,0,10,5,45000,45000,2,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8t56u7,V10E5,27830,0,1,10,5,130000,130000,2,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8t56u7,V10E5,6830,0,2,10,5,E,E,3,25-39,Female,Bachelors,17,31-40,novice,novice
+jt8t7gkx,V5E20,15427,0.01,1,5,20,103900,105000,3,50-59,Female,Masters,17,21-30,high-intermediate,intermediate
+jt8t7gkx,V5E20,9905,0,2,5,20,c,C,4,50-59,Female,Masters,17,21-30,high-intermediate,intermediate
+jt8t7gkx,V5E20,33056,0.01,0,5,20,44600,45000,4,50-59,Female,Masters,17,21-30,high-intermediate,intermediate
+jt8t7gkx,V5E20,3706,0,1,5,20,129800,130000,4,50-59,Female,Masters,17,21-30,high-intermediate,intermediate
+jt8t7gkx,V5E20,1198,0,2,5,20,e,E,4,50-59,Female,Masters,17,21-30,high-intermediate,intermediate
+jt8t8pty,V20E15,13792,0,1,20,15,105000,105000,3,25-39,Female,Bachelors,15,43789,intermediate,low-intermediate
+jt8t8pty,V20E15,9024,0,2,20,15,c,C,3,25-39,Female,Bachelors,15,43789,intermediate,low-intermediate
+jt8t8pty,V20E15,12632,0.11,0,20,15,50000,45000,3,25-39,Female,Bachelors,15,43789,intermediate,low-intermediate
+jt8t8pty,V20E15,18616,0.08,1,20,15,140000,130000,2,25-39,Female,Bachelors,15,43789,intermediate,low-intermediate
+jt8t8pty,V20E15,7256,0,2,20,15,e,E,3,25-39,Female,Bachelors,15,43789,intermediate,low-intermediate
+jt8ta5pc,V10E5,27803,0.01,1,10,5,106000,105000,3,25-39,Male,Bachelors,15,51-60,low-intermediate,novice
+jt8ta5pc,V10E5,21754,0,2,10,5,C,C,4,25-39,Male,Bachelors,15,51-60,low-intermediate,novice
+jt8ta5pc,V10E5,25062,0.07,0,10,5,42000,45000,4,25-39,Male,Bachelors,15,51-60,low-intermediate,novice
+jt8ta5pc,V10E5,23892,0.04,1,10,5,135000,130000,3,25-39,Male,Bachelors,15,51-60,low-intermediate,novice
+jt8ta5pc,V10E5,19479,0,2,10,5,E,E,4,25-39,Male,Bachelors,15,51-60,low-intermediate,novice
+jt8tbqnt,V10E20,7025,0.05,1,10,20,100000,105000,2,40-49,Female,Bachelors,17,41-50,low-intermediate,novice
+jt8tbqnt,V10E20,5408,0,2,10,20,C,C,2,40-49,Female,Bachelors,17,41-50,low-intermediate,novice
+jt8tbqnt,V10E20,12776,0,0,10,20,45000,45000,3,40-49,Female,Bachelors,17,41-50,low-intermediate,novice
+jt8tbqnt,V10E20,6793,0.08,1,10,20,120000,130000,3,40-49,Female,Bachelors,17,41-50,low-intermediate,novice
+jt8tbqnt,V10E20,7079,0,2,10,20,E,E,3,40-49,Female,Bachelors,17,41-50,low-intermediate,novice
+jt8tbs5l,V5E15,30179,0.01,1,5,15,104000,105000,1,18-24,Male,High School,15,51-60,novice,novice
+jt8tbs5l,V5E15,18615,0,2,5,15,C,C,3,18-24,Male,High School,15,51-60,novice,novice
+jt8tbs5l,V5E15,14671,0.04,0,5,15,43000,45000,2,18-24,Male,High School,15,51-60,novice,novice
+jt8tbs5l,V5E15,23923,0.04,1,5,15,134900,130000,2,18-24,Male,High School,15,51-60,novice,novice
+jt8tbs5l,V5E15,12713,0,2,5,15,E,E,3,18-24,Male,High School,15,51-60,novice,novice
+jt8tdbpw,V15E15,32561,0.05,1,15,15,110000,105000,2,25-39,Male,High School,23 or larger,51-60,low-intermediate,novice
+jt8tdbpw,V15E15,15334,0,2,15,15,C,C,3,25-39,Male,High School,23 or larger,51-60,low-intermediate,novice
+jt8tdbpw,V15E15,22706,0.11,0,15,15,50000,45000,3,25-39,Male,High School,23 or larger,51-60,low-intermediate,novice
+jt8tdbpw,V15E15,19471,0.04,1,15,15,125000,130000,3,25-39,Male,High School,23 or larger,51-60,low-intermediate,novice
+jt8tdbpw,V15E15,8080,0,2,15,15,E,E,3,25-39,Male,High School,23 or larger,51-60,low-intermediate,novice
+jt8tdeei,V5E15,16764,0,1,5,15,105000,105000,2,25-39,Female,Bachelors,dontknow,gt60,intermediate,low-intermediate
+jt8tdeei,V5E15,6973,0,2,5,15,C,C,2,25-39,Female,Bachelors,dontknow,gt60,intermediate,low-intermediate
+jt8tdeei,V5E15,19413,0.07,0,5,15,42000,45000,2,25-39,Female,Bachelors,dontknow,gt60,intermediate,low-intermediate
+jt8tdeei,V5E15,14346,0.04,1,5,15,125000,130000,2,25-39,Female,Bachelors,dontknow,gt60,intermediate,low-intermediate
+jt8tdeei,V5E15,3693,0,2,5,15,E,E,3,25-39,Female,Bachelors,dontknow,gt60,intermediate,low-intermediate
+jt8tdy1y,V5E10,5688,0.24,1,5,10,80000,105000,4,25-39,Male,Bachelors,19,41-50,high-intermediate,intermediate
+jt8tdy1y,V5E10,711,1,2,5,10,70,C,3,25-39,Male,Bachelors,19,41-50,high-intermediate,intermediate
+jt8tdy1y,V5E10,800,0.78,0,5,10,80000,45000,3,25-39,Male,Bachelors,19,41-50,high-intermediate,intermediate
+jt8tdy1y,V5E10,800,0.54,1,5,10,60000,130000,2,25-39,Male,Bachelors,19,41-50,high-intermediate,intermediate
+jt8tdy1y,V5E10,720,1,2,5,10,80,E,4,25-39,Male,Bachelors,19,41-50,high-intermediate,intermediate
+jt8tf143,V10E5,1792,0.38,1,10,5,145000,105000,3,40-49,Female,Masters,15,21-30,high-intermediate,intermediate
+jt8tf143,V10E5,1184,0,2,10,5,c,C,4,40-49,Female,Masters,15,21-30,high-intermediate,intermediate
+jt8tf143,V10E5,703,0.11,0,10,5,40000,45000,2,40-49,Female,Masters,15,21-30,high-intermediate,intermediate
+jt8tf143,V10E5,1232,0.31,1,10,5,170000,130000,3,40-49,Female,Masters,15,21-30,high-intermediate,intermediate
+jt8tf143,V10E5,1286,0,2,10,5,e,E,4,40-49,Female,Masters,15,21-30,high-intermediate,intermediate
+jt8th9ey,V5E10,35705,0.01,1,5,10,104000,105000,3,40-49,Male,Masters,23 or larger,gt60,intermediate,novice
+jt8th9ey,V5E10,14953,0,2,5,10,C,C,2,40-49,Male,Masters,23 or larger,gt60,intermediate,novice
+jt8th9ey,V5E10,34465,0,0,5,10,45000,45000,3,40-49,Male,Masters,23 or larger,gt60,intermediate,novice
+jt8th9ey,V5E10,25071,0,1,5,10,130000,130000,2,40-49,Male,Masters,23 or larger,gt60,intermediate,novice
+jt8th9ey,V5E10,13665,0,2,5,10,E,E,2,40-49,Male,Masters,23 or larger,gt60,intermediate,novice
+jt8tiblq,V5E15,4000,0.33,1,5,15,140000,105000,3,25-39,Female,Bachelors,21,51-60,high-intermediate,high-intermediate
+jt8tiblq,V5E15,12120,1,2,5,15,50,C,3,25-39,Female,Bachelors,21,51-60,high-intermediate,high-intermediate
+jt8tiblq,V5E15,4976,0.33,0,5,15,60000,45000,4,25-39,Female,Bachelors,21,51-60,high-intermediate,high-intermediate
+jt8tiblq,V5E15,7696,0.31,1,5,15,170000,130000,3,25-39,Female,Bachelors,21,51-60,high-intermediate,high-intermediate
+jt8tiblq,V5E15,3465,0,2,5,15,E,E,3,25-39,Female,Bachelors,21,51-60,high-intermediate,high-intermediate
+jt8tkpeg,V10E5,16730,0.05,1,10,5,100000,105000,3,25-39,Female,High School,23 or larger,41-50,low-intermediate,novice
+jt8tkpeg,V10E5,5123,0,2,10,5,c,C,3,25-39,Female,High School,23 or larger,41-50,low-intermediate,novice
+jt8tkpeg,V10E5,15924,0.33,0,10,5,60000,45000,2,25-39,Female,High School,23 or larger,41-50,low-intermediate,novice
+jt8tkpeg,V10E5,5174,0.38,1,10,5,180000,130000,3,25-39,Female,High School,23 or larger,41-50,low-intermediate,novice
+jt8tkpeg,V10E5,3693,0,2,10,5,e,E,3,25-39,Female,High School,23 or larger,41-50,low-intermediate,novice
+jt8tp8rt,V15E10,25608,0.16,1,15,10,122000,105000,3,25-39,Female,High School,21,43789,intermediate,low-intermediate
+jt8tp8rt,V15E10,5591,1,2,15,10,C   ,C,4,25-39,Female,High School,21,43789,intermediate,low-intermediate
+jt8tp8rt,V15E10,7306,0.1,0,15,10,49300,45000,4,25-39,Female,High School,21,43789,intermediate,low-intermediate
+jt8tp8rt,V15E10,2081,0.9,1,15,10,13100,130000,3,25-39,Female,High School,21,43789,intermediate,low-intermediate
+jt8tp8rt,V15E10,1436,0,2,15,10,E,E,4,25-39,Female,High School,21,43789,intermediate,low-intermediate
+jt8tpbix,V20E10,8972,0.24,1,20,10,130000,105000,2,40-49,Male,Bachelors,23 or larger,51-60,high-intermediate,novice
+jt8tpbix,V20E10,3803,0,2,20,10,c,C,4,40-49,Male,Bachelors,23 or larger,51-60,high-intermediate,novice
+jt8tpbix,V20E10,6091,0,0,20,10,45000,45000,3,40-49,Male,Bachelors,23 or larger,51-60,high-intermediate,novice
+jt8tpbix,V20E10,6743,0.15,1,20,10,150000,130000,2,40-49,Male,Bachelors,23 or larger,51-60,high-intermediate,novice
+jt8tpbix,V20E10,4914,0,2,20,10,e,E,4,40-49,Male,Bachelors,23 or larger,51-60,high-intermediate,novice
+jt8tvm4a,V20E5,17644,0.23,1,20,5,129000,105000,2,25-39,Female,High School,15,41-50,low-intermediate,novice
+jt8tvm4a,V20E5,10215,0,2,20,5,C,C,3,25-39,Female,High School,15,41-50,low-intermediate,novice
+jt8tvm4a,V20E5,7434,0.22,0,20,5,55000,45000,2,25-39,Female,High School,15,41-50,low-intermediate,novice
+jt8tvm4a,V20E5,10422,0.23,1,20,5,160000,130000,2,25-39,Female,High School,15,41-50,low-intermediate,novice
+jt8tvm4a,V20E5,6860,0,2,20,5,E,E,3,25-39,Female,High School,15,41-50,low-intermediate,novice
+jt8tz49r,V20E15,7030,0.14,1,20,15,120000,105000,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice
+jt8tz49r,V20E15,5673,0,2,20,15,c,C,4,25-39,Female,Bachelors,13,31-40,low-intermediate,novice
+jt8tz49r,V20E15,6880,0.07,0,20,15,42000,45000,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice
+jt8tz49r,V20E15,10016,0.06,1,20,15,122000,130000,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice
+jt8tz49r,V20E15,6014,0,2,20,15,e,E,4,25-39,Female,Bachelors,13,31-40,low-intermediate,novice
+jt8uadd2,V5E10,4233,0.33,1,5,10,140000,105000,3,40-49,Male,High School,15,31-40,novice,novice
+jt8uadd2,V5E10,11808,0,2,5,10,c,C,4,40-49,Male,High School,15,31-40,novice,novice
+jt8uadd2,V5E10,6048,0.33,0,5,10,60000,45000,2,40-49,Male,High School,15,31-40,novice,novice
+jt8uadd2,V5E10,11936,0.23,1,5,10,160000,130000,1,40-49,Male,High School,15,31-40,novice,novice
+jt8uadd2,V5E10,10184,0,2,5,10,e,E,3,40-49,Male,High School,15,31-40,novice,novice
+jt8ulmxt,V20E20,8968,0.05,1,20,20,100000,105000,2,18-24,Male,Bachelors,15,21-30,intermediate,intermediate
+jt8ulmxt,V20E20,4784,0,2,20,20,C,C,4,18-24,Male,Bachelors,15,21-30,intermediate,intermediate
+jt8ulmxt,V20E20,12080,0.07,0,20,20,42000,45000,2,18-24,Male,Bachelors,15,21-30,intermediate,intermediate
+jt8ulmxt,V20E20,8320,0.08,1,20,20,140000,130000,1,18-24,Male,Bachelors,15,21-30,intermediate,intermediate
+jt8ulmxt,V20E20,4216,0,2,20,20,E,E,3,18-24,Male,Bachelors,15,21-30,intermediate,intermediate
+jt8unwur,V5E10,22601,0.03,1,5,10,102000,105000,2,25-39,Female,Masters,dontknow,31-40,high-intermediate,low-intermediate
+jt8unwur,V5E10,8406,0,2,5,10,C,C,4,25-39,Female,Masters,dontknow,31-40,high-intermediate,low-intermediate
+jt8unwur,V5E10,26357,0.02,0,5,10,44000,45000,2,25-39,Female,Masters,dontknow,31-40,high-intermediate,low-intermediate
+jt8unwur,V5E10,24331,0.03,1,5,10,126000,130000,2,25-39,Female,Masters,dontknow,31-40,high-intermediate,low-intermediate
+jt8unwur,V5E10,6100,0,2,5,10,E,E,4,25-39,Female,Masters,dontknow,31-40,high-intermediate,low-intermediate
+jt8uo2vt,V10E20,11292,0.05,1,10,20,100000,105000,3,25-39,Female,High School,15,51-60,novice,novice
+jt8uo2vt,V10E20,7934,0,2,10,20,C,C,3,25-39,Female,High School,15,51-60,novice,novice
+jt8uo2vt,V10E20,27060,0.04,0,10,20,43000,45000,3,25-39,Female,High School,15,51-60,novice,novice
+jt8uo2vt,V10E20,16708,0.06,1,10,20,138000,130000,2,25-39,Female,High School,15,51-60,novice,novice
+jt8uo2vt,V10E20,15594,1,2,10,20,D,E,2,25-39,Female,High School,15,51-60,novice,novice
+jt8uqv8x,V15E20,15039,0.43,1,15,20,60000,105000,3,40-49,Female,High School,15,43626,low-intermediate,novice
+jt8uqv8x,V15E20,7383,0,2,15,20,c,C,3,40-49,Female,High School,15,43626,low-intermediate,novice
+jt8uqv8x,V15E20,8319,0.11,0,15,20,50000,45000,3,40-49,Female,High School,15,43626,low-intermediate,novice
+jt8uqv8x,V15E20,10720,0.54,1,15,20,60000,130000,2,40-49,Female,High School,15,43626,low-intermediate,novice
+jt8uqv8x,V15E20,1376,0,2,15,20,e,E,3,40-49,Female,High School,15,43626,low-intermediate,novice
+jt8us2vh,V15E15,6540,0.48,1,15,15,55000,105000,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate
+jt8us2vh,V15E15,1600,0,2,15,15,c,C,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate
+jt8us2vh,V15E15,8480,0.56,0,15,15,20000,45000,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate
+jt8us2vh,V15E15,7046,0.5,1,15,15,65000,130000,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate
+jt8us2vh,V15E15,3481,1,2,15,15,d and e,E,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate
+jt8v16wg,V10E5,18385,0.03,1,10,5,108400,105000,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8v16wg,V10E5,11205,0,2,10,5,C,C,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8v16wg,V10E5,14045,0.01,0,10,5,45300,45000,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8v16wg,V10E5,9535,0.45,1,10,5,71600,130000,3,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8v16wg,V10E5,9439,0,2,10,5,E,E,4,25-39,Female,Bachelors,21,43789,intermediate,intermediate
+jt8v1j7w,V15E20,5826,0.05,1,15,20,110000,105000,3,40-49,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8v1j7w,V15E20,7337,0,2,15,20,C,C,4,40-49,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8v1j7w,V15E20,7687,0.11,0,15,20,50000,45000,3,40-49,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8v1j7w,V15E20,3439,0.42,1,15,20,75000,130000,2,40-49,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8v1j7w,V15E20,6352,0,2,15,20,E,E,3,40-49,Male,Bachelors,21,51-60,intermediate,low-intermediate
+jt8vl1bo,V15E15,14760,0.05,1,15,15,110000,105000,1,25-39,Male,High School,dontknow,31-40,novice,novice
+jt8vl1bo,V15E15,1640,0,2,15,15,c,C,1,25-39,Male,High School,dontknow,31-40,novice,novice
+jt8vl1bo,V15E15,14936,0.02,0,15,15,44000,45000,1,25-39,Male,High School,dontknow,31-40,novice,novice
+jt8vl1bo,V15E15,14727,0.04,1,15,15,135000,130000,1,25-39,Male,High School,dontknow,31-40,novice,novice
+jt8vl1bo,V15E15,18119,0,2,15,15,E,E,3,25-39,Male,High School,dontknow,31-40,novice,novice
+jt8w6y3v,V10E10,8287,0.43,1,10,10,150000,105000,3,40-49,Female,High School,15,41-50,intermediate,intermediate
+jt8w6y3v,V10E10,5273,0,2,10,10,c,C,3,40-49,Female,High School,15,41-50,intermediate,intermediate
+jt8w6y3v,V10E10,5951,0.56,0,10,10,70000,45000,3,40-49,Female,High School,15,41-50,intermediate,intermediate
+jt8w6y3v,V10E10,4921,0.38,1,10,10,180000,130000,3,40-49,Female,High School,15,41-50,intermediate,intermediate
+jt8w6y3v,V10E10,5273,0,2,10,10,e,E,3,40-49,Female,High School,15,41-50,intermediate,intermediate
+jt8w7711,V10E5,9962,0,1,10,5,105000,105000,2,25-39,Female,Bachelors,23 or larger,51-60,intermediate,low-intermediate
+jt8w7711,V10E5,5917,0,2,10,5,C,C,3,25-39,Female,Bachelors,23 or larger,51-60,intermediate,low-intermediate
+jt8w7711,V10E5,12500,0,0,10,5,45000,45000,2,25-39,Female,Bachelors,23 or larger,51-60,intermediate,low-intermediate
+jt8w7711,V10E5,11208,0.04,1,10,5,125000,130000,2,25-39,Female,Bachelors,23 or larger,51-60,intermediate,low-intermediate
+jt8w7711,V10E5,3341,0,2,10,5,E,E,3,25-39,Female,Bachelors,23 or larger,51-60,intermediate,low-intermediate
+jt8w7of7,V5E20,10358,0.2,1,5,20,84000,105000,3,18-24,Male,High School,23 or larger,41-50,intermediate,intermediate
+jt8w7of7,V5E20,8406,0,2,5,20,C,C,3,18-24,Male,High School,23 or larger,41-50,intermediate,intermediate
+jt8w7of7,V5E20,5518,0.02,0,5,20,46000,45000,3,18-24,Male,High School,23 or larger,41-50,intermediate,intermediate
+jt8w7of7,V5E20,1139,0.01,1,5,20,129000,130000,4,18-24,Male,High School,23 or larger,41-50,intermediate,intermediate
+jt8w7of7,V5E20,5722,0,2,5,20,E,E,4,18-24,Male,High School,23 or larger,41-50,intermediate,intermediate
+jt8wek5n,V10E5,7200,0.05,1,10,5,100000,105000,3,40-49,Male,Bachelors,17,31-40,low-intermediate,novice
+jt8wek5n,V10E5,5007,0,2,10,5,C,C,4,40-49,Male,Bachelors,17,31-40,low-intermediate,novice
+jt8wek5n,V10E5,10284,0.69,0,10,5,76000,45000,4,40-49,Male,Bachelors,17,31-40,low-intermediate,novice
+jt8wek5n,V10E5,19207,0.15,1,10,5,110000,130000,2,40-49,Male,Bachelors,17,31-40,low-intermediate,novice
+jt8wek5n,V10E5,6785,0,2,10,5,E,E,4,40-49,Male,Bachelors,17,31-40,low-intermediate,novice
+jt8wmnwh,V5E20,2464,0.62,1,5,20,170000,105000,3,40-49,Male,Masters,15,21-30,intermediate,novice
+jt8wmnwh,V5E20,4272,1,2,5,20,A,C,4,40-49,Male,Masters,15,21-30,intermediate,novice
+jt8wmnwh,V5E20,4060,0.24,0,5,20,56000,45000,3,40-49,Male,Masters,15,21-30,intermediate,novice
+jt8wmnwh,V5E20,5456,0.27,1,5,20,165000,130000,3,40-49,Male,Masters,15,21-30,intermediate,novice
+jt8wmnwh,V5E20,5056,0,2,5,20,E,E,4,40-49,Male,Masters,15,21-30,intermediate,novice
+jt8wqfjd,V20E10,18088,0.24,1,20,10,80000,105000,2,25-39,Male,Masters,11,43789,intermediate,intermediate
+jt8wqfjd,V20E10,21882,0,2,20,10,C,C,3,25-39,Male,Masters,11,43789,intermediate,intermediate
+jt8wqfjd,V20E10,18634,0.44,0,20,10,65000,45000,3,25-39,Male,Masters,11,43789,intermediate,intermediate
+jt8wqfjd,V20E10,19027,0.38,1,20,10,80000,130000,3,25-39,Male,Masters,11,43789,intermediate,intermediate
+jt8wqfjd,V20E10,18783,0,2,20,10,E,E,3,25-39,Male,Masters,11,43789,intermediate,intermediate
+jt8wtfvp,V5E10,1655,0.33,1,5,10,140000,105000,4,40-49,Male,Bachelors,15,41-50,high-intermediate,intermediate
+jt8wtfvp,V5E10,1405,0,2,5,10,C,C,4,40-49,Male,Bachelors,15,41-50,high-intermediate,intermediate
+jt8wtfvp,V5E10,1301,0.56,0,5,10,70000,45000,4,40-49,Male,Bachelors,15,41-50,high-intermediate,intermediate
+jt8wtfvp,V5E10,1723,0.54,1,5,10,200000,130000,4,40-49,Male,Bachelors,15,41-50,high-intermediate,intermediate
+jt8wtfvp,V5E10,899,1,2,5,10,C,E,4,40-49,Male,Bachelors,15,41-50,high-intermediate,intermediate
+jt8wwwcb,V20E20,5873,0.33,1,20,20,140000,105000,4,25-39,Female,Masters,23 or larger,41-50,intermediate,low-intermediate
+jt8wwwcb,V20E20,13995,0,2,20,20,C,C,4,25-39,Female,Masters,23 or larger,41-50,intermediate,low-intermediate
+jt8wwwcb,V20E20,8977,0.22,0,20,20,55000,45000,4,25-39,Female,Masters,23 or larger,41-50,intermediate,low-intermediate
+jt8wwwcb,V20E20,3836,0.38,1,20,20,180000,130000,4,25-39,Female,Masters,23 or larger,41-50,intermediate,low-intermediate
+jt8wwwcb,V20E20,3758,0,2,20,20,E,E,4,25-39,Female,Masters,23 or larger,41-50,intermediate,low-intermediate
+jt8wxijf,V5E15,5591,0.05,1,5,15,100000,105000,3,25-39,Female,Bachelors,23 or larger,31-40,low-intermediate,novice
+jt8wxijf,V5E15,3757,0,2,5,15,c,C,3,25-39,Female,Bachelors,23 or larger,31-40,low-intermediate,novice
+jt8wxijf,V5E15,3814,0,0,5,15,45000,45000,4,25-39,Female,Bachelors,23 or larger,31-40,low-intermediate,novice
+jt8wxijf,V5E15,4635,0,1,5,15,129600,130000,3,25-39,Female,Bachelors,23 or larger,31-40,low-intermediate,novice
+jt8wxijf,V5E15,3510,0,2,5,15,e,E,3,25-39,Female,Bachelors,23 or larger,31-40,low-intermediate,novice
+jt8y1d9i,V10E5,9628,0.33,1,10,5,140000,105000,4,25-39,Male,High School,23 or larger,21-30,high-intermediate,low-intermediate
+jt8y1d9i,V10E5,2496,0,2,10,5,c,C,4,25-39,Male,High School,23 or larger,21-30,high-intermediate,low-intermediate
+jt8y1d9i,V10E5,8282,0.33,0,10,5,60000,45000,3,25-39,Male,High School,23 or larger,21-30,high-intermediate,low-intermediate
+jt8y1d9i,V10E5,7076,0.38,1,10,5,180000,130000,3,25-39,Male,High School,23 or larger,21-30,high-intermediate,low-intermediate
+jt8y1d9i,V10E5,2521,0,2,10,5,e,E,4,25-39,Male,High School,23 or larger,21-30,high-intermediate,low-intermediate
+jt8y31w7,V20E5,10272,0.71,1,20,5,180000,105000,3,25-39,Male,Bachelors,23 or larger,51-60,intermediate,high-intermediate
+jt8y31w7,V20E5,6952,0,2,20,5,c,C,4,25-39,Male,Bachelors,23 or larger,51-60,intermediate,high-intermediate
+jt8y31w7,V20E5,7319,0.33,0,20,5,60000,45000,4,25-39,Male,Bachelors,23 or larger,51-60,intermediate,high-intermediate
+jt8y31w7,V20E5,10096,0.08,1,20,5,140000,130000,3,25-39,Male,Bachelors,23 or larger,51-60,intermediate,high-intermediate
+jt8y31w7,V20E5,8153,0,2,20,5,E,E,4,25-39,Male,Bachelors,23 or larger,51-60,intermediate,high-intermediate
+jt8y5jdr,V5E10,2971,0.33,1,5,10,70000,105000,4,18-24,Male,Masters,23 or larger,31-40,expert,expert
+jt8y5jdr,V5E10,8466,1,2,5,10,50k,C,4,18-24,Male,Masters,23 or larger,31-40,expert,expert
+jt8y5jdr,V5E10,7415,0.33,0,5,10,60000,45000,4,18-24,Male,Masters,23 or larger,31-40,expert,expert
+jt8y5jdr,V5E10,3817,0.31,1,5,10,90000,130000,4,18-24,Male,Masters,23 or larger,31-40,expert,expert
+jt8y5jdr,V5E10,2817,1,2,5,10,60,E,4,18-24,Male,Masters,23 or larger,31-40,expert,expert
+jt94vp1a,V15E5,7800,0.05,1,15,5,100000,105000,2,50-59,Female,High School,19,41-50,low-intermediate,novice
+jt94vp1a,V15E5,4011,0,2,15,5,C,C,3,50-59,Female,High School,19,41-50,low-intermediate,novice
+jt94vp1a,V15E5,7760,0.04,0,15,5,47000,45000,2,50-59,Female,High School,19,41-50,low-intermediate,novice
+jt94vp1a,V15E5,8534,0.12,1,15,5,115000,130000,2,50-59,Female,High School,19,41-50,low-intermediate,novice
+jt94vp1a,V15E5,5119,0,2,15,5,E,E,3,50-59,Female,High School,19,41-50,low-intermediate,novice
+jt94ysm4,V15E5,14537,0.14,1,15,5,90000,105000,2,25-39,Female,High School,17,21-30,low-intermediate,novice
+jt94ysm4,V15E5,6295,0,2,15,5,C,C,2,25-39,Female,High School,17,21-30,low-intermediate,novice
+jt94ysm4,V15E5,6491,0.11,0,15,5,40000,45000,2,25-39,Female,High School,17,21-30,low-intermediate,novice
+jt94ysm4,V15E5,5446,0.91,1,15,5,12000,130000,2,25-39,Female,High School,17,21-30,low-intermediate,novice
+jt94ysm4,V15E5,7850,0,2,15,5,E,E,3,25-39,Female,High School,17,21-30,low-intermediate,novice
+jt954dir,V15E5,7504,0.05,1,15,5,100000,105000,3,25-39,Female,High School,19,43789,novice,novice
+jt954dir,V15E5,6829,0,2,15,5,C,C,3,25-39,Female,High School,19,43789,novice,novice
+jt954dir,V15E5,10602,0.02,0,15,5,44000,45000,3,25-39,Female,High School,19,43789,novice,novice
+jt954dir,V15E5,12931,0.08,1,15,5,120000,130000,3,25-39,Female,High School,19,43789,novice,novice
+jt954dir,V15E5,7612,1,2,15,5,D,E,3,25-39,Female,High School,19,43789,novice,novice
+jt959bg3,V15E5,25686,0.05,1,15,5,110000,105000,3,50-59,Female,Bachelors,19,21-30,novice,novice
+jt959bg3,V15E5,8609,0,2,15,5,C,C,4,50-59,Female,Bachelors,19,21-30,novice,novice
+jt959bg3,V15E5,27117,0.02,0,15,5,44000,45000,3,50-59,Female,Bachelors,19,21-30,novice,novice
+jt959bg3,V15E5,18657,0,1,15,5,130000,130000,3,50-59,Female,Bachelors,19,21-30,novice,novice
+jt959bg3,V15E5,10045,0,2,15,5,E,E,3,50-59,Female,Bachelors,19,21-30,novice,novice
+jt95unh4,V15E5,10063,0.71,1,15,5,180000,105000,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,high-intermediate
+jt95unh4,V15E5,10846,0,2,15,5,c,C,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,high-intermediate
+jt95unh4,V15E5,9111,0.56,0,15,5,70000,45000,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,high-intermediate
+jt95unh4,V15E5,13510,1.15,1,15,5,280000,130000,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,high-intermediate
+jt95unh4,V15E5,10383,0,2,15,5,E,E,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,high-intermediate
+jt95whrg,V15E5,23642,0.05,1,15,5,110000,105000,3,40-49,Male,Bachelors,21,21-30,intermediate,low-intermediate
+jt95whrg,V15E5,9635,0,2,15,5,C,C,4,40-49,Male,Bachelors,21,21-30,intermediate,low-intermediate
+jt95whrg,V15E5,17164,0,0,15,5,45000,45000,3,40-49,Male,Bachelors,21,21-30,intermediate,low-intermediate
+jt95whrg,V15E5,31974,0.08,1,15,5,140000,130000,2,40-49,Male,Bachelors,21,21-30,intermediate,low-intermediate
+jt95whrg,V15E5,8203,0,2,15,5,E,E,4,40-49,Male,Bachelors,21,21-30,intermediate,low-intermediate
+jt95x71v,V15E5,8519,0.09,1,15,5,114000,105000,3,25-39,Male,Masters,dontknow,31-40,intermediate,intermediate
+jt95x71v,V15E5,1649,0,2,15,5,C,C,3,25-39,Male,Masters,dontknow,31-40,intermediate,intermediate
+jt95x71v,V15E5,7632,0.09,0,15,5,49000,45000,2,25-39,Male,Masters,dontknow,31-40,intermediate,intermediate
+jt95x71v,V15E5,17401,0.07,1,15,5,139000,130000,3,25-39,Male,Masters,dontknow,31-40,intermediate,intermediate
+jt95x71v,V15E5,8216,0,2,15,5,E,E,4,25-39,Male,Masters,dontknow,31-40,intermediate,intermediate
+jt95zbfb,V15E5,24629,0.07,1,15,5,112200,105000,1,40-49,Male,Masters,23 or larger,41-50,novice,novice
+jt95zbfb,V15E5,12766,0,2,15,5,c,C,2,40-49,Male,Masters,23 or larger,41-50,novice,novice
+jt95zbfb,V15E5,10608,0.04,0,15,5,43400,45000,1,40-49,Male,Masters,23 or larger,41-50,novice,novice
+jt95zbfb,V15E5,15604,0.07,1,15,5,120300,130000,1,40-49,Male,Masters,23 or larger,41-50,novice,novice
+jt95zbfb,V15E5,12673,0,2,15,5,e,E,1,40-49,Male,Masters,23 or larger,41-50,novice,novice
+jt962iwg,V15E5,29470,0.05,1,15,5,100000,105000,3,25-39,Unspecified,Bachelors,15,gt60,intermediate,intermediate
+jt962iwg,V15E5,8767,0,2,15,5,C,C,3,25-39,Unspecified,Bachelors,15,gt60,intermediate,intermediate
+jt962iwg,V15E5,11842,0,0,15,5,45000,45000,3,25-39,Unspecified,Bachelors,15,gt60,intermediate,intermediate
+jt962iwg,V15E5,12763,0,1,15,5,130000,130000,3,25-39,Unspecified,Bachelors,15,gt60,intermediate,intermediate
+jt962iwg,V15E5,8512,0,2,15,5,E,E,3,25-39,Unspecified,Bachelors,15,gt60,intermediate,intermediate
+jt964xqx,V15E5,16286,0.48,1,15,5,155000,105000,3,25-39,Female,High School,13,43789,low-intermediate,low-intermediate
+jt964xqx,V15E5,6249,0,2,15,5,C,C,3,25-39,Female,High School,13,43789,low-intermediate,low-intermediate
+jt964xqx,V15E5,19322,0.04,0,15,5,47000,45000,2,25-39,Female,High School,13,43789,low-intermediate,low-intermediate
+jt964xqx,V15E5,27338,0.04,1,15,5,135000,130000,2,25-39,Female,High School,13,43789,low-intermediate,low-intermediate
+jt964xqx,V15E5,9349,0,2,15,5,E,E,3,25-39,Female,High School,13,43789,low-intermediate,low-intermediate
+jt96cag9,V15E5,950,0.38,1,15,5,65000,105000,2,25-39,Female,Bachelors,17,41-50,intermediate,intermediate
+jt96cag9,V15E5,11497,0,2,15,5,c,C,3,25-39,Female,Bachelors,17,41-50,intermediate,intermediate
+jt96cag9,V15E5,7388,0,0,15,5,45000,45000,3,25-39,Female,Bachelors,17,41-50,intermediate,intermediate
+jt96cag9,V15E5,10591,0.04,1,15,5,125000,130000,3,25-39,Female,Bachelors,17,41-50,intermediate,intermediate
+jt96cag9,V15E5,7565,0,2,15,5,e,E,4,25-39,Female,Bachelors,17,41-50,intermediate,intermediate
+jt96gqec,V15E5,17896,0.52,1,15,5,50000,105000,3,40-49,Male,High School,15,43789,intermediate,low-intermediate
+jt96gqec,V15E5,4082,0,2,15,5,c,C,3,40-49,Male,High School,15,43789,intermediate,low-intermediate
+jt96gqec,V15E5,8906,0.22,0,15,5,55000,45000,3,40-49,Male,High School,15,43789,intermediate,low-intermediate
+jt96gqec,V15E5,10383,0.46,1,15,5,70000,130000,3,40-49,Male,High School,15,43789,intermediate,low-intermediate
+jt96gqec,V15E5,2760,1,2,15,5,d,E,2,40-49,Male,High School,15,43789,intermediate,low-intermediate
+jt96w517,V15E5,1030,0.33,1,15,5,70000,105000,4,25-39,Female,Masters,15,43789,expert,expert
+jt96w517,V15E5,7185,0,2,15,5,C,C,4,25-39,Female,Masters,15,43789,expert,expert
+jt96w517,V15E5,15000,0.33,0,15,5,60000,45000,4,25-39,Female,Masters,15,43789,expert,expert
+jt96w517,V15E5,1249,0.23,1,15,5,100000,130000,4,25-39,Female,Masters,15,43789,expert,expert
+jt96w517,V15E5,848,1,2,15,5,B,E,3,25-39,Female,Masters,15,43789,expert,expert
+jt976ddd,V15E5,663,0.76,1,15,5,25000,105000,2,25-39,Female,Bachelors,11,43626,low-intermediate,low-intermediate
+jt976ddd,V15E5,496,1,2,15,5,a,C,2,25-39,Female,Bachelors,11,43626,low-intermediate,low-intermediate
+jt976ddd,V15E5,693,0,0,15,5,45000,45000,2,25-39,Female,Bachelors,11,43626,low-intermediate,low-intermediate
+jt976ddd,V15E5,638,0.81,1,15,5,25000,130000,2,25-39,Female,Bachelors,11,43626,low-intermediate,low-intermediate
+jt976ddd,V15E5,650,1,2,15,5,c,E,2,25-39,Female,Bachelors,11,43626,low-intermediate,low-intermediate
+jt98ah8m,V15E5,15484,0.05,1,15,5,100000,105000,2,25-39,Female,Bachelors,15,gt60,novice,novice
+jt98ah8m,V15E5,10841,0,2,15,5,C,C,4,25-39,Female,Bachelors,15,gt60,novice,novice
+jt98ah8m,V15E5,34173,0.13,0,15,5,39000,45000,2,25-39,Female,Bachelors,15,gt60,novice,novice
+jt98ah8m,V15E5,17088,0.15,1,15,5,110000,130000,1,25-39,Female,Bachelors,15,gt60,novice,novice
+jt98ah8m,V15E5,8841,0,2,15,5,E,E,3,25-39,Female,Bachelors,15,gt60,novice,novice
+jt98n4m5,V15E5,9991,0.33,1,15,5,140000,105000,3,18-24,Male,Other,17,gt60,high-intermediate,high-intermediate
+jt98n4m5,V15E5,6522,0,2,15,5,c,C,4,18-24,Male,Other,17,gt60,high-intermediate,high-intermediate
+jt98n4m5,V15E5,10720,0.33,0,15,5,60000,45000,3,18-24,Male,Other,17,gt60,high-intermediate,high-intermediate
+jt98n4m5,V15E5,7472,0.23,1,15,5,160000,130000,3,18-24,Male,Other,17,gt60,high-intermediate,high-intermediate
+jt98n4m5,V15E5,13047,0,2,15,5,e,E,4,18-24,Male,Other,17,gt60,high-intermediate,high-intermediate
+jt9aikn4,V15E5,10174,0.05,1,15,5,110000,105000,2,50-59,Male,Other,23 or larger,gt60,intermediate,novice
+jt9aikn4,V15E5,5488,0,2,15,5,C,C,3,50-59,Male,Other,23 or larger,gt60,intermediate,novice
+jt9aikn4,V15E5,6070,0.02,0,15,5,44000,45000,2,50-59,Male,Other,23 or larger,gt60,intermediate,novice
+jt9aikn4,V15E5,8856,0.03,1,15,5,126000,130000,3,50-59,Male,Other,23 or larger,gt60,intermediate,novice
+jt9aikn4,V15E5,5138,0,2,15,5,E,E,3,50-59,Male,Other,23 or larger,gt60,intermediate,novice
+jt9b2vwp,V15E5,5119,0.05,1,15,5,100000,105000,4,18-24,Male,High School,dontknow,41-50,intermediate,high-intermediate
+jt9b2vwp,V15E5,4851,0,2,15,5,C,C,2,18-24,Male,High School,dontknow,41-50,intermediate,high-intermediate
+jt9b2vwp,V15E5,2968,0.11,0,15,5,50000,45000,4,18-24,Male,High School,dontknow,41-50,intermediate,high-intermediate
+jt9b2vwp,V15E5,4740,0,1,15,5,130000,130000,3,18-24,Male,High School,dontknow,41-50,intermediate,high-intermediate
+jt9b2vwp,V15E5,4070,0,2,15,5,E,E,3,18-24,Male,High School,dontknow,41-50,intermediate,high-intermediate
+jt9b63c7,V15E5,32385,0.43,1,15,5,60000,105000,3,25-39,Male,Bachelors,13,31-40,low-intermediate,novice
+jt9b63c7,V15E5,5556,0,2,15,5,C,C,3,25-39,Male,Bachelors,13,31-40,low-intermediate,novice
+jt9b63c7,V15E5,780,0.33,0,15,5,30000,45000,2,25-39,Male,Bachelors,13,31-40,low-intermediate,novice
+jt9b63c7,V15E5,7652,0.08,1,15,5,140000,130000,3,25-39,Male,Bachelors,13,31-40,low-intermediate,novice
+jt9b63c7,V15E5,4421,1,2,15,5,D,E,3,25-39,Male,Bachelors,13,31-40,low-intermediate,novice
+jt9d65di,V15E5,19531,0.05,1,15,5,110000,105000,3,25-39,Male,High School,23 or larger,21-30,novice,novice
+jt9d65di,V15E5,7976,0,2,15,5,c,C,4,25-39,Male,High School,23 or larger,21-30,novice,novice
+jt9d65di,V15E5,14706,0,0,15,5,45000,45000,3,25-39,Male,High School,23 or larger,21-30,novice,novice
+jt9d65di,V15E5,20568,0,1,15,5,130000,130000,3,25-39,Male,High School,23 or larger,21-30,novice,novice
+jt9d65di,V15E5,12906,0,2,15,5,e,E,3,25-39,Male,High School,23 or larger,21-30,novice,novice

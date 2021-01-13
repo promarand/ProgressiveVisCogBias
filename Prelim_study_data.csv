@@ -1,0 +1,157 @@
+"","X","user","time","error","qType","interfaceType","ans","correct","age","sex","degree","monitor","computer","expert","expertProgressive","presentationOrder","corr1","corr5","corr10","corr20"
+"1",0,"jt4pz1sn",29617,0,0,"A","59000","58878","25-39","Male","Bachelors","15","21-30","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"2",1,"jt4pz1sn",12449,0.15,1,"A","140000","164565","25-39","Male","Bachelors","15","21-30","intermediate","intermediate","[u'A', u'B']",0,0,0,1
+"3",2,"jt4pz1sn",10968,1,2,"A","D","C","25-39","Male","Bachelors","15","21-30","intermediate","intermediate","[u'A', u'B']",0,0,0,0
+"4",3,"jt4pz1sn",15953,0.11,0,"B","70000","78615","25-39","Male","Bachelors","15","21-30","intermediate","intermediate","[u'A', u'B']",0,0,0,1
+"5",4,"jt4pz1sn",15740,0.01,1,"B","140000","140859","25-39","Male","Bachelors","15","21-30","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"6",5,"jt4pz1sn",13830,1,2,"B","E","B","25-39","Male","Bachelors","15","21-30","intermediate","intermediate","[u'A', u'B']",0,0,0,0
+"7",6,"jt4q4m8k",20131,0.15,0,"B","50000","58878","50-59","Male","Bachelors","15","gt60","low-intermediate","low-intermediate","[u'B', u'A']",0,0,0,1
+"8",7,"jt4q4m8k",12677,0.51,1,"B","80000","164565","50-59","Male","Bachelors","15","gt60","low-intermediate","low-intermediate","[u'B', u'A']",0,0,0,0
+"9",8,"jt4q4m8k",12920,1,2,"B","D","C","50-59","Male","Bachelors","15","gt60","low-intermediate","low-intermediate","[u'B', u'A']",0,0,0,0
+"10",9,"jt4q4m8k",10490,0.36,0,"A","50000","78615","50-59","Male","Bachelors","15","gt60","low-intermediate","low-intermediate","[u'B', u'A']",0,0,0,0
+"11",10,"jt4q4m8k",5965,0.43,1,"A","80000","140859","50-59","Male","Bachelors","15","gt60","low-intermediate","low-intermediate","[u'B', u'A']",0,0,0,0
+"12",11,"jt4q4m8k",16288,1,2,"A","E","B","50-59","Male","Bachelors","15","gt60","low-intermediate","low-intermediate","[u'B', u'A']",0,0,0,0
+"13",12,"jt4q4y13",24371,0.01,0,"A","58000","58878","25-39","Male","Bachelors","13","gt60","intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"14",13,"jt4q4y13",15826,0.27,1,"A","120000","164565","25-39","Male","Bachelors","13","gt60","intermediate","low-intermediate","[u'A', u'B']",0,0,0,0
+"15",14,"jt4q4y13",23972,0,2,"A","c","C","25-39","Male","Bachelors","13","gt60","intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"16",15,"jt4q4y13",16353,0.11,0,"B","70000","78615","25-39","Male","Bachelors","13","gt60","intermediate","low-intermediate","[u'A', u'B']",0,0,0,1
+"17",16,"jt4q4y13",23759,0.01,1,"B","140000","140859","25-39","Male","Bachelors","13","gt60","intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"18",17,"jt4q4y13",20340,1,2,"B","e","B","25-39","Male","Bachelors","13","gt60","intermediate","low-intermediate","[u'A', u'B']",0,0,0,0
+"19",18,"jt4qiq02",18340,0.01,0,"A","58000","58878","25-39","Female","Bachelors","23 or larger","41-50","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"20",19,"jt4qiq02",20332,0.09,1,"A","150000","164565","25-39","Female","Bachelors","23 or larger","41-50","intermediate","intermediate","[u'A', u'B']",0,0,1,1
+"21",20,"jt4qiq02",16521,1,2,"A","D","C","25-39","Female","Bachelors","23 or larger","41-50","intermediate","intermediate","[u'A', u'B']",0,0,0,0
+"22",21,"jt4qiq02",28594,0.11,0,"B","70000","78615","25-39","Female","Bachelors","23 or larger","41-50","intermediate","intermediate","[u'A', u'B']",0,0,0,1
+"23",22,"jt4qiq02",49336,0.02,1,"B","143000","140859","25-39","Female","Bachelors","23 or larger","41-50","intermediate","intermediate","[u'A', u'B']",0,1,1,1
+"24",23,"jt4qiq02",47575,0,2,"B","B","B","25-39","Female","Bachelors","23 or larger","41-50","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"25",24,"jt4qjgr9",33829,0.07,0,"B","55000","58878","25-39","Male","Masters","19","51-60","low-intermediate","novice","[u'B', u'A']",0,0,1,1
+"26",25,"jt4qjgr9",42217,0.06,1,"B","155000","164565","25-39","Male","Masters","19","51-60","low-intermediate","novice","[u'B', u'A']",0,0,1,1
+"27",26,"jt4qjgr9",29692,0,2,"B","C","C","25-39","Male","Masters","19","51-60","low-intermediate","novice","[u'B', u'A']",1,1,1,1
+"28",27,"jt4qjgr9",38085,0.03,0,"A","76000","78615","25-39","Male","Masters","19","51-60","low-intermediate","novice","[u'B', u'A']",0,1,1,1
+"29",28,"jt4qjgr9",41563,0.02,1,"A","143000","140859","25-39","Male","Masters","19","51-60","low-intermediate","novice","[u'B', u'A']",0,1,1,1
+"30",29,"jt4qjgr9",41513,0,2,"A","B","B","25-39","Male","Masters","19","51-60","low-intermediate","novice","[u'B', u'A']",1,1,1,1
+"31",30,"jt4qrcfg",56831,0.1,0,"A","65000","58878","50-59","Male","High School","21","41-50","low-intermediate","low-intermediate","[u'A', u'B']",0,0,1,1
+"32",31,"jt4qrcfg",44824,0.03,1,"A","170000","164565","50-59","Male","High School","21","41-50","low-intermediate","low-intermediate","[u'A', u'B']",0,1,1,1
+"33",32,"jt4qrcfg",79962,0,2,"A","c","C","50-59","Male","High School","21","41-50","low-intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"34",33,"jt4qrcfg",41081,0.05,0,"B","75000","78615","50-59","Male","High School","21","41-50","low-intermediate","low-intermediate","[u'A', u'B']",0,1,1,1
+"35",34,"jt4qrcfg",64504,0.04,1,"B","147000","140859","50-59","Male","High School","21","41-50","low-intermediate","low-intermediate","[u'A', u'B']",0,1,1,1
+"36",35,"jt4qrcfg",65585,0,2,"B","b","B","50-59","Male","High School","21","41-50","low-intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"37",36,"jt4qt8te",13538,0.02,0,"A","60000","58878","25-39","Male","Bachelors","23 or larger","31-40","high-intermediate","intermediate","[u'A', u'B']",0,1,1,1
+"38",37,"jt4qt8te",14326,0.09,1,"A","150000","164565","25-39","Male","Bachelors","23 or larger","31-40","high-intermediate","intermediate","[u'A', u'B']",0,0,1,1
+"39",38,"jt4qt8te",4624,0,2,"A","c","C","25-39","Male","Bachelors","23 or larger","31-40","high-intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"40",39,"jt4qt8te",10255,0.17,0,"B","65000","78615","25-39","Male","Bachelors","23 or larger","31-40","high-intermediate","intermediate","[u'A', u'B']",0,0,0,1
+"41",40,"jt4qt8te",13859,0.15,1,"B","120000","140859","25-39","Male","Bachelors","23 or larger","31-40","high-intermediate","intermediate","[u'A', u'B']",0,0,0,1
+"42",41,"jt4qt8te",11758,1,2,"B","e","B","25-39","Male","Bachelors","23 or larger","31-40","high-intermediate","intermediate","[u'A', u'B']",0,0,0,0
+"43",42,"jt4qup85",21975,0.32,0,"B","78000","58878","50-59","Female","High School","15","31-40","high-intermediate","intermediate","[u'B', u'A']",0,0,0,0
+"44",43,"jt4qup85",31589,0.22,1,"B","200000","164565","50-59","Female","High School","15","31-40","high-intermediate","intermediate","[u'B', u'A']",0,0,0,0
+"45",44,"jt4qup85",15859,1,2,"B","e","C","50-59","Female","High School","15","31-40","high-intermediate","intermediate","[u'B', u'A']",0,0,0,0
+"46",45,"jt4qup85",25172,0.15,0,"A","67000","78615","50-59","Female","High School","15","31-40","high-intermediate","intermediate","[u'B', u'A']",0,0,0,1
+"47",46,"jt4qup85",18508,0.14,1,"A","160000","140859","50-59","Female","High School","15","31-40","high-intermediate","intermediate","[u'B', u'A']",0,0,0,1
+"48",47,"jt4qup85",9515,0,2,"A","b","B","50-59","Female","High School","15","31-40","high-intermediate","intermediate","[u'B', u'A']",1,1,1,1
+"49",48,"jt4qwjb8",23223,0.02,0,"A","60000","58878","40-49","Male","Bachelors","23 or larger","gt60","intermediate","intermediate","[u'A', u'B']",0,1,1,1
+"50",49,"jt4qwjb8",48476,0.09,1,"A","150000","164565","40-49","Male","Bachelors","23 or larger","gt60","intermediate","intermediate","[u'A', u'B']",0,0,1,1
+"51",50,"jt4qwjb8",34839,0,2,"A","C","C","40-49","Male","Bachelors","23 or larger","gt60","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"52",51,"jt4qwjb8",16947,0.1,0,"B","71000","78615","40-49","Male","Bachelors","23 or larger","gt60","intermediate","intermediate","[u'A', u'B']",0,0,1,1
+"53",52,"jt4qwjb8",30451,0.01,1,"B","140000","140859","40-49","Male","Bachelors","23 or larger","gt60","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"54",53,"jt4qwjb8",38996,0,2,"B","B","B","40-49","Male","Bachelors","23 or larger","gt60","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"55",54,"jt4qwmwx",25958,0.04,0,"A","61000","58878","25-39","Female","Other","23 or larger","51-60","novice","novice","[u'A', u'B']",0,1,1,1
+"56",55,"jt4qwmwx",45154,0.08,1,"A","152000","164565","25-39","Female","Other","23 or larger","51-60","novice","novice","[u'A', u'B']",0,0,1,1
+"57",56,"jt4qwmwx",37588,0,2,"A","C","C","25-39","Female","Other","23 or larger","51-60","novice","novice","[u'A', u'B']",1,1,1,1
+"58",57,"jt4qwmwx",25638,0.02,0,"B","77000","78615","25-39","Female","Other","23 or larger","51-60","novice","novice","[u'A', u'B']",0,1,1,1
+"59",58,"jt4qwmwx",29972,0.03,1,"B","145000","140859","25-39","Female","Other","23 or larger","51-60","novice","novice","[u'A', u'B']",0,1,1,1
+"60",59,"jt4qwmwx",36182,0,2,"B","B","B","25-39","Female","Other","23 or larger","51-60","novice","novice","[u'A', u'B']",1,1,1,1
+"61",60,"jt4riza4",26650,0.03,0,"B","57000","58878","25-39","Male","Bachelors","23 or larger","31-40","low-intermediate","low-intermediate","[u'B', u'A']",0,1,1,1
+"62",61,"jt4riza4",22084,0.07,1,"B","153000","164565","25-39","Male","Bachelors","23 or larger","31-40","low-intermediate","low-intermediate","[u'B', u'A']",0,0,1,1
+"63",62,"jt4riza4",20428,0,2,"B","C","C","25-39","Male","Bachelors","23 or larger","31-40","low-intermediate","low-intermediate","[u'B', u'A']",1,1,1,1
+"64",63,"jt4riza4",30945,0.08,0,"A","72000","78615","25-39","Male","Bachelors","23 or larger","31-40","low-intermediate","low-intermediate","[u'B', u'A']",0,0,1,1
+"65",64,"jt4riza4",32396,0.01,1,"A","142000","140859","25-39","Male","Bachelors","23 or larger","31-40","low-intermediate","low-intermediate","[u'B', u'A']",1,1,1,1
+"66",65,"jt4riza4",38609,0,2,"A","B","B","25-39","Male","Bachelors","23 or larger","31-40","low-intermediate","low-intermediate","[u'B', u'A']",1,1,1,1
+"67",66,"jt4rx72x",24984,0.01,0,"B","58000","58878","25-39","Male","Bachelors","21","41-50","novice","novice","[u'B', u'A']",1,1,1,1
+"68",67,"jt4rx72x",41090,0.04,1,"B","158000","164565","25-39","Male","Bachelors","21","41-50","novice","novice","[u'B', u'A']",0,1,1,1
+"69",68,"jt4rx72x",23121,1,2,"B","D","C","25-39","Male","Bachelors","21","41-50","novice","novice","[u'B', u'A']",0,0,0,0
+"70",69,"jt4rx72x",12612,0.11,0,"A","70000","78615","25-39","Male","Bachelors","21","41-50","novice","novice","[u'B', u'A']",0,0,0,1
+"71",70,"jt4rx72x",23734,0.02,1,"A","144000","140859","25-39","Male","Bachelors","21","41-50","novice","novice","[u'B', u'A']",0,1,1,1
+"72",71,"jt4rx72x",17271,1,2,"A","E","B","25-39","Male","Bachelors","21","41-50","novice","novice","[u'B', u'A']",0,0,0,0
+"73",72,"jt4rxs3f",34447,0.39,0,"B","82000","58878","25-39","Male","High School","23 or larger","31-40","novice","novice","[u'B', u'A']",0,0,0,0
+"74",73,"jt4rxs3f",34072,0.5,1,"B","83000","164565","25-39","Male","High School","23 or larger","31-40","novice","novice","[u'B', u'A']",0,0,0,0
+"75",74,"jt4rxs3f",34497,0,2,"B","C","C","25-39","Male","High School","23 or larger","31-40","novice","novice","[u'B', u'A']",1,1,1,1
+"76",75,"jt4rxs3f",21872,0.11,0,"A","70000","78615","25-39","Male","High School","23 or larger","31-40","novice","novice","[u'B', u'A']",0,0,0,1
+"77",76,"jt4rxs3f",32859,0.04,1,"A","135000","140859","25-39","Male","High School","23 or larger","31-40","novice","novice","[u'B', u'A']",0,1,1,1
+"78",77,"jt4rxs3f",46364,0,2,"A","B","B","25-39","Male","High School","23 or larger","31-40","novice","novice","[u'B', u'A']",1,1,1,1
+"79",78,"jt4serce",16821,0.05,0,"B","62000","58878","25-39","Female","Masters","15","gt60","novice","novice","[u'B', u'A']",0,1,1,1
+"80",79,"jt4serce",28285,0.03,1,"B","160000","164565","25-39","Female","Masters","15","gt60","novice","novice","[u'B', u'A']",0,1,1,1
+"81",80,"jt4serce",12053,1,2,"B","d","C","25-39","Female","Masters","15","gt60","novice","novice","[u'B', u'A']",0,0,0,0
+"82",81,"jt4serce",9416,0.24,0,"A","60000","78615","25-39","Female","Masters","15","gt60","novice","novice","[u'B', u'A']",0,0,0,0
+"83",82,"jt4serce",20508,0.01,1,"A","140000","140859","25-39","Female","Masters","15","gt60","novice","novice","[u'B', u'A']",1,1,1,1
+"84",83,"jt4serce",7417,0,2,"A","b","B","25-39","Female","Masters","15","gt60","novice","novice","[u'B', u'A']",1,1,1,1
+"85",84,"jt4sgoco",38462,0,0,"A","59000","58878","25-39","Other","Other","15","41-50","low-intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"86",85,"jt4sgoco",43119,0.03,1,"A","160000","164565","25-39","Other","Other","15","41-50","low-intermediate","low-intermediate","[u'A', u'B']",0,1,1,1
+"87",86,"jt4sgoco",51279,0,2,"A","C","C","25-39","Other","Other","15","41-50","low-intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"88",87,"jt4sgoco",33358,0.08,0,"B","72000","78615","25-39","Other","Other","15","41-50","low-intermediate","low-intermediate","[u'A', u'B']",0,0,1,1
+"89",88,"jt4sgoco",38528,0.01,1,"B","140000","140859","25-39","Other","Other","15","41-50","low-intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"90",89,"jt4sgoco",61203,0,2,"B","B","B","25-39","Other","Other","15","41-50","low-intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"91",90,"jt4sydej",16885,0.02,0,"A","60000","58878","25-39","Male","High School","13","51-60","intermediate","intermediate","[u'A', u'B']",0,1,1,1
+"92",91,"jt4sydej",17823,0.12,1,"A","145000","164565","25-39","Male","High School","13","51-60","intermediate","intermediate","[u'A', u'B']",0,0,0,1
+"93",92,"jt4sydej",13621,1,2,"A","D","C","25-39","Male","High School","13","51-60","intermediate","intermediate","[u'A', u'B']",0,0,0,0
+"94",93,"jt4sydej",23079,0.14,0,"B","68000","78615","25-39","Male","High School","13","51-60","intermediate","intermediate","[u'A', u'B']",0,0,0,1
+"95",94,"jt4sydej",16668,0.01,1,"B","140000","140859","25-39","Male","High School","13","51-60","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"96",95,"jt4sydej",14664,0,2,"B","B","B","25-39","Male","High School","13","51-60","intermediate","intermediate","[u'A', u'B']",1,1,1,1
+"97",96,"jt4t4xor",26479,0.02,0,"A","60000","58878","40-49","Female","High School","23 or larger","51-60","intermediate","novice","[u'A', u'B']",0,1,1,1
+"98",97,"jt4t4xor",29612,0.09,1,"A","150000","164565","40-49","Female","High School","23 or larger","51-60","intermediate","novice","[u'A', u'B']",0,0,1,1
+"99",98,"jt4t4xor",11071,1,2,"A","B","C","40-49","Female","High School","23 or larger","51-60","intermediate","novice","[u'A', u'B']",0,0,0,0
+"100",99,"jt4t4xor",17214,0.11,0,"B","70000","78615","40-49","Female","High School","23 or larger","51-60","intermediate","novice","[u'A', u'B']",0,0,0,1
+"101",100,"jt4t4xor",18093,0.06,1,"B","150000","140859","40-49","Female","High School","23 or larger","51-60","intermediate","novice","[u'A', u'B']",0,0,1,1
+"102",101,"jt4t4xor",19601,0,2,"B","B","B","40-49","Female","High School","23 or larger","51-60","intermediate","novice","[u'A', u'B']",1,1,1,1
+"103",102,"jt4t8832",32065,0.06,0,"A","62345","58878","25-39","Female","Bachelors","17","51-60","intermediate","novice","[u'A', u'B']",0,0,1,1
+"104",103,"jt4t8832",54615,0.03,1,"A","160000","164565","25-39","Female","Bachelors","17","51-60","intermediate","novice","[u'A', u'B']",0,1,1,1
+"105",104,"jt4t8832",20239,1,2,"A","D","C","25-39","Female","Bachelors","17","51-60","intermediate","novice","[u'A', u'B']",0,0,0,0
+"106",105,"jt4t8832",34747,0.07,0,"B","73000","78615","25-39","Female","Bachelors","17","51-60","intermediate","novice","[u'A', u'B']",0,0,1,1
+"107",106,"jt4t8832",33025,0.02,1,"B","143000","140859","25-39","Female","Bachelors","17","51-60","intermediate","novice","[u'A', u'B']",0,1,1,1
+"108",107,"jt4t8832",18872,1,2,"B","E","B","25-39","Female","Bachelors","17","51-60","intermediate","novice","[u'A', u'B']",0,0,0,0
+"109",108,"jt4tjl9t",28809,0.01,0,"B","58000","58878","50-59","Female","Other","15","41-50","novice","novice","[u'B', u'A']",1,1,1,1
+"110",109,"jt4tjl9t",81410,0.91,1,"B","15000","164565","50-59","Female","Other","15","41-50","novice","novice","[u'B', u'A']",0,0,0,0
+"111",110,"jt4tjl9t",39243,1,2,"B","d","C","50-59","Female","Other","15","41-50","novice","novice","[u'B', u'A']",0,0,0,0
+"112",111,"jt4tjl9t",26945,0.11,0,"A","70000","78615","50-59","Female","Other","15","41-50","novice","novice","[u'B', u'A']",0,0,0,1
+"113",112,"jt4tjl9t",34731,0.9,1,"A","14000","140859","50-59","Female","Other","15","41-50","novice","novice","[u'B', u'A']",0,0,0,0
+"114",113,"jt4tjl9t",16318,1,2,"A","e","B","50-59","Female","Other","15","41-50","novice","novice","[u'B', u'A']",0,0,0,0
+"115",114,"jt4tphyg",24519,0.07,0,"A","62900","58878","18-24","Female","High School","15","51-60","intermediate","low-intermediate","[u'A', u'B']",0,0,1,1
+"116",115,"jt4tphyg",76148,0.02,1,"A","160950","164565","18-24","Female","High School","15","51-60","intermediate","low-intermediate","[u'A', u'B']",0,1,1,1
+"117",116,"jt4tphyg",22753,0,2,"A","C","C","18-24","Female","High School","15","51-60","intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"118",117,"jt4tphyg",44044,0.03,0,"B","76200","78615","18-24","Female","High School","15","51-60","intermediate","low-intermediate","[u'A', u'B']",0,1,1,1
+"119",118,"jt4tphyg",37276,0.01,1,"B","142600","140859","18-24","Female","High School","15","51-60","intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"120",119,"jt4tphyg",47473,0,2,"B","B","B","18-24","Female","High School","15","51-60","intermediate","low-intermediate","[u'A', u'B']",1,1,1,1
+"121",120,"jt4ul7bb",61167,0,0,"A","59000","58878","25-39","Male","High School","21","43626","low-intermediate","novice","[u'A', u'B']",1,1,1,1
+"122",121,"jt4ul7bb",40623,0.09,1,"A","150000","164565","25-39","Male","High School","21","43626","low-intermediate","novice","[u'A', u'B']",0,0,1,1
+"123",122,"jt4ul7bb",26312,1,2,"A","D","C","25-39","Male","High School","21","43626","low-intermediate","novice","[u'A', u'B']",0,0,0,0
+"124",123,"jt4ul7bb",46788,0.07,0,"B","73000","78615","25-39","Male","High School","21","43626","low-intermediate","novice","[u'A', u'B']",0,0,1,1
+"125",124,"jt4ul7bb",33263,0.02,1,"B","143000","140859","25-39","Male","High School","21","43626","low-intermediate","novice","[u'A', u'B']",0,1,1,1
+"126",125,"jt4ul7bb",42535,0,2,"B","B","B","25-39","Male","High School","21","43626","low-intermediate","novice","[u'A', u'B']",1,1,1,1
+"127",126,"jt4upspp",28958,0.07,0,"B","55000","58878","25-39","Male","Bachelors","15","41-50","intermediate","intermediate","[u'B', u'A']",0,0,1,1
+"128",127,"jt4upspp",37926,0.09,1,"B","150000","164565","25-39","Male","Bachelors","15","41-50","intermediate","intermediate","[u'B', u'A']",0,0,1,1
+"129",128,"jt4upspp",39571,0,2,"B","C","C","25-39","Male","Bachelors","15","41-50","intermediate","intermediate","[u'B', u'A']",1,1,1,1
+"130",129,"jt4upspp",20840,0.11,0,"A","70000","78615","25-39","Male","Bachelors","15","41-50","intermediate","intermediate","[u'B', u'A']",0,0,0,1
+"131",130,"jt4upspp",25874,0.9,1,"A","14000","140859","25-39","Male","Bachelors","15","41-50","intermediate","intermediate","[u'B', u'A']",0,0,0,0
+"132",131,"jt4upspp",26719,0,2,"A","B","B","25-39","Male","Bachelors","15","41-50","intermediate","intermediate","[u'B', u'A']",1,1,1,1
+"133",132,"jt4w282w",50943,0.04,0,"A","56738","58878","25-39","Male","High School","15","21-30","novice","novice","[u'A', u'B']",0,1,1,1
+"134",133,"jt4w282w",24304,0.03,1,"A","158853","164565","25-39","Male","High School","15","21-30","novice","novice","[u'A', u'B']",0,1,1,1
+"135",134,"jt4w282w",13930,0,2,"A","c","C","25-39","Male","High School","15","21-30","novice","novice","[u'A', u'B']",1,1,1,1
+"136",135,"jt4w282w",19157,0.42,0,"B","45570","78615","25-39","Male","High School","15","21-30","novice","novice","[u'A', u'B']",0,0,0,0
+"137",136,"jt4w282w",20841,0.32,1,"B","185862","140859","25-39","Male","High School","15","21-30","novice","novice","[u'A', u'B']",0,0,0,0
+"138",137,"jt4w282w",19454,1,2,"B","e","B","25-39","Male","High School","15","21-30","novice","novice","[u'A', u'B']",0,0,0,0
+"139",138,"jt4z84nc",57840,0.04,0,"A","61000","58878","25-39","Male","Bachelors","21","21-30","intermediate","novice","[u'A', u'B']",0,1,1,1
+"140",139,"jt4z84nc",70055,0.03,1,"A","160000","164565","25-39","Male","Bachelors","21","21-30","intermediate","novice","[u'A', u'B']",0,1,1,1
+"141",140,"jt4z84nc",53240,0,2,"A","C","C","25-39","Male","Bachelors","21","21-30","intermediate","novice","[u'A', u'B']",1,1,1,1
+"142",141,"jt4z84nc",60201,0.01,0,"B","78000","78615","25-39","Male","Bachelors","21","21-30","intermediate","novice","[u'A', u'B']",1,1,1,1
+"143",142,"jt4z84nc",46061,0.02,1,"B","143000","140859","25-39","Male","Bachelors","21","21-30","intermediate","novice","[u'A', u'B']",0,1,1,1
+"144",143,"jt4z84nc",67353,0,2,"B","B","B","25-39","Male","Bachelors","21","21-30","intermediate","novice","[u'A', u'B']",1,1,1,1
+"145",144,"jt541sk9",77933,0.02,0,"B","60000","58878","25-39","Male","High School","23 or larger","41-50","novice","novice","[u'B', u'A']",0,1,1,1
+"146",145,"jt541sk9",48851,0.03,1,"B","160000","164565","25-39","Male","High School","23 or larger","41-50","novice","novice","[u'B', u'A']",0,1,1,1
+"147",146,"jt541sk9",49717,0,2,"B","c","C","25-39","Male","High School","23 or larger","41-50","novice","novice","[u'B', u'A']",1,1,1,1
+"148",147,"jt541sk9",22736,0.11,0,"A","70000","78615","25-39","Male","High School","23 or larger","41-50","novice","novice","[u'B', u'A']",0,0,0,1
+"149",148,"jt541sk9",46263,0.01,1,"A","140000","140859","25-39","Male","High School","23 or larger","41-50","novice","novice","[u'B', u'A']",1,1,1,1
+"150",149,"jt541sk9",53566,0,2,"A","b","B","25-39","Male","High School","23 or larger","41-50","novice","novice","[u'B', u'A']",1,1,1,1
+"151",150,"jt584442",20076,0.02,0,"B","60000","58878","25-39","Male","High School","23 or larger","gt60","low-intermediate","novice","[u'B', u'A']",0,1,1,1
+"152",151,"jt584442",49128,0.09,1,"B","150000","164565","25-39","Male","High School","23 or larger","gt60","low-intermediate","novice","[u'B', u'A']",0,0,1,1
+"153",152,"jt584442",27641,0,2,"B","c","C","25-39","Male","High School","23 or larger","gt60","low-intermediate","novice","[u'B', u'A']",1,1,1,1
+"154",153,"jt584442",17893,0.08,0,"A","85000","78615","25-39","Male","High School","23 or larger","gt60","low-intermediate","novice","[u'B', u'A']",0,0,1,1
+"155",154,"jt584442",57193,0.01,1,"A","140000","140859","25-39","Male","High School","23 or larger","gt60","low-intermediate","novice","[u'B', u'A']",1,1,1,1
+"156",155,"jt584442",45856,0,2,"A","b","B","25-39","Male","High School","23 or larger","gt60","low-intermediate","novice","[u'B', u'A']",1,1,1,1

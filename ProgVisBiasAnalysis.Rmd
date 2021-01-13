@@ -1,0 +1,1509 @@
+,---
+title: "Impact of Cognitive Biases on Progressive Visualization"
+author: "Marianne Procopio, Ab Mosca, Carlos Scheidegger, Eugene Wu, Remco Chang"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(plyr)
+library("ggpubr")
+library(FSA)
+library(ResourceSelection)
+library(tidyr)
+library(ggstance)
+
+
+theme_set(theme_gray(base_size=24)+theme(legend.position="bottom")+
+            theme_bw() + theme( panel.grid.major = element_blank(), panel.grid.minor = element_blank(), axis.line.x = element_line(colour = "black"))+
+            theme(panel.border = element_blank())+
+            theme(text = element_text(size=28))+ 
+            theme(axis.title=element_text(size=28),axis.text = element_text(size=28),legend.text =element_text(size=28), legend.title=element_text(size=28,hjust=0), plot.title=element_blank() ))
+
+
+#color brewer set1
+color1="#377eb8"
+color2="#e41a1c"
+color3="#4daf4a"
+color4="#984ea3"
+color5="#ff7f00"
+
+color1Red = "#fc9272"
+color2Red = "#fb6a4a"
+color3Red = "#ef3b2c"
+color4Red = "#cb181d"
+color5Red = "#99000d"
+
+color1Blue = "#9ecae1"
+color2Blue = "#6baed6"
+color3Blue = "#4292c6"
+color4Blue = "#2171b5"
+color5Blue = "#084594"
+
+ggplotBlue = color1
+ggplotRed=color2
+
+pointSize=5
+errorBarSize=1
+barWidth=.3
+dodgeWidth=.8
+alphaValue=1
+plotHeight=5
+
+## Gives count, mean, standard deviation, standard error of the mean, and confidence interval (default 95%). from http://www.cookbook-r.com/Graphs/Plotting_means_and_error_bars_(ggplot2)/
+##   data: a data frame.
+##   measurevar: the name of a column that contains the variable to be summariezed
+##   groupvars: a vector containing names of columns that contain grouping variables
+##   na.rm: a boolean that indicates whether to ignore NA's
+##   conf.interval: the percent range of the confidence interval (default is 95%)
+summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
+                      conf.interval=.95, .drop=TRUE) {
+
+
+    # New version of length which can handle NA's: if na.rm==T, don't count them
+    length2 <- function (x, na.rm=FALSE) {
+        if (na.rm) sum(!is.na(x))
+        else       length(x)
+    }
+
+    # This does the summary. For each group's data frame, return a vector with
+    # N, mean, and sd
+    datac <- ddply(data, groupvars, .drop=.drop,
+      .fun = function(xx, col) {
+        c(N    = length2(xx[[col]], na.rm=na.rm),
+          mean = mean   (xx[[col]], na.rm=na.rm),
+          sd   = sd     (xx[[col]], na.rm=na.rm)
+        )
+      },
+      measurevar
+    )
+
+    # Rename the "mean" column    
+    datac <- rename(datac, c("mean" = measurevar))
+
+    datac$se <- datac$sd / sqrt(datac$N)  # Calculate standard error of the mean
+
+    # Confidence interval multiplier for standard error
+    # Calculate t-statistic for confidence interval: 
+    # e.g., if conf.interval is .95, use .975 (above/below), and use df=N-1
+    ciMult <- qt(conf.interval/2 + .5, datac$N-1)
+    datac$ci <- datac$se * ciMult
+
+    return(datac)
+}
+
+
+
+```
+
+
+##Uncertainty Bias
+```{r uncertainty}
+#import data 
+exp1 <- read.csv("Uncertainty_bias_data.csv", header=TRUE)
+
+#drop if answered less than 5 q's 
+exp1 <- subset(exp1, user %in% names(table(user)[table(user) > 4]))
+exp1$qType <- factor(exp1$qType)
+exp1$vRate<-factor(exp1$vRate)
+exp1$eRate<-factor(exp1$eRate)
+#number participants post drop
+nrow(exp1) / 5
+
+#get demo stats
+exp1demo <- exp1[c("user", "age", "sex", "degree", "monitor", "computer", "expert", "expertProgressive") ]
+exp1demo <- unique(exp1demo)
+summary(exp1demo)
+
+#subsetdata by qType
+exp1q0 <- exp1[exp1$qType %in% c(0),]
+exp1q1 <- exp1[exp1$qType %in% c(1),]
+exp1q2 <- exp1[exp1$qType %in% c(2),]
+
+#by vRate
+exp1v05 <- subset(exp1, vRate == 5)
+exp1v10 <- subset(exp1, vRate == 10)
+exp1v15 <- subset(exp1, vRate == 15)
+exp1v20 <- subset(exp1, vRate == 20)
+
+#by eRate
+exp1e05 <- subset(exp1, eRate == 5)
+exp1e10 <- subset(exp1, eRate == 10)
+exp1e15 <- subset(exp1, eRate == 15)
+exp1e20 <- subset(exp1, eRate == 20)
+
+
+```
+#Variances x Time
+```{r UncertaintyTime}
+#Ind: vRate, eRate (ordinal)
+#Dep: time (continuous)
+#Multilinear regression: time ~ vRate + eRate for each qType, on time
+
+##q0
+linearModMulti <- lm(time ~ vRate + eRate, data=exp1q0)
+summary(linearModMulti)
+# diagnostic plots 
+#https://data.library.virginia.edu/diagnostic-plots/
+layout(matrix(c(1,2,3,4),2,2)) 
+plot(linearModMulti)
+#density plot -- dep var should be ~ normal
+ggplot(exp1q0, aes(x=time)) + geom_density() + 
+  geom_vline(aes(xintercept=mean(time)), color="blue", linetype="dashed", size=1)
+#Shapiro-wilk test for normality
+shapiro.test(exp1q0$time)
+
+
+##q1
+linearModMulti <- lm(time ~ vRate + eRate, data=exp1q1)
+summary(linearModMulti)
+# diagnostic plots 
+#https://data.library.virginia.edu/diagnostic-plots/
+layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page 
+plot(linearModMulti)
+#density plot -- dep var should be ~ normal
+ggplot(exp1q1, aes(x=time)) + geom_density() + 
+  geom_vline(aes(xintercept=mean(time)), color="blue", linetype="dashed", size=1)
+#Shapiro-wilk test for normality
+shapiro.test(exp1q1$time)
+
+
+##q2
+linearModMulti <- lm(time ~ vRate + eRate, data=exp1q2)
+summary(linearModMulti)
+ggplot(exp1q2,aes(y=time,x=vRate))+geom_point()+geom_hline(yintercept = mean(exp1q2$time),color="black",linetype = "dotted")
+
+# diagnostic plots 
+#https://data.library.virginia.edu/diagnostic-plots/
+layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page 
+plot(linearModMulti)
+#density plot -- dep var should be ~ normal
+ggplot(exp1q2, aes(x=time)) + geom_density() + 
+  geom_vline(aes(xintercept=mean(time)), color="blue", linetype="dashed", size=1)
+#Shapiro-wilk test for normality
+shapiro.test(exp1q2$time)
+
+
+
+
+
+exp1cv<- summarySE(exp1,measurevar="time",groupvars=c("vRate","qType"))
+exp1ce<- summarySE(exp1,measurevar="time",groupvars=c("eRate","qType"))
+# Error bars represent standard dev of the mean
+exp1cv$qType <- factor(exp1cv$qType)
+exp1ce$qType <- factor(exp1ce$qType)
+exp1cv$vRate<-factor(exp1cv$vRate,levels=c("5","10","15","20"))
+exp1ce$eRate<-factor(exp1ce$eRate,levels=c("5","10","15","20"))
+
+g<-ggplot(exp1cv, aes(y=qType, x=time/1000, color=vRate)) + 
+   geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  #geom_bar(position=position_dodge(width = barWidth), stat="identity",color="black",width=barWidth)+
+  geom_errorbarh(aes(xmax = time/1000 + ci/1000, xmin = time/1000 - ci/1000, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Time (s)")+
+  ylab("Question Type")+
+  coord_flip()+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  coord_cartesian(xlim=c(0,25))+
+  ggtitle("Experiment 1: Completion Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(color = "Value Fluctuation")+
+scale_color_manual(values=c(color1Red,color2Red,color3Red,color4Red),labels=c("5%","10%","15%","20%"))+
+  scale_y_discrete(limits = rev(levels(exp1cv$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum")))
+  
+g
+
+ggsave("exp1TimeStatsPerTaskConditionV.png",width=7,height=plotHeight)
+
+
+g<-ggplot(exp1ce, aes(y=qType, x=time/1000, color=eRate)) + 
+   geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize,alpha=alphaValue)+
+  geom_errorbarh(aes(xmax = time/1000 + ci/1000, xmin = time/1000 - ci/1000, width=0),alpha=alphaValue,size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Time (s)")+
+  ylab("Question Type")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  coord_cartesian(xlim=c(0,25))+
+  ggtitle("Experiment 1: Completion Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(color = "Error Fluctuation")+
+scale_color_manual(values=(c(color1Blue,color2Blue,color3Blue,color4Blue)),labels=(c("5%","10%","15%","20%")))+
+  scale_y_discrete(limits = rev(levels(exp1ce$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum")))
+
+g
+
+
+ggsave("exp1TimeStatsPerTaskConditionE.png",width=7,height=plotHeight)
+
+
+```
+
+#Variances x Error
+```{r UncertaintyError}
+###First look at error for qType 0, 1 with continuous error
+#Ind: data fluctuations and error fluctuations (ordinal)
+#Dep: error (continuous)
+# linear regression of error ~ vRate + eRate, for q0 and q1
+# logistic regression of error ~ vRate + eRate, for q2
+# linear regression of error ~ time, for q0 and q1
+# logistic regression of error ~ time, for q2
+
+##q0 
+#vRate + eRate
+linearMod <- lm(error ~ vRate + eRate, data=exp1q0)
+summary(linearMod)
+
+##q1
+#vRate + eRate
+linearMod <- lm(error ~ vRate + eRate, data=exp1q1)
+summary(linearMod)
+
+##q2
+#vRate + eRate
+logitMod <- glm(error ~ vRate + eRate, data = exp1q2, family = "binomial")
+summary(logitMod)
+hoslem.test(exp1q2$error, fitted(logitMod))
+
+
+
+
+
+exp1cv<- summarySE(exp1,measurevar="error",groupvars=c("vRate","qType"))
+exp1ce<- summarySE(exp1,measurevar="error",groupvars=c("eRate","qType"))
+# Error bars represent standard dev of the mean
+exp1cv$qType <- factor(exp1cv$qType)
+exp1ce$qType <- factor(exp1ce$qType)
+exp1cv$vRate<-factor(exp1cv$vRate,levels=c("5","10","15","20"))
+exp1ce$eRate<-factor(exp1ce$eRate,levels=c("5","10","15","20"))
+
+g<-ggplot(exp1cv, aes(y=qType, x=error, color=vRate)) + 
+    geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = error + ci, xmin = error - ci, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Error")+
+  ylab("Question Type")+
+  theme(axis.title.y=element_blank())+
+   theme(axis.text.y=element_blank())+
+   coord_cartesian(xlim=c(0,1))+
+  ggtitle("Experiment 1:  Accuracy")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(fill = "Fluctuation Rate")+
+scale_color_manual(values=c(color1Red,color2Red,color3Red,color4Red),labels=c("5%","10%","15%","20%"))+
+ scale_y_discrete(limits = rev(levels(exp1ce$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum")))
+
+g
+
+ggsave("exp1ErrorStatsPerTaskConditionV.png",width=7,height=plotHeight)
+
+g<-ggplot(exp1ce, aes(y=qType, x=error, color=eRate)) + 
+   geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize,alpha=alphaValue)+
+  geom_errorbarh(aes(xmax = error + ci, xmin = error - ci, width=0),alpha=alphaValue,size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Error")+
+  ylab("Question Type")+
+   theme(axis.title.y=element_blank())+
+   theme(axis.text.y=element_blank())+
+ coord_cartesian(xlim=c(0,1))+
+  ggtitle("Experiment 1: Accuracy")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(fill = "Fluctuation Rate")+
+scale_color_manual(values=c(color1Blue,color2Blue,color3Blue,color4Blue),labels=c("5%","10%","15%","20%"))+
+   scale_y_discrete(limits = rev(levels(exp1ce$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum")))
+g
+
+ggsave("exp1ErrorStatsPerTaskConditionE.png",width=7,height=plotHeight)
+```
+
+#Time x Error
+```{r UncertaintyErrorTime}
+
+##q0 
+linearMod <- lm(error ~ time, data=exp1q0)
+summary(linearMod)
+#plot regression
+ggplot(exp1q0, aes(x=time, y=error)) + geom_point() + geom_smooth(method=lm)
+
+##q1
+linearMod <- lm(error ~ time, data=exp1q1)
+summary(linearMod)
+#plot regression
+ggplot(exp1q1, aes(x=time, y=error)) + geom_point() + geom_smooth(method=lm)
+
+##q2
+logitMod <- glm(error ~ time, data = exp1q2, family = "binomial")
+summary(logitMod)
+hoslem.test(exp1q2$error, fitted(logitMod))
+#plot time v error 
+
+ggplot(exp1q2, aes(x=time, y=error)) + geom_point() + 
+  stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
+
+```
+
+### Variations vs confidence
+```{r UncertaintyConfidence}
+#Ind: data fluctuations and error fluctuations (ordinal)
+#Dep: confidence (ordinal)
+#Use linear regression: confidence ~ vRate + eRate, confidence ~ time, confidence ~ error 
+
+##q0
+linearModMulti <- lm(confidence ~ vRate + eRate, data=exp1q0)
+summary(linearModMulti)
+
+##q1
+linearModMulti <- lm(confidence ~ vRate + eRate, data=exp1q1)
+summary(linearModMulti)
+
+##q2
+linearModMulti <- lm(confidence ~ vRate + eRate, data=exp1q2)
+summary(linearModMulti)
+
+
+exp1cv<- summarySE(exp1,measurevar="confidence",groupvars=c("vRate","qType"))
+exp1ce<- summarySE(exp1,measurevar="confidence",groupvars=c("eRate","qType"))
+# Error bars represent standard dev of the mean
+exp1cv$qType <- factor(exp1cv$qType)
+exp1ce$qType <- factor(exp1ce$qType)
+exp1cv$vRate<-factor(exp1cv$vRate,levels=c("5","10","15","20"))
+exp1ce$eRate<-factor(exp1ce$eRate,levels=c("5","10","15","20"))
+
+g<-ggplot(exp1cv, aes(y=qType, x=confidence, color=vRate)) + 
+   geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = confidence + ci, xmin = confidence - ci, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Likert Score")+
+  ylab("Question Type")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  coord_cartesian(xlim=c(1,4))+
+  ggtitle("Experiment 1:  Confidence")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(fill = "Fluctuation Rate")+
+scale_color_manual(values=c(color1Red,color2Red,color3Red,color4Red),labels=c("5%","10%","15%","20%"))+
+  scale_y_discrete(limits = rev(levels(exp1ce$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum"))) 
+g
+
+ggsave("exp1ConfidenceStatsPerTaskConditionV.png",width=7,height=plotHeight)
+
+g<-ggplot(exp1ce, aes(y=qType, x=confidence, color=eRate)) + 
+    geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize,alpha=alphaValue)+
+  geom_errorbarh(aes(xmax = confidence + ci, xmin = confidence - ci, width=0),alpha=alphaValue, size=errorBarSize,position = position_dodgev(height= -dodgeWidth))+
+  xlab("Likert Score")+
+  ylab("Question Type")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  coord_cartesian(xlim=c(1,4))+
+  ggtitle("Experiment 1: Confidence")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(fill = "Fluctuation Rate")+
+scale_color_manual(values=c(color1Blue,color2Blue,color3Blue,color4Blue),labels=c("5%","10%","15%","20%"))+
+   scale_y_discrete(limits = rev(levels(exp1ce$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum"))) 
+g
+
+ggsave("exp1ConfidenceStatsPerTaskConditionE.png",width=7,height=plotHeight)
+
+```
+
+### Confidence vs Time 
+```{r UncertaintyConfTime}
+
+##Overall confidence ~ time 
+linearModMulti <- lm(confidence ~ time, data=exp1)
+summary(linearModMulti)
+ggplot(exp1, aes(x=time, y=confidence)) + geom_point() + geom_smooth(method=lm)
+
+
+##q0 
+linearModMulti <- lm(confidence ~ time, data=exp1q0)
+summary(linearModMulti)
+#regression line 
+ggplot(exp1q0, aes(x=time, y=confidence)) + geom_point() + geom_smooth(method=lm)
+
+##q1
+linearModMulti <- lm(confidence ~ time, data=exp1q1)
+summary(linearModMulti)
+#regression line 
+ggplot(exp1q1, aes(x=time, y=confidence)) + geom_point() + geom_smooth(method=lm)
+
+##q2
+linearModMulti <- lm(confidence ~ time, data=exp1q2)
+summary(linearModMulti)
+#regression line 
+ggplot(exp1q2, aes(x=time, y=confidence)) + geom_point() + geom_smooth(method=lm)
+```
+
+
+##Illusion Bias
+
+
+```{r Illusion bias}
+
+#import data --noBias 
+exp2 <- read.csv("Illusion_bias_data.csv", header=TRUE)
+
+#get demo stats
+exp2demo <- exp2[c("user", "age", "sex", "degree", "monitor", "computer", "expert", "expertProgressive") ]
+exp2demo <- unique(exp2demo)
+summary(exp2demo)
+
+#questions subsets
+exp2q0 <- exp2[exp2$qType %in% c(0),]
+exp2q1 <- exp2[exp2$qType %in% c(1),]
+exp2q2 <- exp2[exp2$qType %in% c(2),]
+
+#bias subsets
+#Baseline
+exp2b0 <- subset(exp2, biasNum == 0)
+exp2b0q0 <- exp2b0[exp2b0$qType %in% c(0),]
+exp2b0q1 <- exp2b0[exp2b0$qType %in% c(1),]
+exp2b0q2 <- exp2b0[exp2b0$qType %in% c(2),]
+
+#0-5s
+exp2b1 <- subset(exp2, biasNum == 1)
+exp2b1q0 <- exp2b1[exp2b1$qType %in% c(0),]
+exp2b1q1 <- exp2b1[exp2b1$qType %in% c(1),]
+exp2b1q2 <- exp2b1[exp2b1$qType %in% c(2),]
+
+#5-10s
+exp2b2 <- subset(exp2, biasNum == 2)
+exp2b2q0 <- exp2b2[exp2b2$qType %in% c(0),]
+exp2b2q1 <- exp2b2[exp2b2$qType %in% c(1),]
+exp2b2q2 <- exp2b2[exp2b2$qType %in% c(2),]
+
+#10-15s
+exp2b3 <- subset(exp2, biasNum == 3)
+exp2b3q0 <- exp2b3[exp2b3$qType %in% c(0),]
+exp2b3q1 <- exp2b3[exp2b3$qType %in% c(1),]
+exp2b3q2 <- exp2b3[exp2b3$qType %in% c(2),]
+
+#15-20s
+exp2b4 <- subset(exp2, biasNum == 4)
+exp2b4q0 <- exp2b4[exp2b4$qType %in% c(0),]
+exp2b4q1 <- exp2b4[exp2b4$qType %in% c(1),]
+exp2b4q2 <- exp2b4[exp2b4$qType %in% c(2),]
+
+```
+#Illusion: time x bias conditions
+```{r IllusionTime}
+
+kw <- kruskal.test(time ~ bias, exp2q0)
+kw
+
+PT <- dunnTest(time ~ bias,
+              data=exp2q0,
+              method="bh")    
+PT
+
+kw <- kruskal.test(time ~ bias, exp2q1)
+kw
+
+PT <- dunnTest(time ~ bias,
+              data=exp2q1,
+              method="bh")   
+PT
+
+kw <- kruskal.test(time ~ bias, exp2q2)
+kw
+
+PT <- dunnTest(time ~ bias,
+              data=exp2q2,
+              method="bh")    
+PT
+
+
+
+exp2c<- summarySE(exp2,measurevar="time",groupvars=c("bias","qType"))
+# Error bars represent standard dev of the mean
+exp2c$qType <- factor(exp2c$qType)
+exp2c$bias<-factor(exp2c$bias,levels=c("notClustered","clustered_0_5","clustered_5_10","clustered_10_15","clustered_15_20"))
+g<-ggplot(exp2c, aes(y=qType, x=time/1000, color=bias)) + 
+      geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = time/1000 + ci/1000, xmin = time/1000 - ci/1000, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Time (s)")+
+  ylab("False Pattern Onset Delay (s)")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  coord_cartesian(xlim=c(0,50))+
+  ggtitle("Experiment 2: Completion Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(color = "")+
+scale_color_manual(values=c(color1Red,color2Red,color3Red,color4Red,color5Red),labels=c("No False Pattern","0-5s","5-10s","10-15s","15-20s"))+
+scale_y_discrete(limits = rev(levels(exp2c$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum")))   
+
+g
+
+ggsave("exp2TimeStatsPerTask.pdf",width=7,height=plotHeight)
+
+mean(exp2b0q2$time) / 1000
+sd(exp2b0q2$time) / 1000
+mean(exp2b1q2$time) / 1000
+sd(exp2b1q2$time) / 1000
+mean(exp2b2q2$time) / 1000
+sd(exp2b2q2$time) / 1000
+mean(exp2b3q2$time) / 1000
+sd(exp2b3q2$time) / 1000
+mean(exp2b4q2$time) / 1000
+sd(exp2b4q2$time) / 1000
+
+```
+
+#Illusion error x bias conditions
+```{r IllusionError}
+##q0
+kw <- kruskal.test(error ~ bias, exp2q0)
+kw
+
+
+##q1
+#subset to incorrect only (to more closely match error above)
+exp2q1wrong <- subset(exp2q1, error == 1)
+#chisq 
+tbl <- table(exp2q1wrong$bias)
+tbl
+#tbl full counts 
+tbFull <- table(exp2q1$bias)
+tbFull
+
+chisq <- chisq.test(tbl)
+chisq
+
+##q2
+exp2q2wrong <- subset(exp2q2, error == 1)
+#chisq 
+tbl <- table(exp2q2wrong$bias)
+tbl
+#tbl full counts 
+tbFull <- table(exp2q2$bias)
+tbFull
+chisq <- chisq.test(tbl)
+chisq
+
+
+
+exp2c<- summarySE(exp2,measurevar="error",groupvars=c("bias","qType"))
+# Error bars represent standard dev of the mean
+exp2c$qType <- factor(exp2c$qType)
+exp2c$bias<-factor(exp2c$bias,levels=c("notClustered","clustered_0_5","clustered_5_10","clustered_10_15","clustered_15_20"))
+g<-ggplot(exp2c, aes(y=qType, x=error, color=bias)) + 
+     geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = error + ci, xmin = error - ci, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Error")+
+  ylab("False Pattern Onset Delay (s)")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  coord_cartesian(xlim=c(-0.1,1))+
+  ggtitle("Experiment 2: Accuracy")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(color = "")+
+scale_color_manual(values=c(color1Red,color2Red,color3Red,color4Red,color5Red),labels=c("No False Pattern","0-5s","5-10s","10-15s","15-20s"))+
+  scale_y_discrete(limits = rev(levels(exp2c$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum")))   
+ 
+
+g
+
+ggsave("exp2_task_error.pdf",width=7,height=plotHeight)
+
+mean(exp2b0q0$error) 
+sd(exp2b0q0$error) 
+mean(exp2b1q0$error) 
+sd(exp2b1q0$error) 
+mean(exp2b2q0$error) 
+sd(exp2b2q0$error) 
+mean(exp2b3q0$error) 
+sd(exp2b3q0$error) 
+mean(exp2b4q0$error) 
+sd(exp2b4q0$error)
+
+```
+
+
+#Illusion Confidence x Bias conditions. 
+```{r illusionConf}
+
+##bias
+kw <- kruskal.test(confidence ~ bias, exp2q0)
+kw
+
+mean(exp2b0q0$confidence) 
+sd(exp2b0q0$confidence) 
+mean(exp2b1q0$confidence) 
+sd(exp2b1q0$confidence) 
+mean(exp2b2q0$confidence) 
+sd(exp2b2q0$confidence) 
+mean(exp2b3q0$confidence) 
+sd(exp2b3q0$confidence) 
+mean(exp2b4q0$confidence) 
+sd(exp2b4q0$confidence)
+
+kw <- kruskal.test(confidence ~ bias, exp2q1)
+kw
+
+mean(exp2b0q1$confidence) 
+sd(exp2b0q1$confidence) 
+mean(exp2b1q1$confidence) 
+sd(exp2b1q1$confidence) 
+mean(exp2b2q1$confidence) 
+sd(exp2b2q1$confidence) 
+mean(exp2b3q1$confidence) 
+sd(exp2b3q1$confidence) 
+mean(exp2b4q1$confidence) 
+sd(exp2b4q1$confidence)
+
+kw <- kruskal.test(confidence ~ bias, exp2q2)
+kw
+
+mean(exp2b0q2$confidence) 
+sd(exp2b0q2$confidence) 
+mean(exp2b1q2$confidence) 
+sd(exp2b1q2$confidence) 
+mean(exp2b2q2$confidence) 
+sd(exp2b2q2$confidence) 
+mean(exp2b3q2$confidence) 
+sd(exp2b3q2$confidence) 
+mean(exp2b4q2$confidence) 
+sd(exp2b4q2$confidence)
+
+
+
+exp2c<- summarySE(exp2,measurevar="confidence",groupvars=c("bias","qType"))
+# Error bars represent standard dev of the mean
+exp2c$qType <- factor(exp2c$qType)
+
+exp2c$bias<-factor(exp2c$bias,levels=c("notClustered","clustered_0_5","clustered_5_10","clustered_10_15","clustered_15_20"))
+g<-ggplot(exp2c, aes(y=qType, x=confidence, color=bias)) + 
+     geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = confidence + ci, xmin = confidence - ci, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Likert Score")+
+  ylab("False Pattern Onset Delay (s)")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  coord_cartesian(xlim=c(1,4))+
+  ggtitle("Experiment 2: Confidence")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(color = "")+
+scale_color_manual(values=c(color1Red,color2Red,color3Red,color4Red,color5Red),labels=c("No False Pattern","0-5s","5-10s","10-15s","15-20s"))+
+    scale_y_discrete(limits = rev(levels(exp2c$qType)),labels=rev(c("Read Value","Derive Value","Find Extremum")))    
+
+g
+
+ggsave("exp2ConfidenceStatsPerTask.pdf",width=7,height=plotHeight)
+
+```
+
+##Means
+```{r IllusionMeans}
+#time 
+mean(exp2b0$time) / 1000
+sd(exp2b0$time) / 1000
+
+mean(exp2b1$time) / 1000
+sd(exp2b1$time) / 1000
+
+mean(exp2b2$time) / 1000
+sd(exp2b2$time) / 1000
+
+mean(exp2b3$time) / 1000
+sd(exp2b3$time) / 1000
+
+mean(exp2b4$time) / 1000
+sd(exp2b4$time) / 1000
+
+#confidence 
+mean(exp2b0$confidence)
+sd(exp2b0$confidence)
+
+mean(exp2b1$confidence)
+sd(exp2b1$confidence)
+
+mean(exp2b2$confidence)
+sd(exp2b2$confidence)
+
+mean(exp2b3$confidence)
+sd(exp2b3$confidence)
+
+mean(exp2b4$confidence)
+sd(exp2b4$confidence)
+
+```
+
+###Control Bias
+
+```{r ControlBias}
+#import data 
+exp3 <- read.csv("Control_bias_data.csv", header=TRUE)
+
+#get demo stats
+exp3demo <- exp3[c("user", "age", "sex", "degree", "monitor", "computer", "expert", "expertProgressive") ]
+exp3demo <- unique(exp3demo)
+summary(exp3demo)
+```
+
+
+## Break into qtype data sets
+```{r exp3qTypes}
+
+exp3q0 <- exp3[(exp3$qType == 0 | exp3$qType == 3),]
+exp3q1 <- exp3[(exp3$qType == 1 | exp3$qType == 4),]
+exp3q2 <- exp3[(exp3$qType == 2 | exp3$qType == 5),]
+
+exp3Interact <-  exp3[as.character(exp3$totalInteractions) >0,]
+exp3NoInteract <-  exp3[as.character(exp3$totalInteractions) ==0,]
+exp3q0Interact <-  exp3q0[as.character(exp3q0$totalInteractions) >0,]
+exp3q0NoInteract <-  exp3q0[as.character(exp3q0$totalInteractions) ==0,]
+exp3q1Interact <-  exp3q1[as.character(exp3q1$totalInteractions) >0,]
+exp3q1NoInteract <-  exp3q1[as.character(exp3q1$totalInteractions) ==0,]
+exp3q2Interact <-  exp3q2[as.character(exp3q2$totalInteractions) >0,]
+exp3q2NoInteract <-  exp3q2[as.character(exp3q2$totalInteractions) ==0,]
+
+```
+
+## Plot counts for each penalty score 
+```{r exp3penaltyCounts}
+hylim=55
+#qt0
+summary(exp3q0$rawWeightPenalty)
+g <- ggplot(exp3q0, aes(x=rawWeightPenalty,fill=interact)) + geom_histogram(breaks=seq(0,10,by=1),color="black") + labs(title="Experiment 3: Read Value", x="Penalty Score", y="Count") +theme(plot.title = element_text(hjust = 0.5,margin=margin(0,0,20,0)))+scale_y_continuous(expand = c(0,0),limits=c(0,hylim))+
+scale_fill_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+g
+ggsave("exp3q0histStack.pdf",height=plotHeight, width = 7)
+
+
+#qt1
+summary(exp3q1$rawWeightPenalty)
+g <- ggplot(exp3q1, aes(rawWeightPenalty,fill=interact)) + geom_histogram(breaks=seq(0,10,by=1),color="black") + labs(title="Experiment 3: Derive Value", x="Penalty Score", y="Count") +
+  theme(plot.title = element_text(hjust = 0.5,margin=margin(0,0,20,0)))+scale_y_continuous(expand = c(0,0),limits=c(0,hylim))+
+theme(axis.title.y=element_blank())+
+  scale_fill_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+g
+ggsave("exp3q1histStack.pdf",height=plotHeight, width = 7)
+
+
+#qt2
+summary(exp3q2$rawWeightPenalty)
+g <- ggplot(exp3q2, aes(rawWeightPenalty,fill=interact)) + geom_histogram(breaks=seq(0,10,by=1),color="black") + labs(title="Experiment 3: Find Extremum", x="Penalty Score", y="Count") +theme(plot.title = element_text(hjust = 0.5,margin=margin(0,0,20,0)))+scale_y_continuous(expand = c(0,0),limits=c(0,hylim))+
+theme(axis.title.y=element_blank())+
+scale_fill_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+g
+ggsave("exp3q2histStack.pdf",height=plotHeight, width = 7)
+
+
+
+```
+
+
+
+## Regression of time and penalty score. 
+```{r exp3regTime}
+
+xl <-xlab("Penalty Score") # for the x axis label
+yl <- ylab("Time (s)") # for the y axis label
+baseTitle="Experiment 3 Completion Time: "
+baseTitle=""
+#all
+m <- lm(time~weightPenalty, data = exp3)
+summary(m)
+d=exp3
+dInteract=exp3Interact
+dNoInteract = exp3NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, time/1000,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle(paste(baseTitle,"Completion Time: All Tasks"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  geom_hline(yintercept = mean(d$time/1000),color="black",linetype = "dotted")+
+  ylim(0,70)+xlim(0,10)+
+  geom_hline(yintercept = mean(dInteract$time/1000),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$time/1000),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+  
+g
+ggsave("exp3time.pdf",height=plotHeight, width = 7)
+
+
+#q0
+m <- lm(time~rawWeightPenalty, data = exp3q0)
+summary(m)
+
+d=exp3q0
+dInteract=exp3q0Interact
+dNoInteract = exp3q0NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, time/1000,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle(paste(baseTitle,"Read Value"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  #theme(text = element_text(size=20))+
+  theme(axis.title.y=element_blank())+
+  geom_hline(yintercept = mean(d$time/1000),color="black",linetype = "dotted")+
+  ylim(0,70)+xlim(0,10)+
+  geom_hline(yintercept = mean(dInteract$time/1000),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$time/1000),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+
+g
+ggsave("exp3q0time.pdf",height=plotHeight, width = 7)
+
+
+
+#q1
+m <- lm(time~rawWeightPenalty, data = exp3q1)
+summary(m)
+
+d=exp3q1
+dInteract=exp3q1Interact
+dNoInteract = exp3q1NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, time/1000,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle(paste(baseTitle,"Derive Value"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  #theme(text = element_text(size=20))+
+  theme(axis.title.y=element_blank())+
+  geom_hline(yintercept = mean(d$time/1000),color="black",linetype = "dotted")+
+  ylim(0,70)+xlim(0,10)+
+  geom_hline(yintercept = mean(dInteract$time/1000),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$time/1000),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+
+g
+ggsave("exp3q1time.pdf",height=plotHeight, width = 7)
+
+
+#q2
+m <- lm(time~rawWeightPenalty, data = exp3q2)
+summary(m)
+
+d=exp3q2
+dInteract=exp3q2Interact
+dNoInteract = exp3q2NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, time/1000,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle(paste(baseTitle,"Find Extremum"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  #theme(text = element_text(size=20))+
+  theme(axis.title.y=element_blank())+
+  geom_hline(yintercept = mean(d$time/1000),color="black",linetype = "dotted")+
+   ylim(0,70)+xlim(0,10)+
+  geom_hline(yintercept = mean(dInteract$time/1000),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$time/1000),color=ggplotRed,linetype = "longdash")+
+ scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+
+g
+ggsave("exp3q2time.pdf",height=plotHeight, width = 7)
+
+```
+
+
+## Regression of error and penalty score. 
+```{r exp3regErr}
+xl <-xlab("Penalty Score") # for the x axis label
+yl <- ylab("Error") # for the y axis label
+
+
+baseTitle=""
+#all
+
+m <- lm(error~rawWeightPenalty, data = exp3)
+summary(m)
+
+
+d=exp3
+dInteract=exp3Interact
+dNoInteract = exp3NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, error,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle(paste(baseTitle,"Accuracy: All Tasks"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  ylim(0,1)+xlim(0,10)+
+  geom_hline(yintercept = mean(dInteract$error),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$error),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+  
+g
+ggsave("exp3error.pdf",height=plotHeight, width = 7)
+
+#q0
+m <- lm(error~rawWeightPenalty, data = exp3q0)
+summary(m)
+g <- ggplot(exp3q0, aes(rawWeightPenalty, error)) + geom_point() + geom_smooth(method = "lm")+xl+yl+ggtitle("Experiment 3 Accuracy: Read Value")+theme(plot.title = element_text(hjust = 0.5))+theme(text = element_text(size=20))+geom_hline(yintercept = mean(exp3q0$error),color="red",linetype = "dashed")+ylim(0,1)
+
+d=exp3q0
+dInteract=exp3q0Interact
+dNoInteract = exp3q0NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, error,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle(paste(baseTitle,"Read Value"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(axis.title.y=element_blank())+
+  ylim(0,1)+xlim(0,10)+
+  geom_hline(yintercept = mean(dInteract$error),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$error),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+  
+g
+ggsave("exp3q0error.pdf",height=plotHeight, width = 7)
+
+
+#q1
+m <- lm(error~rawWeightPenalty, data = exp3q1)
+summary(m)
+
+
+d=exp3q1
+dInteract=exp3q1Interact
+dNoInteract = exp3q1NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, error,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle(paste(baseTitle,"Derive Value"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(axis.title.y=element_blank())+
+  ylim(0,1)+xlim(0,10)+
+  geom_hline(yintercept = mean(dInteract$error),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$error),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+  
+g
+ggsave("exp3q1error.pdf",height=plotHeight, width = 7)
+
+
+#q2
+m <- glm(error~rawWeightPenalty, data = exp3q2, family = "binomial")
+summary(m)
+hoslem.test(exp3q2$error, fitted(m))
+
+d=exp3q2
+dInteract=exp3q2Interact
+dNoInteract = exp3q2NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, error,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle(paste(baseTitle,"Find Extremum"))+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(axis.title.y=element_blank())+
+  ylim(0,1)+xlim(0,10)+
+  geom_hline(yintercept = mean(dInteract$error),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$error),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+  
+g
+ggsave("exp3q2error.pdf",height=plotHeight, width = 7)
+
+```
+
+## Error and interaction. 
+```{r exp3regErrInteract}
+m <- lm(error~interact, data = exp3)
+m
+summary(m)
+
+#q0
+m <- lm(error~interact, data = exp3q0)
+m
+summary(m)
+
+#q1
+m <- lm(error~interact, data = exp3q1)
+m
+summary(m)
+
+#q2
+m <- glm(error~interact, data = exp3q2)
+m
+summary(m)
+hoslem.test(exp3q2$error, fitted(m))
+```
+
+## Regression of confidence and penalty score. 
+```{r exp3regConf}
+#all
+
+xl <-xlab("Question Number") # for the x axis label
+yl <- ylab("Likert Score") # for the y axis label
+m <- lm(confidence~qNum, data = exp3)
+summary(m)
+g <- ggplot(exp3, aes(qNum, confidence,color=interact)) + 
+  geom_point(alpha = .4,size=pointSize) + geom_jitter(width = 0.1,height=0.1,size=pointSize)+ geom_smooth(method = "lm")+
+  xl+yl+ggtitle("Experiment 3 Confidence")+theme(plot.title = element_text(hjust = 0.5))+
+  ylim(0.75,4.5)+
+geom_hline(yintercept = mean(dInteract$confidence),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$confidence),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+g
+ggsave("exp3confidenceNum.pdf",height=plotHeight,width=7)
+
+xl <-xlab("Penalty Score") # for the x axis label
+yl <- ylab("Likert Score") # for the y axis label
+
+
+
+m <- lm(confidence~rawWeightPenalty, data = exp3)
+summary(m)
+d=exp3
+dInteract=exp3Interact
+dNoInteract = exp3NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, confidence,color=interact)) + geom_point(alpha = .7,size=pointSize) +
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle("Confidence: All Tasks")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  ylim(0.75,4.5)+xlim(0,10.2)+
+  geom_hline(yintercept = mean(dInteract$confidence),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$confidence),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0), legend.box.margin=margin(-5,-5,-5,-5))
+g
+ggsave("exp3AllConfidenceRegression.pdf",height=plotHeight, width = 7)
+
+#q0
+m <- lm(confidence~rawWeightPenalty, data = exp3q0)
+summary(m)
+
+d=exp3q0
+dInteract=exp3q0Interact
+dNoInteract = exp3q0NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, confidence,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+#yl+
+  ggtitle("Read Value")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(axis.title.y=element_blank())+
+  ylim(0.75,4.5)+xlim(0,10.2)+
+  geom_hline(yintercept = mean(dInteract$confidence),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$confidence),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))
+
+g
+ggsave("exp3q0confidence.pdf",height=plotHeight, width = 7)
+
+
+
+#q1
+m <- lm(confidence~rawWeightPenalty, data = exp3q1)
+summary(m)
+
+d=exp3q1
+dInteract=exp3q1Interact
+dNoInteract = exp3q1NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, confidence,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle("Derive Value")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(axis.title.y=element_blank())+
+  ylim(0.75,4.5)+xlim(0,10.2)+
+  geom_hline(yintercept = mean(dInteract$confidence),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$confidence),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))
+
+g
+ggsave("exp3q1confidence.pdf",height=plotHeight, width = 7)
+
+
+#q2
+m <- lm(confidence~rawWeightPenalty, data = exp3q2)
+summary(m)
+
+
+d=exp3q2
+dInteract=exp3q2Interact
+dNoInteract = exp3q2NoInteract
+g <- ggplot(d, aes(rawWeightPenalty, confidence,color=interact)) + geom_point(alpha = .7,size=pointSize) + 
+  scale_size(breaks = c(1:10), range = c(10,15)) +
+  geom_jitter(width = 0.1,height=0.1,size=pointSize)+ 
+  geom_smooth(method = "lm")+xl+yl+
+  ggtitle("Find Extremum")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(axis.title.y=element_blank())+
+  ylim(0.75,4.5)+xlim(0,10.2)+
+  geom_hline(yintercept = mean(dInteract$confidence),color=ggplotBlue,linetype = "dashed")+
+  geom_hline(yintercept = mean(dNoInteract$confidence),color=ggplotRed,linetype = "longdash")+
+  scale_color_manual(name="",labels = c("No Interaction", "Interaction"), values = c(ggplotRed, ggplotBlue))+ theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))
+
+g
+ggsave("exp3q2confidence.pdf",height=plotHeight, width = 7)
+
+
+
+```
+## Confidence and interaction. 
+```{r exp3regConfInteract}
+xl <-xlab("interact") # for the x axis label
+yl <- ylab("Likert Score") # for the y axis label
+
+m <- kruskal.test(confidence~interact, data = exp3)
+m
+summary(m)
+pairwise.t.test(exp3$interact,exp3$confidence)
+
+#q0
+m <- kruskal.test(confidence~interact, data = exp3q0)
+m
+summary(m)
+
+
+
+#q1
+m <- kruskal.test(confidence~interact, data = exp3q1)
+m
+summary(m)
+
+
+#q2
+m <- kruskal.test(confidence~interact, data = exp3q2)
+m
+summary(m)
+
+
+```
+
+##Anchoring Bias
+```{r exp4}
+#import data 
+exp4 <- read.csv("Anchoring_bias_data.csv", header=TRUE)
+
+#get demo stats
+exp4demo <- exp4[c("user", "age", "sex", "degree", "monitor", "computer", "expert", "expertProgressive") ]
+exp4demo <- unique(exp4demo)
+summary(exp4demo)
+
+exp4bias <- exp4[exp4$isBiased == TRUE,]
+exp4noBias <- exp4[exp4$isBiased == FALSE,]
+
+exp4BiasInteract<-exp4[exp4$condition=='bias',]
+exp4NoBiasInteract<-exp4[exp4$condition=="interact",]
+exp4Base<-exp4[exp4$condition=="base",]
+
+
+exp4qA <- exp4[(exp4$qType == 0 | exp4$qType == 1 | exp4$qType == 2 | exp4$qType == 4),]
+exp4qD <- exp4[(exp4$qType == 3 | exp4$qType == 5),]
+
+exp4qPriorFalse <- exp4[(exp4$qType == 0 | exp4$qType == 1 | exp4$qType == 4 | exp4$qType == 5),]
+exp4qPriorTrue <- exp4[(exp4$qType == 2 | exp4$qType == 3),]
+
+
+```
+
+#Time X Bias
+```{r exp4Time}
+
+kw <- kruskal.test(time ~ condition, data = exp4)
+kw
+Summarize(time ~condition,data=exp4)
+dunnTest(time~condition,data=exp4,method="bh")
+
+xl <-xlab("") # for the x axis label
+yl <- ylab("Time (s)") # for the y axis label
+
+
+exp4c<- summarySE(exp4,measurevar="time",groupvars=c("condition"))
+exp4c$condition <- factor(exp4c$condition,levels=c("base","interact","bias"))
+
+g <- ggplot(exp4c, aes(y=condition,x=time/1000,color=condition)) +
+   geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = time/1000 + ci/1000, xmin = time/1000 - ci/1000, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Time (s)")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  ggtitle("Experiment 4: Completion Time")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none")+
+scale_y_discrete(limits = rev(levels(exp4c$condition)),labels=rev(c("No-Interact","Interact without Bias","Interact with Bias"))) +
+  theme(legend.position = "none")+
+   scale_color_manual(values=c(color1,color2,color3),labels=c("No-Interact","Interact without Bias","Interact with Bias"))+  theme(plot.margin = unit(c(2.75,0,2.75,0),"cm"))
+ 
+  
+g
+ggsave("exp4TimeBoxplot.pdf",height=plotHeight, width = 8)
+
+
+kw <- kruskal.test(time ~ isBiased, data = exp4qA)
+kw
+Summarize(time ~isBiased,data=exp4qA)
+boxplot(time ~ isBiased,data=exp4qA)
+
+kw <- kruskal.test(time ~ isBiased, data = exp4qD)
+kw
+Summarize(time ~isBiased,data=exp4qD)
+boxplot(time ~ isBiased,data=exp4qD)
+
+kw <- kruskal.test(time ~ isBiased, data = exp4qPriorTrue)
+kw
+Summarize(time ~isBiased,data=exp4qPriorTrue)
+boxplot(time ~ isBiased,data=exp4qPriorTrue)
+
+kw <- kruskal.test(time ~ isBiased, data = exp4qPriorFalse)
+kw
+Summarize(time ~isBiased,data=exp4qPriorFalse)
+boxplot(time ~ isBiased,data=exp4qPriorFalse)
+
+
+kw <- kruskal.test(time ~ interact, data = exp4)
+kw
+Summarize(time ~interact,data=exp4)
+boxplot(time ~ interact,data=exp4)
+
+
+```
+
+
+## Exp4 Confidence
+```{r exp4Confidence}
+m <- lm(confidence~qType, data = exp4)
+summary(m)
+xl <-xlab("Question Number") # for the x axis label
+yl <- ylab("Likert Score") # for the y axis label
+
+
+
+a=table(exp4bias$confidence)/length(exp4bias$confidence)
+b=table(exp4NoBiasInteract$confidence)/length(exp4NoBiasInteract$confidence)
+c=table(exp4Base$confidence)/length(exp4Base$confidence)
+
+
+df = data.frame(rank=c(1,1,1,2,2,2,3,3,3,4,4,4),
+                condition=c("No-Interact","Interact without Bias","Interact with Bias","No-Interact","Interact without Bias","Interact with Bias","No-Interact","Interact without Bias","Interact with Bias","No-Interact","Interact without Bias","Interact with Bias"),
+                count=c(c[1],b[1],a[1],c[2],b[2],a[2],c[3],b[3],a[3],c[4],b[4],a[4])
+                )
+
+g<-ggplot(data=df,aes(x=rank,y=count,fill=condition),color="black")+#, aes(x=slider, y=percent,fill=task))+
+  geom_bar(position="dodge",stat="identity",colour="black")+
+  ylab("Percentage of Responses")+
+  xlab("Likert Score")+
+  ggtitle("Confidence Distribution")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="none",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(fill = "")+
+scale_fill_manual(values=c(color1,color2,color3))
+g
+
+
+exp4c<- summarySE(exp4,measurevar="confidence",groupvars=c("condition"))
+exp4c$condition <- factor(exp4c$condition,levels=c("base","interact","bias"))
+
+g <- ggplot(exp4c, aes(y=condition,x=confidence,color=condition)) +
+   geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = confidence + ci, xmin = confidence - ci, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Likert Score")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  ggtitle("Experiment 4: Confidence")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  coord_cartesian(xlim=c(1,4))+
+ theme(legend.position="right",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,0,-5,-5))+
+  theme(legend.title = element_blank())+
+scale_y_discrete(limits = rev(levels(exp4c$condition)),labels=rev(c("No-Interact","Interact without Bias","Interact with Bias"))) +
+   scale_color_manual(values=c(color1,color2,color3),labels=c("No-Interact","Interact without Bias","Interact with Bias"))+  theme(plot.margin = unit(c(2.75,0,2.75,0),"cm"))
+ 
+  g
+
+
+ggsave("exp4ConfidencePercent.pdf",height=plotHeight,width=8)
+
+
+
+
+kw <- kruskal.test(confidence ~ condition, data = exp4)
+kw
+Summarize(confidence ~condition,data=exp4)
+boxplot(confidence ~ condition,data=exp4)
+dunnTest(confidence~condition,data=exp4,method="bh")
+
+```
+
+## Error
+```{r exp4Error}
+
+kw <- kruskal.test(error ~ condition, data = exp4)
+kw
+Summarize(error ~condition,data=exp4)
+boxplot(error ~ condition,data=exp4)
+
+kw <- kruskal.test(error ~ condition, data = exp4qA)
+kw
+Summarize(error ~condition,data=exp4qA)
+boxplot(error ~ condition,data=exp4qA)
+
+kw <- kruskal.test(error ~ condition, data = exp4qD)
+kw
+Summarize(error ~condition,data=exp4qD)
+boxplot(error ~ condition,data=exp4qD)
+
+kw <- kruskal.test(error ~ condition, data = exp4qPriorTrue)
+kw
+Summarize(error ~condition,data=exp4qPriorTrue)
+boxplot(error ~ condition,data=exp4qPriorTrue)
+
+kw <- kruskal.test(error ~ condition, data = exp4qPriorFalse)
+kw
+Summarize(error ~condition,data=exp4qPriorFalse)
+boxplot(error ~ condition,data=exp4qPriorFalse)
+
+kw <- kruskal.test(error ~ priorMatch, data = exp4)
+kw
+Summarize(error ~priorMatch,data=exp4)
+boxplot(error ~ priorMatch,data=exp4)
+
+
+
+exp4c<- summarySE(exp4,measurevar="error",groupvars=c("condition"))
+exp4c$condition <- factor(exp4c$condition,levels=c("base","interact","bias"))
+
+g <- ggplot(exp4c, aes(y=condition,x=error,color=condition)) +
+   geom_point(position=position_dodge(width=-dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = error + ci, xmin = error - ci, width=0),size=errorBarSize,position = position_dodgev(height = -dodgeWidth))+
+  xlab("Error")+
+  theme(axis.title.y=element_blank())+
+  theme(axis.text.y=element_blank())+
+  ggtitle("Experiment 4: Accuracy")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  coord_cartesian(xlim=c(0,1))+
+  theme(legend.position="none")+
+scale_y_discrete(limits = rev(levels(exp4c$condition)),labels=rev(c("No-Interact","Interact without Bias","Interact with Bias"))) +
+  theme(legend.position = "none")+
+   scale_color_manual(values=c(color1,color2,color3),labels=c("No-Interact","Interact without Bias","Interact with Bias"))+  theme(plot.margin = unit(c(2.75,0,2.75,0),"cm"))
+ 
+  g
+
+
+ggsave("exp4error.pdf",height=plotHeight,width=8)
+
+
+```
+
+
+##Preliminary Study: Bars vs Gradient
+```{r expPrelim}
+#'A' = bar, 'B' = gradient
+
+expP <- read.csv("Prelim_study_data.csv", header=TRUE)
+likertList = read.csv("Prelim_likert_data.csv",header=TRUE)
+
+
+
+demoData <- expP[, c("age", "sex", "degree", "monitor", "computer", "expert", "expertProgressive")]
+demoData <- unique(demoData)
+summary(demoData)
+
+
+#Completion Time
+aov <- aov(time ~ interfaceType + Error(user/(interfaceType)), data = expP)
+summary(aov)
+
+expPc<- summarySE(expP,measurevar="time",groupvars=c("interfaceType"))
+# Error bars represent standard dev of the mean
+expPc$interfaceType<-factor(expPc$interfaceType,levels=c("B","A"))
+g<-ggplot(expPc, aes(y=interfaceType, x=time/1000,color=interfaceType)) + 
+      geom_point(position=position_dodge(width=dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = time/1000 + ci/1000, xmin = time/1000 - ci/1000, width=0),size=errorBarSize,position = position_dodgev(height = dodgeWidth))+
+  ylab("Time (s)")+
+  xlab("Time (s)")+
+  coord_cartesian(xlim=c(0,50))+
+  theme(text = element_text(size=20))+ 
+  theme(axis.text.y = element_text(margin=margin(0,10,0,0)))+
+  theme(legend.position="top",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,5,-5,-5))+
+  labs(fill = "")+
+  scale_color_manual(values=c(color1,color2),labels=c("Gradient","Bar"))+
+  scale_y_discrete(labels=c("Gradient","Bar")) + 
+  theme(legend.position = "none")+theme(axis.title.y=element_blank())+
+  theme(plot.margin = unit(c(4,0,4,0),"cm"))
+
+g
+
+ggsave("baselineTime.pdf",width=10,height=plotHeight)
+
+
+#error
+aov <- aov(error ~ interfaceType + Error(user/(interfaceType)), data = expP)
+summary(aov)
+
+expPc<- summarySE(expP,measurevar="error",groupvars=c("interfaceType"))
+# Error bars represent standard dev of the mean
+g<-ggplot(expPc, aes(y=interfaceType, x=error,color=interfaceType)) + 
+      geom_point(position=position_dodge(width=dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = error + ci, xmin = error - ci, width=0),size=errorBarSize,position = position_dodgev(height = dodgeWidth))+
+  xlab("Error")+
+  coord_cartesian(xlim=c(0,1))+
+  theme(text = element_text(size=20))+ 
+  theme(axis.text.y = element_text(margin=margin(0,10,0,0)))+
+  theme(legend.position="top",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,-5,-5,-5))+
+  labs(fill = "")+
+  scale_color_manual(values=c(color1,color2),labels=c("Gradient","Bar"))+
+  scale_y_discrete(labels=c("Gradient","Bar")) + 
+  theme(legend.position = "none")+theme(axis.title.y=element_blank())+
+  theme(plot.margin = unit(c(4,0,4,0),"cm"))
+  
+g
+
+ggsave("baselineError.pdf",width=10,height=plotHeight)
+
+
+
+pairwise.wilcox.test(likertList$satisfaction,likertList$interfacetype,p.adjust.method = "none",paired=FALSE)
+pairwise.wilcox.test(likertList$productive,likertList$interfacetype,p.adjust.method = "none",paired=TRUE) 
+pairwise.wilcox.test(likertList$ease,likertList$interfacetype,p.adjust.method = "none",paired=TRUE)     
+pairwise.wilcox.test(likertList$frustrated,likertList$interfacetype,p.adjust.method = "none",paired=TRUE)
+pairwise.wilcox.test(likertList$summary,likertList$interfacetype,p.adjust.method = "none",paired=TRUE)
+
+
+
+likertLong<-gather(likertList,likert,score,satisfaction:frustrated,factor_key=TRUE)
+
+likertLongc<- summarySE(likertLong,measurevar="score",groupvars=c("likert","interfacetype"))
+# Error bars represent standard dev of the mean
+likertLong$likert<-factor(likertLongc$likert,levels=c("satisfaction","productive","ease","frustrated"))
+g<-ggplot(likertLongc, aes(x=score, y=likert,color=interfacetype)) + 
+  geom_boxplot(width=0.2,position=position_dodge(width=dodgeWidth)) +
+      geom_point(position=position_dodge(width=dodgeWidth),size=pointSize)+
+  geom_errorbarh(aes(xmax = score + ci, xmin = score - ci, width=0),size=errorBarSize,position = position_dodgev(height = dodgeWidth))+
+  xlab("Likert Score")+
+  coord_cartesian(xlim=c(1,5))+
+  theme(axis.text.y = element_text(margin=margin(0,10,0,0)))+
+  theme(text = element_text(size=20))+ 
+  theme(plot.title = element_text(hjust = 0.5))+
+  theme(legend.position="right",legend.margin=margin(0,0,0,0),
+        legend.box.margin=margin(-5,0,-5,-5))+
+  labs(color = "")+
+   guides(col = guide_legend(reverse = TRUE))+
+  theme(axis.title.y=element_blank())+
+  scale_color_manual(values=c(color1,color2),labels=c("Gradient","Bar"))+
+  scale_y_discrete(limits = rev(levels(likertLongc$likert)),labels=rev(c("Satisfaction","Productive","Ease","Frustrated"))) +
+  scale_x_continuous(breaks = 1:5) +
+  theme(plot.margin = unit(c(3,0,2,0),"cm"))
+g
+
+ggsave("baselineLikert.pdf",width=10,height=plotHeight)
+
+```
+
+
+

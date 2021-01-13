@@ -1,0 +1,799 @@
+user,time,error,qType,ans,correct,confidence,age,sex,degree,monitor,computer,expert,expertProgressive,isBiased,weight0,weight1,weight2,weight3,weight4,weightPenalty,weight0high,weight0normal,weight0off,weight1high,weight1normal,weight1off,weight2high,weight2normal,weight2off,weight3high,weight3normal,weight3off,weight4high,weight4normal,weight4off,condition,interact,priorMatch
+jtw8i3t2,1417,0,0,no,no,2,25-39,Male,Masters,15,20-Nov,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8i3t2,2390,0,1,no,no,2,25-39,Male,Masters,15,20-Nov,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8i3t2,2120,1,2,no,yes,2,25-39,Male,Masters,15,20-Nov,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8i3t2,2076,1,3,no,yes,2,25-39,Male,Masters,15,20-Nov,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8i3t2,1625,0,4,no,no,2,25-39,Male,Masters,15,20-Nov,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8i3t2,1632,0,5,no,no,2,25-39,Male,Masters,15,20-Nov,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8sg2c,16513,0,0,no,no,3,18-24,Female,High School,13,10-Jun,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8sg2c,17274,0,1,no,no,3,18-24,Female,High School,13,10-Jun,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8sg2c,17144,0,2,yes,yes,3,18-24,Female,High School,13,10-Jun,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8sg2c,21952,0,3,yes,yes,3,18-24,Female,High School,13,10-Jun,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8sg2c,24492,0,4,no,no,2,18-24,Female,High School,13,10-Jun,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8sg2c,15606,0,5,no,no,3,18-24,Female,High School,13,10-Jun,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8t212,640,0,0,no,no,1,25-39,Female,High School,21,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8t212,14650,0,1,no,no,2,25-39,Female,High School,21,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8t212,11440,0,2,yes,yes,2,25-39,Female,High School,21,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8t212,19177,0,3,yes,yes,2,25-39,Female,High School,21,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8t212,12592,1,4,yes,no,2,25-39,Female,High School,21,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8t212,9888,0,5,no,no,2,25-39,Female,High School,21,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8t54r,10248,0,0,no,no,4,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw8t54r,6344,0,1,no,no,4,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8t54r,4000,0,2,yes,yes,4,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8t54r,14912,0,3,yes,yes,3,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,100,100,0,100,100,3.487301587,1,0,0,1,0,0,1,0,1,1,0,0,1,0,0,interact,TRUE,TRUE
+jtw8t54r,15815,0,4,no,no,4,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,100,100,100,0,0,8.342857143,1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,interact,TRUE,FALSE
+jtw8t54r,3808,0,5,no,no,2,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8taxx,13799,0,0,no,no,3,25-39,Female,Bachelors,15,gt60,novice,novice,TRUE,0,100,20,20,20,1.40952381,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtw8taxx,16267,0,1,no,no,2,25-39,Female,Bachelors,15,gt60,novice,novice,FALSE,20,100,20,20,20,3.466666667,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtw8taxx,17786,0,2,yes,yes,3,25-39,Female,Bachelors,15,gt60,novice,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtw8taxx,6833,0,3,yes,yes,4,25-39,Female,Bachelors,15,gt60,novice,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtw8taxx,6816,0,4,no,no,3,25-39,Female,Bachelors,15,gt60,novice,novice,TRUE,100,20,20,20,20,1.066666667,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtw8taxx,11851,0,5,no,no,2,25-39,Female,Bachelors,15,gt60,novice,novice,FALSE,20,20,20,100,100,1.295238095,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw8tbeq,5638,0,0,no,no,4,25-39,Male,PhD,23 or larger,gt60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tbeq,6645,0,1,no,no,4,25-39,Male,PhD,23 or larger,gt60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tbeq,3293,0,2,yes,yes,4,25-39,Male,PhD,23 or larger,gt60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tbeq,7700,0,3,yes,yes,3,25-39,Male,PhD,23 or larger,gt60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tbeq,7572,0,4,no,no,3,25-39,Male,PhD,23 or larger,gt60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tbeq,10743,0,5,no,no,3,25-39,Male,PhD,23 or larger,gt60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tcjj,47156,0,0,no,no,2,50-59,Male,High School,19,41-50,intermediate,intermediate,TRUE,100,0,0,0,0,52.37936508,3,3,1,2,0,1,2,1,1,1,1,1,1,0,1,bias,TRUE,FALSE
+jtw8tcjj,20456,0,1,no,no,3,50-59,Male,High School,19,41-50,intermediate,intermediate,TRUE,100,100,100,100,100,1.265079365,2,1,0,1,0,0,1,0,0,1,0,0,1,0,0,bias,TRUE,FALSE
+jtw8tcjj,22960,0,2,yes,yes,3,50-59,Male,High School,19,41-50,intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtw8tcjj,23817,0,3,yes,yes,3,50-59,Male,High School,19,41-50,intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtw8tcjj,27754,0,4,no,no,3,50-59,Male,High School,19,41-50,intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw8tcjj,16218,0,5,no,no,3,50-59,Male,High School,19,41-50,intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw8tcou,3059,0,0,no,no,4,25-39,Male,Bachelors,15,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tcou,4719,0,1,no,no,4,25-39,Male,Bachelors,15,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tcou,4189,0,2,yes,yes,4,25-39,Male,Bachelors,15,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tcou,6662,0,3,yes,yes,4,25-39,Male,Bachelors,15,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tcou,6392,0,4,no,no,4,25-39,Male,Bachelors,15,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tcou,1300,0,5,no,no,4,25-39,Male,Bachelors,15,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8thag,19970,0,0,no,no,4,25-39,Female,Bachelors,21,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8thag,9127,0,1,no,no,4,25-39,Female,Bachelors,21,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8thag,6289,0,2,yes,yes,4,25-39,Female,Bachelors,21,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8thag,24326,0,3,yes,yes,3,25-39,Female,Bachelors,21,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8thag,10584,0,4,no,no,3,25-39,Female,Bachelors,21,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8thag,18843,0,5,no,no,3,25-39,Female,Bachelors,21,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tjd9,5705,0,0,no,no,4,25-39,Male,Other,15,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tjd9,4309,0,1,no,no,4,25-39,Male,Other,15,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tjd9,8581,0,2,yes,yes,4,25-39,Male,Other,15,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tjd9,4032,0,3,yes,yes,4,25-39,Male,Other,15,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tjd9,4808,0,4,no,no,4,25-39,Male,Other,15,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tjd9,4463,0,5,no,no,4,25-39,Male,Other,15,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tkcf,17476,0,0,no,no,4,25-39,Male,Bachelors,17,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tkcf,3808,0,1,no,no,4,25-39,Male,Bachelors,17,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tkcf,6773,0,2,yes,yes,4,25-39,Male,Bachelors,17,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tkcf,7758,0,3,yes,yes,4,25-39,Male,Bachelors,17,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tkcf,14093,0,4,no,no,2,25-39,Male,Bachelors,17,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tkcf,8051,0,5,no,no,3,25-39,Male,Bachelors,17,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tqq1,5216,0,0,no,no,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tqq1,17823,0,1,no,no,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tqq1,9609,0,2,yes,yes,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tqq1,19239,0,3,yes,yes,3,25-39,Female,Bachelors,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tqq1,15432,0,4,no,no,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tqq1,13193,0,5,no,no,4,25-39,Female,Bachelors,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tqvb,29341,0,0,no,no,4,50-59,Female,Other,23 or larger,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tqvb,21835,0,1,no,no,4,50-59,Female,Other,23 or larger,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tqvb,7390,0,2,yes,yes,4,50-59,Female,Other,23 or larger,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tqvb,28020,0,3,yes,yes,4,50-59,Female,Other,23 or larger,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tqvb,20459,0,4,no,no,4,50-59,Female,Other,23 or larger,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tqvb,26554,0,5,no,no,4,50-59,Female,Other,23 or larger,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tr5i,25616,0,0,no,no,4,25-39,Female,Masters,13,51-60,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tr5i,18322,0,1,no,no,4,25-39,Female,Masters,13,51-60,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8tr5i,20714,0,2,yes,yes,4,25-39,Female,Masters,13,51-60,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tr5i,18661,0,3,yes,yes,4,25-39,Female,Masters,13,51-60,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8tr5i,31120,0,4,no,no,4,25-39,Female,Masters,13,51-60,intermediate,low-intermediate,FALSE,100,100,100,100,100,1.887301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,1,interact,TRUE,FALSE
+jtw8tr5i,9053,0,5,no,no,4,25-39,Female,Masters,13,51-60,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8trch,8169,0,0,no,no,2,25-39,Female,Unspecified,11,Unspecified,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8trch,11104,0,1,no,no,3,25-39,Female,Unspecified,11,Unspecified,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8trch,8747,0,2,yes,yes,4,25-39,Female,Unspecified,11,Unspecified,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8trch,4859,1,3,no,yes,4,25-39,Female,Unspecified,11,Unspecified,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8trch,28277,0,4,no,no,3,25-39,Female,Unspecified,11,Unspecified,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8trch,13405,0,5,no,no,4,25-39,Female,Unspecified,11,Unspecified,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8twfp,9912,0,0,no,no,4,40-49,Male,Bachelors,13,31-40,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8twfp,1072,0,1,no,no,3,40-49,Male,Bachelors,13,31-40,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8twfp,953,1,2,no,yes,3,40-49,Male,Bachelors,13,31-40,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8twfp,1136,0,3,yes,yes,4,40-49,Male,Bachelors,13,31-40,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8twfp,1328,0,4,no,no,3,40-49,Male,Bachelors,13,31-40,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8twfp,2072,1,5,yes,no,4,40-49,Male,Bachelors,13,31-40,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8u17t,5990,0,0,no,no,4,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8u17t,4456,0,1,no,no,4,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0.4,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtw8u17t,3566,0,2,yes,yes,4,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8u17t,11808,0,3,yes,yes,3,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8u17t,21221,0,4,no,no,4,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8u17t,7827,0,5,no,no,4,25-39,Male,Bachelors,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8u47c,7972,0,0,no,no,4,18-24,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw8u47c,6435,0,1,no,no,4,18-24,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw8u47c,18626,0,2,yes,yes,4,18-24,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtw8u47c,40911,0,3,yes,yes,3,18-24,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8u47c,11542,0,4,no,no,4,18-24,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate,TRUE,0,100,20,20,20,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtw8u47c,15043,0,5,no,no,3,18-24,Male,Bachelors,23 or larger,21-30,low-intermediate,low-intermediate,TRUE,20,20,20,0,100,3.466666667,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,bias,TRUE,FALSE
+jtw8ucch,13248,0,0,no,no,2,25-39,Male,Bachelors,dontknow,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ucch,9968,0,1,no,no,1,25-39,Male,Bachelors,dontknow,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ucch,5202,0,2,yes,yes,2,25-39,Male,Bachelors,dontknow,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8ucch,8377,0,3,yes,yes,2,25-39,Male,Bachelors,dontknow,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8ucch,6755,1,4,yes,no,3,25-39,Male,Bachelors,dontknow,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ucch,4653,0,5,no,no,2,25-39,Male,Bachelors,dontknow,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8uokd,5448,0,0,no,no,3,25-39,Female,Other,21,20-Nov,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8uokd,4191,0,1,no,no,3,25-39,Female,Other,21,20-Nov,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8uokd,3536,0,2,yes,yes,3,25-39,Female,Other,21,20-Nov,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8uokd,6384,0,3,yes,yes,3,25-39,Female,Other,21,20-Nov,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8uokd,3792,0,4,no,no,3,25-39,Female,Other,21,20-Nov,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8uokd,2496,0,5,no,no,3,25-39,Female,Other,21,20-Nov,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8v5i8,19512,0,0,no,no,4,50-59,Male,High School,21,10-Jun,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8v5i8,18600,0,1,no,no,4,50-59,Male,High School,21,10-Jun,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8v5i8,8848,0,2,yes,yes,4,50-59,Male,High School,21,10-Jun,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8v5i8,27168,0,3,yes,yes,3,50-59,Male,High School,21,10-Jun,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8v5i8,19208,0,4,no,no,4,50-59,Male,High School,21,10-Jun,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8v5i8,25264,0,5,no,no,3,50-59,Male,High School,21,10-Jun,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8w485,4498,0,0,no,no,4,40-49,Male,Bachelors,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8w485,8777,0,1,no,no,4,40-49,Male,Bachelors,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8w485,3849,0,2,yes,yes,3,40-49,Male,Bachelors,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,17.60793651,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtw8w485,24409,0,3,yes,yes,4,40-49,Male,Bachelors,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8w485,8434,0,4,no,no,4,40-49,Male,Bachelors,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8w485,7862,0,5,no,no,4,40-49,Male,Bachelors,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8wnks,32848,0,0,no,no,3,40-49,Male,Bachelors,23 or larger,41-50,low-intermediate,novice,TRUE,100,20,20,20,20,4.266666667,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtw8wnks,11553,0,1,no,no,4,40-49,Male,Bachelors,23 or larger,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8wnks,23929,0,2,yes,yes,3,40-49,Male,Bachelors,23 or larger,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8wnks,15064,0,3,yes,yes,3,40-49,Male,Bachelors,23 or larger,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8wnks,27473,0,4,no,no,3,40-49,Male,Bachelors,23 or larger,41-50,low-intermediate,novice,FALSE,100,100,20,20,20,4.495238095,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtw8wnks,28559,0,5,no,no,3,40-49,Male,Bachelors,23 or larger,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ycvv,18176,0,0,no,no,4,18-24,Male,High School,17,41-50,intermediate,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw8ycvv,12179,0,1,no,no,4,18-24,Male,High School,17,41-50,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ycvv,6892,0,2,yes,yes,4,18-24,Male,High School,17,41-50,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8ycvv,13078,0,3,yes,yes,3,18-24,Male,High School,17,41-50,intermediate,novice,FALSE,20,100,20,100,20,1.638095238,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,interact,TRUE,TRUE
+jtw8ycvv,14768,0,4,no,no,3,18-24,Male,High School,17,41-50,intermediate,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw8ycvv,7436,0,5,no,no,4,18-24,Male,High School,17,41-50,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8yhkm,4520,0,0,no,no,4,25-39,Male,Masters,21,41-50,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8yhkm,4176,0,1,no,no,4,25-39,Male,Masters,21,41-50,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8yhkm,4343,0,2,yes,yes,4,25-39,Male,Masters,21,41-50,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8yhkm,6712,0,3,yes,yes,3,25-39,Male,Masters,21,41-50,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8yhkm,3760,0,4,no,no,3,25-39,Male,Masters,21,41-50,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8yhkm,3205,0,5,no,no,2,25-39,Male,Masters,21,41-50,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ylsu,8563,0,0,no,no,2,50-59,Female,High School,11,31-40,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ylsu,8296,0,1,no,no,1,50-59,Female,High School,11,31-40,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ylsu,12837,1,2,no,yes,4,50-59,Female,High School,11,31-40,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8ylsu,8148,0,3,yes,yes,4,50-59,Female,High School,11,31-40,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw8ylsu,7954,1,4,yes,no,4,50-59,Female,High School,11,31-40,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw8ylsu,13500,0,5,no,no,4,50-59,Female,High School,11,31-40,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw904wl,34128,0,0,no,no,3,40-49,Male,Bachelors,23 or larger,gt60,high-intermediate,intermediate,FALSE,100,100,100,100,100,12.88730159,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,interact,TRUE,FALSE
+jtw904wl,7182,0,1,no,no,4,40-49,Male,Bachelors,23 or larger,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw904wl,7912,0,2,yes,yes,4,40-49,Male,Bachelors,23 or larger,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw904wl,16187,0,3,yes,yes,2,40-49,Male,Bachelors,23 or larger,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw904wl,7315,0,4,no,no,3,40-49,Male,Bachelors,23 or larger,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw904wl,4898,0,5,no,no,2,40-49,Male,Bachelors,23 or larger,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw918c8,9648,0,0,no,no,3,25-39,Male,High School,13,10-Jun,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw918c8,28888,1,1,yes,no,2,25-39,Male,High School,13,10-Jun,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw918c8,36629,1,2,no,yes,2,25-39,Male,High School,13,10-Jun,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw918c8,19543,0,3,yes,yes,1,25-39,Male,High School,13,10-Jun,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw918c8,35707,0,4,no,no,3,25-39,Male,High School,13,10-Jun,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw918c8,12111,0,5,no,no,4,25-39,Male,High School,13,10-Jun,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw91utg,3385,0,0,no,no,3,25-39,Male,Other,13,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw91utg,2390,0,1,no,no,3,25-39,Male,Other,13,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw91utg,2895,0,2,yes,yes,3,25-39,Male,Other,13,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw91utg,2489,0,3,yes,yes,3,25-39,Male,Other,13,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw91utg,2201,0,4,no,no,3,25-39,Male,Other,13,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw91utg,4384,0,5,no,no,3,25-39,Male,Other,13,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw936fo,32581,0,0,no,no,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate,TRUE,100,20,20,20,20,3.2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtw936fo,24501,0,1,no,no,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw936fo,21924,0,2,yes,yes,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate,TRUE,100,20,20,20,20,1.333333333,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,TRUE
+jtw936fo,13685,0,3,yes,yes,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw936fo,15361,0,4,no,no,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw936fo,14776,0,5,no,no,4,25-39,Male,Bachelors,13,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw95vvf,1361,0,0,no,no,2,25-39,Male,High School,17,31-40,intermediate,intermediate,TRUE,20,20,20,20,20,1.6,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtw95vvf,534,1,1,yes,no,2,25-39,Male,High School,17,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw95vvf,556,1,2,no,yes,2,25-39,Male,High School,17,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw95vvf,914,1,3,no,yes,1,25-39,Male,High School,17,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw95vvf,398,0,4,no,no,1,25-39,Male,High School,17,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw95vvf,534,0,5,no,no,1,25-39,Male,High School,17,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,13.33333333,1,2,1,1,2,1,1,2,1,0,0,0,0,0,0,interact,TRUE,FALSE
+jtw95zhp,9242,0,0,no,no,3,50-59,Female,Bachelors,15,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw95zhp,18186,0,1,no,no,3,50-59,Female,Bachelors,15,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw95zhp,10086,0,2,yes,yes,4,50-59,Female,Bachelors,15,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw95zhp,34360,0,3,yes,yes,3,50-59,Female,Bachelors,15,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw95zhp,29209,0,4,no,no,3,50-59,Female,Bachelors,15,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw95zhp,13911,0,5,no,no,3,50-59,Female,Bachelors,15,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw96oje,10774,0,0,no,no,4,25-39,Male,High School,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw96oje,6431,0,1,no,no,4,25-39,Male,High School,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw96oje,6883,0,2,yes,yes,4,25-39,Male,High School,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw96oje,6093,0,3,yes,yes,4,25-39,Male,High School,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw96oje,6013,0,4,no,no,3,25-39,Male,High School,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw96oje,9803,0,5,no,no,4,25-39,Male,High School,15,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw974gs,8704,0,0,no,no,4,25-39,Female,High School,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw974gs,11279,0,1,no,no,3,25-39,Female,High School,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw974gs,8400,0,2,yes,yes,4,25-39,Female,High School,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw974gs,20761,0,3,yes,yes,4,25-39,Female,High School,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw974gs,7816,0,4,no,no,3,25-39,Female,High School,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw974gs,11426,0,5,no,no,3,25-39,Female,High School,15,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw99iya,43812,0,0,no,no,3,25-39,Male,High School,23 or larger,gt60,intermediate,intermediate,FALSE,0,0,0,0,0,25.6,0,0,1,0,0,1,0,1,2,0,0,1,0,0,1,interact,TRUE,FALSE
+jtw99iya,35061,0,1,no,no,3,25-39,Male,High School,23 or larger,gt60,intermediate,intermediate,TRUE,0,0,0,0,100,21.6,2,0,2,0,1,2,0,0,1,0,0,1,1,0,0,bias,TRUE,FALSE
+jtw99iya,32691,0,2,yes,yes,3,25-39,Male,High School,23 or larger,gt60,intermediate,intermediate,FALSE,0,0,0,0,0,22.6,1,0,1,0,0,1,1,0,1,0,0,1,0,0,1,interact,TRUE,TRUE
+jtw99iya,57625,0,3,yes,yes,2,25-39,Male,High School,23 or larger,gt60,intermediate,intermediate,FALSE,0,0,0,100,0,52.8,0,0,1,1,1,2,0,0,1,1,0,0,0,0,1,interact,TRUE,TRUE
+jtw99iya,30555,0,4,no,no,2,25-39,Male,High School,23 or larger,gt60,intermediate,intermediate,FALSE,100,100,0,0,0,18.53333333,1,0,0,1,0,0,0,0,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtw99iya,6742,0,5,no,no,3,25-39,Male,High School,23 or larger,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw99mbo,5889,0,0,no,no,3,25-39,Female,High School,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw99mbo,10704,0,1,no,no,3,25-39,Female,High School,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw99mbo,4280,0,2,yes,yes,3,25-39,Female,High School,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw99mbo,16311,0,3,yes,yes,3,25-39,Female,High School,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw99mbo,7216,0,4,no,no,3,25-39,Female,High School,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw99mbo,5528,0,5,no,no,3,25-39,Female,High School,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw99tdb,14148,0,0,no,no,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,low-intermediate,FALSE,100,20,100,20,20,3.00952381,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtw99tdb,15296,0,1,no,no,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,low-intermediate,FALSE,20,20,20,20,100,0.8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtw99tdb,1414,0,2,yes,yes,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw99tdb,17730,0,3,yes,yes,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,low-intermediate,FALSE,20,100,0,100,20,5.942857143,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,interact,TRUE,TRUE
+jtw99tdb,16278,0,4,no,no,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,low-intermediate,FALSE,100,100,100,0,0,6.523809524,1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,interact,TRUE,FALSE
+jtw99tdb,15144,0,5,no,no,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,low-intermediate,FALSE,20,100,20,100,100,2.70952381,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw9bjs0,9689,0,0,no,no,4,40-49,Male,Other,11,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9bjs0,13246,0,1,no,no,4,40-49,Male,Other,11,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9bjs0,6745,0,2,yes,yes,4,40-49,Male,Other,11,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9bjs0,4190,0,3,yes,yes,4,40-49,Male,Other,11,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9bjs0,1560,1,4,yes,no,3,40-49,Male,Other,11,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9bjs0,4771,0,5,no,no,4,40-49,Male,Other,11,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9e6cu,1784,1,0,yes,no,4,50-59,Male,Masters,17,21-30,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9e6cu,1216,0,1,no,no,2,50-59,Male,Masters,17,21-30,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9e6cu,23278,0,2,yes,yes,3,50-59,Male,Masters,17,21-30,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9e6cu,1304,0,3,yes,yes,3,50-59,Male,Masters,17,21-30,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9e6cu,967,0,4,no,no,2,50-59,Male,Masters,17,21-30,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9e6cu,760,0,5,no,no,2,50-59,Male,Masters,17,21-30,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9gzyv,798,0,0,no,no,2,25-39,Male,Bachelors,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9gzyv,858,0,1,no,no,2,25-39,Male,Bachelors,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9gzyv,660,0,2,yes,yes,2,25-39,Male,Bachelors,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9gzyv,652,0,3,yes,yes,1,25-39,Male,Bachelors,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9gzyv,729,0,4,no,no,2,25-39,Male,Bachelors,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9gzyv,721,0,5,no,no,2,25-39,Male,Bachelors,21,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9hz5s,4445,0,0,no,no,4,40-49,Female,High School,15,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9hz5s,10925,0,1,no,no,4,40-49,Female,High School,15,21-30,low-intermediate,novice,FALSE,20,20,20,20,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,interact,TRUE,FALSE
+jtw9hz5s,3747,0,2,yes,yes,4,40-49,Female,High School,15,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9hz5s,13447,0,3,yes,yes,3,40-49,Female,High School,15,21-30,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9hz5s,20250,0,4,no,no,3,40-49,Female,High School,15,21-30,low-intermediate,novice,FALSE,100,100,20,20,20,4.380952381,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtw9hz5s,24487,0,5,no,no,3,40-49,Female,High School,15,21-30,low-intermediate,novice,FALSE,0,0,0,100,100,22.8,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw9j6tg,5819,0,0,no,no,3,25-39,Male,High School,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9j6tg,3718,0,1,no,no,4,25-39,Male,High School,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9j6tg,4788,0,2,yes,yes,4,25-39,Male,High School,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9j6tg,6624,0,3,yes,yes,4,25-39,Male,High School,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9j6tg,4734,0,4,no,no,3,25-39,Male,High School,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9j6tg,4196,0,5,no,no,3,25-39,Male,High School,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9jcf1,13136,0,0,no,no,3,50-59,Female,High School,15,21-30,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9jcf1,15118,0,1,no,no,3,50-59,Female,High School,15,21-30,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9jcf1,11596,0,2,yes,yes,4,50-59,Female,High School,15,21-30,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9jcf1,9563,0,3,yes,yes,3,50-59,Female,High School,15,21-30,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9jcf1,7794,0,4,no,no,4,50-59,Female,High School,15,21-30,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9jcf1,12912,0,5,no,no,3,50-59,Female,High School,15,21-30,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9q7ts,7832,0,0,no,no,4,18-24,Male,Bachelors,23 or larger,31-40,high-intermediate,expert,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtw9q7ts,3976,0,1,no,no,4,18-24,Male,Bachelors,23 or larger,31-40,high-intermediate,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9q7ts,3256,0,2,yes,yes,4,18-24,Male,Bachelors,23 or larger,31-40,high-intermediate,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9q7ts,3312,0,3,yes,yes,3,18-24,Male,Bachelors,23 or larger,31-40,high-intermediate,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9q7ts,2296,0,4,no,no,3,18-24,Male,Bachelors,23 or larger,31-40,high-intermediate,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9q7ts,3992,0,5,no,no,3,18-24,Male,Bachelors,23 or larger,31-40,high-intermediate,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9s5uh,47002,0,0,no,no,1,25-39,Male,High School,15,gt60,novice,novice,TRUE,100,20,20,20,20,3.2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtw9s5uh,4640,0,1,no,no,3,25-39,Male,High School,15,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9s5uh,5630,0,2,yes,yes,3,25-39,Male,High School,15,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9s5uh,3741,0,3,yes,yes,2,25-39,Male,High School,15,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9s5uh,1146,0,4,no,no,2,25-39,Male,High School,15,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9s5uh,54217,0,5,no,no,2,25-39,Male,High School,15,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9xrhr,19435,0,0,no,no,1,40-49,Female,High School,17,21-30,novice,novice,TRUE,100,20,20,20,20,4.266666667,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtw9xrhr,19744,0,1,no,no,1,40-49,Female,High School,17,21-30,novice,novice,FALSE,20,100,0,20,20,1.80952381,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,interact,TRUE,FALSE
+jtw9xrhr,19888,0,2,yes,yes,1,40-49,Female,High School,17,21-30,novice,novice,FALSE,20,20,20,20,100,2.133333333,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,TRUE
+jtw9xrhr,17918,0,3,yes,yes,2,40-49,Female,High School,17,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtw9xrhr,9310,0,4,no,no,2,40-49,Female,High School,17,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtw9xrhr,14438,1,5,yes,no,2,40-49,Female,High School,17,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwaefrc,45311,0,0,no,no,2,40-49,Female,Bachelors,13,20-Nov,high-intermediate,novice,FALSE,0,0,0,0,0,39.4,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwaefrc,18680,0,1,no,no,3,40-49,Female,Bachelors,13,20-Nov,high-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwaefrc,22489,0,2,yes,yes,3,40-49,Female,Bachelors,13,20-Nov,high-intermediate,novice,TRUE,100,20,20,20,20,3.466666667,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,TRUE
+jtwaefrc,25421,0,3,yes,yes,3,40-49,Female,Bachelors,13,20-Nov,high-intermediate,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwaefrc,29771,0,4,no,no,4,40-49,Female,Bachelors,13,20-Nov,high-intermediate,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwaefrc,21070,0,5,no,no,3,40-49,Female,Bachelors,13,20-Nov,high-intermediate,novice,FALSE,20,20,20,100,100,5.066666667,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwapak6,1280,0,0,no,no,4,25-39,Male,Bachelors,23 or larger,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwapak6,36416,0,1,no,no,4,25-39,Male,Bachelors,23 or larger,31-40,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwapak6,33786,0,2,yes,yes,4,25-39,Male,Bachelors,23 or larger,31-40,intermediate,intermediate,TRUE,100,100,100,100,100,1.620634921,3,2,0,1,0,0,1,0,0,1,0,0,1,0,0,bias,TRUE,TRUE
+jtwapak6,28078,0,3,yes,yes,4,25-39,Male,Bachelors,23 or larger,31-40,intermediate,intermediate,FALSE,20,20,20,100,20,5.595238095,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwapak6,29422,0,4,no,no,4,25-39,Male,Bachelors,23 or larger,31-40,intermediate,intermediate,FALSE,100,100,0,0,0,24.26666667,1,0,0,1,0,0,0,0,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwapak6,27452,0,5,no,no,4,25-39,Male,Bachelors,23 or larger,31-40,intermediate,intermediate,FALSE,0,100,0,100,100,15.80952381,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwauxyc,18160,0,0,no,no,4,40-49,Female,High School,23 or larger,41-50,low-intermediate,intermediate,FALSE,100,0,100,0,0,7.542857143,1,0,0,0,0,1,1,0,0,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwauxyc,11650,0,1,no,no,4,40-49,Female,High School,23 or larger,41-50,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwauxyc,11343,0,2,yes,yes,4,40-49,Female,High School,23 or larger,41-50,low-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwauxyc,28835,0,3,yes,yes,4,40-49,Female,High School,23 or larger,41-50,low-intermediate,intermediate,FALSE,0,100,0,100,0,14.66666667,0,0,1,1,0,0,0,0,1,1,0,0,1,0,1,interact,TRUE,TRUE
+jtwauxyc,19839,0,4,no,no,3,40-49,Female,High School,23 or larger,41-50,low-intermediate,intermediate,FALSE,100,100,0,0,0,13.46666667,1,0,0,1,0,0,0,0,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwauxyc,38009,0,5,no,no,3,40-49,Female,High School,23 or larger,41-50,low-intermediate,intermediate,FALSE,0,100,0,100,100,21.42380952,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwavj1n,14620,0,0,no,no,4,25-39,Male,PhD,11,51-60,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwavj1n,11371,0,1,no,no,4,25-39,Male,PhD,11,51-60,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwavj1n,12687,0,2,yes,yes,4,25-39,Male,PhD,11,51-60,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwavj1n,12824,0,3,yes,yes,3,25-39,Male,PhD,11,51-60,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwavj1n,12964,0,4,no,no,3,25-39,Male,PhD,11,51-60,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwavj1n,14435,0,5,no,no,3,25-39,Male,PhD,11,51-60,expert,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwazppb,22344,0,0,no,no,3,40-49,Male,Bachelors,21,41-50,low-intermediate,novice,TRUE,100,20,20,20,20,2.666666667,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwazppb,24047,0,1,no,no,3,40-49,Male,Bachelors,21,41-50,low-intermediate,novice,FALSE,20,20,20,20,100,1.866666667,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwazppb,20384,0,2,yes,yes,3,40-49,Male,Bachelors,21,41-50,low-intermediate,novice,TRUE,100,20,20,20,20,4.8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,TRUE
+jtwazppb,26120,0,3,yes,yes,3,40-49,Male,Bachelors,21,41-50,low-intermediate,novice,FALSE,20,100,20,100,20,6.666666667,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwazppb,28944,0,4,no,no,2,40-49,Male,Bachelors,21,41-50,low-intermediate,novice,FALSE,100,100,20,20,20,1.980952381,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwazppb,40087,0,5,no,no,2,40-49,Male,Bachelors,21,41-50,low-intermediate,novice,FALSE,20,20,20,100,100,6.323809524,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwb6b25,18640,0,0,no,no,3,18-24,Male,Bachelors,15,41-50,intermediate,novice,FALSE,100,20,100,20,20,4.380952381,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwb6b25,20226,0,1,no,no,3,18-24,Male,Bachelors,15,41-50,intermediate,novice,FALSE,100,20,20,20,100,4.723809524,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwb6b25,37610,1,2,no,yes,4,18-24,Male,Bachelors,15,41-50,intermediate,novice,FALSE,100,20,100,20,20,10.55238095,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,TRUE
+jtwb6b25,32490,0,3,yes,yes,3,18-24,Male,Bachelors,15,41-50,intermediate,novice,FALSE,0,100,0,100,100,21.15714286,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwb6b25,63469,0,4,no,no,4,18-24,Male,Bachelors,15,41-50,intermediate,novice,FALSE,100,100,0,0,0,53.52380952,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwb6b25,35991,0,5,no,no,3,18-24,Male,Bachelors,15,41-50,intermediate,novice,FALSE,0,20,0,100,100,22.28571429,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwbea89,22582,0,0,no,no,3,25-39,Female,High School,23 or larger,51-60,low-intermediate,novice,FALSE,20,20,20,100,20,0.533333333,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,interact,TRUE,FALSE
+jtwbea89,10752,0,1,no,no,4,25-39,Female,High School,23 or larger,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbea89,6108,0,2,yes,yes,3,25-39,Female,High School,23 or larger,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwbea89,16776,0,3,yes,yes,4,25-39,Female,High School,23 or larger,51-60,low-intermediate,novice,FALSE,20,100,20,20,100,1.752380952,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,TRUE
+jtwbea89,15704,0,4,no,no,2,25-39,Female,High School,23 or larger,51-60,low-intermediate,novice,FALSE,100,100,20,20,20,2.59047619,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwbea89,18880,0,5,no,no,3,25-39,Female,High School,23 or larger,51-60,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbfdr2,3286,0,0,no,no,4,25-39,Male,Bachelors,13,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbfdr2,6053,0,1,no,no,4,25-39,Male,Bachelors,13,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbfdr2,2092,0,2,yes,yes,4,25-39,Male,Bachelors,13,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwbfdr2,3311,0,3,yes,yes,3,25-39,Male,Bachelors,13,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwbfdr2,2272,0,4,no,no,3,25-39,Male,Bachelors,13,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbfdr2,4704,0,5,no,no,4,25-39,Male,Bachelors,13,gt60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbg08k,29430,0,0,no,no,4,40-49,Male,Masters,17,41-50,high-intermediate,low-intermediate,FALSE,100,20,100,20,20,4.8,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwbg08k,21836,0,1,no,no,4,40-49,Male,Masters,17,41-50,high-intermediate,low-intermediate,TRUE,100,20,20,20,20,3.733333333,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwbg08k,21920,0,2,yes,yes,4,40-49,Male,Masters,17,41-50,high-intermediate,low-intermediate,FALSE,100,20,100,20,20,5.104761905,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,TRUE
+jtwbg08k,55319,0,3,yes,yes,4,40-49,Male,Masters,17,41-50,high-intermediate,low-intermediate,FALSE,20,100,20,100,100,15.52857143,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwbg08k,48143,0,4,no,no,4,40-49,Male,Masters,17,41-50,high-intermediate,low-intermediate,FALSE,100,100,100,20,20,9.995238095,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwbg08k,35219,0,5,no,no,4,40-49,Male,Masters,17,41-50,high-intermediate,low-intermediate,FALSE,20,20,20,100,100,10.20952381,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwbgvec,7444,0,0,no,no,3,25-39,Female,Bachelors,dontknow,41-50,high-intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwbgvec,3661,0,1,no,no,4,25-39,Female,Bachelors,dontknow,41-50,high-intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwbgvec,3827,0,2,yes,yes,4,25-39,Female,Bachelors,dontknow,41-50,high-intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwbgvec,5610,0,3,yes,yes,4,25-39,Female,Bachelors,dontknow,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwbgvec,4727,0,4,no,no,4,25-39,Female,Bachelors,dontknow,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbgvec,2590,0,5,no,no,4,25-39,Female,Bachelors,dontknow,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbt81l,5864,0,0,no,no,4,40-49,Female,Bachelors,19,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbt81l,10792,0,1,no,no,4,40-49,Female,Bachelors,19,31-40,novice,novice,TRUE,100,20,20,20,20,1.6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwbt81l,2824,0,2,yes,yes,4,40-49,Female,Bachelors,19,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwbt81l,8199,0,3,yes,yes,3,40-49,Female,Bachelors,19,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwbt81l,5080,0,4,no,no,3,40-49,Female,Bachelors,19,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwbt81l,6280,0,5,no,no,3,40-49,Female,Bachelors,19,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwc6pvq,6117,0,0,no,no,3,50-59,Male,Bachelors,21,20-Nov,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwc6pvq,8178,0,1,no,no,3,50-59,Male,Bachelors,21,20-Nov,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwc6pvq,6196,0,2,yes,yes,4,50-59,Male,Bachelors,21,20-Nov,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwc6pvq,14089,0,3,yes,yes,3,50-59,Male,Bachelors,21,20-Nov,novice,low-intermediate,TRUE,20,20,20,100,20,0.8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,bias,TRUE,TRUE
+jtwc6pvq,9687,0,4,no,no,3,50-59,Male,Bachelors,21,20-Nov,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwc6pvq,10318,0,5,no,no,3,50-59,Male,Bachelors,21,20-Nov,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwc7gkd,10352,0,0,no,no,4,25-39,Male,High School,13,Unspecified,Unspecified,Unspecified,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwc7gkd,10112,0,1,no,no,4,25-39,Male,High School,13,Unspecified,Unspecified,Unspecified,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwc7gkd,15777,0,2,yes,yes,4,25-39,Male,High School,13,Unspecified,Unspecified,Unspecified,TRUE,100,20,20,20,20,1.866666667,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,TRUE
+jtwc7gkd,20559,0,3,yes,yes,4,25-39,Male,High School,13,Unspecified,Unspecified,Unspecified,FALSE,20,100,0,100,20,5.942857143,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwc7gkd,20767,0,4,no,no,3,25-39,Male,High School,13,Unspecified,Unspecified,Unspecified,FALSE,100,100,100,0,0,10.17142857,1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwc7gkd,12095,0,5,no,no,4,25-39,Male,High School,13,Unspecified,Unspecified,Unspecified,FALSE,0,100,0,100,100,5.423809524,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwc81uu,17000,0,0,no,no,4,25-39,Male,Bachelors,23 or larger,51-60,low-intermediate,low-intermediate,FALSE,100,100,0,100,100,5.447619048,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwc81uu,12213,0,1,no,no,4,25-39,Male,Bachelors,23 or larger,51-60,low-intermediate,low-intermediate,FALSE,100,100,100,20,0,2.966666667,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,interact,TRUE,FALSE
+jtwc81uu,12370,0,2,yes,yes,4,25-39,Male,Bachelors,23 or larger,51-60,low-intermediate,low-intermediate,FALSE,20,20,20,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,interact,TRUE,TRUE
+jtwc81uu,20569,0,3,yes,yes,4,25-39,Male,Bachelors,23 or larger,51-60,low-intermediate,low-intermediate,FALSE,0,100,0,100,100,13.2,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwc81uu,1146,0,4,no,no,1,25-39,Male,Bachelors,23 or larger,51-60,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwc81uu,21694,0,5,no,no,4,25-39,Male,Bachelors,23 or larger,51-60,low-intermediate,low-intermediate,FALSE,0,100,0,100,100,13.2,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwcaqtv,21694,0,0,no,no,3,18-24,Female,High School,17,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwcaqtv,15925,0,1,no,no,4,18-24,Female,High School,17,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwcaqtv,25638,0,2,yes,yes,4,18-24,Female,High School,17,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwcaqtv,24385,0,3,yes,yes,4,18-24,Female,High School,17,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwcaqtv,17904,0,4,no,no,3,18-24,Female,High School,17,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwcaqtv,20239,1,5,yes,no,3,18-24,Female,High School,17,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwcilta,11790,0,0,no,no,4,25-39,Male,High School,19,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwcilta,10392,0,1,no,no,4,25-39,Male,High School,19,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwcilta,4647,0,2,yes,yes,4,25-39,Male,High School,19,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwcilta,15858,0,3,yes,yes,3,25-39,Male,High School,19,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwcilta,14633,0,4,no,no,2,25-39,Male,High School,19,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwcilta,10369,0,5,no,no,3,25-39,Male,High School,19,gt60,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwcztdy,9601,0,0,no,no,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,20,20,20,20,20,0.533333333,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwcztdy,3194,0,1,no,no,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwcztdy,16643,1,2,no,yes,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,20,20,20,20,100,1.866666667,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,TRUE
+jtwcztdy,8602,0,3,yes,yes,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,TRUE,20,20,20,100,20,1.066666667,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,bias,TRUE,TRUE
+jtwcztdy,2512,0,4,no,no,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwcztdy,3127,0,5,no,no,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd235n,5474,0,0,no,no,4,18-24,Male,Bachelors,23 or larger,gt60,expert,Unspecified,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd235n,14305,0,1,no,no,4,18-24,Male,Bachelors,23 or larger,gt60,expert,Unspecified,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwd235n,14258,0,2,yes,yes,3,18-24,Male,Bachelors,23 or larger,gt60,expert,Unspecified,FALSE,100,100,100,100,100,1.620634921,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwd235n,10856,0,3,yes,yes,3,18-24,Male,Bachelors,23 or larger,gt60,expert,Unspecified,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd235n,6049,0,4,no,no,3,18-24,Male,Bachelors,23 or larger,gt60,expert,Unspecified,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd235n,18934,0,5,no,no,3,18-24,Male,Bachelors,23 or larger,gt60,expert,Unspecified,TRUE,0,0,0,0,0,17.06666667,0,0,1,0,0,1,0,0,1,1,0,1,0,0,1,bias,TRUE,FALSE
+jtwd4vgb,3875,0,0,no,no,3,18-24,Male,Masters,15,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd4vgb,768,1,1,yes,no,1,18-24,Male,Masters,15,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd4vgb,639,0,2,yes,yes,3,18-24,Male,Masters,15,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd4vgb,808,1,3,no,yes,1,18-24,Male,Masters,15,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd4vgb,1088,0,4,no,no,2,18-24,Male,Masters,15,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd4vgb,578,0,5,no,no,2,18-24,Male,Masters,15,41-50,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5cd7,7314,0,0,no,no,3,25-39,Male,Masters,11,21-30,novice,novice,FALSE,20,20,20,20,20,3.6,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,interact,TRUE,FALSE
+jtwd5cd7,10066,0,1,no,no,1,25-39,Male,Masters,11,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5cd7,9349,0,2,yes,yes,2,25-39,Male,Masters,11,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd5cd7,1449,0,3,yes,yes,2,25-39,Male,Masters,11,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd5cd7,1372,0,4,no,no,2,25-39,Male,Masters,11,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5cd7,7244,1,5,yes,no,2,25-39,Male,Masters,11,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5gi3,3918,0,0,no,no,4,25-39,Male,Masters,13,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5gi3,8581,0,1,no,no,4,25-39,Male,Masters,13,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,0.4,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwd5gi3,2828,0,2,yes,yes,4,25-39,Male,Masters,13,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd5gi3,4494,0,3,yes,yes,4,25-39,Male,Masters,13,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd5gi3,2618,0,4,no,no,4,25-39,Male,Masters,13,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5gi3,2442,0,5,no,no,4,25-39,Male,Masters,13,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5qsl,10564,0,0,no,no,3,25-39,Female,High School,11,20-Nov,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5qsl,18211,0,1,no,no,3,25-39,Female,High School,11,20-Nov,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5qsl,7115,0,2,yes,yes,3,25-39,Female,High School,11,20-Nov,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd5qsl,7921,0,3,yes,yes,4,25-39,Female,High School,11,20-Nov,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd5qsl,5817,0,4,no,no,2,25-39,Female,High School,11,20-Nov,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5qsl,10768,0,5,no,no,2,25-39,Female,High School,11,20-Nov,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5sio,30344,0,0,no,no,3,50-59,Male,Other,15,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5sio,38880,0,1,no,no,4,50-59,Male,Other,15,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd5sio,40943,0,2,yes,yes,4,50-59,Male,Other,15,gt60,high-intermediate,novice,TRUE,100,20,20,0,0,22,2,1,0,0,0,0,0,0,0,0,0,1,0,0,1,bias,TRUE,TRUE
+jtwd5sio,44184,1,3,no,yes,4,50-59,Male,Other,15,gt60,high-intermediate,novice,FALSE,20,20,20,20,20,2.819047619,1,1,0,2,2,0,0,0,0,0,0,0,0,0,0,interact,TRUE,TRUE
+jtwd5sio,32328,0,4,no,no,4,50-59,Male,Other,15,gt60,high-intermediate,novice,FALSE,20,20,0,0,0,14,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwd5sio,39127,1,5,yes,no,4,50-59,Male,Other,15,gt60,high-intermediate,novice,FALSE,0,0,20,20,20,12.4,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwd6014,7222,0,0,no,no,3,25-39,Male,Masters,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd6014,17426,0,1,no,no,4,25-39,Male,Masters,23 or larger,31-40,high-intermediate,intermediate,FALSE,100,100,100,100,100,1.353968254,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwd6014,10474,0,2,yes,yes,3,25-39,Male,Masters,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd6014,8247,1,3,no,yes,3,25-39,Male,Masters,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd6014,10856,0,4,no,no,3,25-39,Male,Masters,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd6014,16864,0,5,no,no,3,25-39,Male,Masters,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd7x1y,8840,0,0,no,no,4,50-59,Female,High School,23 or larger,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd7x1y,8047,0,1,no,no,4,50-59,Female,High School,23 or larger,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwd7x1y,7639,0,2,yes,yes,4,50-59,Female,High School,23 or larger,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd7x1y,43914,0,3,yes,yes,3,50-59,Female,High School,23 or larger,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwd7x1y,21928,0,4,no,no,3,50-59,Female,High School,23 or larger,31-40,novice,novice,TRUE,100,20,20,20,20,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwd7x1y,19730,0,5,no,no,4,50-59,Female,High School,23 or larger,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdbk75,25474,0,0,no,no,4,25-39,Female,Bachelors,15,21-30,novice,novice,FALSE,20,20,100,20,20,2.133333333,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdbk75,20294,1,1,yes,no,4,25-39,Female,Bachelors,15,21-30,novice,novice,TRUE,100,20,20,20,20,0.266666667,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwdbk75,21656,0,2,yes,yes,4,25-39,Female,Bachelors,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdbk75,19694,0,3,yes,yes,4,25-39,Female,Bachelors,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdbk75,23385,0,4,no,no,3,25-39,Female,Bachelors,15,21-30,novice,novice,TRUE,100,20,20,20,20,0.8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwdbk75,14204,0,5,no,no,4,25-39,Female,Bachelors,15,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdbs15,5046,0,0,no,no,2,25-39,Male,Masters,23 or larger,21-30,expert,expert,TRUE,100,20,0,100,100,4.20952381,2,1,0,1,1,1,0,0,1,1,0,0,1,0,0,bias,TRUE,FALSE
+jtwdbs15,2501,1,1,yes,no,3,25-39,Male,Masters,23 or larger,21-30,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdbs15,1196,1,2,no,yes,4,25-39,Male,Masters,23 or larger,21-30,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdbs15,2501,1,3,no,yes,3,25-39,Male,Masters,23 or larger,21-30,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdbs15,2488,0,4,no,no,3,25-39,Male,Masters,23 or larger,21-30,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdbs15,3190,0,5,no,no,3,25-39,Male,Masters,23 or larger,21-30,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc1ga,6368,0,0,no,no,4,25-39,Male,Bachelors,13,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc1ga,2843,0,1,no,no,4,25-39,Male,Bachelors,13,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc1ga,2516,0,2,yes,yes,4,25-39,Male,Bachelors,13,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdc1ga,9767,0,3,yes,yes,2,25-39,Male,Bachelors,13,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdc1ga,2690,0,4,no,no,4,25-39,Male,Bachelors,13,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc1ga,13078,0,5,no,no,2,25-39,Male,Bachelors,13,31-40,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc353,39631,0,0,no,no,3,25-39,Male,Other,19,gt60,expert,high-intermediate,FALSE,20,20,0,100,0,13.2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,interact,TRUE,FALSE
+jtwdc353,24591,0,1,no,no,3,25-39,Male,Other,19,gt60,expert,high-intermediate,FALSE,20,100,0,20,20,2.533333333,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdc353,11896,1,2,no,yes,2,25-39,Male,Other,19,gt60,expert,high-intermediate,FALSE,0,20,0,20,100,2.266666667,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,interact,TRUE,TRUE
+jtwdc353,19696,1,3,no,yes,2,25-39,Male,Other,19,gt60,expert,high-intermediate,TRUE,0,0,0,100,20,4.8,0,0,1,0,0,1,0,0,1,1,0,0,0,1,1,bias,TRUE,TRUE
+jtwdc353,21152,0,4,no,no,2,25-39,Male,Other,19,gt60,expert,high-intermediate,FALSE,20,100,0,20,20,4.133333333,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdc353,10920,1,5,yes,no,3,25-39,Male,Other,19,gt60,expert,high-intermediate,FALSE,20,20,0,20,100,2,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwdc6i5,3160,0,0,no,no,4,25-39,Male,High School,17,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,base,FALSE,FALSE
+jtwdc6i5,1945,0,1,no,no,3,25-39,Male,High School,17,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc6i5,5991,1,2,no,yes,4,25-39,Male,High School,17,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdc6i5,6856,0,3,yes,yes,4,25-39,Male,High School,17,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdc6i5,10128,0,4,no,no,2,25-39,Male,High School,17,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc6i5,7025,0,5,no,no,4,25-39,Male,High School,17,21-30,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc8ra,18769,0,0,no,no,3,40-49,Female,High School,17,31-40,novice,novice,FALSE,20,20,100,20,20,2.133333333,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdc8ra,37488,0,1,no,no,3,40-49,Female,High School,17,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc8ra,11244,0,2,yes,yes,3,40-49,Female,High School,17,31-40,novice,novice,TRUE,100,20,20,20,20,1.066666667,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,TRUE
+jtwdc8ra,10279,0,3,yes,yes,3,40-49,Female,High School,17,31-40,novice,novice,TRUE,20,20,20,100,20,1.066666667,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,bias,TRUE,TRUE
+jtwdc8ra,8790,0,4,no,no,2,40-49,Female,High School,17,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdc8ra,6656,0,5,no,no,2,40-49,Female,High School,17,31-40,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdcevn,21639,0,0,no,no,3,40-49,Male,High School,19,31-40,novice,novice,FALSE,100,100,100,100,100,2.458730159,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdcevn,38073,0,1,no,no,4,40-49,Male,High School,19,31-40,novice,novice,FALSE,100,100,100,100,20,6.598412698,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,interact,TRUE,FALSE
+jtwdcevn,28489,0,2,yes,yes,3,40-49,Male,High School,19,31-40,novice,novice,TRUE,0,0,0,0,0,19.26507937,1,1,1,1,0,1,1,0,1,1,0,1,1,0,1,bias,TRUE,TRUE
+jtwdcevn,1161,0,3,yes,yes,4,40-49,Male,High School,19,31-40,novice,novice,FALSE,20,20,20,20,20,2.719047619,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwdcevn,769,0,4,no,no,1,40-49,Male,High School,19,31-40,novice,novice,TRUE,100,100,100,100,100,163.8873016,2,1,1,2,0,1,2,0,1,2,0,1,2,0,1,bias,TRUE,FALSE
+jtwdcevn,10910,0,5,no,no,4,40-49,Male,High School,19,31-40,novice,novice,TRUE,20,20,20,100,20,1.866666667,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,bias,TRUE,FALSE
+jtwdcf0g,35343,0,0,no,no,3,25-39,Male,Bachelors,13,41-50,intermediate,intermediate,TRUE,100,20,100,20,20,7.276190476,2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwdcf0g,19770,0,1,no,no,4,25-39,Male,Bachelors,13,41-50,intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdcf0g,19446,0,2,yes,yes,3,25-39,Male,Bachelors,13,41-50,intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdcf0g,35921,0,3,yes,yes,2,25-39,Male,Bachelors,13,41-50,intermediate,intermediate,FALSE,20,0,20,100,20,10.0952381,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwdcf0g,25380,0,4,no,no,3,25-39,Male,Bachelors,13,41-50,intermediate,intermediate,FALSE,100,100,20,0,0,13.48571429,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwdcf0g,39707,0,5,no,no,3,25-39,Male,Bachelors,13,41-50,intermediate,intermediate,FALSE,0,20,0,100,100,17.6,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdcfwe,32541,0,0,no,no,3,50-59,Male,Bachelors,17,21-30,novice,novice,TRUE,100,20,20,20,20,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwdcfwe,18676,0,1,no,no,4,50-59,Male,Bachelors,17,21-30,novice,novice,FALSE,20,20,20,20,20,139.2222222,1,0,0,1,0,1,1,0,1,1,0,1,1,0,1,interact,TRUE,FALSE
+jtwdcfwe,22319,0,2,yes,yes,4,50-59,Male,Bachelors,17,21-30,novice,novice,TRUE,100,20,20,20,20,11.46666667,1,0,0,0,1,1,0,1,1,0,1,1,0,1,1,bias,TRUE,TRUE
+jtwdcfwe,25431,0,3,yes,yes,3,50-59,Male,Bachelors,17,21-30,novice,novice,FALSE,20,20,100,100,20,3.885714286,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwdcfwe,33174,0,4,no,no,4,50-59,Male,Bachelors,17,21-30,novice,novice,FALSE,100,100,0,0,0,21.88730159,1,0,0,1,0,0,1,0,1,1,0,1,1,0,1,interact,TRUE,FALSE
+jtwdcfwe,20085,0,5,no,no,3,50-59,Male,Bachelors,17,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdcmav,32926,0,0,no,no,4,40-49,Male,High School,9 or smaller,lt5,intermediate,intermediate,FALSE,20,100,20,100,100,4.638095238,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdcmav,8998,0,1,no,no,4,40-49,Male,High School,9 or smaller,lt5,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdcmav,11377,0,2,yes,yes,3,40-49,Male,High School,9 or smaller,lt5,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdcmav,6215,0,3,yes,yes,3,40-49,Male,High School,9 or smaller,lt5,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdcmav,3478,0,4,no,no,4,40-49,Male,High School,9 or smaller,lt5,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdcmav,5555,0,5,no,no,4,40-49,Male,High School,9 or smaller,lt5,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdcxie,38907,0,0,no,no,4,18-24,Male,Bachelors,13,20-Nov,intermediate,low-intermediate,FALSE,20,20,20,100,20,14.51428571,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,interact,TRUE,FALSE
+jtwdcxie,24891,0,1,no,no,4,18-24,Male,Bachelors,13,20-Nov,intermediate,low-intermediate,FALSE,100,20,20,100,100,6.304761905,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdcxie,22646,0,2,yes,yes,4,18-24,Male,Bachelors,13,20-Nov,intermediate,low-intermediate,FALSE,100,20,100,20,20,6.247619048,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,TRUE
+jtwdcxie,29215,0,3,yes,yes,3,18-24,Male,Bachelors,13,20-Nov,intermediate,low-intermediate,FALSE,20,100,20,100,100,6.842857143,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdcxie,20114,0,4,no,no,3,18-24,Male,Bachelors,13,20-Nov,intermediate,low-intermediate,FALSE,100,100,100,20,20,4.50952381,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdcxie,27844,0,5,no,no,3,18-24,Male,Bachelors,13,20-Nov,intermediate,low-intermediate,FALSE,20,20,20,100,100,7.123809524,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdd025,26016,0,0,no,no,4,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdd025,12193,0,1,no,no,4,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdd025,29294,0,2,yes,yes,3,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdd025,34853,0,3,yes,yes,3,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdd025,24919,0,4,no,no,2,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdd025,23447,0,5,no,no,3,25-39,Male,Bachelors,15,41-50,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwddcvd,5802,0,0,no,no,3,25-39,Male,Other,17,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwddcvd,53866,0,1,no,no,3,25-39,Male,Other,17,21-30,novice,novice,FALSE,0,0,0,0,0,35.53333333,1,0,2,1,0,2,0,0,1,0,0,1,1,0,1,interact,TRUE,FALSE
+jtwddcvd,9927,0,2,yes,yes,3,25-39,Male,Other,17,21-30,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwddcvd,37859,0,3,yes,yes,3,25-39,Male,Other,17,21-30,novice,novice,FALSE,0,0,0,0,0,15.4,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,interact,TRUE,TRUE
+jtwddcvd,55325,0,4,no,no,2,25-39,Male,Other,17,21-30,novice,novice,TRUE,0,0,20,20,20,22.8,4,1,5,1,0,2,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwddcvd,24998,0,5,no,no,3,25-39,Male,Other,17,21-30,novice,novice,FALSE,20,20,20,0,0,7.2,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwddmtb,7958,0,0,no,no,3,25-39,Male,Other,17,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwddmtb,5503,0,1,no,no,4,25-39,Male,Other,17,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwddmtb,5074,0,2,yes,yes,4,25-39,Male,Other,17,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwddmtb,9247,0,3,yes,yes,3,25-39,Male,Other,17,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwddmtb,5385,0,4,no,no,3,25-39,Male,Other,17,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwddmtb,9362,0,5,no,no,3,25-39,Male,Other,17,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwddx6o,18547,0,0,no,no,4,40-49,Female,Masters,15,41-50,intermediate,low-intermediate,FALSE,20,20,20,0,20,3.2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,interact,TRUE,FALSE
+jtwddx6o,35638,0,1,no,no,4,40-49,Female,Masters,15,41-50,intermediate,low-intermediate,FALSE,100,20,20,20,100,4.761904762,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwddx6o,25057,0,2,yes,yes,4,40-49,Female,Masters,15,41-50,intermediate,low-intermediate,FALSE,100,20,100,20,0,8.495238095,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,interact,TRUE,TRUE
+jtwddx6o,35553,0,3,yes,yes,4,40-49,Female,Masters,15,41-50,intermediate,low-intermediate,FALSE,0,100,0,100,100,15.08571429,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwddx6o,40055,0,4,no,no,3,40-49,Female,Masters,15,41-50,intermediate,low-intermediate,FALSE,100,100,20,0,0,24.11428571,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwddx6o,51460,0,5,no,no,3,40-49,Female,Masters,15,41-50,intermediate,low-intermediate,FALSE,0,100,0,100,100,24.06666667,0,0,1,1,0,0,1,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwddxzs,37338,0,0,no,no,4,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,0,0,0,0,0,14,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwddxzs,15606,0,1,no,no,4,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwddxzs,8200,0,2,yes,yes,4,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwddxzs,13307,0,3,yes,yes,4,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwddxzs,29031,0,4,no,no,4,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwddxzs,28342,0,5,no,no,4,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwde6ay,28609,0,0,no,no,2,25-39,Male,Bachelors,17,41-50,high-intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwde6ay,15765,0,1,no,no,3,25-39,Male,Bachelors,17,41-50,high-intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwde6ay,4563,0,2,yes,yes,3,25-39,Male,Bachelors,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwde6ay,4426,0,3,yes,yes,3,25-39,Male,Bachelors,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwde6ay,5426,0,4,no,no,2,25-39,Male,Bachelors,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwde6ay,6983,0,5,no,no,3,25-39,Male,Bachelors,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwde6nh,9928,0,0,no,no,4,25-39,Female,Bachelors,13,31-40,intermediate,novice,FALSE,100,20,100,20,20,1.638095238,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwde6nh,11533,0,1,no,no,4,25-39,Female,Bachelors,13,31-40,intermediate,novice,FALSE,100,20,20,20,100,1.980952381,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwde6nh,12534,0,2,yes,yes,4,25-39,Female,Bachelors,13,31-40,intermediate,novice,FALSE,100,20,100,20,20,2.666666667,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,TRUE
+jtwde6nh,21864,0,3,yes,yes,3,25-39,Female,Bachelors,13,31-40,intermediate,novice,FALSE,20,100,0,100,100,4.861904762,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwde6nh,21128,0,4,no,no,3,25-39,Female,Bachelors,13,31-40,intermediate,novice,FALSE,100,100,100,20,0,5.238095238,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,interact,TRUE,FALSE
+jtwde6nh,24649,0,5,no,no,4,25-39,Female,Bachelors,13,31-40,intermediate,novice,FALSE,0,20,20,20,100,4.8,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwded08,23460,0,0,no,no,3,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwded08,19317,0,1,no,no,3,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwded08,6703,0,2,yes,yes,4,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwded08,9263,0,3,yes,yes,3,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwded08,7920,0,4,no,no,3,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwded08,6223,0,5,no,no,3,25-39,Male,High School,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdeeqm,47208,0,0,no,no,3,25-39,Female,Bachelors,15,20-Nov,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdeeqm,1871,0,1,no,no,4,25-39,Female,Bachelors,15,20-Nov,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdeeqm,1971,1,2,no,yes,3,25-39,Female,Bachelors,15,20-Nov,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdeeqm,21345,0,3,yes,yes,4,25-39,Female,Bachelors,15,20-Nov,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdeeqm,1496,0,4,no,no,3,25-39,Female,Bachelors,15,20-Nov,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdeeqm,2869,0,5,no,no,4,25-39,Female,Bachelors,15,20-Nov,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdeo2i,26742,0,0,no,no,4,40-49,Female,High School,15,41-50,low-intermediate,novice,FALSE,100,100,100,100,100,1.353968254,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdeo2i,49398,0,1,no,no,4,40-49,Female,High School,15,41-50,low-intermediate,novice,FALSE,0,0,0,0,0,13.57460317,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,interact,TRUE,FALSE
+jtwdeo2i,46762,0,2,yes,yes,3,40-49,Female,High School,15,41-50,low-intermediate,novice,TRUE,100,20,20,20,20,8.8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,TRUE
+jtwdeo2i,61779,0,3,yes,yes,3,40-49,Female,High School,15,41-50,low-intermediate,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdeo2i,53315,0,4,no,no,4,40-49,Female,High School,15,41-50,low-intermediate,novice,FALSE,100,0,100,100,100,4.287301587,1,0,0,1,0,1,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdeo2i,58745,0,5,no,no,4,40-49,Female,High School,15,41-50,low-intermediate,novice,FALSE,20,20,0,20,20,33.4,0,1,1,0,1,1,0,0,1,0,1,1,0,1,1,interact,TRUE,FALSE
+jtwdep1d,1177,0,0,no,no,3,25-39,Male,Masters,23 or larger,41-50,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdep1d,1348,1,1,yes,no,4,25-39,Male,Masters,23 or larger,41-50,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdep1d,786,1,2,no,yes,2,25-39,Male,Masters,23 or larger,41-50,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdep1d,825,1,3,no,yes,3,25-39,Male,Masters,23 or larger,41-50,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdep1d,1151,0,4,no,no,3,25-39,Male,Masters,23 or larger,41-50,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdep1d,1232,0,5,no,no,4,25-39,Male,Masters,23 or larger,41-50,expert,expert,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdf72b,29271,0,0,no,no,4,25-39,Female,Bachelors,15,gt60,low-intermediate,novice,FALSE,100,20,100,20,20,8.952380952,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdf72b,17432,0,1,no,no,3,25-39,Female,Bachelors,15,gt60,low-intermediate,novice,FALSE,100,20,20,20,100,4.380952381,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwdf72b,16191,0,2,yes,yes,4,25-39,Female,Bachelors,15,gt60,low-intermediate,novice,FALSE,100,20,100,20,20,3.657142857,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,TRUE
+jtwdf72b,32896,0,3,yes,yes,2,25-39,Female,Bachelors,15,gt60,low-intermediate,novice,FALSE,20,100,20,100,100,8.795238095,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdf72b,33007,0,4,no,no,3,25-39,Female,Bachelors,15,gt60,low-intermediate,novice,FALSE,100,100,100,20,20,8.752380952,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdf72b,19943,0,5,no,no,4,25-39,Female,Bachelors,15,gt60,low-intermediate,novice,FALSE,20,100,20,100,100,4.252380952,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdfm4v,28764,0,0,no,no,4,25-39,Male,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,100,20,20,2.933333333,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdfm4v,12579,0,1,no,no,4,25-39,Male,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdfm4v,8617,0,2,yes,yes,4,25-39,Male,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdfm4v,10991,0,3,yes,yes,3,25-39,Male,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdfm4v,11678,0,4,no,no,4,25-39,Male,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdfm4v,12236,0,5,no,no,3,25-39,Male,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdfzqm,25560,0,0,no,no,3,25-39,Female,High School,15,31-40,intermediate,novice,FALSE,20,100,20,100,20,5.333333333,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,interact,TRUE,FALSE
+jtwdfzqm,29704,0,1,no,no,3,25-39,Female,High School,15,31-40,intermediate,novice,FALSE,100,100,20,20,20,8.495238095,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdfzqm,12942,0,2,yes,yes,3,25-39,Female,High School,15,31-40,intermediate,novice,FALSE,20,20,20,100,100,2.323809524,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdfzqm,18987,0,3,yes,yes,3,25-39,Female,High School,15,31-40,intermediate,novice,FALSE,20,100,20,100,20,4.295238095,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,interact,TRUE,TRUE
+jtwdfzqm,33154,0,4,no,no,3,25-39,Female,High School,15,31-40,intermediate,novice,FALSE,100,100,100,20,20,5.70952381,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdfzqm,21271,0,5,no,no,3,25-39,Female,High School,15,31-40,intermediate,novice,FALSE,20,100,20,100,100,5.10952381,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdg1lp,42088,0,0,no,no,4,25-39,Male,High School,23 or larger,gt60,low-intermediate,low-intermediate,FALSE,20,20,0,0,20,14.8,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,interact,TRUE,FALSE
+jtwdg1lp,35109,0,1,no,no,4,25-39,Male,High School,23 or larger,gt60,low-intermediate,low-intermediate,FALSE,0,0,0,0,0,16.48730159,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,interact,TRUE,FALSE
+jtwdg1lp,19836,0,2,yes,yes,4,25-39,Male,High School,23 or larger,gt60,low-intermediate,low-intermediate,FALSE,0,0,0,20,0,13.82380952,1,0,1,1,0,1,1,0,1,0,0,0,0,0,1,interact,TRUE,TRUE
+jtwdg1lp,21299,0,3,yes,yes,4,25-39,Male,High School,23 or larger,gt60,low-intermediate,low-intermediate,FALSE,0,0,0,0,0,15.2,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,interact,TRUE,TRUE
+jtwdg1lp,47716,0,4,no,no,4,25-39,Male,High School,23 or larger,gt60,low-intermediate,low-intermediate,FALSE,0,0,0,0,0,46.8,0,0,1,2,5,8,0,1,2,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwdg1lp,20512,0,5,no,no,4,25-39,Male,High School,23 or larger,gt60,low-intermediate,low-intermediate,FALSE,0,0,0,0,0,18.8,0,0,1,0,0,1,0,1,2,0,0,1,0,2,3,interact,TRUE,FALSE
+jtwdg5mt,20000,0,0,no,no,3,25-39,Female,Bachelors,17,20-Nov,novice,novice,FALSE,20,20,20,100,20,0.8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,interact,TRUE,FALSE
+jtwdg5mt,21119,0,1,no,no,3,25-39,Female,Bachelors,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdg5mt,13315,0,2,yes,yes,4,25-39,Female,Bachelors,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdg5mt,11029,0,3,yes,yes,3,25-39,Female,Bachelors,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdg5mt,15365,0,4,no,no,3,25-39,Female,Bachelors,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdg5mt,12864,1,5,yes,no,4,25-39,Female,Bachelors,17,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdgch1,18089,0,0,no,no,4,50-59,Male,Masters,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdgch1,504,0,1,no,no,3,50-59,Male,Masters,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,3.671428571,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwdgch1,21011,0,2,yes,yes,4,50-59,Male,Masters,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdgch1,20437,0,3,yes,yes,4,50-59,Male,Masters,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdgch1,11821,0,4,no,no,3,50-59,Male,Masters,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdgch1,26840,0,5,no,no,3,50-59,Male,Masters,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdgqjj,6510,0,0,no,no,4,25-39,Female,High School,13,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdgqjj,11802,0,1,no,no,4,25-39,Female,High School,13,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdgqjj,8246,0,2,yes,yes,4,25-39,Female,High School,13,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdgqjj,12745,0,3,yes,yes,4,25-39,Female,High School,13,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdgqjj,5575,0,4,no,no,4,25-39,Female,High School,13,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdgqjj,5491,0,5,no,no,4,25-39,Female,High School,13,41-50,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdh7m0,34988,0,0,no,no,4,60,Female,Bachelors,15,41-50,novice,novice,TRUE,20,20,20,20,20,0.266666667,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,bias,TRUE,FALSE
+jtwdh7m0,43516,0,1,no,no,4,60,Female,Bachelors,15,41-50,novice,novice,FALSE,100,100,100,100,100,3.393650794,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdh7m0,46952,0,2,yes,yes,4,60,Female,Bachelors,15,41-50,novice,novice,FALSE,100,100,100,100,100,3.426984127,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdh7m0,22203,0,3,yes,yes,4,60,Female,Bachelors,15,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdh7m0,41982,0,4,no,no,4,60,Female,Bachelors,15,41-50,novice,novice,FALSE,100,100,100,100,100,1.653968254,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdh7m0,21562,0,5,no,no,4,60,Female,Bachelors,15,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdify2,35903,0,0,no,no,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,TRUE,20,20,20,20,20,2.707936508,2,2,0,1,1,0,1,1,0,1,1,0,1,1,0,bias,TRUE,FALSE
+jtwdify2,30512,0,1,no,no,4,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,20,20,20,20,2.174603175,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,interact,TRUE,FALSE
+jtwdify2,16679,0,2,yes,yes,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,100,20,100,20,20,2.323809524,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,TRUE
+jtwdify2,20728,0,3,yes,yes,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,100,20,100,100,4.80952381,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdify2,16183,0,4,no,no,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,100,100,100,20,20,3.30952381,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdify2,13226,0,5,no,no,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,20,20,100,100,2.666666667,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdihby,52378,0,0,no,no,3,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdihby,16941,0,1,no,no,3,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdihby,13539,0,2,yes,yes,4,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdihby,40195,0,3,yes,yes,4,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdihby,47494,0,4,no,no,3,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdihby,43087,0,5,no,no,4,40-49,Male,High School,15,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdlr2s,1200,0,0,no,no,3,40-49,Male,Bachelors,15,21-30,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdlr2s,1216,0,1,no,no,3,40-49,Male,Bachelors,15,21-30,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdlr2s,854,1,2,no,yes,3,40-49,Male,Bachelors,15,21-30,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdlr2s,1339,1,3,no,yes,2,40-49,Male,Bachelors,15,21-30,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdlr2s,1055,0,4,no,no,3,40-49,Male,Bachelors,15,21-30,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdlr2s,853,0,5,no,no,3,40-49,Male,Bachelors,15,21-30,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdoujm,25800,0,0,no,no,4,25-39,Male,High School,19,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,1.819047619,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdoujm,39559,0,1,no,no,4,25-39,Male,High School,19,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdoujm,17279,0,2,yes,yes,4,25-39,Male,High School,19,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdoujm,26064,0,3,yes,yes,4,25-39,Male,High School,19,21-30,intermediate,low-intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdoujm,49809,0,4,no,no,4,25-39,Male,High School,19,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdoujm,7857,0,5,no,no,2,25-39,Male,High School,19,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,4.826984127,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdqnjr,14160,0,0,no,no,4,18-24,Male,High School,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdqnjr,6824,0,1,no,no,4,18-24,Male,High School,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdqnjr,7272,0,2,yes,yes,4,18-24,Male,High School,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdqnjr,13642,0,3,yes,yes,3,18-24,Male,High School,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdqnjr,6941,0,4,no,no,3,18-24,Male,High School,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdqnjr,4561,0,5,no,no,3,18-24,Male,High School,23 or larger,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdu5y4,32071,0,0,no,no,3,25-39,Male,High School,21,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdu5y4,6042,0,1,no,no,4,25-39,Male,High School,21,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdu5y4,2719,0,2,yes,yes,4,25-39,Male,High School,21,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdu5y4,4800,1,3,no,yes,4,25-39,Male,High School,21,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdu5y4,8888,0,4,no,no,4,25-39,Male,High School,21,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdu5y4,4497,0,5,no,no,4,25-39,Male,High School,21,gt60,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdxc1o,18296,0,0,no,no,4,25-39,Male,Bachelors,13,10-Jun,intermediate,low-intermediate,FALSE,100,20,100,20,20,5.066666667,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdxc1o,8504,0,1,no,no,4,25-39,Male,Bachelors,13,10-Jun,intermediate,low-intermediate,FALSE,100,20,20,20,100,1.638095238,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwdxc1o,7368,1,2,no,yes,4,25-39,Male,Bachelors,13,10-Jun,intermediate,low-intermediate,FALSE,100,20,100,20,20,1.638095238,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,TRUE
+jtwdxc1o,10815,0,3,yes,yes,4,25-39,Male,Bachelors,13,10-Jun,intermediate,low-intermediate,FALSE,20,100,20,100,100,1.80952381,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwdxc1o,22977,0,4,no,no,3,25-39,Male,Bachelors,13,10-Jun,intermediate,low-intermediate,FALSE,100,100,100,20,20,6.30952381,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwdxc1o,23200,0,5,no,no,3,25-39,Male,Bachelors,13,10-Jun,intermediate,low-intermediate,FALSE,20,20,20,100,100,7.123809524,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdzca6,42123,0,0,no,no,3,25-39,Male,Bachelors,13,41-50,novice,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwdzca6,24080,0,1,no,no,3,25-39,Male,Bachelors,13,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdzca6,20516,0,2,yes,yes,3,25-39,Male,Bachelors,13,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdzca6,27082,0,3,yes,yes,3,25-39,Male,Bachelors,13,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwdzca6,18098,0,4,no,no,3,25-39,Male,Bachelors,13,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwdzca6,16840,0,5,no,no,3,25-39,Male,Bachelors,13,41-50,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwe4i2w,8985,0,0,no,no,4,25-39,Male,Bachelors,15,21-30,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwe4i2w,4383,0,1,no,no,4,25-39,Male,Bachelors,15,21-30,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwe4i2w,19326,0,2,yes,yes,4,25-39,Male,Bachelors,15,21-30,intermediate,intermediate,TRUE,100,100,100,100,100,1.487301587,1,0,1,1,0,0,1,0,0,1,0,0,1,0,0,bias,TRUE,TRUE
+jtwe4i2w,14758,0,3,yes,yes,4,25-39,Male,Bachelors,15,21-30,intermediate,intermediate,FALSE,100,20,100,100,100,1.976190476,1,0,0,1,1,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwe4i2w,21520,0,4,no,no,3,25-39,Male,Bachelors,15,21-30,intermediate,intermediate,TRUE,100,100,100,100,100,4.120634921,2,0,1,2,1,0,1,0,0,1,0,0,1,0,0,bias,TRUE,FALSE
+jtwe4i2w,22756,0,5,no,no,3,25-39,Male,Bachelors,15,21-30,intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwe6ozu,58492,0,0,no,no,2,25-39,Male,High School,23 or larger,20-Nov,low-intermediate,intermediate,FALSE,100,100,100,100,100,4.687301587,2,1,0,1,0,0,2,1,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwe6ozu,44909,0,1,no,no,3,25-39,Male,High School,23 or larger,20-Nov,low-intermediate,intermediate,FALSE,100,100,100,100,100,6.153968254,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwe6ozu,32728,0,2,yes,yes,3,25-39,Male,High School,23 or larger,20-Nov,low-intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwe6ozu,48802,0,3,yes,yes,2,25-39,Male,High School,23 or larger,20-Nov,low-intermediate,intermediate,FALSE,100,100,100,100,100,7.987301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,TRUE
+jtwe6ozu,48766,0,4,no,no,2,25-39,Male,High School,23 or larger,20-Nov,low-intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwe6ozu,15370,0,5,no,no,2,25-39,Male,High School,23 or larger,20-Nov,low-intermediate,intermediate,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwegy1q,3814,0,0,no,no,3,25-39,Female,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwegy1q,5140,0,1,no,no,3,25-39,Female,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwegy1q,3655,0,2,yes,yes,3,25-39,Female,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwegy1q,6029,0,3,yes,yes,3,25-39,Female,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwegy1q,2622,1,4,yes,no,2,25-39,Female,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwegy1q,2559,0,5,no,no,3,25-39,Female,Bachelors,23 or larger,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtweu5te,6673,0,0,no,no,3,40-49,Male,High School,21,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtweu5te,4107,0,1,no,no,4,40-49,Male,High School,21,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtweu5te,3369,0,2,yes,yes,4,40-49,Male,High School,21,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtweu5te,9771,1,3,no,yes,3,40-49,Male,High School,21,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtweu5te,23977,0,4,no,no,2,40-49,Male,High School,21,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtweu5te,13868,0,5,no,no,2,40-49,Male,High School,21,20-Nov,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwezvvs,4700,1,0,yes,no,4,25-39,Male,Masters,11,lt5,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwezvvs,817,0,1,no,no,3,25-39,Male,Masters,11,lt5,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwezvvs,986,0,2,yes,yes,2,25-39,Male,Masters,11,lt5,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwezvvs,1247,0,3,yes,yes,4,25-39,Male,Masters,11,lt5,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwezvvs,1084,1,4,yes,no,3,25-39,Male,Masters,11,lt5,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwezvvs,725,0,5,no,no,3,25-39,Male,Masters,11,lt5,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwf1njc,39568,0,0,no,no,4,25-39,Female,Masters,19,21-30,intermediate,intermediate,TRUE,20,20,0,100,20,4.933333333,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,bias,TRUE,FALSE
+jtwf1njc,18632,1,1,yes,no,4,25-39,Female,Masters,19,21-30,intermediate,intermediate,TRUE,20,100,20,20,0,1.733333333,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,bias,TRUE,FALSE
+jtwf1njc,13317,1,2,no,yes,4,25-39,Female,Masters,19,21-30,intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwf1njc,13615,0,3,yes,yes,4,25-39,Female,Masters,19,21-30,intermediate,intermediate,TRUE,20,20,0,100,20,0.933333333,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,bias,TRUE,TRUE
+jtwf1njc,10952,1,4,yes,no,4,25-39,Female,Masters,19,21-30,intermediate,intermediate,TRUE,100,20,20,20,0,1.2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,bias,TRUE,FALSE
+jtwf1njc,13608,0,5,no,no,4,25-39,Female,Masters,19,21-30,intermediate,intermediate,FALSE,0,20,20,20,100,2.666666667,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwfb04x,13520,0,0,no,no,2,18-24,Male,Masters,15,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwfb04x,17816,0,1,no,no,2,18-24,Male,Masters,15,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwfb04x,4272,0,2,yes,yes,3,18-24,Male,Masters,15,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwfb04x,23815,0,3,yes,yes,2,18-24,Male,Masters,15,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwfb04x,3491,1,4,yes,no,2,18-24,Male,Masters,15,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwfb04x,4009,1,5,yes,no,2,18-24,Male,Masters,15,31-40,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwffmsa,19486,0,0,no,no,4,50-59,Male,Other,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwffmsa,11402,0,1,no,no,4,50-59,Male,Other,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwffmsa,11195,0,2,yes,yes,4,50-59,Male,Other,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwffmsa,5743,0,3,yes,yes,4,50-59,Male,Other,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwffmsa,5488,0,4,no,no,4,50-59,Male,Other,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwffmsa,5228,0,5,no,no,4,50-59,Male,Other,17,41-50,high-intermediate,intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwfhl0n,15101,0,0,no,no,3,25-39,Male,High School,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwfhl0n,14438,0,1,no,no,4,25-39,Male,High School,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwfhl0n,20267,0,2,yes,yes,2,25-39,Male,High School,23 or larger,31-40,low-intermediate,low-intermediate,TRUE,100,20,20,20,0,4.8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,bias,TRUE,TRUE
+jtwfhl0n,832,0,3,yes,yes,2,25-39,Male,High School,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwfhl0n,13082,0,4,no,no,3,25-39,Male,High School,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwfhl0n,13104,0,5,no,no,4,25-39,Male,High School,23 or larger,31-40,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwfvwmy,22753,0,0,no,no,4,25-39,Female,High School,17,20-Nov,novice,novice,FALSE,20,20,20,100,100,3.619047619,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwfvwmy,23658,0,1,no,no,4,25-39,Female,High School,17,20-Nov,novice,novice,FALSE,100,100,20,20,20,3.733333333,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,interact,TRUE,FALSE
+jtwfvwmy,21367,0,2,yes,yes,4,25-39,Female,High School,17,20-Nov,novice,novice,FALSE,20,20,100,20,100,3.123809524,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,interact,TRUE,TRUE
+jtwfvwmy,18429,1,3,no,yes,3,25-39,Female,High School,17,20-Nov,novice,novice,FALSE,20,100,20,100,20,1.219047619,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwfvwmy,8756,0,4,no,no,3,25-39,Female,High School,17,20-Nov,novice,novice,FALSE,100,100,20,20,20,0.60952381,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwfvwmy,16759,0,5,no,no,4,25-39,Female,High School,17,20-Nov,novice,novice,FALSE,20,20,20,100,100,1.638095238,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwgdjgs,8729,0,0,no,no,4,25-39,Female,High School,19,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwgdjgs,3209,0,1,no,no,4,25-39,Female,High School,19,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwgdjgs,857,1,2,no,yes,4,25-39,Female,High School,19,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwgdjgs,10047,0,3,yes,yes,4,25-39,Female,High School,19,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwgdjgs,4127,0,4,no,no,3,25-39,Female,High School,19,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwgdjgs,4480,0,5,no,no,4,25-39,Female,High School,19,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhhhyr,27083,0,0,no,no,4,25-39,Female,Bachelors,21,51-60,intermediate,intermediate,FALSE,20,100,0,100,100,3.285714286,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwhhhyr,15543,0,1,no,no,4,25-39,Female,Bachelors,21,51-60,intermediate,intermediate,FALSE,20,100,20,20,0,6.933333333,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,interact,TRUE,FALSE
+jtwhhhyr,13339,1,2,no,yes,3,25-39,Female,Bachelors,21,51-60,intermediate,intermediate,TRUE,0,100,20,100,100,2.966666667,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,bias,TRUE,TRUE
+jtwhhhyr,16480,0,3,yes,yes,4,25-39,Female,Bachelors,21,51-60,intermediate,intermediate,FALSE,20,100,0,100,20,3.80952381,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwhhhyr,1436,0,4,no,no,4,25-39,Female,Bachelors,21,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,9.638095238,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,interact,TRUE,FALSE
+jtwhhhyr,5326,0,5,no,no,3,25-39,Female,Bachelors,21,51-60,intermediate,intermediate,FALSE,20,20,20,20,20,13.46666667,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwhnlky,4860,0,0,no,no,3,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhnlky,2924,0,1,no,no,4,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhnlky,732,1,2,no,yes,2,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwhnlky,3968,0,3,yes,yes,2,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwhnlky,1244,0,4,no,no,3,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhnlky,939,1,5,yes,no,3,40-49,Female,Masters,15,41-50,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhqsx0,31023,0,0,no,no,3,25-39,Female,Bachelors,15,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhqsx0,32885,0,1,no,no,4,25-39,Female,Bachelors,15,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhqsx0,17311,0,2,yes,yes,2,25-39,Female,Bachelors,15,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwhqsx0,18703,0,3,yes,yes,4,25-39,Female,Bachelors,15,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwhqsx0,12838,0,4,no,no,2,25-39,Female,Bachelors,15,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhqsx0,10327,1,5,yes,no,3,25-39,Female,Bachelors,15,21-30,intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhuyma,967,1,0,yes,no,3,25-39,Male,Masters,11,lt5,novice,novice,FALSE,20,20,20,20,20,28.08571429,0,0,1,1,0,0,0,1,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwhuyma,919,1,1,yes,no,3,25-39,Male,Masters,11,lt5,novice,novice,FALSE,20,20,20,20,20,5.79047619,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,interact,TRUE,FALSE
+jtwhuyma,718,0,2,yes,yes,3,25-39,Male,Masters,11,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwhuyma,916,0,3,yes,yes,3,25-39,Male,Masters,11,lt5,novice,novice,FALSE,20,20,20,20,20,3.123809524,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,interact,TRUE,TRUE
+jtwhuyma,849,1,4,yes,no,4,25-39,Male,Masters,11,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwhuyma,606,0,5,no,no,3,25-39,Male,Masters,11,lt5,novice,novice,FALSE,20,20,20,20,20,6.266666667,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,interact,TRUE,FALSE
+jtwj0zr2,9728,0,0,no,no,3,25-39,Female,Bachelors,13,51-60,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwj0zr2,4030,0,1,no,no,4,25-39,Female,Bachelors,13,51-60,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,7.276190476,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwj0zr2,16099,0,2,yes,yes,4,25-39,Female,Bachelors,13,51-60,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,2.174603175,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,interact,TRUE,TRUE
+jtwj0zr2,11808,0,3,yes,yes,3,25-39,Female,Bachelors,13,51-60,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwj0zr2,6653,0,4,no,no,3,25-39,Female,Bachelors,13,51-60,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwj0zr2,6891,0,5,no,no,3,25-39,Female,Bachelors,13,51-60,low-intermediate,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwj5f8c,16383,0,0,no,no,2,40-49,Female,High School,15,51-60,intermediate,novice,FALSE,20,20,20,20,20,9.333333333,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,interact,TRUE,FALSE
+jtwj5f8c,26398,0,1,no,no,3,40-49,Female,High School,15,51-60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwj5f8c,5894,0,2,yes,yes,3,40-49,Female,High School,15,51-60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwj5f8c,8304,0,3,yes,yes,3,40-49,Female,High School,15,51-60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwj5f8c,11258,0,4,no,no,3,40-49,Female,High School,15,51-60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwj5f8c,32210,0,5,no,no,3,40-49,Female,High School,15,51-60,intermediate,novice,FALSE,20,20,20,20,100,2.933333333,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,interact,TRUE,FALSE
+jtwjnhvs,16160,0,0,no,no,4,25-39,Female,Bachelors,13,21-30,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwjnhvs,6163,0,1,no,no,4,25-39,Female,Bachelors,13,21-30,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwjnhvs,12248,0,2,yes,yes,3,25-39,Female,Bachelors,13,21-30,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwjnhvs,27273,0,3,yes,yes,3,25-39,Female,Bachelors,13,21-30,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwjnhvs,8386,0,4,no,no,3,25-39,Female,Bachelors,13,21-30,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwjnhvs,15350,0,5,no,no,2,25-39,Female,Bachelors,13,21-30,novice,low-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwl2rx4,17093,0,0,no,no,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,novice,FALSE,100,100,100,100,100,1.087301587,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwl2rx4,6399,0,1,no,no,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwl2rx4,3912,0,2,yes,yes,4,25-39,Male,Bachelors,23 or larger,gt60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwl2rx4,10808,0,3,yes,yes,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwl2rx4,12078,0,4,no,no,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwl2rx4,5109,0,5,no,no,3,25-39,Male,Bachelors,23 or larger,gt60,intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwm6x4v,1288,0,0,no,no,3,25-39,Male,Masters,dontknow,21-30,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwm6x4v,13223,0,1,no,no,3,25-39,Male,Masters,dontknow,21-30,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwm6x4v,856,1,2,no,yes,2,25-39,Male,Masters,dontknow,21-30,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwm6x4v,943,1,3,no,yes,3,25-39,Male,Masters,dontknow,21-30,intermediate,high-intermediate,FALSE,100,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwm6x4v,8672,0,4,no,no,4,25-39,Male,Masters,dontknow,21-30,intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwm6x4v,7011,0,5,no,no,4,25-39,Male,Masters,dontknow,21-30,intermediate,high-intermediate,FALSE,100,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwneg8y,14633,0,0,no,no,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,100,0,100,0,0,8,1,0,0,0,0,1,1,0,0,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwneg8y,11865,0,1,no,no,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,100,0,0,0,100,9.142857143,1,0,0,0,0,1,0,0,1,0,0,1,1,0,0,interact,TRUE,FALSE
+jtwneg8y,15181,0,2,yes,yes,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,100,0,100,0,0,11.54285714,1,0,0,0,0,1,1,0,0,0,0,1,0,0,1,interact,TRUE,TRUE
+jtwneg8y,23137,0,3,yes,yes,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,0,100,0,100,0,19.94285714,0,0,1,1,0,0,0,0,1,1,0,0,0,0,1,interact,TRUE,TRUE
+jtwneg8y,26028,0,4,no,no,3,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,100,100,0,0,0,25.94285714,1,0,0,1,0,0,0,0,1,0,0,1,0,0,1,interact,TRUE,FALSE
+jtwneg8y,19233,0,5,no,no,4,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,FALSE,0,100,0,100,100,11.94285714,0,0,1,1,0,1,0,0,1,1,0,0,1,0,0,interact,TRUE,FALSE
+jtwohmlr,66577,0,0,no,no,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwohmlr,23146,0,1,no,no,4,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwohmlr,16260,0,2,yes,yes,4,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwohmlr,8989,0,3,yes,yes,4,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwohmlr,22296,0,4,no,no,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwohmlr,15487,0,5,no,no,3,25-39,Female,Bachelors,13,31-40,low-intermediate,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtwpzjgp,684,1,0,yes,no,3,25-39,Male,Masters,9 or smaller,lt5,novice,novice,FALSE,20,20,20,20,20,5.295238095,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,interact,TRUE,FALSE
+jtwpzjgp,741,1,1,yes,no,3,25-39,Male,Masters,9 or smaller,lt5,novice,novice,FALSE,20,20,20,20,20,2.4,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,interact,TRUE,FALSE
+jtwpzjgp,693,0,2,yes,yes,3,25-39,Male,Masters,9 or smaller,lt5,novice,novice,FALSE,20,20,20,20,20,4,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,interact,TRUE,TRUE
+jtwpzjgp,632,0,3,yes,yes,3,25-39,Male,Masters,9 or smaller,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtwpzjgp,848,1,4,yes,no,4,25-39,Male,Masters,9 or smaller,lt5,novice,novice,FALSE,20,20,20,20,20,0.533333333,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,interact,TRUE,FALSE
+jtwpzjgp,848,1,5,yes,no,3,25-39,Male,Masters,9 or smaller,lt5,novice,novice,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtxw17f1,1046,0,0,no,no,2,18-24,Male,Masters,15,gt60,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtxw17f1,1168,0,1,no,no,2,18-24,Male,Masters,15,gt60,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtxw17f1,1497,0,2,yes,yes,2,18-24,Male,Masters,15,gt60,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtxw17f1,668,0,3,yes,yes,3,18-24,Male,Masters,15,gt60,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,TRUE
+jtxw17f1,824,1,4,yes,no,2,18-24,Male,Masters,15,gt60,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
+jtxw17f1,3928,1,5,yes,no,4,18-24,Male,Masters,15,gt60,high-intermediate,high-intermediate,FALSE,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,base,FALSE,FALSE
