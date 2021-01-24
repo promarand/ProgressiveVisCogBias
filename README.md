@@ -27,7 +27,7 @@ Select all lines and click "run" (or use ctrl+shift+s to run all lines).
 There may be a notice banner of missing packages at the top of the file. "installPackagesScript.r" should have installed all necessary packages but if there are others, click "install" on the banner to install any outstanding packages.
 
 ### Run Script
-Next, "knit" the file to execute all the code and generate images and statistics. This will save all images in teh folder the .rmd file resides.
+Next, "knit" the file to execute all the code and generate images and statistics. This will save all images in the folder that the .rmd file resides in.
 Click File--> Knit Document.
 
 This may take a minute or so but you can see the progress in the console window.  When completed, a new window will open showing the resulting HTML file and all figures will be saved to the same directory as the scripts.
