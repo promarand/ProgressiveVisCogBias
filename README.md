@@ -30,4 +30,4 @@ There may be a notice banner of missing packages at the top of the file. "instal
 Next, "knit" the file to execute all the code and generate images and statistics. This will save all images in teh folder the .rmd file resides.
 Click File--> Knit Document.
 
-This may take a minute or so but you can see the progress in teh console window.  When completed a new window will open showing the resulting HTML file and all figures will be saved to the same directory as the scripts.
+This may take a minute or so but you can see the progress in the console window.  When completed, a new window will open showing the resulting HTML file and all figures will be saved to the same directory as the scripts.
