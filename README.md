@@ -12,7 +12,7 @@ https://cran.r-project.org/mirrors.html
 
 (Last tested with R-4.0.3 for Windows (32/64 bit) and installed with all default options).
 
-### Download and isntall R Studio Desktop (free)
+### Download and install R Studio Desktop (free)
 https://rstudio.com/products/rstudio/download/
 
 (This script last tested with verison RStudio Desktop 1.4.1103 and installed with all default options).
